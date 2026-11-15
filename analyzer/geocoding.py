@@ -8,7 +8,7 @@ from parsers.base import USER_AGENT
 URL=os.environ.get('GEOCODER_URL','https://nominatim.openstreetmap.org/search')
 def geocode(rows,cache_path,limit=10):
     cache_path=Path(cache_path);cache=json.loads(cache_path.read_text()) if cache_path.exists() else {};count=0
-    for row in rows:
+    for row in sorted(rows,key=lambda x:0 if 'казань' in (x.get('address') or '').lower() else 1):
         if row.get('coordinates'):continue
         address=row.get('address')
         if not address:continue

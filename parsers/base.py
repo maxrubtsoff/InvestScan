@@ -5,7 +5,8 @@ import httpx
 USER_AGENT='InvestScan/1.0 (+https://github.com/maxrubtsoff/InvestScan)'
 class PublicClient:
     def __init__(self):self.client=httpx.Client(timeout=30,headers={'User-Agent':USER_AGENT},follow_redirects=False);self.robots={};self.last={};self.patterns={}
-    def get(self,url):
+    def get(self,url,redirects=0):
+        if redirects>5:raise RuntimeError("Too many redirects")
         p=urlparse(url);origin=f'{p.scheme}://{p.netloc}'
         if p.scheme!='https' or p.hostname not in ['broker.arrpro.ru','arrpro.ru']:raise ValueError('Host not allowed')
         if origin not in self.robots:
@@ -27,5 +28,5 @@ class PublicClient:
         r.raise_for_status()
         if any(x in r.text.lower() for x in ['verify you are human','checking your browser','captcha-container']):raise RuntimeError('Human verification; collection stopped')
         if r.is_redirect:
-            target=urljoin(url,r.headers['location']);return self.get(target)
+            target=urljoin(url,r.headers['location']);return self.get(target,redirects+1)
         return r.text

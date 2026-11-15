@@ -37,3 +37,24 @@ def test_storage(tmp_path):
 def test_cross_source():
  a=sample(address='Улица, 1',settlement='Казань',coordinates=KAZAN);b={**a,'sources':[{'name':'B','url':'https://example.org/b'}]};assert duplicate(a,b)
  b['area']=150;assert not duplicate(a,b)
+
+def test_negative_net():
+ x=sample(annual_costs={k:300000 for k in COST_KEYS},transaction_costs=0,vacancy_months=0)
+ f=analyze(x);assert f['net_yield']<0;assert f['net_payback_years'] is None
+
+def test_arr_parser():
+ from parsers.arr import parse
+ html='<div class="net-renter__link"><a class="net-renter__name" href="https://example.org/fixture">Test fixture</a><span class="props__address">Test address</span><div class="net-renter__prop"><div class="net-renter__label">Стоимость:</div><div class="net-renter__value">12 000 000 руб.</div></div></div>'
+ rows,_=parse(html);assert rows[0]['price']==12000000;assert rows[0]['active_tenant'] is None
+
+def test_failed_collection_preserves_snapshot(tmp_path,monkeypatch):
+ import scripts.update_catalog as runner,json
+ (tmp_path/'data').mkdir();old={'listings':[{'id':'preserved-fixture'}]};(tmp_path/'data/listings.json').write_text(json.dumps(old))
+ def fail():raise RuntimeError('fixture outage')
+ monkeypatch.setattr(runner,'ROOT',tmp_path);monkeypatch.setattr(runner,'collect',fail);monkeypatch.setenv('INVESTSCAN_GEOCODE','0');runner.run()
+ result=json.loads((tmp_path/'data/listings.json').read_text());assert result['listings']==old['listings'];assert result['sources'][0]['status']=='error'
+
+def test_geocode_city_not_property(tmp_path,monkeypatch):
+ import analyzer.geocoding as g,json
+ cache=tmp_path/'cache.json';cache.write_text(json.dumps({'fixture':{'lat':'55','lon':'49','addresstype':'city','address':{'city':'Казань'}}}))
+ row=g.geocode([{'address':'fixture'}],cache,limit=0)[0];assert row.get('coordinates') is None
