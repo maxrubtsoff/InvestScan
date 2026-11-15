@@ -1,4 +1,4 @@
-import{matches,compare}from'./filters.js';import{money,num,status,stats}from'./analytics.js';import{drawMap}from'./map.js';
+import{matches,compare}from'./filters.js';import{money,num,status,stats}from'./analytics.js';import{drawMap,openMap}from'./map.js';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const v=new URL(u);return v.protocol==='https:'?v.href:'#';}catch{return '#';}};
 let catalog={listings:[],sources:[]},mode='all';
@@ -25,7 +25,7 @@ function render(){
  $('#result-count').textContent=`В выбранной зоне и бюджете: ${rows.length} · Местных адресов без координат: ${unresolved.length}. Они не входят в рейтинг и статистику зоны.`;
  $('#stats').innerHTML=stats(rows).map(([k,v])=>`<div class="stat"><strong>${v}</strong><span>${k==='Всего в базе'?'В выбранной зоне и бюджете':k}</span></div>`).join('');
  $('#unknown').replaceChildren();if(f.unknownGeo){const title=document.createElement('h3');title.textContent=`Адреса в регионе поиска без координат · ${unresolved.length}`;$('#unknown').append(title,...unresolved.map(card));}
- drawMap($('#map'),rows,Number(f.radius)||null);
+ drawMap($('#map'),rows,Number(f.radius)||null,unresolved.length);
 }
 async function refresh(){try{
  const r=await fetch(`data/listings.json?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error(`HTTP ${r.status}`);const data=await r.json();if(!Array.isArray(data.listings))throw Error('Некорректный каталог');catalog=data;
@@ -35,3 +35,5 @@ async function refresh(){try{
  $('#sources').innerHTML=`<p>Охват АРР: ${coverage.pages||'—'} страниц, ${coverage.records||'—'} записей за последний проход. ${coverage.complete?'Доступная пагинация пройдена полностью.':'Полнота последнего прохода не подтверждена.'} Это не весь рынок Казани.</p>`+(data.sources||[]).map(s=>`<div class="source"><b>${esc(s.name)}</b> · ${esc(s.status)}<br>${esc(s.message)} · Получено: ${s.count||0}</div>`).join('');render();
  }catch(e){$('#updated').textContent=`Не удалось обновить данные: ${e.message}. Предыдущий каталог сохранён на экране.`;}}
 $('#filters').oninput=render;$('#filters').onsubmit=e=>e.preventDefault();$('#filters').onreset=()=>setTimeout(()=>{mode='all';document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.mode===mode));render();},0);$('#sort').onchange=render;$('#refresh').onclick=refresh;$('#close-detail').onclick=()=>$('#detail').close();document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll('[data-mode]').forEach(a=>a.setAttribute('aria-pressed',a===b));render();});refresh();setInterval(refresh,300000);
+
+$('#open-map').onclick=openMap;$('#catalog-map').onclick=()=>{setTimeout(openMap,0);};
