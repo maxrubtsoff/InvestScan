@@ -25,8 +25,8 @@ class PublicClient:
         delay=max(10,rp.crawl_delay('*') or 0);time.sleep(max(0,delay-(time.monotonic()-self.last.get(origin,0))))
         r=self.client.get(url);self.last[origin]=time.monotonic()
         if r.status_code in (401,403,429):raise RuntimeError(f'Source blocked HTTP {r.status_code}; no retries')
-        r.raise_for_status()
-        if any(x in r.text.lower() for x in ['verify you are human','checking your browser','captcha-container']):raise RuntimeError('Human verification; collection stopped')
         if r.is_redirect:
             target=urljoin(url,r.headers['location']);return self.get(target,redirects+1)
+        r.raise_for_status()
+        if any(x in r.text.lower() for x in ['verify you are human','checking your browser','captcha-container']):raise RuntimeError('Human verification; collection stopped')
         return r.text

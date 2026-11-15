@@ -64,3 +64,14 @@ def test_nested_settlements():
  assert settlement('Казань, Волжск, ул Прохорова, д. 114/1')=='Волжск'
  assert settlement('Казань, Новый Кинер ул Серп и Молот, д. 17А')=='Новый Кинер'
  assert settlement('Казань, Мирный пер, д. 6А')=='Казань'
+
+def test_public_client_normal_redirect(monkeypatch):
+ import httpx
+ from parsers.base import PublicClient
+ import parsers.base as base
+ def response(req):
+  if req.url.path=='/robots.txt':return httpx.Response(200,text='User-agent: *\nAllow: /')
+  if req.url.path=='/start':return httpx.Response(302,headers={'location':'//arrpro.ru/end'})
+  return httpx.Response(200,text='fixture property')
+ c=PublicClient();c.client=httpx.Client(transport=httpx.MockTransport(response));monkeypatch.setattr(base.time,'sleep',lambda _:None)
+ assert c.get('https://arrpro.ru/start')=='fixture property'
