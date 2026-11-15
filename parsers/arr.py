@@ -35,3 +35,24 @@ def collect():
         if not batch:raise RuntimeError('ARR markup changed or empty response; existing catalog retained')
         rows.extend(batch)
     return rows
+
+def enrich_coordinates(rows,limit=6):
+    """Use the property's own public map marker, cached by source URL."""
+    import json,sys
+    from pathlib import Path
+    path=Path(__file__).resolve().parents[1]/'data/source-geo-cache.json'
+    cache=json.loads(path.read_text()) if path.exists() else {};client=PublicClient();count=0
+    for row in sorted(rows,key=lambda x:0 if 'казань' in x['address'].lower() else 1):
+        url=row['sources'][0]['url']
+        # City label comes from the source. Nested settlements are retained in the full address.
+        row['settlement']=row['address'].split(',')[0].strip() or None
+        if url not in cache and count<limit:
+            try:
+                soup=BeautifulSoup(client.get(url),'html.parser');point=soup.select_one('#ob_point[data-point]')
+                coords=[float(v) for v in point['data-point'].split(',')] if point else None
+                cache[url]=coords;count+=1
+            except Exception as e:
+                print(f'ARR coordinate enrichment stopped: {e}',file=sys.stderr);break
+        if cache.get(url):
+            row['coordinates']=cache[url];row['coordinate_source']='АРР: маркер карты объекта (не проверен по кадастру)';row['geo_accuracy']='building'
+    path.write_text(json.dumps(cache,ensure_ascii=False,indent=2)+'\n');return rows
