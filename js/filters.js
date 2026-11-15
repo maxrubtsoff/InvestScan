@@ -2,6 +2,7 @@ export function matches(x,f,mode='all',unknown=false){
  const n=k=>f[k] === ''||f[k]==null?null:Number(f[k]);
  const max=n('maxPrice')??12000000;
  if(unknown ? x.distance_km!=null : x.distance_km==null)return false;
+ if(unknown&&f.radius!==''&&!x.regional_candidate)return false;
  if(!unknown&&n('radius')!=null&&x.distance_km>n('radius'))return false;
  for(const [field,min,maxKey] of [['price','minPrice','maxPrice'],['area','minArea','maxArea']]){if(n(min)!=null&&(x[field]==null||x[field]<n(min)))return false;if(n(maxKey)!=null&&mode!=='over'&&(x[field]==null||x[field]>n(maxKey)))return false;}
  if(mode==='over'&&(x.price==null||x.price<=max))return false;

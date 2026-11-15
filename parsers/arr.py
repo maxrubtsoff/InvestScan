@@ -5,6 +5,7 @@ import re
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from parsers.base import PublicClient
+from analyzer.region import candidate
 URL='https://broker.arrpro.ru/arendniy-biznes/'
 def number(text):
     m=re.search(r'\d[\d\s\xa0]*(?:[.,]\d+)?',text or '')
@@ -21,19 +22,26 @@ def parse(html):
             if k and v:values[k.get_text(' ',strip=True).rstrip(':')]=v.get_text(' ',strip=True)
         address=addr.get_text(' ',strip=True);tenant=values.get('Арендатор')
         tenant_type='ПВЗ' if tenant and any(t in tenant.lower() for t in ['ozon','озон','wildberries','вайлдберриз','яндекс']) else 'Аптека' if tenant and 'аптек' in tenant.lower() else 'Продуктовый магазин' if tenant and any(t in tenant.lower() for t in ['пятероч','магнит','чижик','продукт','красное']) else 'Другой'
-        rows.append(dict(title=a.get_text(' ',strip=True),sources=[{'name':'АРР','url':urljoin(URL,a['href']).replace('http://','https://')}],address=address,settlement=None,price=number(values.get('Стоимость')),area=number(values.get('Площадь')),monthly_rent=number(values.get('Месячный арендный поток')),tenant_name=tenant,tenant_type=tenant_type,description='Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.',active_tenant=None,payments_confirmed=None,photos=[]))
+        parent=node.find_parent(class_='net-renter__item')
+        image=parent.select_one('.props__img') if parent else None
+        match=re.search(r'url\([\"\']?([^\)\"\']+)',image.get('style','')) if image else None
+        photos=[urljoin(URL,match[1]).replace('http://','https://')] if match else []
+        rows.append(dict(title=a.get_text(' ',strip=True),sources=[{'name':'АРР','url':urljoin(URL,a['href']).replace('http://','https://')}],address=address,settlement=None,price=number(values.get('Стоимость')),area=number(values.get('Площадь')),monthly_rent=number(values.get('Месячный арендный поток')),tenant_name=tenant,tenant_type=tenant_type,description='Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.',active_tenant=None,payments_confirmed=None,photos=photos))
     nxt=soup.select_one('button.catalog__next[data-path]')
-    return rows,urljoin(URL,nxt['data-path']) if nxt else None
+    return rows,urljoin(URL,nxt['data-path']) if nxt and 'disabled' not in nxt.get('class',[]) else None
 
 def collect():
     client=PublicClient();url=URL;rows=[];seen=set()
     # The visible showcase exposes pagination through its public data-path controls.
     # Finite hourly batch: coverage is partial and explicitly reported.
-    for _ in range(8):
+    for _ in range(80):
         if not url or url in seen:break
         seen.add(url);html=client.get(url);batch,url=parse(html)
         if not batch:raise RuntimeError('ARR markup changed or empty response; existing catalog retained')
         rows.extend(batch)
+    from pathlib import Path
+    import json
+    (Path(__file__).resolve().parents[1]/'data/collection-status.json').write_text(json.dumps({'pages':len(seen),'records':len(rows),'complete':not bool(url),'next_url':url},ensure_ascii=False))
     return rows
 
 def enrich_coordinates(rows,limit=6):
@@ -42,11 +50,11 @@ def enrich_coordinates(rows,limit=6):
     from pathlib import Path
     path=Path(__file__).resolve().parents[1]/'data/source-geo-cache.json'
     cache=json.loads(path.read_text()) if path.exists() else {};client=PublicClient();count=0;blocked=False
-    for row in sorted(rows,key=lambda x:0 if 'казань' in x['address'].lower() else 1):
+    for row in sorted(rows,key=lambda x:0 if candidate(x) else 1):
         url=row['sources'][0]['url']
         # City label comes from the source. Nested settlements are retained in the full address.
         row['settlement']=settlement(row['address'])
-        if url not in cache and count<limit and not blocked:
+        if url not in cache and count<limit and not blocked and candidate(row):
             try:
                 soup=BeautifulSoup(client.get(url),'html.parser');point=soup.select_one('#ob_point[data-point]')
                 coords=[float(v) for v in point['data-point'].split(',')] if point else None

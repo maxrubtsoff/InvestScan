@@ -77,3 +77,13 @@ def test_public_client_normal_redirect(monkeypatch):
  assert c.get('https://arrpro.ru/start')=='fixture property'
 
 def test_price_per_sqm():assert sample()['price_per_sqm']==120000
+
+def test_region_queue():
+ from analyzer.region import candidate
+ assert not candidate({'address':'Самара, пер Второй Безымянный, 4А'})
+ assert candidate({'address':'Казань, Новый Кинер ул Серп и Молот, 17А'})
+
+def test_source_photo_with_attribution():
+ from parsers.arr import parse
+ html='<div class="net-renter__item"><div class="props__img" style="background-image: url(http://cdn-1.arrpro.ru/test.jpg)"></div><div class="net-renter__link"><a class="net-renter__name" href="https://example.org/fixture">Fixture</a><span class="props__address">Fixture address</span></div></div>'
+ rows,_=parse(html);assert rows[0]['photos']==['https://cdn-1.arrpro.ru/test.jpg'];assert rows[0]['sources'][0]['name']=='АРР'
