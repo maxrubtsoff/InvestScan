@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T17:54:21.718938+00:00",
+  "generated_at": "2026-11-15T18:01:26.136332+00:00",
   "listings": [
     {
       "district": null,
@@ -19396,6 +19396,150 @@
       "regional_candidate": false
     },
     {
+      "district": "Московский",
+      "settlement": "Казань",
+      "address": "Республика Татарстан, Казань городской округ, Казань, Ямашева пр-кт, 11",
+      "price": 159000000,
+      "area": 829.9,
+      "monthly_rent": null,
+      "tenant_name": null,
+      "tenant_type": null,
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": 1,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": [
+        55.826286,
+        49.096128
+      ],
+      "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+      "geo_accuracy": "building",
+      "published_at": "2026-07-05T14:32:03.093",
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Готовый бизнес  ·  829,9 м²  ·  1 этаж",
+      "sources": [
+        {
+          "name": "ЦИАН",
+          "url": "https://kazan.cian.ru/sale/commercial/331706252/"
+        }
+      ],
+      "photos": [
+        "https://images.cdn-cian.ru/images/2916116167-4.jpg",
+        "https://images.cdn-cian.ru/images/2916116163-4.jpg",
+        "https://images.cdn-cian.ru/images/2916116158-4.jpg"
+      ],
+      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
+      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
+      "annual_costs": {},
+      "price_per_sqm": 191589.34811423064,
+      "id": "36e6a4dcabf3d9623162",
+      "verification": "review",
+      "distance_km": 3.41,
+      "geo_status": "located",
+      "finance": {
+        "annual_rent": null,
+        "gross_yield": null,
+        "payback_years": null,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": []
+      },
+      "score": 16,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 0,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 10,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 6,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
+      "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "history": [
+        {
+          "at": "2026-11-15T17:47:24.296718+00:00",
+          "price": 159000000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "regional_candidate": true
+    },
+    {
       "district": null,
       "settlement": "Новороссийск",
       "address": "Новороссийск, ул Энгельса, д. 66",
@@ -21064,6 +21208,150 @@
       ],
       "last_seen": "2026-11-15T17:49:33.674295+00:00",
       "regional_candidate": false
+    },
+    {
+      "district": null,
+      "settlement": "Большие Кабаны",
+      "address": "Россия, Республика Татарстан, Лаишевский район, Большекабанское сельское поселение, село Большие Кабаны, Кооперативная улица, 2",
+      "price": 75000000,
+      "area": 408.0,
+      "monthly_rent": null,
+      "tenant_name": null,
+      "tenant_type": null,
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": 1,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": [
+        55.64984,
+        49.304753
+      ],
+      "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+      "geo_accuracy": "building",
+      "published_at": "2026-09-10T16:13:30.813",
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Арендный бизнес  ·  Торговая площадь  ·  408 м²  ·  1 этаж",
+      "sources": [
+        {
+          "name": "ЦИАН",
+          "url": "https://kazan.cian.ru/sale/commercial/333801993/"
+        }
+      ],
+      "photos": [
+        "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354574-4.jpg",
+        "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354580-4.jpg",
+        "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354577-4.jpg"
+      ],
+      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
+      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
+      "annual_costs": {},
+      "price_per_sqm": 183823.5294117647,
+      "id": "3a9f340fc566ca0ec78a",
+      "verification": "review",
+      "distance_km": 20.47,
+      "geo_status": "located",
+      "finance": {
+        "annual_rent": null,
+        "gross_yield": null,
+        "payback_years": null,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": []
+      },
+      "score": 16,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 0,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 10,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 6,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
+      "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "history": [
+        {
+          "at": "2026-11-15T17:47:24.296718+00:00",
+          "price": 75000000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -34266,6 +34554,150 @@
       ],
       "last_seen": "2026-11-15T17:49:38.053918+00:00",
       "regional_candidate": false
+    },
+    {
+      "district": null,
+      "settlement": "Большое Афанасово",
+      "address": "Татарстан Республика, Нижнекамский район, Большое Афанасово с., Молодежная ул., д.48а",
+      "price": 120000000,
+      "area": 1000.0,
+      "monthly_rent": null,
+      "tenant_name": null,
+      "tenant_type": null,
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": 1,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": [
+        55.596025,
+        51.784175
+      ],
+      "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+      "geo_accuracy": "building",
+      "published_at": "2026-09-21T12:26:40.363",
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Готовый бизнес  ·  1 000 м²  ·  1 этаж",
+      "sources": [
+        {
+          "name": "ЦИАН",
+          "url": "https://kazan.cian.ru/sale/commercial/334117140/"
+        }
+      ],
+      "photos": [
+        "https://images.cdn-cian.ru/images/2969253045-4.jpg",
+        "https://images.cdn-cian.ru/images/2969253069-4.jpg",
+        "https://images.cdn-cian.ru/images/2969253077-4.jpg"
+      ],
+      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
+      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
+      "annual_costs": {},
+      "price_per_sqm": 120000.0,
+      "id": "6c5ef1fef78090f879fb",
+      "verification": "review",
+      "distance_km": 169.27,
+      "geo_status": "located",
+      "finance": {
+        "annual_rent": null,
+        "gross_yield": null,
+        "payback_years": null,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": []
+      },
+      "score": 9,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 0,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 3,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 6,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 9; предел для текущего статуса 39. ",
+      "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "history": [
+        {
+          "at": "2026-11-15T17:47:24.296718+00:00",
+          "price": 120000000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -49471,6 +49903,150 @@
       "regional_candidate": false
     },
     {
+      "district": "Кировский",
+      "settlement": "Казань",
+      "address": "Татарстан Республика, Казань г., Кировский, Богатырева ул., д.15",
+      "price": 55000000,
+      "area": 475.0,
+      "monthly_rent": null,
+      "tenant_name": null,
+      "tenant_type": null,
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": 3,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": [
+        55.815569,
+        49.047619
+      ],
+      "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+      "geo_accuracy": "building",
+      "published_at": "2026-09-18T14:06:42.58",
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Готовый бизнес  ·  475 м²  ·  3 этаж",
+      "sources": [
+        {
+          "name": "ЦИАН",
+          "url": "https://kazan.cian.ru/sale/commercial/334063128/"
+        }
+      ],
+      "photos": [
+        "https://images.cdn-cian.ru/images/2967819436-4.jpg",
+        "https://images.cdn-cian.ru/images/2967819442-4.jpg",
+        "https://images.cdn-cian.ru/images/2967819444-4.jpg"
+      ],
+      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
+      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
+      "annual_costs": {},
+      "price_per_sqm": 115789.47368421052,
+      "id": "99f40173ff00a8c1713e",
+      "verification": "review",
+      "distance_km": 4.26,
+      "geo_status": "located",
+      "finance": {
+        "annual_rent": null,
+        "gross_yield": null,
+        "payback_years": null,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": []
+      },
+      "score": 16,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 0,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 10,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 6,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
+      "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "history": [
+        {
+          "at": "2026-11-15T17:47:24.296718+00:00",
+          "price": 55000000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "regional_candidate": true
+    },
+    {
       "district": null,
       "settlement": "Ижевск",
       "address": "Ижевск, ул Пойма, д. 32",
@@ -54314,6 +54890,150 @@
       "regional_candidate": false
     },
     {
+      "district": "Советский",
+      "settlement": "Казань",
+      "address": "Россия, Республика Татарстан (Татарстан), Казань, Советский район, посёлок Дербышки, улица Правды, 6",
+      "price": 80000000,
+      "area": 743.6,
+      "monthly_rent": null,
+      "tenant_name": null,
+      "tenant_type": null,
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": 1,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": [
+        55.866935,
+        49.226546
+      ],
+      "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+      "geo_accuracy": "building",
+      "published_at": "2026-09-17T10:48:00.153",
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Готовый бизнес  ·  743,6 м²  ·  1 этаж",
+      "sources": [
+        {
+          "name": "ЦИАН",
+          "url": "https://kazan.cian.ru/sale/commercial/334021756/"
+        }
+      ],
+      "photos": [
+        "https://images.cdn-cian.ru/images/2991442393-4.jpg",
+        "https://images.cdn-cian.ru/images/2991442396-4.jpg",
+        "https://images.cdn-cian.ru/images/2993839148-4.jpg"
+      ],
+      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
+      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
+      "annual_costs": {},
+      "price_per_sqm": 107584.72296933836,
+      "id": "ae67433009529243ac6f",
+      "verification": "review",
+      "distance_km": 10.88,
+      "geo_status": "located",
+      "finance": {
+        "annual_rent": null,
+        "gross_yield": null,
+        "payback_years": null,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": []
+      },
+      "score": 16,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 0,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 10,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 6,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
+      "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "history": [
+        {
+          "at": "2026-11-15T17:47:24.296718+00:00",
+          "price": 80000000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "regional_candidate": true
+    },
+    {
       "district": null,
       "settlement": "Москва",
       "address": "Москва, ул Весёлая, д. 2",
@@ -55987,6 +56707,179 @@
       "regional_candidate": false
     },
     {
+      "district": "Вахитовский",
+      "settlement": "Казань",
+      "address": "Республика Татарстан, Казань г., Нурсултана Назарбаева ул., 12в",
+      "price": 27000000,
+      "area": 150.0,
+      "monthly_rent": 150000.0,
+      "tenant_name": null,
+      "tenant_type": null,
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": -1,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": [
+        55.775439,
+        49.140748
+      ],
+      "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+      "geo_accuracy": "building",
+      "published_at": "2026-11-13T12:39:41.743",
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Арендный бизнес  ·  Свободное назначение  ·  150 м²  ·  полуподвал",
+      "sources": [
+        {
+          "name": "ЦИАН",
+          "url": "https://kazan.cian.ru/sale/commercial/336276170/"
+        }
+      ],
+      "photos": [
+        "https://images.cdn-cian.ru/images/3015861707-4.jpg",
+        "https://images.cdn-cian.ru/images/3015861720-4.jpg",
+        "https://images.cdn-cian.ru/images/3015861736-4.jpg"
+      ],
+      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
+      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
+      "annual_costs": {},
+      "price_per_sqm": 180000.0,
+      "id": "b5acbac93551a0e79c66",
+      "verification": "review",
+      "distance_km": 3.15,
+      "geo_status": "located",
+      "finance": {
+        "annual_rent": 1800000.0,
+        "gross_yield": 6.666666666666667,
+        "payback_years": 15.0,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": [
+          {
+            "name": "Оптимистичный",
+            "income": 1710000.0,
+            "payback": 15.789473684210526,
+            "vacancy_months": 0,
+            "expenses": 90000.0,
+            "assumed": true,
+            "yield": 6.333333333333334
+          },
+          {
+            "name": "Базовый",
+            "income": 1470000.0,
+            "payback": 18.73469387755102,
+            "vacancy_months": 1,
+            "expenses": 180000.0,
+            "assumed": true,
+            "yield": 5.337690631808279
+          },
+          {
+            "name": "Консервативный",
+            "income": 1230000.0,
+            "payback": 22.609756097560975,
+            "vacancy_months": 2,
+            "expenses": 270000.0,
+            "assumed": true,
+            "yield": 4.4228694714131604
+          }
+        ],
+        "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
+      },
+      "score": 24,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 6.7,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 10,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 7,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 24; предел для текущего статуса 39. ",
+      "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "history": [
+        {
+          "at": "2026-11-15T17:47:24.296718+00:00",
+          "price": 27000000,
+          "monthly_rent": 150000.0,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "regional_candidate": true
+    },
+    {
       "district": null,
       "settlement": "Казань",
       "address": "Казань, ул 25-го Октября, д. 13/6",
@@ -56653,6 +57546,150 @@
       ],
       "last_seen": "2026-11-15T17:49:30.886939+00:00",
       "regional_candidate": false
+    },
+    {
+      "district": "Комсомольский",
+      "settlement": "Набережные Челны",
+      "address": "Россия, Татарстан республика, город Набережные Челны, проспект им Мусы Джалиля, дом 78",
+      "price": 56500000,
+      "area": 1795.7,
+      "monthly_rent": null,
+      "tenant_name": "Пятёрочка",
+      "tenant_type": "Продуктовый магазин",
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": null,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": [
+        55.694581,
+        52.312762
+      ],
+      "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+      "geo_accuracy": "building",
+      "published_at": "2025-10-29T19:22:16.06",
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Арендный бизнес  ·  1 795,7 м²",
+      "sources": [
+        {
+          "name": "ЦИАН",
+          "url": "https://naberezhnye-chelny.cian.ru/sale/commercial/323394401/"
+        }
+      ],
+      "photos": [
+        "https://images.cdn-cian.ru/images/2888834155-4.jpg",
+        "https://images.cdn-cian.ru/images/2888834166-4.jpg",
+        "https://images.cdn-cian.ru/images/2888834170-4.jpg"
+      ],
+      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
+      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
+      "annual_costs": {},
+      "price_per_sqm": 31464.053015537116,
+      "id": "b9ec3b2d7d125e5391e3",
+      "verification": "review",
+      "distance_km": 200.98,
+      "geo_status": "located",
+      "finance": {
+        "annual_rent": null,
+        "gross_yield": null,
+        "payback_years": null,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": []
+      },
+      "score": 6,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 0,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 6,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 6; предел для текущего статуса 39. ",
+      "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "history": [
+        {
+          "at": "2026-11-15T17:47:24.296718+00:00",
+          "price": 56500000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -58994,6 +60031,150 @@
     },
     {
       "district": null,
+      "settlement": "Альметьевск",
+      "address": "Россия, Республика Татарстан (Татарстан), Альметьевский район, Альметьевск, Монтажная улица, 3",
+      "price": 114000000,
+      "area": 31000.0,
+      "monthly_rent": null,
+      "tenant_name": null,
+      "tenant_type": null,
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": 1,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": [
+        54.88848,
+        52.2838
+      ],
+      "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+      "geo_accuracy": "building",
+      "published_at": "2026-11-13T11:16:15.343",
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Готовый бизнес  ·  31 000 м²  ·  1 этаж",
+      "sources": [
+        {
+          "name": "ЦИАН",
+          "url": "https://kazan.cian.ru/sale/commercial/336270509/"
+        }
+      ],
+      "photos": [
+        "https://images.cdn-cian.ru/images/3015753967-4.jpg",
+        "https://images.cdn-cian.ru/images/3015753971-4.jpg",
+        "https://images.cdn-cian.ru/images/3015753977-4.jpg"
+      ],
+      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
+      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
+      "annual_costs": {},
+      "price_per_sqm": 3677.4193548387098,
+      "id": "c12976f1878014780c92",
+      "verification": "review",
+      "distance_km": 224.81,
+      "geo_status": "located",
+      "finance": {
+        "annual_rent": null,
+        "gross_yield": null,
+        "payback_years": null,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": []
+      },
+      "score": 6,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 0,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 6,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 6; предел для текущего статуса 39. ",
+      "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "history": [
+        {
+          "at": "2026-11-15T17:47:24.296718+00:00",
+          "price": 114000000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "regional_candidate": true
+    },
+    {
+      "district": null,
       "settlement": "Набережные Челны",
       "address": "Набережные Челны, пр-кт Мира, д. 52/16",
       "price": 11700000.0,
@@ -60661,6 +61842,150 @@
       ],
       "last_seen": "2026-11-15T17:49:33.912845+00:00",
       "regional_candidate": false
+    },
+    {
+      "district": "Советский",
+      "settlement": "Казань",
+      "address": "Россия, Татарстан республика, город Казань, улица 1-я Азинская, дом 41",
+      "price": 2800000,
+      "area": 19.0,
+      "monthly_rent": null,
+      "tenant_name": null,
+      "tenant_type": null,
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": 1,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": [
+        55.809393,
+        49.204214
+      ],
+      "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+      "geo_accuracy": "building",
+      "published_at": "2026-10-13T19:37:38.847",
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Арендный бизнес  ·  19 м²  ·  1 этаж",
+      "sources": [
+        {
+          "name": "ЦИАН",
+          "url": "https://kazan.cian.ru/sale/commercial/334909476/"
+        }
+      ],
+      "photos": [
+        "https://images.cdn-cian.ru/images/2985187145-4.jpg",
+        "https://images.cdn-cian.ru/images/2985187179-4.jpg",
+        "https://images.cdn-cian.ru/images/2985187191-4.jpg"
+      ],
+      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
+      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
+      "annual_costs": {},
+      "price_per_sqm": 147368.42105263157,
+      "id": "c5a5c0c51638722cbb27",
+      "verification": "review",
+      "distance_km": 6.29,
+      "geo_status": "located",
+      "finance": {
+        "annual_rent": null,
+        "gross_yield": null,
+        "payback_years": null,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": []
+      },
+      "score": 16,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 0,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 10,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 6,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
+      "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "history": [
+        {
+          "at": "2026-11-15T17:47:24.296718+00:00",
+          "price": 2800000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -66178,6 +67503,150 @@
       ],
       "last_seen": "2026-11-15T17:49:36.330295+00:00",
       "regional_candidate": false
+    },
+    {
+      "district": "Центральный",
+      "settlement": "Набережные Челны",
+      "address": "Россия, Татарстан республика, город Набережные Челны, проспект Чулман, дом 32а",
+      "price": 79000000,
+      "area": 1291.6,
+      "monthly_rent": null,
+      "tenant_name": null,
+      "tenant_type": null,
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": null,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": [
+        55.73514,
+        52.378258
+      ],
+      "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+      "geo_accuracy": "building",
+      "published_at": "2025-10-29T19:53:15.573",
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Арендный бизнес  ·  1 291,6 м²",
+      "sources": [
+        {
+          "name": "ЦИАН",
+          "url": "https://naberezhnye-chelny.cian.ru/sale/commercial/323394994/"
+        }
+      ],
+      "photos": [
+        "https://images.cdn-cian.ru/images/2697947451-4.jpg",
+        "https://images.cdn-cian.ru/images/2697948249-4.jpg",
+        "https://images.cdn-cian.ru/images/2697947859-4.jpg"
+      ],
+      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
+      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
+      "annual_costs": {},
+      "price_per_sqm": 61164.447197274705,
+      "id": "d5cb858024fa3f115c6b",
+      "verification": "review",
+      "distance_km": 204.77,
+      "geo_status": "located",
+      "finance": {
+        "annual_rent": null,
+        "gross_yield": null,
+        "payback_years": null,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": []
+      },
+      "score": 5,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 0,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 5,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 5; предел для текущего статуса 39. ",
+      "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "history": [
+        {
+          "at": "2026-11-15T17:47:24.296718+00:00",
+          "price": 79000000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -78706,6 +80175,150 @@
       ],
       "last_seen": "2026-11-15T17:49:36.483589+00:00",
       "regional_candidate": false
+    },
+    {
+      "district": "Советский",
+      "settlement": "Казань",
+      "address": "Россия, Татарстан республика, город Казань, улица 1-я Азинская, дом 41",
+      "price": 2855000,
+      "area": 15.2,
+      "monthly_rent": null,
+      "tenant_name": null,
+      "tenant_type": null,
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": 1,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": [
+        55.809393,
+        49.204214
+      ],
+      "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+      "geo_accuracy": "building",
+      "published_at": "2026-10-13T19:37:35.073",
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Арендный бизнес  ·  15,2 м²  ·  1 этаж",
+      "sources": [
+        {
+          "name": "ЦИАН",
+          "url": "https://kazan.cian.ru/sale/commercial/334909473/"
+        }
+      ],
+      "photos": [
+        "https://images.cdn-cian.ru/images/2985187005-4.jpg",
+        "https://images.cdn-cian.ru/images/2985187027-4.jpg",
+        "https://images.cdn-cian.ru/images/2985187053-4.jpg"
+      ],
+      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
+      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
+      "annual_costs": {},
+      "price_per_sqm": 187828.94736842107,
+      "id": "ffa82bce64884e79f434",
+      "verification": "review",
+      "distance_km": 6.29,
+      "geo_status": "located",
+      "finance": {
+        "annual_rent": null,
+        "gross_yield": null,
+        "payback_years": null,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": []
+      },
+      "score": 16,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 0,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 10,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 6,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
+      "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "history": [
+        {
+          "at": "2026-11-15T17:47:24.296718+00:00",
+          "price": 2855000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "regional_candidate": true
     }
   ],
   "sources": [
@@ -78724,7 +80337,7 @@
     {
       "name": "ЦИАН",
       "status": "blocked",
-      "count": 0,
+      "count": 11,
       "message": "Страница недоступности или защитной проверки; без обхода и повторов"
     },
     {
