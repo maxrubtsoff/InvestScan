@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T17:13:11.446912+00:00",
+  "generated_at": "2026-11-15T17:18:23.264746+00:00",
   "listings": [
     {
       "district": null,
-      "settlement": null,
+      "settlement": "мкр Заря",
       "address": "Москва, мкр Заря, Ласточкин проезд, д. 8",
       "price": 120000000.0,
       "area": 944.5,
@@ -163,11 +163,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.037853+00:00"
+      "last_seen": "2026-11-15T17:18:22.778390+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Старое Кощаково",
       "address": "Казань, Старое Кощаково ул Промпарковая, д. 16",
       "price": 80000000.0,
       "area": 1080.0,
@@ -193,9 +193,12 @@
       "termination_terms": null,
       "closure_risk": null,
       "location_dependency": null,
-      "coordinates": null,
-      "coordinate_source": null,
-      "geo_accuracy": null,
+      "coordinates": [
+        55.82465224117,
+        49.42466220966
+      ],
+      "coordinate_source": "АРР: маркер карты объекта (не проверен по кадастру)",
+      "geo_accuracy": "building",
       "published_at": null,
       "transaction_costs": null,
       "vacancy_months": null,
@@ -212,8 +215,8 @@
       "annual_costs": {},
       "id": "01576ac510a32f282c0b",
       "verification": "review",
-      "distance_km": null,
-      "geo_status": "unknown",
+      "distance_km": 20.14,
+      "geo_status": "located",
       "finance": {
         "annual_rent": 9000000.0,
         "gross_yield": 11.25,
@@ -251,7 +254,7 @@
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 30,
+      "score": 39,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
@@ -291,7 +294,7 @@
         },
         {
           "factor": "Расстояние",
-          "points": 0,
+          "points": 10,
           "max": 10,
           "reason": "10 до 30 км; 7 до 100; 3 до 200"
         },
@@ -303,7 +306,7 @@
         },
         {
           "factor": "Полнота данных",
-          "points": 4,
+          "points": 5,
           "max": 10,
           "reason": "По 1 баллу за каждое из 10 основных полей"
         },
@@ -315,7 +318,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 30; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 41; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:13:11.019225+00:00",
       "history": [
         {
@@ -326,11 +329,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.019225+00:00"
+      "last_seen": "2026-11-15T17:18:22.730122+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Энгельс",
       "address": "Энгельс, ул Дубовская, д. 5, корп. 2",
       "price": 24400000.0,
       "area": 297.0,
@@ -489,11 +492,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.335671+00:00"
+      "last_seen": "2026-11-15T17:18:23.116637+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Новороссийск",
       "address": "Новороссийск, ул Советов, д. 7",
       "price": 8500000.0,
       "area": 35.6,
@@ -652,11 +655,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.343533+00:00"
+      "last_seen": "2026-11-15T17:18:23.127869+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Ростов-на-Дону",
       "address": "Ростов-на-Дону, Гвардейский пер, д. 61",
       "price": 498950000.0,
       "area": 5870.0,
@@ -815,11 +818,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.203493+00:00"
+      "last_seen": "2026-11-15T17:18:22.958430+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "просека 5-я",
       "address": "Самара, просека 5-я, д. 133",
       "price": 11749000.0,
       "area": 83.0,
@@ -978,11 +981,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.989855+00:00"
+      "last_seen": "2026-11-15T17:18:22.637356+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, ул Земеца, д. 27",
       "price": 99999999.0,
       "area": 3927.0,
@@ -1141,11 +1144,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.013362+00:00"
+      "last_seen": "2026-11-15T17:18:22.713754+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул им. Жуковского, д. 4г",
       "price": 55000000.0,
       "area": 405.0,
@@ -1304,11 +1307,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.002213+00:00"
+      "last_seen": "2026-11-15T17:18:22.681407+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Завьялово",
       "address": "Ижевск, Завьялово, ул Нагорная, д. 32",
       "price": 24560000.0,
       "area": 460.0,
@@ -1467,11 +1470,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.042261+00:00"
+      "last_seen": "2026-11-15T17:18:22.789107+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Балаково",
       "address": "Балаково, ул Проспект Героев, д. 23/1",
       "price": 19900000.0,
       "area": 400.0,
@@ -1630,11 +1633,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.384249+00:00"
+      "last_seen": "2026-11-15T17:18:23.184400+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Авиационная, д. 28",
       "price": 90000000.0,
       "area": 919.4,
@@ -1793,11 +1796,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.388364+00:00"
+      "last_seen": "2026-11-15T17:18:23.189722+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Казань",
       "address": "Казань, Мирный пер, д. 6А",
       "price": 14000000.0,
       "area": 200.0,
@@ -1823,9 +1826,12 @@
       "termination_terms": null,
       "closure_risk": null,
       "location_dependency": null,
-      "coordinates": null,
-      "coordinate_source": null,
-      "geo_accuracy": null,
+      "coordinates": [
+        55.728925,
+        53.101465
+      ],
+      "coordinate_source": "АРР: маркер карты объекта (не проверен по кадастру)",
+      "geo_accuracy": "building",
       "published_at": null,
       "transaction_costs": null,
       "vacancy_months": null,
@@ -1842,8 +1848,8 @@
       "annual_costs": {},
       "id": "18907910b56209ccf9c5",
       "verification": "review",
-      "distance_km": null,
-      "geo_status": "unknown",
+      "distance_km": 250.01,
+      "geo_status": "located",
       "finance": {
         "annual_rent": 1200000.0,
         "gross_yield": 8.571428571428571,
@@ -1881,7 +1887,7 @@
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 19,
+      "score": 20,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
@@ -1933,7 +1939,7 @@
         },
         {
           "factor": "Полнота данных",
-          "points": 4,
+          "points": 5,
           "max": 10,
           "reason": "По 1 баллу за каждое из 10 основных полей"
         },
@@ -1945,7 +1951,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 19; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 20; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:13:11.074086+00:00",
       "history": [
         {
@@ -1956,11 +1962,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.074086+00:00"
+      "last_seen": "2026-11-15T17:18:22.860979+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Великий Новгород",
       "address": "Великий Новгород, ул Тихвинская, д. 3",
       "price": 10000000.0,
       "area": 70.0,
@@ -2119,11 +2125,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.185802+00:00"
+      "last_seen": "2026-11-15T17:18:22.911979+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, пр-кт Кирова, д. 424в",
       "price": 5000000.0,
       "area": 80.0,
@@ -2282,11 +2288,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.031216+00:00"
+      "last_seen": "2026-11-15T17:18:22.762583+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул Красная, д. 120",
       "price": 77718000.0,
       "area": 154.0,
@@ -2445,11 +2451,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.027026+00:00"
+      "last_seen": "2026-11-15T17:18:22.751814+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Новороссийск",
       "address": "Новороссийск, ул Видова, д. 32",
       "price": 33000000.0,
       "area": 600.0,
@@ -2608,11 +2614,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.260059+00:00"
+      "last_seen": "2026-11-15T17:18:23.054217+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, улица Октябрьская, п.г.т. Погар, Брянская область, д. 112",
       "price": 100000000.0,
       "area": 2269.2,
@@ -2771,11 +2777,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.431641+00:00"
+      "last_seen": "2026-11-15T17:18:23.245833+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул им. Александра Покрышкина, д. 21",
       "price": 64680000.0,
       "area": 290.0,
@@ -2934,11 +2940,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.206590+00:00"
+      "last_seen": "2026-11-15T17:18:22.963872+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, пр-кт Ленина, д. 63А",
       "price": 18000000.0,
       "area": 269.6,
@@ -3097,11 +3103,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.986790+00:00"
+      "last_seen": "2026-11-15T17:18:22.626497+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Фрунзе, д. 82",
       "price": 7200000.0,
       "area": 166.6,
@@ -3260,11 +3266,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.984004+00:00"
+      "last_seen": "2026-11-15T17:18:22.615678+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "ул Борковская",
       "address": "ул Борковская, д. 55",
       "price": 23750000.0,
       "area": 1150.0,
@@ -3423,11 +3429,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.033327+00:00"
+      "last_seen": "2026-11-15T17:18:22.768010+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Новый Кинер",
       "address": "Казань,  Новый Кинер ул Серп и Молот, д. 17А",
       "price": 7900000.0,
       "area": 163.9,
@@ -3453,9 +3459,12 @@
       "termination_terms": null,
       "closure_risk": null,
       "location_dependency": null,
-      "coordinates": null,
-      "coordinate_source": null,
-      "geo_accuracy": null,
+      "coordinates": [
+        56.3962736,
+        49.7025406
+      ],
+      "coordinate_source": "АРР: маркер карты объекта (не проверен по кадастру)",
+      "geo_accuracy": "building",
       "published_at": null,
       "transaction_costs": null,
       "vacancy_months": null,
@@ -3472,8 +3481,8 @@
       "annual_costs": {},
       "id": "292991e92424e89aa14a",
       "verification": "review",
-      "distance_km": null,
-      "geo_status": "unknown",
+      "distance_km": 76.29,
+      "geo_status": "located",
       "finance": {
         "annual_rent": 1368000.0,
         "gross_yield": 17.31645569620253,
@@ -3511,7 +3520,7 @@
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 35,
+      "score": 39,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
@@ -3551,7 +3560,7 @@
         },
         {
           "factor": "Расстояние",
-          "points": 0,
+          "points": 7,
           "max": 10,
           "reason": "10 до 30 км; 7 до 100; 3 до 200"
         },
@@ -3563,7 +3572,7 @@
         },
         {
           "factor": "Полнота данных",
-          "points": 5,
+          "points": 6,
           "max": 10,
           "reason": "По 1 баллу за каждое из 10 основных полей"
         },
@@ -3575,7 +3584,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 35; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 43; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:13:11.367487+00:00",
       "history": [
         {
@@ -3586,11 +3595,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.367487+00:00"
+      "last_seen": "2026-11-15T17:18:23.162038+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "3-го Интернационала",
       "address": "Брянск, 3-го Интернационала , д. 4",
       "price": 10300000.0,
       "area": 83.0,
@@ -3749,11 +3758,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.396821+00:00"
+      "last_seen": "2026-11-15T17:18:23.200712+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Новороссийск",
       "address": "Новороссийск, ул Кутузовская, д. 10",
       "price": 29900000.0,
       "area": 331.0,
@@ -3912,11 +3921,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.046694+00:00"
+      "last_seen": "2026-11-15T17:18:22.800337+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Бежицкая, д. 1/10",
       "price": 17960000.0,
       "area": 117.4,
@@ -4075,11 +4084,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.418452+00:00"
+      "last_seen": "2026-11-15T17:18:23.228782+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Москва",
       "address": "Москва, Красногорск пятницкое шоссе, 7-й километр, вл , д. 2, корп. А",
       "price": 1600000000.0,
       "area": 9004.0,
@@ -4238,11 +4247,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.981294+00:00"
+      "last_seen": "2026-11-15T17:18:22.604518+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянская обл",
       "address": "Брянская обл",
       "price": 260000000.0,
       "area": 6500.0,
@@ -4401,11 +4410,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.409506+00:00"
+      "last_seen": "2026-11-15T17:18:23.217526+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Бежицкая, д. 1/10",
       "price": 17750250.0,
       "area": 112.7,
@@ -4564,11 +4573,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.242338+00:00"
+      "last_seen": "2026-11-15T17:18:23.026066+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Ижевск",
       "address": "Ижевск, ул Фронтовая, д. 4",
       "price": 15390000.0,
       "area": 125.9,
@@ -4727,11 +4736,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.035693+00:00"
+      "last_seen": "2026-11-15T17:18:22.773209+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "тер Поселок Аэропорт",
       "address": "Волгоград, тер Поселок Аэропорт, д. 5",
       "price": 16000000.0,
       "area": 165.4,
@@ -4890,11 +4899,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.015375+00:00"
+      "last_seen": "2026-11-15T17:18:22.719323+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Анапа",
       "address": "Анапа, ул Верхняя дорога, д. 29",
       "price": 46200000.0,
       "area": 280.0,
@@ -5053,11 +5062,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.297863+00:00"
+      "last_seen": "2026-11-15T17:18:23.088750+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, пер Второй Безымянный, д. 4А",
       "price": 4500000.0,
       "area": 132.0,
@@ -5216,11 +5225,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.215826+00:00"
+      "last_seen": "2026-11-15T17:18:22.980603+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Ижевск",
       "address": "Ижевск, ул Цветочная, д. 3",
       "price": 10500000.0,
       "area": 78.8,
@@ -5379,11 +5388,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.995687+00:00"
+      "last_seen": "2026-11-15T17:18:22.659582+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул им. Константина Гондаря, д. 98, корп. 1",
       "price": 102000000.0,
       "area": 467.0,
@@ -5542,11 +5551,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.003850+00:00"
+      "last_seen": "2026-11-15T17:18:22.686685+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Гаражный проезд",
       "address": "Самара, Гаражный проезд, д. 3, корп. 2",
       "price": 380000000.0,
       "area": 7250.0,
@@ -5705,11 +5714,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.053921+00:00"
+      "last_seen": "2026-11-15T17:18:22.817006+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Москва",
       "address": "Москва, ул Международная, д. 9",
       "price": 39000000.0,
       "area": 59.0,
@@ -5868,11 +5877,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.194641+00:00"
+      "last_seen": "2026-11-15T17:18:22.941944+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Саратов",
       "address": "Саратов, ул Большая Затонская, д. 22",
       "price": 5200000.0,
       "area": 120.0,
@@ -6031,11 +6040,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.209616+00:00"
+      "last_seen": "2026-11-15T17:18:22.969404+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Степная, д. 13",
       "price": 5500000.0,
       "area": 39.0,
@@ -6194,11 +6203,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.188716+00:00"
+      "last_seen": "2026-11-15T17:18:22.917434+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "р-н Хостинский внутригородской",
       "address": "Сочи, р-н Хостинский внутригородской, ул Дмитриевой, д. 32",
       "price": 8700000.0,
       "area": 67.4,
@@ -6357,11 +6366,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.049300+00:00"
+      "last_seen": "2026-11-15T17:18:22.805920+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "г.Томск",
       "address": "Новосибирск, г.Томск, ул.Елизаровых, 72/2",
       "price": 30000000.0,
       "area": 402.2,
@@ -6520,11 +6529,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.167093+00:00"
+      "last_seen": "2026-11-15T17:18:22.883923+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, ул Новая, д. 11",
       "price": 35000000.0,
       "area": 5000.0,
@@ -6683,11 +6692,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.058669+00:00"
+      "last_seen": "2026-11-15T17:18:22.828117+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Ростов-на-Дону",
       "address": "Ростов-на-Дону, ул Советская, д. 17",
       "price": 199000000.0,
       "area": 1961.1,
@@ -6846,11 +6855,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.326878+00:00"
+      "last_seen": "2026-11-15T17:18:23.111365+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, ул Дзержинского, д. 21",
       "price": 175000000.0,
       "area": 6095.0,
@@ -7009,11 +7018,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.180054+00:00"
+      "last_seen": "2026-11-15T17:18:22.900854+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Комсомольская, д. 12",
       "price": 20000000.0,
       "area": 256.0,
@@ -7172,11 +7181,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.405213+00:00"
+      "last_seen": "2026-11-15T17:18:23.212022+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Северный (п Игра)",
       "address": "Ижевск,  Северный (п Игра), д. 8",
       "price": 4900000.0,
       "area": 74.8,
@@ -7335,11 +7344,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.051558+00:00"
+      "last_seen": "2026-11-15T17:18:22.811480+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул им. Марины Цветаевой, д. 1, корп. 2",
       "price": 116445431.0,
       "area": 387.1,
@@ -7498,11 +7507,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.978776+00:00"
+      "last_seen": "2026-11-15T17:18:22.593854+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Свердловская обл",
       "address": "Альметьевск, Свердловская обл, Нижнесергинский р-н, г Михайловск, ул Энгельса, д. 5",
       "price": 3400000.0,
       "area": 75.1,
@@ -7661,11 +7670,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.436111+00:00"
+      "last_seen": "2026-11-15T17:18:23.251276+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Набережные Челны",
       "address": "Набережные Челны, пр-кт Мира, д. 18",
       "price": 56000000.0,
       "area": 300.0,
@@ -7824,11 +7833,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.061050+00:00"
+      "last_seen": "2026-11-15T17:18:22.833490+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Ростов-на-Дону",
       "address": "Ростов-на-Дону, ул Тарновского-Терлецкого, д. 97А",
       "price": 138000000.0,
       "area": 1272.2,
@@ -7987,7 +7996,7 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.021121+00:00"
+      "last_seen": "2026-11-15T17:18:22.735517+00:00"
     },
     {
       "district": null,
@@ -8017,9 +8026,12 @@
       "termination_terms": null,
       "closure_risk": null,
       "location_dependency": null,
-      "coordinates": null,
-      "coordinate_source": null,
-      "geo_accuracy": null,
+      "coordinates": [
+        55.879059494314,
+        48.355054537162
+      ],
+      "coordinate_source": "АРР: маркер карты объекта (не проверен по кадастру)",
+      "geo_accuracy": "building",
       "published_at": null,
       "transaction_costs": null,
       "vacancy_months": null,
@@ -8036,8 +8048,8 @@
       "annual_costs": {},
       "id": "60aa1ea600139252319d",
       "verification": "review",
-      "distance_km": null,
-      "geo_status": "unknown",
+      "distance_km": 47.81,
+      "geo_status": "located",
       "finance": {
         "annual_rent": 3204000.0,
         "gross_yield": 8.43157894736842,
@@ -8075,7 +8087,7 @@
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 18,
+      "score": 26,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
@@ -8115,7 +8127,7 @@
         },
         {
           "factor": "Расстояние",
-          "points": 0,
+          "points": 7,
           "max": 10,
           "reason": "10 до 30 км; 7 до 100; 3 до 200"
         },
@@ -8127,7 +8139,7 @@
         },
         {
           "factor": "Полнота данных",
-          "points": 4,
+          "points": 5,
           "max": 10,
           "reason": "По 1 баллу за каждое из 10 основных полей"
         },
@@ -8139,7 +8151,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 18; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 26; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:13:10.997220+00:00",
       "history": [
         {
@@ -8150,11 +8162,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.997220+00:00"
+      "last_seen": "2026-11-15T17:18:22.664964+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "хутор Ленина",
       "address": "Краснодар, хутор Ленина, ул Наримановская, д. 12/1",
       "price": 75000000.0,
       "area": 445.0,
@@ -8313,11 +8325,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.359408+00:00"
+      "last_seen": "2026-11-15T17:18:23.150962+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, ул Дзержинского, д. 21",
       "price": 5500000.0,
       "area": 205.8,
@@ -8476,11 +8488,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.976371+00:00"
+      "last_seen": "2026-11-15T17:18:22.582980+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Бежицкая, д. 1, корп. 10",
       "price": 11576250.0,
       "area": 73.5,
@@ -8639,11 +8651,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.229178+00:00"
+      "last_seen": "2026-11-15T17:18:23.003330+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Фокина, д. 1",
       "price": 26000000.0,
       "area": 422.0,
@@ -8802,11 +8814,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.392643+00:00"
+      "last_seen": "2026-11-15T17:18:23.195344+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Саратов",
       "address": "Саратов, ул 2-я Пионерская, д. 30/36",
       "price": 6700000.0,
       "area": 61.6,
@@ -8965,11 +8977,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.315257+00:00"
+      "last_seen": "2026-11-15T17:18:23.094315+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Набережные Челны",
       "address": "Набережные Челны, пр-кт Мира, д. 18",
       "price": 26500000.0,
       "area": 100.0,
@@ -9128,11 +9140,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.068516+00:00"
+      "last_seen": "2026-11-15T17:18:22.850114+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Москва",
       "address": "Москва, ул Бутырская, д. 86Б",
       "price": 45000000.0,
       "area": 317.0,
@@ -9291,11 +9303,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.982599+00:00"
+      "last_seen": "2026-11-15T17:18:22.610289+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Ростов-на-Дону",
       "address": "Ростов-на-Дону, Доломановский пер, д. 11б/4",
       "price": 46999999.0,
       "area": 454.2,
@@ -9454,11 +9466,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.011535+00:00"
+      "last_seen": "2026-11-15T17:18:22.708485+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Саратов",
       "address": "Саратов, ул Танкистов, д. 60",
       "price": 4500000.0,
       "area": 46.2,
@@ -9617,11 +9629,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.363479+00:00"
+      "last_seen": "2026-11-15T17:18:23.156580+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "мкр Новое Павлино",
       "address": "Москва, мкр Новое Павлино, Косинское шоссе, д. 2",
       "price": 27000000.0,
       "area": 110.0,
@@ -9780,11 +9792,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.029045+00:00"
+      "last_seen": "2026-11-15T17:18:22.757244+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Ростов-на-Дону",
       "address": "Ростов-на-Дону,  поселок Верхнетемерницкий пер Урана, д. 2, корп. 1",
       "price": 39000000.0,
       "area": 406.0,
@@ -9943,11 +9955,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.225886+00:00"
+      "last_seen": "2026-11-15T17:18:22.997791+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Саратов",
       "address": "Саратов, пр-кт Революционный, д. 188",
       "price": 6800000.0,
       "area": 40.0,
@@ -10106,11 +10118,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.371569+00:00"
+      "last_seen": "2026-11-15T17:18:23.167599+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Адмиралтейский б-р",
       "address": "Краснодар, Адмиралтейский б-р, д. 3",
       "price": 11000000.0,
       "area": 42.0,
@@ -10269,11 +10281,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.991318+00:00"
+      "last_seen": "2026-11-15T17:18:22.643015+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Омск",
       "address": "Омск, пр-кт Мира, д. 12",
       "price": 5000000.0,
       "area": 40.7,
@@ -10432,11 +10444,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.249127+00:00"
+      "last_seen": "2026-11-15T17:18:23.037238+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, г.Новокуйбышевск проспект Победы , д. 10",
       "price": 10500000.0,
       "area": 280.0,
@@ -10595,11 +10607,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.066101+00:00"
+      "last_seen": "2026-11-15T17:18:22.844632+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Набережные Челны",
       "address": "Набережные Челны, ул Металлургическая",
       "price": 146000000.0,
       "area": 1671.0,
@@ -10758,11 +10770,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.182945+00:00"
+      "last_seen": "2026-11-15T17:18:22.906565+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, ул Победы, д. 130",
       "price": 12300000.0,
       "area": 54.0,
@@ -10921,11 +10933,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.022986+00:00"
+      "last_seen": "2026-11-15T17:18:22.741054+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул Западный Обход, д. 39/1, корп. 6",
       "price": 13520000.0,
       "area": 67.6,
@@ -11084,11 +11096,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.025059+00:00"
+      "last_seen": "2026-11-15T17:18:22.746391+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Геленджик",
       "address": "Геленджик, Геленджик, ул Верхняя, д. 4, корп. 2",
       "price": 80000000.0,
       "area": 530.0,
@@ -11247,11 +11259,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.994179+00:00"
+      "last_seen": "2026-11-15T17:18:22.654197+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, ул Ларина, д. 169",
       "price": 85000000.0,
       "area": 38000.0,
@@ -11410,11 +11422,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.071447+00:00"
+      "last_seen": "2026-11-15T17:18:22.855652+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Камбарка",
       "address": "Ижевск, Камбарка ул Советская, д. 25А",
       "price": 35000000.0,
       "area": 800.0,
@@ -11573,11 +11585,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.322941+00:00"
+      "last_seen": "2026-11-15T17:18:23.105853+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул Домбайская, д. 55, корп. 6",
       "price": 20000000.0,
       "area": 105.0,
@@ -11736,11 +11748,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.005554+00:00"
+      "last_seen": "2026-11-15T17:18:22.691993+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул Северная, д. 11",
       "price": 150000000.0,
       "area": 951.0,
@@ -11899,11 +11911,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.000444+00:00"
+      "last_seen": "2026-11-15T17:18:22.676006+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул им. Комарова В.М., д. 21/1, корп. 2",
       "price": 8200000.0,
       "area": 38.8,
@@ -12062,11 +12074,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.161301+00:00"
+      "last_seen": "2026-11-15T17:18:22.872646+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Дуки, д. 59/11",
       "price": 7500000.0,
       "area": 49.9,
@@ -12225,11 +12237,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.422804+00:00"
+      "last_seen": "2026-11-15T17:18:23.234575+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, ул Куйбышева, д. 69",
       "price": 119900000.0,
       "area": 695.7,
@@ -12388,11 +12400,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.044513+00:00"
+      "last_seen": "2026-11-15T17:18:22.794714+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Набережные Челны",
       "address": "Набережные Челны, Московский пр-кт, д. 91",
       "price": 110000000.0,
       "area": 1870.0,
@@ -12551,11 +12563,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.164282+00:00"
+      "last_seen": "2026-11-15T17:18:22.878324+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул им. Героя Советского Союза Николая Воробьёва, д. 11",
       "price": 1800000.0,
       "area": 18.3,
@@ -12714,11 +12726,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.375997+00:00"
+      "last_seen": "2026-11-15T17:18:23.173307+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Новороссийск",
       "address": "Новороссийск, ул Куникова, д. 52",
       "price": 7300000.0,
       "area": 123.0,
@@ -12877,11 +12889,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.172804+00:00"
+      "last_seen": "2026-11-15T17:18:22.895436+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул Тополиная, д. 48",
       "price": 800000000.0,
       "area": 3862.0,
@@ -13040,11 +13052,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.380132+00:00"
+      "last_seen": "2026-11-15T17:18:23.179008+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Саратов",
       "address": "Саратов, ул Танкистов, д. 63",
       "price": 3950000.0,
       "area": 35.7,
@@ -13203,11 +13215,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.355379+00:00"
+      "last_seen": "2026-11-15T17:18:23.145285+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул им. Марины Цветаевой, д. 2",
       "price": 19694900.0,
       "area": 75.4,
@@ -13366,11 +13378,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.980049+00:00"
+      "last_seen": "2026-11-15T17:18:22.599221+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Энгельс",
       "address": "Энгельс, пр-кт Фридриха Энгельса, д. 123",
       "price": 7240000.0,
       "area": 79.4,
@@ -13529,11 +13541,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.985452+00:00"
+      "last_seen": "2026-11-15T17:18:22.621010+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Саратов",
       "address": "Саратов, ул им Чернышевского Н.Г., д. 204/27",
       "price": 2800000.0,
       "area": 29.1,
@@ -13692,11 +13704,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.274613+00:00"
+      "last_seen": "2026-11-15T17:18:23.077598+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Ижевск",
       "address": "Ижевск, ул Победы, д. 95",
       "price": 11400000.0,
       "area": 307.9,
@@ -13855,11 +13867,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.197596+00:00"
+      "last_seen": "2026-11-15T17:18:22.947587+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Саратов",
       "address": "Саратов, ул Центральная, д. 2Б",
       "price": 31000000.0,
       "area": 628.7,
@@ -14018,11 +14030,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.263597+00:00"
+      "last_seen": "2026-11-15T17:18:23.059902+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Ростов-на-Дону",
       "address": "Ростов-на-Дону, ул Московская, д. 72",
       "price": 90000000.0,
       "area": 1600.0,
@@ -14181,11 +14193,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.222170+00:00"
+      "last_seen": "2026-11-15T17:18:22.992172+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, ул Центральная, д. 9",
       "price": 650000.0,
       "area": 295.4,
@@ -14344,11 +14356,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.256420+00:00"
+      "last_seen": "2026-11-15T17:18:23.048953+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Набережные Челны",
       "address": "Набережные Челны, пр-кт Мира, д. 52/16",
       "price": 11700000.0,
       "area": 114.0,
@@ -14507,11 +14519,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.218967+00:00"
+      "last_seen": "2026-11-15T17:18:22.986461+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Новороссийск",
       "address": "Новороссийск, пр-кт Дзержинского, д. 219",
       "price": 23000000.0,
       "area": 492.5,
@@ -14670,11 +14682,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.212720+00:00"
+      "last_seen": "2026-11-15T17:18:22.975095+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Бежицкая, д. 1/10",
       "price": 12442500.0,
       "area": 79.0,
@@ -14833,11 +14845,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.239038+00:00"
+      "last_seen": "2026-11-15T17:18:23.020594+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Бежицкая, д. 1/10",
       "price": 18490500.0,
       "area": 117.4,
@@ -14996,11 +15008,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.232382+00:00"
+      "last_seen": "2026-11-15T17:18:23.009217+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Казань",
       "address": "Казань, ул Мусина, д. 29д",
       "price": 12000000.0,
       "area": 56.4,
@@ -15026,9 +15038,12 @@
       "termination_terms": null,
       "closure_risk": null,
       "location_dependency": null,
-      "coordinates": null,
-      "coordinate_source": null,
-      "geo_accuracy": null,
+      "coordinates": [
+        55.8252381,
+        49.1194653
+      ],
+      "coordinate_source": "АРР: маркер карты объекта (не проверен по кадастру)",
+      "geo_accuracy": "building",
       "published_at": null,
       "transaction_costs": null,
       "vacancy_months": null,
@@ -15045,8 +15060,8 @@
       "annual_costs": {},
       "id": "c6de7fd0868f2d601586",
       "verification": "review",
-      "distance_km": null,
-      "geo_status": "unknown",
+      "distance_km": 3.34,
+      "geo_status": "located",
       "finance": {
         "annual_rent": 1044000.0,
         "gross_yield": 8.7,
@@ -15084,7 +15099,7 @@
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 19,
+      "score": 30,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
@@ -15124,7 +15139,7 @@
         },
         {
           "factor": "Расстояние",
-          "points": 0,
+          "points": 10,
           "max": 10,
           "reason": "10 до 30 км; 7 до 100; 3 до 200"
         },
@@ -15136,7 +15151,7 @@
         },
         {
           "factor": "Полнота данных",
-          "points": 4,
+          "points": 5,
           "max": 10,
           "reason": "По 1 баллу за каждое из 10 основных полей"
         },
@@ -15148,7 +15163,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 19; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 30; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:13:11.076764+00:00",
       "history": [
         {
@@ -15159,11 +15174,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.076764+00:00"
+      "last_seen": "2026-11-15T17:18:22.867051+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Бежицкая, д. 1/10",
       "price": 14206500.0,
       "area": 90.2,
@@ -15322,11 +15337,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.235712+00:00"
+      "last_seen": "2026-11-15T17:18:23.014926+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул им. Григория Булгакова, д. 7, корп. 1",
       "price": 14300000.0,
       "area": 112.0,
@@ -15485,11 +15500,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.200544+00:00"
+      "last_seen": "2026-11-15T17:18:22.953196+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Саратов",
       "address": "Саратов, ул им Пономарева П.Т., д. 14",
       "price": 8200000.0,
       "area": 103.6,
@@ -15648,11 +15663,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.319236+00:00"
+      "last_seen": "2026-11-15T17:18:23.100197+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Любезного, д. 1",
       "price": 53900000.0,
       "area": 1772.6,
@@ -15811,11 +15826,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.401014+00:00"
+      "last_seen": "2026-11-15T17:18:23.206517+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Энгельс",
       "address": "Энгельс, ул Комсомольская, д. 143а/1",
       "price": 6700000.0,
       "area": 62.0,
@@ -15974,11 +15989,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.278351+00:00"
+      "last_seen": "2026-11-15T17:18:23.083241+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул 2-я Мичурина, д. 42",
       "price": 10000000.0,
       "area": 106.6,
@@ -16137,11 +16152,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.427257+00:00"
+      "last_seen": "2026-11-15T17:18:23.240442+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Саратов",
       "address": "Саратов, ул Московская, д. 60а",
       "price": 24000000.0,
       "area": 367.7,
@@ -16300,11 +16315,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.998858+00:00"
+      "last_seen": "2026-11-15T17:18:22.670477+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Ростов-на-Дону",
       "address": "Ростов-на-Дону, Верхнетемерницкий пер Урана, д. 2, корп. 1",
       "price": 7500000.0,
       "area": 42.5,
@@ -16463,11 +16478,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.245743+00:00"
+      "last_seen": "2026-11-15T17:18:23.031759+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "р-н Хостинский внутригородской",
       "address": "Сочи, р-н Хостинский внутригородской, ул Камо, д. 70",
       "price": 12600000.0,
       "area": 61.9,
@@ -16626,11 +16641,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.017334+00:00"
+      "last_seen": "2026-11-15T17:18:22.724784+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, ул Садовая, д. 156",
       "price": 12500000.0,
       "area": 130.0,
@@ -16789,11 +16804,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.056347+00:00"
+      "last_seen": "2026-11-15T17:18:22.822617+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, ул Молодогвардейская, д. 9",
       "price": 5350000.0,
       "area": 95.0,
@@ -16952,11 +16967,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.063582+00:00"
+      "last_seen": "2026-11-15T17:18:22.838977+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Новороссийск",
       "address": "Новороссийск, ул Куникова, д. 11",
       "price": 12800000.0,
       "area": 190.9,
@@ -17115,11 +17130,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.040050+00:00"
+      "last_seen": "2026-11-15T17:18:22.783915+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Новороссийск",
       "address": "Новороссийск, ул Советов, д. 53",
       "price": 19950000.0,
       "area": 538.6,
@@ -17278,11 +17293,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.008933+00:00"
+      "last_seen": "2026-11-15T17:18:22.703005+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Ижевск",
       "address": "Ижевск, д. 39",
       "price": 23000000.0,
       "area": 343.5,
@@ -17441,11 +17456,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.974471+00:00"
+      "last_seen": "2026-11-15T17:18:22.577187+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Сочи",
       "address": "Сочи, ул Ландышевая, д. 12/6А",
       "price": 20500000.0,
       "area": 57.1,
@@ -17604,11 +17619,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.339633+00:00"
+      "last_seen": "2026-11-15T17:18:23.122407+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Саратов",
       "address": "Саратов, ул Астраханская, д. 40А",
       "price": 76000000.0,
       "area": 1171.5,
@@ -17767,11 +17782,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.271105+00:00"
+      "last_seen": "2026-11-15T17:18:23.071954+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Горбатова, д. 10",
       "price": 8250000.0,
       "area": 48.0,
@@ -17930,11 +17945,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.191649+00:00"
+      "last_seen": "2026-11-15T17:18:22.935383+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Самара",
       "address": "Самара, ул Елизарова, д. 38",
       "price": 39500000.0,
       "area": 807.0,
@@ -18093,11 +18108,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.988157+00:00"
+      "last_seen": "2026-11-15T17:18:22.631921+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул им. Ивана Беличенко, д. 84",
       "price": 11700000.0,
       "area": 39.5,
@@ -18256,11 +18271,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.977540+00:00"
+      "last_seen": "2026-11-15T17:18:22.588575+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "поселок Российский",
       "address": "Краснодар, поселок Российский, ул Городская, д. 10",
       "price": 57000000.0,
       "area": 370.0,
@@ -18419,11 +18434,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:10.992717+00:00"
+      "last_seen": "2026-11-15T17:18:22.648694+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Набережные Челны",
       "address": "Набережные Челны, пр-кт Мира, д. 50/15",
       "price": 25300000.0,
       "area": 670.3,
@@ -18582,11 +18597,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.169910+00:00"
+      "last_seen": "2026-11-15T17:18:22.889620+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул Домбайская, д. 55, корп. 7",
       "price": 11500000.0,
       "area": 57.5,
@@ -18745,11 +18760,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.007230+00:00"
+      "last_seen": "2026-11-15T17:18:22.697504+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Брянск",
       "address": "Брянск, ул Авиационная, д. 1А",
       "price": 250000000.0,
       "area": 2724.0,
@@ -18908,11 +18923,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.414098+00:00"
+      "last_seen": "2026-11-15T17:18:23.223346+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул Западный Обход, д. 39/1, корп. 4",
       "price": 119952000.0,
       "area": 857.0,
@@ -19071,11 +19086,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.351382+00:00"
+      "last_seen": "2026-11-15T17:18:23.139596+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Краснодар",
       "address": "Краснодар, ул им. Ивана Беличенко, д. 88",
       "price": 27782338.0,
       "area": 117.9,
@@ -19234,11 +19249,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.347440+00:00"
+      "last_seen": "2026-11-15T17:18:23.133768+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Москва",
       "address": "Москва, ул Юных Ленинцев, д. 42с1",
       "price": 91000000.0,
       "area": 511.0,
@@ -19397,11 +19412,11 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.252584+00:00"
+      "last_seen": "2026-11-15T17:18:23.043007+00:00"
     },
     {
       "district": null,
-      "settlement": null,
+      "settlement": "Саратов",
       "address": "Саратов, ул Московская, д. 59",
       "price": 6000000.0,
       "area": 165.4,
@@ -19560,7 +19575,7 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T17:13:11.267539+00:00"
+      "last_seen": "2026-11-15T17:18:23.066079+00:00"
     }
   ],
   "sources": [
