@@ -34,6 +34,8 @@ jobs:
       - name: Test filters
         run: node --test tests/frontend.test.js
       - name: Collect independently and preserve catalog on source errors
+        env:
+          INVESTSCAN_SOURCES: ${{ github.event_name == 'push' && 'avito,cian,domclick' || 'all' }}
         run: python scripts/update_catalog.py
       - name: Save data and database
         run: |

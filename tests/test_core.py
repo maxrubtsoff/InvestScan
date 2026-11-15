@@ -51,7 +51,7 @@ def test_failed_collection_preserves_snapshot(tmp_path,monkeypatch):
  import scripts.update_catalog as runner,json
  (tmp_path/'data').mkdir();old={'listings':[{'id':'preserved-fixture'}]};(tmp_path/'data/listings.json').write_text(json.dumps(old))
  def fail():raise RuntimeError('fixture outage')
- monkeypatch.setattr(runner,'ROOT',tmp_path);monkeypatch.setattr(runner,'collect',fail);monkeypatch.setenv('INVESTSCAN_GEOCODE','0');runner.run()
+ monkeypatch.setattr(runner,'ROOT',tmp_path);monkeypatch.setattr(runner,'collect',fail);monkeypatch.setattr(runner.avito,'collect',lambda:[]);monkeypatch.setattr(runner.cian,'collect',lambda:[]);monkeypatch.setattr(runner.domclick,'collect',lambda:[]);monkeypatch.setenv('INVESTSCAN_GEOCODE','0');runner.run()
  result=json.loads((tmp_path/'data/listings.json').read_text());assert result['listings']==old['listings'];assert result['sources'][0]['status']=='error'
 
 def test_geocode_city_not_property(tmp_path,monkeypatch):

@@ -1,3 +1,8 @@
-"""Домклик adapter: only authorized exports until a permitted discovery API is available."""
+"""Public website only. airatb1508's private mobile API and request signing are not used."""
 from parsers.manual import collect_source
-def collect():return collect_source('Домклик')
+from parsers.public_source import PublicSource
+SEED='https://kazan.domclick.ru/pokupka/kommercheskaya-nedvizhimost'
+def collect():
+ yield from collect_source('Домклик')
+ PublicSource('domclick.ru').get(SEED)
+ raise RuntimeError('Домклик: публичная структура коммерческой выдачи пока не подтверждена')
