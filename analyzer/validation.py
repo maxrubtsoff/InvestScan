@@ -16,6 +16,7 @@ def normalize(raw):
     if not isinstance(x['annual_costs'],dict):raise ValueError('annual_costs must be object')
     for v in x['annual_costs'].values():
         if v is not None and (isinstance(v,bool) or not isinstance(v,(int,float)) or not math.isfinite(v) or v<0):raise ValueError('Invalid annual cost')
+    x['price_per_sqm']=x['price']/x['area'] if x.get('price') is not None and x.get('area') else None
     x['id']=x.get('id') or hashlib.sha256(sources[0]['url'].encode()).hexdigest()[:20]
     # Source claims alone never confirm the lease/payment history.
     x['verification']='confirmed' if x.get('active_tenant') is True and x.get('payments_confirmed') is True and x.get('contract') is True and x.get('monthly_rent',0) and x.get('verification_evidence') else 'review'

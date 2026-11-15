@@ -75,3 +75,5 @@ def test_public_client_normal_redirect(monkeypatch):
   return httpx.Response(200,text='fixture property')
  c=PublicClient();c.client=httpx.Client(transport=httpx.MockTransport(response));monkeypatch.setattr(base.time,'sleep',lambda _:None)
  assert c.get('https://arrpro.ru/start')=='fixture property'
+
+def test_price_per_sqm():assert sample()['price_per_sqm']==120000
