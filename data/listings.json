@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T17:49:39.693370+00:00",
+  "generated_at": "2026-11-15T17:54:21.718938+00:00",
   "listings": [
     {
       "district": null,
@@ -78711,27 +78711,27 @@
   "sources": [
     {
       "name": "АРР",
-      "status": "ok",
-      "count": 471,
-      "message": "Публичная общероссийская витрина, вся доступная пагинация (защитный предел 80 страниц). Охват ограничен этим источником. Данные продавцов требуют проверки."
+      "status": "cached",
+      "count": 0,
+      "message": "Ранее собранные записи сохранены. Полный сбор выполняется по расписанию или вручную."
     },
     {
       "name": "Авито",
-      "status": "manual_only",
+      "status": "error",
       "count": 0,
-      "message": "Автопоиск не подключён: требуется разрешённый API или экспорт. Независимый импорт imports/*.json; блокировки и авторизация не обходятся."
+      "message": "Client error '404 Not Found' for url 'https://www.avito.ru/respublika_tatarstan/kommercheskaya_nedvizhimost'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "name": "ЦИАН",
-      "status": "manual_only",
+      "status": "blocked",
       "count": 0,
-      "message": "Автопоиск не подключён: требуется разрешённый API или экспорт. Независимый импорт imports/*.json; блокировки и авторизация не обходятся."
+      "message": "Страница недоступности или защитной проверки; без обхода и повторов"
     },
     {
       "name": "Домклик",
-      "status": "manual_only",
+      "status": "blocked",
       "count": 0,
-      "message": "Автопоиск не подключён: требуется разрешённый API или экспорт. Независимый импорт imports/*.json; блокировки и авторизация не обходятся."
+      "message": "HTTP 401: доступ ограничен; запросы источника остановлены"
     }
   ],
   "coverage": {
