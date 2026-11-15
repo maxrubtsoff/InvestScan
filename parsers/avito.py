@@ -8,7 +8,7 @@ def convert(item):
  text=item.get('description') or item.get('Описание') or '';title=item.get('title') or item.get('Название') or ''
  if not rental_candidate(title+' '+text):return None
  url=urljoin('https://www.avito.ru',item.get('urlPath') or item.get('URL') or '');p=urlsplit(url)
- if p.scheme!='https' or not (p.hostname=='avito.ru' or (p.hostname or '').endswith('.avito.ru')) or not p.path:return None
+ if p.scheme!='https' or not (p.hostname=='avito.ru' or (p.hostname or '').endswith('.avito.ru')) or p.path in ('','/'):return None
  coords=item.get('coords') or {};name,kind=tenant_claim(title+' '+text);price=(item.get('priceDetailed') or {}).get('value',item.get('Цена'))
  # Export coords are not evidence of geocoding precision: retained only if explicitly documented by an upstream adapter.
  return dict(title=title,sources=[{'name':'Авито','url':urlunsplit((p.scheme,p.netloc,p.path,'',''))}],address=coords.get('address_user') or item.get('Адрес пользователя') or item.get('Адрес'),price=price,monthly_rent=rent_claim(text),tenant_name=name,tenant_type=kind,active_tenant=None,payments_confirmed=None,photos=[],description='Арендная модель заявлена в источнике; документы и платежи не проверены.')

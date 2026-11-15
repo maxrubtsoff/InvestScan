@@ -1,7 +1,7 @@
 """Commercial Cian pages: parse public server-rendered JSON, not cianparser's residential API.
 Reference inspected: https://github.com/lenarsaitov/cianparser (no upstream code copied).
 """
-import json
+import json,re
 from urllib.parse import urlsplit,urlunsplit,urljoin,parse_qs
 from bs4 import BeautifulSoup
 from parsers.public_source import PublicSource
@@ -26,7 +26,7 @@ def convert(o):
  currency=terms.get('currency');price=terms.get('priceRur')
  if price is None and currency=='rur':price=terms.get('price')
  coords=geo.get('coordinates') or {};hidden=o.get('isNeedHideExactAddress')
- precise=not hidden and any(p.get('geoType')=='house' for p in parts) and all(isinstance(coords.get(k),(int,float)) for k in ['lat','lng'])
+ precise=hidden is False and bool(geo.get('userInput')) and not re.search(r'не указан|скрыт|нет адрес',geo.get('userInput',''),re.I) and any(p.get('geoType')=='house' and re.search(r'\d',p.get('name') or p.get('title') or '') and not re.search(r'не указан|скрыт|нет',p.get('name') or p.get('title') or '',re.I) for p in parts) and all(isinstance(coords.get(k),(int,float)) for k in ['lat','lng'])
  u=urlsplit(o.get('fullUrl') or '');url=urlunsplit((u.scheme,u.netloc,u.path,'',''))
  if u.scheme!='https' or not (u.hostname or '').endswith('.cian.ru'):return None
  name,kind=tenant_claim(text)

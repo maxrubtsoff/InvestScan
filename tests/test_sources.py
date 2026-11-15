@@ -16,7 +16,7 @@ def test_filter_non_rental_business():
  assert not rental_candidate('Субарендный бизнес с арендатором')
 
 def test_public_commercial_state_and_currency():
- offer={'category':'businessSale','fullUrl':'https://kazan.cian.ru/sale/commercial/1/?context=secret','description':'ГАБ с арендатором. МАП 50 000 рублей','totalArea':'50','monthlyIncome':{'income':900000},'bargainTerms':{'price':5000000,'currency':'rur'},'geo':{'coordinates':{'lat':55.8,'lng':49.1},'address':[{'geoType':'house'}]},'isNeedHideExactAddress':False}
+ offer={'category':'businessSale','fullUrl':'https://kazan.cian.ru/sale/commercial/1/?context=secret','description':'ГАБ с арендатором. МАП 50 000 рублей','totalArea':'50','monthlyIncome':{'income':900000},'bargainTerms':{'price':5000000,'currency':'rur'},'geo':{'coordinates':{'lat':55.8,'lng':49.1},'userInput':'Fixture street, 1','address':[{'geoType':'house','name':'1'}]},'isNeedHideExactAddress':False}
  html='<script>window._cianConfig["legacy-commercial-serp-frontend"]=[].concat('+json.dumps([{'key':'initialState','value':{'results':{'offers':[offer]}}}])+');</script>'
  result=convert(offers_from_html(html)[0]);assert result['monthly_rent']==50000;assert result['sources'][0]['url'].endswith('/1/');assert result['coordinates']==[55.8,49.1]
  offer['isNeedHideExactAddress']=True;assert convert(offer)['coordinates'] is None

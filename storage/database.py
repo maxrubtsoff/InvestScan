@@ -17,7 +17,7 @@ class Database:
         self.db=sqlite3.connect(path);self.db.execute('CREATE TABLE IF NOT EXISTS listings(id TEXT PRIMARY KEY, payload TEXT NOT NULL)')
     def all(self):return [json.loads(r[0]) for r in self.db.execute('SELECT payload FROM listings ORDER BY id')]
     def upsert(self,x):
-        old=next((r for r in self.all() if duplicate(r,x)),None);stamp=now()
+        old=next((r for r in self.all() if duplicate(r,x)),None);stamp=x.get('source_fetched_at') or now()
         if old:
             primary=bool({s['url'] for s in old['sources']} & {s['url'] for s in x['sources']})
             x['id']=old['id'];x['first_seen']=old['first_seen'];history=old.get('history',[])
