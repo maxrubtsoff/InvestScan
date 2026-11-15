@@ -45,7 +45,7 @@ def enrich_coordinates(rows,limit=6):
     for row in sorted(rows,key=lambda x:0 if 'казань' in x['address'].lower() else 1):
         url=row['sources'][0]['url']
         # City label comes from the source. Nested settlements are retained in the full address.
-        row['settlement']=row['address'].split(',')[0].strip() or None
+        row['settlement']=settlement(row['address'])
         if url not in cache and count<limit:
             try:
                 soup=BeautifulSoup(client.get(url),'html.parser');point=soup.select_one('#ob_point[data-point]')
@@ -56,3 +56,14 @@ def enrich_coordinates(rows,limit=6):
         if cache.get(url):
             row['coordinates']=cache[url];row['coordinate_source']='АРР: маркер карты объекта (не проверен по кадастру)';row['geo_accuracy']='building'
     path.write_text(json.dumps(cache,ensure_ascii=False,indent=2)+'\n');return rows
+
+
+def settlement(address):
+    pieces=[p.strip() for p in address.split(',') if p.strip()]
+    if not pieces:return None
+    if len(pieces)>1:
+        tail=pieces[1]
+        m=re.match(r'(.+?)\s+ул(?:ица)?[ .]',tail,re.I)
+        if m:return m[1].strip()
+        if len(pieces)>2 and not re.search(r'\b(ул|улица|пер|переулок|проспект|пр|д|дом|шоссе|бульвар|площадь)\b',tail,re.I):return tail
+    return pieces[0]

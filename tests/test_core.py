@@ -58,3 +58,9 @@ def test_geocode_city_not_property(tmp_path,monkeypatch):
  import analyzer.geocoding as g,json
  cache=tmp_path/'cache.json';cache.write_text(json.dumps({'fixture':{'lat':'55','lon':'49','addresstype':'city','address':{'city':'Казань'}}}))
  row=g.geocode([{'address':'fixture'}],cache,limit=0)[0];assert row.get('coordinates') is None
+
+def test_nested_settlements():
+ from parsers.arr import settlement
+ assert settlement('Казань, Волжск, ул Прохорова, д. 114/1')=='Волжск'
+ assert settlement('Казань, Новый Кинер ул Серп и Молот, д. 17А')=='Новый Кинер'
+ assert settlement('Казань, Мирный пер, д. 6А')=='Казань'
