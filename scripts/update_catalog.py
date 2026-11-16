@@ -16,12 +16,18 @@ from parsers.public_source import SourceUnavailable
 ROOT=Path(__file__).resolve().parents[1]
 def run():
     (ROOT/'data').mkdir(exist_ok=True);db=Database(ROOT/'data/catalog.sqlite');reports=[]
+    previous_path=ROOT/'data/listings.json'
+    previous=json.loads(previous_path.read_text()) if previous_path.exists() else {}
+    previous_reports={s['name']:s for s in previous.get('sources',[])}
     collectors=[('АРР',collect),('Авито',avito.collect),('ЦИАН',cian.collect),('Домклик',domclick.collect),('РБН',rbn.collect)]
     enabled=os.environ.get('INVESTSCAN_SOURCES','all').split(',')
     source_ids={'АРР':'arr','Авито':'avito','ЦИАН':'cian','Домклик':'domclick','РБН':'rbn'}
     for name,collector in collectors:
         if 'all' not in enabled and source_ids[name] not in enabled:
-            reports.append(dict(name=name,status='cached',count=0,message='Ранее собранные записи сохранены. Полный сбор выполняется по расписанию или вручную.'));continue
+            # A targeted check must not erase another source's known blockage,
+            # successful count or snapshot date merely because it wasn't queried.
+            report=dict(previous_reports.get(name,dict(name=name,status='cached',count=0,message='Источник ещё не проверялся.')))
+            report['checked_this_run']=False;reports.append(report);continue
         count=0
         try:
             for raw in (enrich_coordinates(collector()) if name=='АРР' else collector()):

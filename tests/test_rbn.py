@@ -44,3 +44,12 @@ def test_geocoder_uses_cached_building_without_inventing_tenant(tmp_path,monkeyp
     row=geocode([dict(ROW)],path,limit=4)[0]
     assert row['coordinates']==[55.8685,49.0965] and row['geo_accuracy']=='building'
     assert row.get('tenant_name') is None
+
+def test_targeted_run_preserves_other_source_health(tmp_path,monkeypatch):
+    import scripts.update_catalog as runner,json
+    (tmp_path/'data').mkdir();path=tmp_path/'data/listings.json'
+    path.write_text(json.dumps(dict(listings=[],sources=[dict(name='ЦИАН',status='blocked',count=11,message='fixture challenge')])))
+    monkeypatch.setattr(runner,'ROOT',tmp_path);monkeypatch.setattr(runner.rbn,'collect',lambda:[])
+    monkeypatch.setenv('INVESTSCAN_SOURCES','rbn');monkeypatch.setenv('INVESTSCAN_PHOTON','0')
+    runner.run();report=next(s for s in json.loads(path.read_text())['sources'] if s['name']=='ЦИАН')
+    assert report['status']=='blocked' and report['count']==11 and report['checked_this_run'] is False
