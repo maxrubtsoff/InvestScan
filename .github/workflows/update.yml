@@ -1,7 +1,7 @@
 name: Update catalog and deploy Pages
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17 3 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -32,12 +32,14 @@ jobs:
       - name: Test financial and geographic logic
         run: python -m pytest -q
       - name: Test filters
-        run: node --test tests/frontend.test.js
+        run: node --test tests/*.test.js
       - name: Collect independently and preserve catalog on source errors
+        if: github.event_name != 'push'
         env:
-          INVESTSCAN_SOURCES: ${{ github.event_name == 'push' && 'avito,cian,domclick' || 'all' }}
+          INVESTSCAN_SOURCES: all
         run: python scripts/update_catalog.py
       - name: Save data and database
+        if: github.event_name != 'push'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
