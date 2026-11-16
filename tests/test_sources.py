@@ -33,3 +33,52 @@ def test_nearby_brand_is_not_tenant():
  from parsers.rental_fields import tenant_claim
  assert tenant_claim('Готовый арендный бизнес. Рядом Магнит')[0] is None
  assert tenant_claim('Действующий арендатор — Ozon')[0]=='Ozon'
+
+@pytest.mark.parametrize('text,expected',[
+ ('МАП (Арендный поток): 520 000 руб. в месяц',520000),
+ ('МАП: 75 т.р.',75000),
+ ('МАП (Арендный поток): 520000 руб.мес. или % от товарооборота',None),
+ ('Арендная плата — 50000 рублей в месяц либо 4% от РТО',None),
+ ('Прогнозируемый МАП 150000 рублей',None),
+ ('Предварительная окупаемость из расчёта МАП 150000 р.',None),
+ ('МАП 150000 рублей (прогноз)',None),
+ ('МАП 150000 рублей, ориентировочный',None),
+ ('МАП 150000 рублей в месяц при полной заполняемости',None),
+ ('МАП 150000 рублей в мес. при полной заполняемости',None),
+ ('МАП 150000 рублей в месяц при 100% заполняемости',None),
+ ('МАП 150000 рублей. Прогноз индексации пока неизвестен.',150000),
+])
+def test_fixed_monthly_rent_is_not_conditional_or_estimated(text,expected):
+ assert rent_claim(text)==expected
+
+def test_bad_commercial_state_does_not_hide_another_valid_script():
+ good={'key':'initialState','value':{'results':{'offers':[{'id':1}]}}}
+ page='<script>"legacy-commercial-serp-frontend";[].concat(invalid);</script>'
+ page+='<script>"legacy-commercial-serp-frontend";[].concat('+json.dumps([good])+');</script>'
+ assert offers_from_html(page)==[{'id':1}]
+
+def test_cian_bad_record_does_not_stop_other_offers(monkeypatch):
+ import parsers.cian as module
+ from parsers.exports import InvalidRecord
+ good={'category':'businessSale','fullUrl':'https://kazan.cian.ru/sale/commercial/1/','description':'ГАБ. МАП 50000 рублей','bargainTerms':{'price':5000000,'currency':'rur'}}
+ page='<script>"legacy-commercial-serp-frontend";[].concat('+json.dumps([{'key':'initialState','value':{'results':{'offers':[42,good]}}}])+');</script>'
+ class Client:
+  def get(self,url):return page
+ monkeypatch.setattr(module,'collect_source',lambda name:[])
+ monkeypatch.setattr(module,'PublicSource',lambda domain:Client())
+ rows=list(module.collect())
+ assert isinstance(rows[0],InvalidRecord) and rows[1]['price']==5000000
+ assert rows[1]['acquisition_mode']=='public_html'
+
+def test_cian_pagination_limit_reports_incomplete_coverage(monkeypatch):
+ import parsers.cian as module
+ from urllib.parse import urlsplit,parse_qs
+ offer={'category':'businessSale','fullUrl':'https://kazan.cian.ru/sale/commercial/1/','description':'ГАБ','bargainTerms':{'price':5000000,'currency':'rur'}}
+ state='<script>"legacy-commercial-serp-frontend";[].concat('+json.dumps([{'key':'initialState','value':{'results':{'offers':[offer]}}}])+');</script>'
+ class Client:
+  def get(self,url):
+   p=int(parse_qs(urlsplit(url).query).get('p',['1'])[0])
+   return state+f'<a href="/cat.php?deal_type=sale&amp;offer_type=offices&amp;office_type%5B0%5D=10&amp;region=4618&amp;p={p+1}">Далее</a>'
+ monkeypatch.setattr(module,'collect_source',lambda name:[])
+ monkeypatch.setattr(module,'PublicSource',lambda domain:Client())
+ with pytest.raises(RuntimeError,match='охват неполный'):list(module.collect())

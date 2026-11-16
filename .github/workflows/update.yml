@@ -9,6 +9,10 @@ on:
         type: choice
         default: all
         options: [all, arr, rbn, avito, cian, domclick]
+      import_only:
+        description: 'Обработать только датированные импорты, без запросов к площадкам'
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths-ignore: ['data/**']
@@ -43,6 +47,7 @@ jobs:
         if: github.event_name != 'push'
         env:
           INVESTSCAN_SOURCES: ${{ inputs.sources || 'all' }}
+          INVESTSCAN_IMPORTS_ONLY: ${{ inputs.import_only && '1' || '0' }}
           INVESTSCAN_PHOTON: '1'
         run: python scripts/update_catalog.py
       - name: Save data and database

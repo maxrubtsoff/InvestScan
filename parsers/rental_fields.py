@@ -1,7 +1,7 @@
 """Conservative extraction of explicit present-tense seller claims, not business profit."""
 import re
-AMOUNT=r'(\d[\d \xa0\u202f]*(?:[.,]\d+)?)\s*(тыс(?:яч)?\.?|млн\.?)?'
-RENT=re.compile(r'(?:\bмап\b|месячн\w* арендн\w* (?:поток|плат[аёе]ж)|арендная плата|арендный поток)\s*(?:составляет|в размере|[:=—–-])?\s*'+AMOUNT,re.I)
+AMOUNT=r'(\d[\d \xa0\u202f]*(?:[.,]\d+)?)\s*(тыс(?:яч)?\.?|т\.|млн\.?)?'
+RENT=re.compile(r'(?:\bмап\b(?:\s*\(\s*арендный поток\s*\))?|месячн\w* арендн\w* (?:поток|плат[аёе]ж)|арендная плата|арендный поток)\s*(?:составляет|в размере|[:=—–-])?\s*'+AMOUNT,re.I)
 NEGATIVE=re.compile(r'бывш\w*\s+арендатор|планиру\w*[^.!?\n]{0,70}сдать|без\s+арендатора|нет\s+арендатора|помещение\s+свободно|арендатор[^.!?\n]{0,70}(?:съехал|съезжает|расторг)|(?:возможн\w*|потенциальн\w*|будущ\w*)\s+арендатор|договор\s+(?:ещ[её]\s+)?не\s+(?:подписан|заключ[её]н)|арендатор\s+(?:подбирается|в поиске)',re.I)
 def rental_candidate(text):
  t=text.casefold().replace('ё','е')
@@ -13,15 +13,18 @@ def rent_claim(text):
  for m in RENT.finditer(text):
   before=text[max(0,m.start()-60):m.start()].casefold();after=text[m.end():m.end()+90].casefold()
   if re.search(r'годов\w*\s*$|квартальн\w*\s*$|потенциальн\w*[^.!?]*$|планируем\w*[^.!?]*$|предполагаем\w*[^.!?]*$',before):continue
+  if re.search(r'(?:из расч[её]та|расч[её]тн\w*|прогноз\w*|ориентировочн\w*)[^!?;\n]*$',before):continue
   if re.search(r'(?:в|за|/)\s*(?:год|квартал|недел|сутк|день)|годовых|доллар|евро|\busd\b|\beur\b|[$€]',after):continue
   if re.search(r'потенциальн|планируем|пустует',after):continue
-  currency=re.match(r'\s*(?:₽|руб(?:лей|ля|ль)?\.?|р\.)',after)
+  if re.search(r'(?:или|либо)\s*(?:\d+(?:[.,]\d+)?\s*)?%|%\s*от\s*(?:рто|товарооборот)',after):continue
+  currency=re.match(r'\s*(?:₽|руб(?:лей|ля|ль)\b|руб\b\.?|р\.)',after)
   if not currency:continue
-  after=re.split(r'[.!?;\n]',after[currency.end():],maxsplit=1)[0]
+  after=re.split(r'[.!?;\n]',re.sub(r'\b(мес|руб|р)\.',r'\1',after[currency.end():]),maxsplit=1)[0]
+  if re.search(r'прогноз|ориентировочн|ожидаем|расч[её]тн|при\s+(?:полной|100\s*%\s*[-—]?й?|стопроцентной)\s+заполняемости|при\s+сдаче|после\s+(?:сдачи|ремонта|заполнения)',after):continue
   monthly=bool(re.search(r'\bмап\b|месячн',m[0].casefold()) or re.search(r'ежемесячн\w*\s*$',before) or re.match(r'\s*(?:без ндс\s*)?(?:(?:в|за|/)\s*(?:месяц|мес\b)|ежемесячно)',after))
   if not monthly:continue
   n=float(re.sub(r'\s','',m[1]).replace(',','.'));unit=(m[2] or '').casefold()
-  return n*(1000000 if 'млн' in unit else 1000 if 'тыс' in unit else 1)
+  return n*(1000000 if 'млн' in unit else 1000 if 'тыс' in unit or unit=='т.' else 1)
  return None
 
 def tenant_claim(text):

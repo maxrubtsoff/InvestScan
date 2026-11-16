@@ -134,3 +134,18 @@ def test_source_observation_requires_known_timezone(stamp):
 def test_future_source_observation_cannot_poison_chronology():
     row=avito.convert(avito_item());row['source_fetched_at']='2999-01-01T00:00:00+00:00'
     with pytest.raises(ValueError):normalize(row)
+
+def test_import_only_never_requests_sources_or_geocoding_and_preserves_health(tmp_path,monkeypatch):
+    import scripts.update_catalog as runner
+    (tmp_path/'data').mkdir();path=tmp_path/'data/listings.json'
+    path.write_text(json.dumps({'listings':[],'sources':[{'name':'ЦИАН','status':'blocked','count':0,'message':'Previously observed challenge'}]}))
+    good=imported(avito.convert(avito_item()));good['sources']=[{'name':'ЦИАН','url':'https://kazan.cian.ru/sale/commercial/1/'}]
+    def forbidden(*args,**kwargs):raise AssertionError('Import-only mode must not access network collectors or geocoding')
+    monkeypatch.setattr(runner,'ROOT',tmp_path);monkeypatch.setenv('INVESTSCAN_SOURCES','all');monkeypatch.setenv('INVESTSCAN_IMPORTS_ONLY','1');monkeypatch.setenv('INVESTSCAN_PHOTON','1');monkeypatch.setenv('INVESTSCAN_GEOCODE','1')
+    monkeypatch.setattr(runner,'imports_for',lambda name:[good] if name=='ЦИАН' else [])
+    monkeypatch.setattr(runner,'collect',forbidden);monkeypatch.setattr(runner,'geocode',forbidden);monkeypatch.setattr(runner,'photon_geocode',forbidden)
+    for m in (runner.avito,runner.cian,runner.domclick,runner.rbn):monkeypatch.setattr(m,'collect',forbidden)
+    runner.run();data=json.loads(path.read_text());report=next(s for s in data['sources'] if s['name']=='ЦИАН')
+    assert len(data['listings'])==1 and data['listings'][0]['last_seen'] is None
+    assert report['status']=='blocked' and report['live_count']==0 and report['imported_count']==1 and report['checked_this_run'] is False
+    assert report['message']=='Previously observed challenge'

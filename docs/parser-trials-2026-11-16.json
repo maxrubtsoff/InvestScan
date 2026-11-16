@@ -1,0 +1,207 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Europe/Moscow",
+  "environment": "workspace Python, ordinary HTTP; GitHub Actions tested separately",
+  "http_checks": [
+    {
+      "source": "avito",
+      "url": "https://www.avito.ru/respublika_tatarstan/kommercheskaya_nedvizhimost",
+      "observed_at": "2026-11-16T16:44:36.444971+00:00",
+      "transport": "ordinary httpx; no auth/proxy/browser impersonation; one request",
+      "http_status": 200,
+      "final_url": "https://www.avito.ru/respublika_tatarstan/kommercheskaya_nedvizhimost",
+      "bytes": 195,
+      "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7",
+      "title": "Site Unavailable",
+      "screening_markers": [
+        "site unavailable"
+      ]
+    },
+    {
+      "source": "cian",
+      "url": "https://kazan.cian.ru/kupit-gotoviy-biznes-tatarstan/",
+      "observed_at": "2026-11-16T16:44:36.446402+00:00",
+      "transport": "ordinary httpx; no auth/proxy/browser impersonation; one request",
+      "http_status": 200,
+      "final_url": "https://kazan.cian.ru/kupit-gotoviy-biznes-tatarstan/",
+      "bytes": 1274321,
+      "sha256": "22b27e303f81bed7544bbfca1f01b74a347fae8bd442c43b03f803eb56505299",
+      "title": "Купить готовый бизнес в республике Татарстан. Найдено 162 объявления.",
+      "screening_markers": [
+        "captcha"
+      ]
+    },
+    {
+      "source": "domclick",
+      "url": "https://kazan.domclick.ru/pokupka/kommercheskaya-nedvizhimost",
+      "observed_at": "2026-11-16T16:44:36.448754+00:00",
+      "transport": "ordinary httpx; no auth/proxy/browser impersonation; one request",
+      "http_status": 401,
+      "final_url": "https://kazan.domclick.ru/pokupka/kommercheskaya-nedvizhimost",
+      "bytes": 279,
+      "sha256": "d9675d1562a3132e944d2304b4787c562c52bc4b990f92a3e016a509b47dfed5",
+      "title": null,
+      "screening_markers": [
+        "qrator"
+      ]
+    }
+  ],
+  "cian_full_pass": {
+    "pages": [
+      {
+        "url": "https://kazan.cian.ru/kupit-gotoviy-biznes-tatarstan/",
+        "fetched_at": "2026-11-16T16:44:36.446402+00:00",
+        "offers": 28,
+        "candidates": 11,
+        "sha256": "22b27e303f81bed7544bbfca1f01b74a347fae8bd442c43b03f803eb56505299"
+      },
+      {
+        "url": "https://kazan.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=offices&office_type%5B0%5D=10&p=2&region=4618",
+        "fetched_at": "2026-11-16T16:46:34.493732+00:00",
+        "offers": 28,
+        "candidates": 15,
+        "sha256": "bf551c9f4a4f34baa982d7a9daaeb1bb00ce0de6f2e1031250c36b1624dcacf0"
+      },
+      {
+        "url": "https://kazan.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=offices&office_type%5B0%5D=10&p=3&region=4618",
+        "fetched_at": "2026-11-16T16:46:51.052489+00:00",
+        "offers": 28,
+        "candidates": 3,
+        "sha256": "878183afef1de079aaa621681e678d11e82964fb0f5f8dd9f8179db6b20801d6"
+      },
+      {
+        "url": "https://kazan.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=offices&office_type%5B0%5D=10&p=4&region=4618",
+        "fetched_at": "2026-11-16T16:47:07.603093+00:00",
+        "offers": 28,
+        "candidates": 2,
+        "sha256": "87f0403f72146b5698529ef7207ca5e7a272d637b148f09fe93d985ebb6088c7"
+      },
+      {
+        "url": "https://kazan.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=offices&office_type%5B0%5D=10&p=5&region=4618",
+        "fetched_at": "2026-11-16T16:47:23.594114+00:00",
+        "offers": 28,
+        "candidates": 2,
+        "sha256": "3c01ac6a4f02381176459b62e90feed64ce94ac8f4505e1ab68bde4c761af493"
+      },
+      {
+        "url": "https://kazan.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=offices&office_type%5B0%5D=10&p=6&region=4618",
+        "fetched_at": "2026-11-16T16:47:39.871261+00:00",
+        "offers": 22,
+        "candidates": 4,
+        "sha256": "725f592a76bd79e2e88b26042940cbc75023f684fdbbcd3777f83f2c747f4a3d"
+      }
+    ],
+    "count": 37,
+    "unique_urls": 37,
+    "complete": true
+  },
+  "extractor_checks": [
+    {
+      "repository": "ergon73/avito-parser",
+      "test": "unmodified AvitoProcessor.process_html on current HTML; transport not executed; import-only logger/model bindings",
+      "items": 0
+    },
+    {
+      "repository": "viffin-ai/Avito-Parts-Parser",
+      "test": "unmodified parse_ads with current HTML; filters for parts/Moscow not executed",
+      "items": 0
+    },
+    {
+      "repository": "eminsk/avito-sdk",
+      "test": "unmodified extraction functions with ordinary current HTML; transport not executed",
+      "states": 0,
+      "items": 0
+    },
+    {
+      "repository": "AntsiferovBogdan/cian",
+      "test": "unmodified parser function, first real card and its actual current detail page; GUI/CSV writes disabled",
+      "catalog_cards_matching_upstream": 28,
+      "detail_url": "https://kazan.cian.ru/sale/commercial/336042680/",
+      "error": "AttributeError: 'NoneType' object has no attribute 'find'"
+    },
+    {
+      "repository": "NoNanoMax/cian-parser",
+      "test": "unmodified parse_list_page on current commercial HTML; SessionManager not executed",
+      "items": 0
+    }
+  ],
+  "github_actions": {
+    "run_id": 43936516565,
+    "url": "https://github.com/maxrubtsoff/InvestScan/actions/runs/43936516565",
+    "selected_source": "cian",
+    "code_commit": "82d5dd360bcc080f509340cfd5e856a4ea145402",
+    "workflow_conclusion": "success",
+    "collection_result": "blocked",
+    "live_count": 0,
+    "catalog_preserved": 515
+  },
+  "goal_complete": false,
+  "repositories": [
+    {
+      "repository": "eminsk/avito-sdk",
+      "url": "https://github.com/eminsk/avito-sdk",
+      "sha": "9699e4a3d6381eb5d2f8d8ca8e345c773063675c",
+      "qualification": "extractor_checked_transport_excluded"
+    },
+    {
+      "repository": "ergon73/avito-parser",
+      "url": "https://github.com/ergon73/avito-parser",
+      "sha": "7eb75a89f601436c26bd65af024253bbbe260c47",
+      "qualification": "extractor_checked_transport_excluded"
+    },
+    {
+      "repository": "NoNanoMax/cian-parser",
+      "url": "https://github.com/NoNanoMax/cian-parser",
+      "sha": "0685717956b0ec9372e7d250a5aa19959290a850",
+      "qualification": "extractor_checked"
+    },
+    {
+      "repository": "AntsiferovBogdan/cian",
+      "url": "https://github.com/AntsiferovBogdan/cian",
+      "sha": "78fe5cd802e0b8bb546930b7b0269a43cad76db8",
+      "qualification": "first_real_card_checked"
+    },
+    {
+      "repository": "mpxx1/domclick-parser-rs",
+      "url": "https://github.com/mpxx1/domclick-parser-rs",
+      "sha": "fb4acd7d6869016246d6b65f49d45141d127772b",
+      "qualification": "reviewed_not_run"
+    },
+    {
+      "repository": "Sirius-2024-AI/parsing_data_DK",
+      "url": "https://github.com/Sirius-2024-AI/parsing_data_DK",
+      "sha": "1e07930bf2b13768db43634d3414cb703dcb690e",
+      "qualification": "reviewed_not_run"
+    },
+    {
+      "repository": "CreatmanCEO/rentscout",
+      "url": "https://github.com/CreatmanCEO/rentscout",
+      "sha": "e125a8bc4cb40c6b10b68b14e92af5c7cba6d4d0",
+      "qualification": "reviewed_wrong_category"
+    },
+    {
+      "repository": "CreatmanCEO/cian-parser-showcase",
+      "url": "https://github.com/CreatmanCEO/cian-parser-showcase",
+      "sha": "bf353507cecc6bca72fb46a48140087053c06dd4",
+      "qualification": "reviewed_no_source_code"
+    },
+    {
+      "repository": "codefather-labs/avito-parser",
+      "url": "https://github.com/codefather-labs/avito-parser",
+      "sha": "2b47aff9ef607bd1999cb6069756603cebce4058",
+      "qualification": "reviewed_wrong_category"
+    },
+    {
+      "repository": "mikepro-alfamail-ru/domclick",
+      "url": "https://github.com/mikepro-alfamail-ru/domclick",
+      "sha": "2a1e1e6d614f9328b408243b5b4eafba4fd18e63",
+      "qualification": "reviewed_not_a_listing_parser"
+    },
+    {
+      "repository": "viffin-ai/Avito-Parts-Parser",
+      "url": "https://github.com/viffin-ai/Avito-Parts-Parser",
+      "sha": "04e289e8579dfcb09bdae6c481511a54b5ee33f7",
+      "qualification": "extractor_checked"
+    }
+  ]
+}

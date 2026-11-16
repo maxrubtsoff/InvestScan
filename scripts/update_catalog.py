@@ -14,7 +14,12 @@ from parsers import avito,cian,domclick,rbn
 from analyzer.photon_geo import geocode as photon_geocode
 from parsers.public_source import SourceUnavailable
 from parsers.exports import InvalidRecord
+from parsers.manual import collect_source
 ROOT=Path(__file__).resolve().parents[1]
+def imports_for(name):
+    yield from collect_source(name)
+    if name=='Авито':yield from avito.native_exports()
+    if name=='Домклик':yield from domclick.native_exports()
 def run():
     (ROOT/'data').mkdir(exist_ok=True);db=Database(ROOT/'data/catalog.sqlite');reports=[]
     previous_path=ROOT/'data/listings.json'
@@ -31,14 +36,16 @@ def run():
         db.db.commit()
     collectors=[('АРР',collect),('Авито',avito.collect),('ЦИАН',cian.collect),('Домклик',domclick.collect),('РБН',rbn.collect)]
     enabled=os.environ.get('INVESTSCAN_SOURCES','all').split(',')
+    imports_only=os.environ.get('INVESTSCAN_IMPORTS_ONLY','0')=='1'
     source_ids={'АРР':'arr','Авито':'avito','ЦИАН':'cian','Домклик':'domclick','РБН':'rbn'}
     for name,collector in collectors:
-        if 'all' not in enabled and source_ids[name] not in enabled:
+        if ('all' not in enabled and source_ids[name] not in enabled) or (imports_only and name not in ('Авито','ЦИАН','Домклик')):
             # A targeted check must not erase another source's known blockage,
             # successful count or snapshot date merely because it wasn't queried.
             report=dict(previous_reports.get(name,dict(name=name,status='cached',count=0,message='Источник ещё не проверялся.')))
             report['checked_this_run']=False;reports.append(report);continue
         count=0;excluded=0;invalid=0;live_count=0;imported_count=0
+        if imports_only:collector=lambda name=name:imports_for(name)
         try:
             for raw in (enrich_coordinates(collector()) if name=='АРР' else collector()):
                 try:
@@ -51,14 +58,18 @@ def run():
                     count+=1
                     if x.get('acquisition_mode') in ('import','snapshot'):imported_count+=1
                     else:live_count+=1
-            reports.append(dict(name=name,excluded_count=excluded,invalid_count=invalid,live_count=live_count,imported_count=imported_count,status='partial' if invalid else 'ok' if live_count else 'imported' if imported_count else 'empty',count=count,message='Публичная общероссийская витрина, вся доступная пагинация (защитный предел 80 страниц). Охват ограничен этим источником. Данные продавцов требуют проверки.' if name=='АРР' else 'Публичная витрина РБН по Казани и окрестностям. Только описания с признаками аренды. Заявленная окупаемость не используется для восстановления МАП.' if name=='РБН' else 'Коммерческая выдача Татарстана; только объявления с признаками арендной модели. Аренда извлекается из явного МАП, не из прибыли бизнеса.' if name=='ЦИАН' else 'Обычный публичный доступ и импорт; без обхода ограничений.'))
+            report=dict(name=name,excluded_count=excluded,invalid_count=invalid,live_count=live_count,imported_count=imported_count,status='partial' if invalid else 'ok' if live_count else 'imported' if imported_count else 'empty',count=count,message='Публичная общероссийская витрина, вся доступная пагинация (защитный предел 80 страниц). Охват ограничен этим источником. Данные продавцов требуют проверки.' if name=='АРР' else 'Публичная витрина РБН по Казани и окрестностям. Только описания с признаками аренды. Заявленная окупаемость не используется для восстановления МАП.' if name=='РБН' else 'Коммерческая выдача Татарстана; только объявления с признаками арендной модели. Аренда извлекается из явного МАП, не из прибыли бизнеса.' if name=='ЦИАН' else 'Обычный публичный доступ и импорт; без обхода ограничений.')
+            if imports_only:
+                prior=previous_reports.get(name,{})
+                report.update(status='partial' if invalid else prior.get('status',report['status']),message=prior.get('message','Импорт датированных данных; источник не запрашивался.'),checked_this_run=False,snapshot_imported_at=now())
+            reports.append(report)
         except Exception as e:
             print(f'{name}: {type(e).__name__}: {e}',file=sys.stderr);reports.append(dict(name=name,excluded_count=excluded,invalid_count=invalid,live_count=live_count,imported_count=imported_count,status='blocked' if isinstance(e,SourceUnavailable) else 'error',count=count,message=str(e)))
     # Revalidate retained records as extraction rules improve, even on source outages.
     rows=[normalize(row) for row in db.all()]
-    if os.environ.get('INVESTSCAN_PHOTON','0')=='1':
+    if not imports_only and os.environ.get('INVESTSCAN_PHOTON','0')=='1':
         rows=photon_geocode(rows,ROOT/'data/photon-cache.json',limit=4)
-    if os.environ.get('INVESTSCAN_GEOCODE','0')=='1':
+    if not imports_only and os.environ.get('INVESTSCAN_GEOCODE','0')=='1':
         rows=geocode(rows,ROOT/'data/geocode-cache.json',limit=10)
     blocked={s['name'] for s in reports if s['status'] in ('blocked','error')}
     for row in rows:

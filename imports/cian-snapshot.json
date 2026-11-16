@@ -1,42 +1,5 @@
 [
   {
-    "district": "Кировский",
-    "settlement": "Казань",
-    "address": "Татарстан Республика, Казань г., Кировский, Богатырева ул., д.15",
-    "price": 55000000,
-    "area": 475.0,
-    "monthly_rent": null,
-    "tenant_name": null,
-    "tenant_type": null,
-    "active_tenant": null,
-    "payments_confirmed": null,
-    "contract": null,
-    "contract_months": null,
-    "indexation": null,
-    "condition": null,
-    "floor": 3,
-    "separate_entrance": null,
-    "wet_point": null,
-    "ventilation": null,
-    "power": null,
-    "repair": null,
-    "communications": null,
-    "legal_clear": null,
-    "traffic": null,
-    "tenant_tenure_months": null,
-    "termination_terms": null,
-    "closure_risk": null,
-    "location_dependency": null,
-    "coordinates": [
-      55.815569,
-      49.047619
-    ],
-    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
-    "geo_accuracy": "building",
-    "published_at": "2026-09-18T14:06:42.58",
-    "transaction_costs": null,
-    "vacancy_months": null,
-    "verification_evidence": null,
     "title": "Готовый бизнес  ·  475 м²  ·  3 этаж",
     "sources": [
       {
@@ -44,56 +7,35 @@
         "url": "https://kazan.cian.ru/sale/commercial/334063128/"
       }
     ],
+    "address": "Татарстан Республика, Казань г., Кировский, Богатырева ул., д.15",
+    "settlement": "Казань",
+    "district": "Кировский",
+    "price": 55000000,
+    "area": 475.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.815569,
+      49.047619
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 3,
     "photos": [
       "https://images.cdn-cian.ru/images/2967819436-4.jpg",
       "https://images.cdn-cian.ru/images/2967819442-4.jpg",
       "https://images.cdn-cian.ru/images/2967819444-4.jpg"
     ],
-    "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
-    "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-    "annual_costs": {},
-    "price_per_sqm": 115789.47368421052,
-    "id": "99f40173ff00a8c1713e",
-    "verification": "review"
-  },
-  {
-    "district": "Советский",
-    "settlement": "Казань",
-    "address": "Россия, Республика Татарстан (Татарстан), Казань, Советский район, посёлок Дербышки, улица Правды, 6",
-    "price": 80000000,
-    "area": 743.6,
-    "monthly_rent": null,
-    "tenant_name": null,
-    "tenant_type": null,
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
     "active_tenant": null,
     "payments_confirmed": null,
     "contract": null,
-    "contract_months": null,
-    "indexation": null,
-    "condition": null,
-    "floor": 1,
-    "separate_entrance": null,
-    "wet_point": null,
-    "ventilation": null,
-    "power": null,
-    "repair": null,
-    "communications": null,
-    "legal_clear": null,
-    "traffic": null,
-    "tenant_tenure_months": null,
-    "termination_terms": null,
-    "closure_risk": null,
-    "location_dependency": null,
-    "coordinates": [
-      55.866935,
-      49.226546
-    ],
-    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
-    "geo_accuracy": "building",
-    "published_at": "2026-09-17T10:48:00.153",
-    "transaction_costs": null,
-    "vacancy_months": null,
-    "verification_evidence": null,
+    "published_at": "2026-09-18T14:06:42.58",
+    "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
     "title": "Готовый бизнес  ·  743,6 м²  ·  1 этаж",
     "sources": [
       {
@@ -101,284 +43,35 @@
         "url": "https://kazan.cian.ru/sale/commercial/334021756/"
       }
     ],
+    "address": "Россия, Республика Татарстан (Татарстан), Казань, Советский район, посёлок Дербышки, улица Правды, 6",
+    "settlement": "Казань",
+    "district": "Советский",
+    "price": 80000000,
+    "area": 743.6,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.866935,
+      49.226546
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
     "photos": [
       "https://images.cdn-cian.ru/images/2991442393-4.jpg",
       "https://images.cdn-cian.ru/images/2991442396-4.jpg",
       "https://images.cdn-cian.ru/images/2993839148-4.jpg"
     ],
-    "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
-    "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-    "annual_costs": {},
-    "price_per_sqm": 107584.72296933836,
-    "id": "ae67433009529243ac6f",
-    "verification": "review"
-  },
-  {
-    "district": null,
-    "settlement": "Большое Афанасово",
-    "address": "Татарстан Республика, Нижнекамский район, Большое Афанасово с., Молодежная ул., д.48а",
-    "price": 120000000,
-    "area": 1000.0,
-    "monthly_rent": null,
-    "tenant_name": null,
-    "tenant_type": null,
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
     "active_tenant": null,
     "payments_confirmed": null,
     "contract": null,
-    "contract_months": null,
-    "indexation": null,
-    "condition": null,
-    "floor": 1,
-    "separate_entrance": null,
-    "wet_point": null,
-    "ventilation": null,
-    "power": null,
-    "repair": null,
-    "communications": null,
-    "legal_clear": null,
-    "traffic": null,
-    "tenant_tenure_months": null,
-    "termination_terms": null,
-    "closure_risk": null,
-    "location_dependency": null,
-    "coordinates": [
-      55.596025,
-      51.784175
-    ],
-    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
-    "geo_accuracy": "building",
-    "published_at": "2026-09-21T12:26:40.363",
-    "transaction_costs": null,
-    "vacancy_months": null,
-    "verification_evidence": null,
-    "title": "Готовый бизнес  ·  1 000 м²  ·  1 этаж",
-    "sources": [
-      {
-        "name": "ЦИАН",
-        "url": "https://kazan.cian.ru/sale/commercial/334117140/"
-      }
-    ],
-    "photos": [
-      "https://images.cdn-cian.ru/images/2969253045-4.jpg",
-      "https://images.cdn-cian.ru/images/2969253069-4.jpg",
-      "https://images.cdn-cian.ru/images/2969253077-4.jpg"
-    ],
-    "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
-    "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-    "annual_costs": {},
-    "price_per_sqm": 120000.0,
-    "id": "6c5ef1fef78090f879fb",
-    "verification": "review"
+    "published_at": "2026-09-17T10:48:00.153",
+    "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
+    "acquisition_mode": "snapshot"
   },
   {
-    "district": "Комсомольский",
-    "settlement": "Набережные Челны",
-    "address": "Россия, Татарстан республика, город Набережные Челны, проспект им Мусы Джалиля, дом 78",
-    "price": 56500000,
-    "area": 1795.7,
-    "monthly_rent": null,
-    "tenant_name": "Пятёрочка",
-    "tenant_type": "Продуктовый магазин",
-    "active_tenant": null,
-    "payments_confirmed": null,
-    "contract": null,
-    "contract_months": null,
-    "indexation": null,
-    "condition": null,
-    "floor": null,
-    "separate_entrance": null,
-    "wet_point": null,
-    "ventilation": null,
-    "power": null,
-    "repair": null,
-    "communications": null,
-    "legal_clear": null,
-    "traffic": null,
-    "tenant_tenure_months": null,
-    "termination_terms": null,
-    "closure_risk": null,
-    "location_dependency": null,
-    "coordinates": [
-      55.694581,
-      52.312762
-    ],
-    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
-    "geo_accuracy": "building",
-    "published_at": "2025-10-29T19:22:16.06",
-    "transaction_costs": null,
-    "vacancy_months": null,
-    "verification_evidence": null,
-    "title": "Арендный бизнес  ·  1 795,7 м²",
-    "sources": [
-      {
-        "name": "ЦИАН",
-        "url": "https://naberezhnye-chelny.cian.ru/sale/commercial/323394401/"
-      }
-    ],
-    "photos": [
-      "https://images.cdn-cian.ru/images/2888834155-4.jpg",
-      "https://images.cdn-cian.ru/images/2888834166-4.jpg",
-      "https://images.cdn-cian.ru/images/2888834170-4.jpg"
-    ],
-    "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
-    "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-    "annual_costs": {},
-    "price_per_sqm": 31464.053015537116,
-    "id": "b9ec3b2d7d125e5391e3",
-    "verification": "review"
-  },
-  {
-    "district": "Центральный",
-    "settlement": "Набережные Челны",
-    "address": "Россия, Татарстан республика, город Набережные Челны, проспект Чулман, дом 32а",
-    "price": 79000000,
-    "area": 1291.6,
-    "monthly_rent": null,
-    "tenant_name": null,
-    "tenant_type": null,
-    "active_tenant": null,
-    "payments_confirmed": null,
-    "contract": null,
-    "contract_months": null,
-    "indexation": null,
-    "condition": null,
-    "floor": null,
-    "separate_entrance": null,
-    "wet_point": null,
-    "ventilation": null,
-    "power": null,
-    "repair": null,
-    "communications": null,
-    "legal_clear": null,
-    "traffic": null,
-    "tenant_tenure_months": null,
-    "termination_terms": null,
-    "closure_risk": null,
-    "location_dependency": null,
-    "coordinates": [
-      55.73514,
-      52.378258
-    ],
-    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
-    "geo_accuracy": "building",
-    "published_at": "2025-10-29T19:53:15.573",
-    "transaction_costs": null,
-    "vacancy_months": null,
-    "verification_evidence": null,
-    "title": "Арендный бизнес  ·  1 291,6 м²",
-    "sources": [
-      {
-        "name": "ЦИАН",
-        "url": "https://naberezhnye-chelny.cian.ru/sale/commercial/323394994/"
-      }
-    ],
-    "photos": [
-      "https://images.cdn-cian.ru/images/2697947451-4.jpg",
-      "https://images.cdn-cian.ru/images/2697948249-4.jpg",
-      "https://images.cdn-cian.ru/images/2697947859-4.jpg"
-    ],
-    "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
-    "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-    "annual_costs": {},
-    "price_per_sqm": 61164.447197274705,
-    "id": "d5cb858024fa3f115c6b",
-    "verification": "review"
-  },
-  {
-    "district": null,
-    "settlement": "Большие Кабаны",
-    "address": "Россия, Республика Татарстан, Лаишевский район, Большекабанское сельское поселение, село Большие Кабаны, Кооперативная улица, 2",
-    "price": 75000000,
-    "area": 408.0,
-    "monthly_rent": null,
-    "tenant_name": null,
-    "tenant_type": null,
-    "active_tenant": null,
-    "payments_confirmed": null,
-    "contract": null,
-    "contract_months": null,
-    "indexation": null,
-    "condition": null,
-    "floor": 1,
-    "separate_entrance": null,
-    "wet_point": null,
-    "ventilation": null,
-    "power": null,
-    "repair": null,
-    "communications": null,
-    "legal_clear": null,
-    "traffic": null,
-    "tenant_tenure_months": null,
-    "termination_terms": null,
-    "closure_risk": null,
-    "location_dependency": null,
-    "coordinates": [
-      55.64984,
-      49.304753
-    ],
-    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
-    "geo_accuracy": "building",
-    "published_at": "2026-09-10T16:13:30.813",
-    "transaction_costs": null,
-    "vacancy_months": null,
-    "verification_evidence": null,
-    "title": "Арендный бизнес  ·  Торговая площадь  ·  408 м²  ·  1 этаж",
-    "sources": [
-      {
-        "name": "ЦИАН",
-        "url": "https://kazan.cian.ru/sale/commercial/333801993/"
-      }
-    ],
-    "photos": [
-      "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354574-4.jpg",
-      "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354580-4.jpg",
-      "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354577-4.jpg"
-    ],
-    "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
-    "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-    "annual_costs": {},
-    "price_per_sqm": 183823.5294117647,
-    "id": "3a9f340fc566ca0ec78a",
-    "verification": "review"
-  },
-  {
-    "district": "Советский",
-    "settlement": "Казань",
-    "address": "Россия, Татарстан республика, город Казань, улица 1-я Азинская, дом 41",
-    "price": 2855000,
-    "area": 15.2,
-    "monthly_rent": null,
-    "tenant_name": null,
-    "tenant_type": null,
-    "active_tenant": null,
-    "payments_confirmed": null,
-    "contract": null,
-    "contract_months": null,
-    "indexation": null,
-    "condition": null,
-    "floor": 1,
-    "separate_entrance": null,
-    "wet_point": null,
-    "ventilation": null,
-    "power": null,
-    "repair": null,
-    "communications": null,
-    "legal_clear": null,
-    "traffic": null,
-    "tenant_tenure_months": null,
-    "termination_terms": null,
-    "closure_risk": null,
-    "location_dependency": null,
-    "coordinates": [
-      55.809393,
-      49.204214
-    ],
-    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
-    "geo_accuracy": "building",
-    "published_at": "2026-10-13T19:37:35.073",
-    "transaction_costs": null,
-    "vacancy_months": null,
-    "verification_evidence": null,
     "title": "Арендный бизнес  ·  15,2 м²  ·  1 этаж",
     "sources": [
       {
@@ -386,56 +79,179 @@
         "url": "https://kazan.cian.ru/sale/commercial/334909473/"
       }
     ],
-    "photos": [
-      "https://images.cdn-cian.ru/images/2985187005-4.jpg",
-      "https://images.cdn-cian.ru/images/2985187027-4.jpg",
-      "https://images.cdn-cian.ru/images/2985187053-4.jpg"
-    ],
-    "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
-    "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-    "annual_costs": {},
-    "price_per_sqm": 187828.94736842107,
-    "id": "ffa82bce64884e79f434",
-    "verification": "review"
-  },
-  {
-    "district": "Советский",
-    "settlement": "Казань",
     "address": "Россия, Татарстан республика, город Казань, улица 1-я Азинская, дом 41",
-    "price": 2800000,
-    "area": 19.0,
+    "settlement": "Казань",
+    "district": "Советский",
+    "price": 2855000,
+    "area": 15.2,
     "monthly_rent": null,
     "tenant_name": null,
     "tenant_type": null,
-    "active_tenant": null,
-    "payments_confirmed": null,
-    "contract": null,
-    "contract_months": null,
-    "indexation": null,
-    "condition": null,
-    "floor": 1,
-    "separate_entrance": null,
-    "wet_point": null,
-    "ventilation": null,
-    "power": null,
-    "repair": null,
-    "communications": null,
-    "legal_clear": null,
-    "traffic": null,
-    "tenant_tenure_months": null,
-    "termination_terms": null,
-    "closure_risk": null,
-    "location_dependency": null,
     "coordinates": [
       55.809393,
       49.204214
     ],
     "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
     "geo_accuracy": "building",
-    "published_at": "2026-10-13T19:37:38.847",
-    "transaction_costs": null,
-    "vacancy_months": null,
-    "verification_evidence": null,
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2985187005-4.jpg",
+      "https://images.cdn-cian.ru/images/2985187027-4.jpg",
+      "https://images.cdn-cian.ru/images/2985187053-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-10-13T19:37:35.073",
+    "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Арендный бизнес  ·  1 795,7 м²",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://naberezhnye-chelny.cian.ru/sale/commercial/323394401/"
+      }
+    ],
+    "address": "Россия, Татарстан республика, город Набережные Челны, проспект им Мусы Джалиля, дом 78",
+    "settlement": "Набережные Челны",
+    "district": "Комсомольский",
+    "price": 56500000,
+    "area": 1795.7,
+    "monthly_rent": null,
+    "tenant_name": "Пятёрочка",
+    "tenant_type": "Продуктовый магазин",
+    "coordinates": [
+      55.694581,
+      52.312762
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": null,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2888834155-4.jpg",
+      "https://images.cdn-cian.ru/images/2888834166-4.jpg",
+      "https://images.cdn-cian.ru/images/2888834170-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2025-10-29T19:22:16.06",
+    "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Арендный бизнес  ·  Торговая площадь  ·  408 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/333801993/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан, Лаишевский район, Большекабанское сельское поселение, село Большие Кабаны, Кооперативная улица, 2",
+    "settlement": "Большие Кабаны",
+    "district": null,
+    "price": 75000000,
+    "area": 408.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.64984,
+      49.304753
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354574-4.jpg",
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354580-4.jpg",
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354577-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-09-10T16:13:30.813",
+    "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  1 000 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/334117140/"
+      }
+    ],
+    "address": "Татарстан Республика, Нижнекамский район, Большое Афанасово с., Молодежная ул., д.48а",
+    "settlement": "Большое Афанасово",
+    "district": null,
+    "price": 120000000,
+    "area": 1000.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.596025,
+      51.784175
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2969253045-4.jpg",
+      "https://images.cdn-cian.ru/images/2969253069-4.jpg",
+      "https://images.cdn-cian.ru/images/2969253077-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-09-21T12:26:40.363",
+    "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Арендный бизнес  ·  1 291,6 м²",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://naberezhnye-chelny.cian.ru/sale/commercial/323394994/"
+      }
+    ],
+    "address": "Россия, Татарстан республика, город Набережные Челны, проспект Чулман, дом 32а",
+    "settlement": "Набережные Челны",
+    "district": "Центральный",
+    "price": 79000000,
+    "area": 1291.6,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.73514,
+      52.378258
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": null,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2697947451-4.jpg",
+      "https://images.cdn-cian.ru/images/2697948249-4.jpg",
+      "https://images.cdn-cian.ru/images/2697947859-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2025-10-29T19:53:15.573",
+    "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
     "title": "Арендный бизнес  ·  19 м²  ·  1 этаж",
     "sources": [
       {
@@ -443,56 +259,35 @@
         "url": "https://kazan.cian.ru/sale/commercial/334909476/"
       }
     ],
+    "address": "Россия, Татарстан республика, город Казань, улица 1-я Азинская, дом 41",
+    "settlement": "Казань",
+    "district": "Советский",
+    "price": 2800000,
+    "area": 19.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.809393,
+      49.204214
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
     "photos": [
       "https://images.cdn-cian.ru/images/2985187145-4.jpg",
       "https://images.cdn-cian.ru/images/2985187179-4.jpg",
       "https://images.cdn-cian.ru/images/2985187191-4.jpg"
     ],
-    "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
-    "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-    "annual_costs": {},
-    "price_per_sqm": 147368.42105263157,
-    "id": "c5a5c0c51638722cbb27",
-    "verification": "review"
-  },
-  {
-    "district": null,
-    "settlement": "Альметьевск",
-    "address": "Россия, Республика Татарстан (Татарстан), Альметьевский район, Альметьевск, Монтажная улица, 3",
-    "price": 114000000,
-    "area": 31000.0,
-    "monthly_rent": null,
-    "tenant_name": null,
-    "tenant_type": null,
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
     "active_tenant": null,
     "payments_confirmed": null,
     "contract": null,
-    "contract_months": null,
-    "indexation": null,
-    "condition": null,
-    "floor": 1,
-    "separate_entrance": null,
-    "wet_point": null,
-    "ventilation": null,
-    "power": null,
-    "repair": null,
-    "communications": null,
-    "legal_clear": null,
-    "traffic": null,
-    "tenant_tenure_months": null,
-    "termination_terms": null,
-    "closure_risk": null,
-    "location_dependency": null,
-    "coordinates": [
-      54.88848,
-      52.2838
-    ],
-    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
-    "geo_accuracy": "building",
-    "published_at": "2026-11-13T11:16:15.343",
-    "transaction_costs": null,
-    "vacancy_months": null,
-    "verification_evidence": null,
+    "published_at": "2026-10-13T19:37:38.847",
+    "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
     "title": "Готовый бизнес  ·  31 000 м²  ·  1 этаж",
     "sources": [
       {
@@ -500,113 +295,35 @@
         "url": "https://kazan.cian.ru/sale/commercial/336270509/"
       }
     ],
+    "address": "Россия, Республика Татарстан (Татарстан), Альметьевский район, Альметьевск, Монтажная улица, 3",
+    "settlement": "Альметьевск",
+    "district": null,
+    "price": 114000000,
+    "area": 31000.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      54.88848,
+      52.2838
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
     "photos": [
       "https://images.cdn-cian.ru/images/3015753967-4.jpg",
       "https://images.cdn-cian.ru/images/3015753971-4.jpg",
       "https://images.cdn-cian.ru/images/3015753977-4.jpg"
     ],
-    "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
-    "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-    "annual_costs": {},
-    "price_per_sqm": 3677.4193548387098,
-    "id": "c12976f1878014780c92",
-    "verification": "review"
-  },
-  {
-    "district": "Вахитовский",
-    "settlement": "Казань",
-    "address": "Республика Татарстан, Казань г., Нурсултана Назарбаева ул., 12в",
-    "price": 27000000,
-    "area": 150.0,
-    "monthly_rent": 150000.0,
-    "tenant_name": null,
-    "tenant_type": null,
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
     "active_tenant": null,
     "payments_confirmed": null,
     "contract": null,
-    "contract_months": null,
-    "indexation": null,
-    "condition": null,
-    "floor": -1,
-    "separate_entrance": null,
-    "wet_point": null,
-    "ventilation": null,
-    "power": null,
-    "repair": null,
-    "communications": null,
-    "legal_clear": null,
-    "traffic": null,
-    "tenant_tenure_months": null,
-    "termination_terms": null,
-    "closure_risk": null,
-    "location_dependency": null,
-    "coordinates": [
-      55.775439,
-      49.140748
-    ],
-    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
-    "geo_accuracy": "building",
-    "published_at": "2026-11-13T12:39:41.743",
-    "transaction_costs": null,
-    "vacancy_months": null,
-    "verification_evidence": null,
-    "title": "Арендный бизнес  ·  Свободное назначение  ·  150 м²  ·  полуподвал",
-    "sources": [
-      {
-        "name": "ЦИАН",
-        "url": "https://kazan.cian.ru/sale/commercial/336276170/"
-      }
-    ],
-    "photos": [
-      "https://images.cdn-cian.ru/images/3015861707-4.jpg",
-      "https://images.cdn-cian.ru/images/3015861720-4.jpg",
-      "https://images.cdn-cian.ru/images/3015861736-4.jpg"
-    ],
-    "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
-    "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-    "annual_costs": {},
-    "price_per_sqm": 180000.0,
-    "id": "b5acbac93551a0e79c66",
-    "verification": "review"
+    "published_at": "2026-11-13T11:16:15.343",
+    "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
+    "acquisition_mode": "snapshot"
   },
   {
-    "district": "Московский",
-    "settlement": "Казань",
-    "address": "Республика Татарстан, Казань городской округ, Казань, Ямашева пр-кт, 11",
-    "price": 159000000,
-    "area": 829.9,
-    "monthly_rent": null,
-    "tenant_name": null,
-    "tenant_type": null,
-    "active_tenant": null,
-    "payments_confirmed": null,
-    "contract": null,
-    "contract_months": null,
-    "indexation": null,
-    "condition": null,
-    "floor": 1,
-    "separate_entrance": null,
-    "wet_point": null,
-    "ventilation": null,
-    "power": null,
-    "repair": null,
-    "communications": null,
-    "legal_clear": null,
-    "traffic": null,
-    "tenant_tenure_months": null,
-    "termination_terms": null,
-    "closure_risk": null,
-    "location_dependency": null,
-    "coordinates": [
-      55.826286,
-      49.096128
-    ],
-    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
-    "geo_accuracy": "building",
-    "published_at": "2026-07-05T14:32:03.093",
-    "transaction_costs": null,
-    "vacancy_months": null,
-    "verification_evidence": null,
     "title": "Готовый бизнес  ·  829,9 м²  ·  1 этаж",
     "sources": [
       {
@@ -614,16 +331,995 @@
         "url": "https://kazan.cian.ru/sale/commercial/331706252/"
       }
     ],
+    "address": "Республика Татарстан, Казань городской округ, Казань, Ямашева пр-кт, 11",
+    "settlement": "Казань",
+    "district": "Московский",
+    "price": 159000000,
+    "area": 829.9,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.826286,
+      49.096128
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
     "photos": [
       "https://images.cdn-cian.ru/images/2916116167-4.jpg",
       "https://images.cdn-cian.ru/images/2916116163-4.jpg",
       "https://images.cdn-cian.ru/images/2916116158-4.jpg"
     ],
-    "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
-    "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-    "annual_costs": {},
-    "price_per_sqm": 191589.34811423064,
-    "id": "36e6a4dcabf3d9623162",
-    "verification": "review"
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-07-05T14:32:03.093",
+    "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  567 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/324748503/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан (Татарстан), Казань, улица Адоратского, 38Д",
+    "settlement": "Казань",
+    "district": "Ново-Савиновский",
+    "price": 52000000,
+    "area": 567.0,
+    "monthly_rent": null,
+    "tenant_name": "Чижик",
+    "tenant_type": "Продуктовый магазин",
+    "coordinates": [
+      55.840775,
+      49.150279
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2726703282-4.jpg",
+      "https://images.cdn-cian.ru/images/2726703294-4.jpg",
+      "https://images.cdn-cian.ru/images/2726703275-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2025-12-05T17:49:40.97",
+    "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  348 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/329690298/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан (Татарстан), Казань, улица Сафиуллина, 48А",
+    "settlement": "Казань",
+    "district": "Приволжский",
+    "price": 59500000,
+    "area": 348.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.74564,
+      49.229447
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2871842676-4.jpg",
+      "https://images.cdn-cian.ru/images/2871842683-4.jpg",
+      "https://images.cdn-cian.ru/images/2871842688-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-05-05T12:14:04.863",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Арендный бизнес  ·  Свободное назначение  ·  150 м²  ·  полуподвал",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/336276170/"
+      }
+    ],
+    "address": "Республика Татарстан, Казань г., Нурсултана Назарбаева ул., 12в",
+    "settlement": "Казань",
+    "district": "Вахитовский",
+    "price": 27000000,
+    "area": 150.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.775439,
+      49.140748
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": -1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/3015861707-4.jpg",
+      "https://images.cdn-cian.ru/images/3015861720-4.jpg",
+      "https://images.cdn-cian.ru/images/3015861736-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-11-13T12:39:41.743",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  18,1 м²  ·  3 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/333120374/"
+      }
+    ],
+    "address": "Татарстан Республика, Казань г., Вахитовский, Овражная ул., д.52",
+    "settlement": "Казань",
+    "district": "Вахитовский",
+    "price": 6200000,
+    "area": 18.1,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.787093,
+      49.13975
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 3,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2947504793-4.jpg",
+      "https://images.cdn-cian.ru/images/2947504795-4.jpg",
+      "https://images.cdn-cian.ru/images/2947504805-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-08-20T11:40:33.703",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  30,1 м²  ·  3 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/333120367/"
+      }
+    ],
+    "address": "Татарстан Республика, Казань г., Вахитовский, Овражная ул., д.52",
+    "settlement": "Казань",
+    "district": "Вахитовский",
+    "price": 9500000,
+    "area": 30.1,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.787093,
+      49.13975
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 3,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2947504651-4.jpg",
+      "https://images.cdn-cian.ru/images/2947504654-4.jpg",
+      "https://images.cdn-cian.ru/images/2947504667-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-08-20T11:40:23.837",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  21,1 м²  ·  2 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/334227380/"
+      }
+    ],
+    "address": "Татарстан Республика, Казань г., Приволжский, Роторная ул., д.1, к.а",
+    "settlement": "Казань",
+    "district": "Приволжский",
+    "price": 9073000,
+    "area": 21.1,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.764455,
+      49.153701
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 2,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2971766834-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-09-24T14:17:08.027",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  Гостиница  ·  15 м²  ·  2 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/328030667/"
+      }
+    ],
+    "address": "Татарстан Республика, Казань г., Приволжский, Роторная ул., д.1, к.а",
+    "settlement": "Казань",
+    "district": "Приволжский",
+    "price": 4400000,
+    "area": 15.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.764455,
+      49.153701
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 2,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2834090651-4.jpg",
+      "https://images.cdn-cian.ru/images/2834090637-4.jpg",
+      "https://images.cdn-cian.ru/images/2834090666-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-03-20T17:25:53.173",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  375,2 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/324738096/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан (Татарстан), Казань, улица Айдарова, 18А",
+    "settlement": "Казань",
+    "district": "Авиастроительный",
+    "price": 34600000,
+    "area": 375.2,
+    "monthly_rent": 286500.0,
+    "tenant_name": "Чижик",
+    "tenant_type": "Продуктовый магазин",
+    "coordinates": [
+      55.870471,
+      49.079887
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2726436682-4.jpg",
+      "https://images.cdn-cian.ru/images/2726436689-4.jpg",
+      "https://images.cdn-cian.ru/images/2726436695-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2025-12-05T14:38:25.663",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  339 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/323225809/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан (Татарстан), Казань, улица Юлиуса Фучика, 58А",
+    "settlement": "Казань",
+    "district": "Приволжский",
+    "price": 62000000,
+    "area": 339.0,
+    "monthly_rent": null,
+    "tenant_name": "Пятерочка",
+    "tenant_type": "Продуктовый магазин",
+    "coordinates": [
+      55.753504,
+      49.233301
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2677341136-4.jpg",
+      "https://images.cdn-cian.ru/images/2677341160-4.jpg",
+      "https://images.cdn-cian.ru/images/2677341222-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2025-10-24T12:08:19.64",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  479,5 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/326776751/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан (Татарстан), Казань, улица Юлиуса Фучика, 141Б",
+    "settlement": "Казань",
+    "district": "Советский",
+    "price": 64700000,
+    "area": 479.5,
+    "monthly_rent": null,
+    "tenant_name": "Пятерочка",
+    "tenant_type": "Продуктовый магазин",
+    "coordinates": [
+      55.770071,
+      49.229304
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2803192049-4.jpg",
+      "https://images.cdn-cian.ru/images/2803192053-4.jpg",
+      "https://images.cdn-cian.ru/images/2803192080-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-02-12T15:35:36.69",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  25,6 м²  ·  2 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/334227373/"
+      }
+    ],
+    "address": "Татарстан Республика, Казань г., Приволжский, Роторная ул., д.1, к.а",
+    "settlement": "Казань",
+    "district": "Приволжский",
+    "price": 11008000,
+    "area": 25.6,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.764455,
+      49.153701
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 2,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2971766718-4.jpg",
+      "https://images.cdn-cian.ru/images/2971766744-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-09-24T14:17:03.24",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  Гостиница  ·  14,2 м²  ·  3 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/334227375/"
+      }
+    ],
+    "address": "Татарстан Республика, Казань г., Приволжский, Роторная ул., д.1, к.а",
+    "settlement": "Казань",
+    "district": "Приволжский",
+    "price": 6106000,
+    "area": 14.2,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.764455,
+      49.153701
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 3,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2971766773-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-09-24T14:17:05.28",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  380 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/323261015/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан (Татарстан), Казань, улица Кул Гали, 14А",
+    "settlement": "Казань",
+    "district": "Приволжский",
+    "price": 47000000,
+    "area": 380.0,
+    "monthly_rent": null,
+    "tenant_name": "Пятерочка",
+    "tenant_type": "Продуктовый магазин",
+    "coordinates": [
+      55.749066,
+      49.231388
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2678438620-4.jpg",
+      "https://images.cdn-cian.ru/images/2678438630-4.jpg",
+      "https://images.cdn-cian.ru/images/2678438637-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2025-10-25T11:58:23.83",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  Гостиница  ·  13,1 м²  ·  4 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/331446660/"
+      }
+    ],
+    "address": "Татарстан Республика, Казань г., Вахитовский, Лево-Булачная ул., д.24/20",
+    "settlement": "Казань",
+    "district": "Вахитовский",
+    "price": 8082000,
+    "area": 13.1,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.791486,
+      49.107483
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 4,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2910292996-4.jpg",
+      "https://images.cdn-cian.ru/images/2910292860-4.jpg",
+      "https://images.cdn-cian.ru/images/2910292864-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-06-26T20:38:43.257",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  12 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/332563642/"
+      }
+    ],
+    "address": "Татарстан Республика, Казань г., Ново-Савиновский, Адоратского ул., д.8, к.б",
+    "settlement": "Казань",
+    "district": "Ново-Савиновский",
+    "price": 3240000,
+    "area": 12.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.829992,
+      49.149434
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2935717682-4.jpg",
+      "https://images.cdn-cian.ru/images/2935717697-4.jpg",
+      "https://images.cdn-cian.ru/images/2935717706-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-08-03T11:08:38.34",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Арендный бизнес  ·  Арендный бизнес  ·  32,4 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/334067484/"
+      }
+    ],
+    "address": "Татарстан Республика, Казань г., Приволжский, Роторная ул., д.1, к.а",
+    "settlement": "Казань",
+    "district": "Приволжский",
+    "price": 13932000,
+    "area": 32.4,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.764455,
+      49.153701
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2967889417-4.jpg",
+      "https://images.cdn-cian.ru/images/2967889440-4.jpg",
+      "https://images.cdn-cian.ru/images/2967889434-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-09-18T15:44:21.6",
+    "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  Аптека  ·  42,6 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://naberezhnye-chelny.cian.ru/sale/commercial/336403143/"
+      }
+    ],
+    "address": "Татарстан,, Набережные Челны, проспект Вахитова,дом 46/93",
+    "settlement": "Набережные Челны",
+    "district": "Автозаводский",
+    "price": 8100000,
+    "area": 42.6,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.757506,
+      52.407013
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/3018446553-4.jpg",
+      "https://images.cdn-cian.ru/images/3018446560-4.jpg",
+      "https://images.cdn-cian.ru/images/3018446574-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-11-16T13:48:11.067",
+    "source_fetched_at": "2026-11-16T16:46:51.052489+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Арендный бизнес  ·  Свободное назначение  ·  530 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/326218810/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан, Лаишевский район, село Сокуры, улица Державина, 29",
+    "settlement": "Сокуры",
+    "district": null,
+    "price": 72000000,
+    "area": 530.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.616986,
+      49.402166
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-sokury-ulica-derzhavina-2785404566-4.jpg",
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-sokury-ulica-derzhavina-2785404921-4.jpg",
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-sokury-ulica-derzhavina-2785405189-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-01-27T10:16:16.803",
+    "source_fetched_at": "2026-11-16T16:46:51.052489+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Арендный бизнес  ·  Свободное назначение  ·  530 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/318369659/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан, Лаишевский район, село Сокуры, улица Державина, 29",
+    "settlement": "Сокуры",
+    "district": null,
+    "price": 110000000,
+    "area": 530.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.616986,
+      49.402166
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-sokury-ulica-derzhavina-2512414935-4.jpg",
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-sokury-ulica-derzhavina-2512395693-4.jpg",
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-sokury-ulica-derzhavina-2512395621-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2025-06-04T11:41:01.943",
+    "source_fetched_at": "2026-11-16T16:46:51.052489+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Арендный бизнес  ·  13 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/336032433/"
+      }
+    ],
+    "address": "Россия, Татарстан республика, город Казань, улица 1-я Азинская, дом 41",
+    "settlement": "Казань",
+    "district": "Советский",
+    "price": 2900000,
+    "area": 13.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.809393,
+      49.204214
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/3011118039-4.jpg",
+      "https://images.cdn-cian.ru/images/3011118040-4.jpg",
+      "https://images.cdn-cian.ru/images/3011118041-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-11-09T07:38:54.893",
+    "source_fetched_at": "2026-11-16T16:47:07.603093+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Арендный бизнес  ·  16,7 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/335141503/"
+      }
+    ],
+    "address": "Россия, Татарстан республика, город Казань, улица Спортивная, дом 33",
+    "settlement": "Казань",
+    "district": "Советский",
+    "price": 2900000,
+    "area": 16.7,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.788368,
+      49.174497
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2993628966-4.jpg",
+      "https://images.cdn-cian.ru/images/2993115317-4.jpg",
+      "https://images.cdn-cian.ru/images/2989941197-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-10-20T20:14:01.89",
+    "source_fetched_at": "2026-11-16T16:47:07.603093+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  128 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/333976210/"
+      }
+    ],
+    "address": "Татарстан Республика, Казань г., Московский, Шамиля Усманова ул., д.35",
+    "settlement": "Казань",
+    "district": "Московский",
+    "price": 25000000,
+    "area": 128.0,
+    "monthly_rent": null,
+    "tenant_name": "Улыбка радуги",
+    "tenant_type": "Сервис",
+    "coordinates": [
+      55.831671,
+      49.062953
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2966025801-4.jpg",
+      "https://images.cdn-cian.ru/images/2966025803-4.jpg",
+      "https://images.cdn-cian.ru/images/2966025810-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-09-16T10:12:38.417",
+    "source_fetched_at": "2026-11-16T16:47:23.594114+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  Медицинский центр  ·  170 м²  ·  2 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/335111183/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан, Казань, улица Карбышева, 50",
+    "settlement": "Казань",
+    "district": "Советский",
+    "price": 40000000,
+    "area": 170.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.759162,
+      49.177614
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 2,
+    "photos": [
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-ulica-karbysheva-2989779379-4.jpg",
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-ulica-karbysheva-2993546370-4.jpg",
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-ulica-karbysheva-2989180517-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-10-20T08:27:23.987",
+    "source_fetched_at": "2026-11-16T16:47:23.594114+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Арендный бизнес  ·  13 м²  ·  1 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/335141502/"
+      }
+    ],
+    "address": "Россия, Татарстан республика, город Казань, улица 1-я Азинская, дом 41",
+    "settlement": "Казань",
+    "district": "Советский",
+    "price": 2855000,
+    "area": 13.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.809393,
+      49.204214
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/2989828617-4.jpg",
+      "https://images.cdn-cian.ru/images/2989828621-4.jpg",
+      "https://images.cdn-cian.ru/images/2989828639-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-10-20T20:14:00.773",
+    "source_fetched_at": "2026-11-16T16:47:39.871261+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Готовый бизнес  ·  Стройматериалы  ·  3 620 м²",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/321339911/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан, Бугульма, Советская улица, 142",
+    "settlement": "Бугульма",
+    "district": null,
+    "price": 35000000,
+    "area": 3620.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      54.525995,
+      52.82013
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": null,
+    "photos": [],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2025-08-31T14:31:20.697",
+    "source_fetched_at": "2026-11-16T16:47:39.871261+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Арендный бизнес  ·  Склад  ·  101,2 м²  ·  полуподвал",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/334500768/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан, Казань, Стадионная улица, 1",
+    "settlement": "Казань",
+    "district": "Советский",
+    "price": 9500000,
+    "area": 101.2,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.870587,
+      49.231343
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": -1,
+    "photos": [
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-stadionnaya-ulica-2977118535-4.jpg",
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-stadionnaya-ulica-2977127850-4.jpg",
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-stadionnaya-ulica-2977120364-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2026-10-02T10:23:53.003",
+    "source_fetched_at": "2026-11-16T16:47:39.871261+00:00",
+    "acquisition_mode": "snapshot"
+  },
+  {
+    "title": "Арендный бизнес  ·  Торговая площадь  ·  380 м²  ·  2 этаж",
+    "sources": [
+      {
+        "name": "ЦИАН",
+        "url": "https://kazan.cian.ru/sale/commercial/321114179/"
+      }
+    ],
+    "address": "Россия, Республика Татарстан, Казань, улица Фрунзе, 5",
+    "settlement": "Казань",
+    "district": "Кировский",
+    "price": 36000000,
+    "area": 380.0,
+    "monthly_rent": null,
+    "tenant_name": null,
+    "tenant_type": null,
+    "coordinates": [
+      55.824066,
+      49.046442
+    ],
+    "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+    "geo_accuracy": "building",
+    "floor": 2,
+    "photos": [
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-ulica-frunze-2605372218-4.jpg",
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-ulica-frunze-2605372210-4.jpg",
+      "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-ulica-frunze-2605371764-4.jpg"
+    ],
+    "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+    "active_tenant": null,
+    "payments_confirmed": null,
+    "contract": null,
+    "published_at": "2025-08-25T02:51:34.473",
+    "source_fetched_at": "2026-11-16T16:47:39.871261+00:00",
+    "acquisition_mode": "snapshot"
   }
 ]

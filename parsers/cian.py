@@ -7,15 +7,20 @@ from bs4 import BeautifulSoup
 from parsers.public_source import PublicSource
 from parsers.rental_fields import rental_candidate,rent_claim,tenant_claim
 from parsers.manual import collect_source
+from parsers.exports import converted
 SEED='https://kazan.cian.ru/kupit-gotoviy-biznes-tatarstan/'
 def offers_from_html(html):
  soup=BeautifulSoup(html,'html.parser');found=[]
  for script in soup.select('script'):
   text=script.string or script.get_text()
   if 'legacy-commercial-serp-frontend' not in text or '.concat(' not in text:continue
-  data=json.JSONDecoder().raw_decode(text.split('.concat(',1)[1])[0]
+  try:data=json.JSONDecoder().raw_decode(text.split('.concat(',1)[1])[0]
+  except (ValueError,TypeError):continue
+  if not isinstance(data,list):continue
   for entry in data:
-   if entry.get('key')=='initialState':found.extend(entry.get('value',{}).get('results',{}).get('offers',[]))
+   if not isinstance(entry,dict) or entry.get('key')!='initialState':continue
+   state=entry.get('value');results=state.get('results') if isinstance(state,dict) else None
+   if isinstance(results,dict) and isinstance(results.get('offers'),list):found.extend(results['offers'])
  return found
 
 def convert(o):
@@ -41,10 +46,9 @@ def collect():
   if not url or url in seen:break
   seen.add(url);html=client.get(url);offers=offers_from_html(html)
   if not offers:raise RuntimeError('ЦИАН: не найдена структура коммерческой выдачи; прежние записи сохранены')
-  for offer in offers:
-   row=convert(offer)
-   if row:yield row
+  yield from converted(offers,convert)
   page=int(parse_qs(urlsplit(url).query).get('p',['1'])[0]);url=None
   for a in BeautifulSoup(html,'html.parser').select('a[href]'):
    candidate=urljoin(SEED,a['href']);q=parse_qs(urlsplit(candidate).query)
-   if q.get('p')==[str(page+1)] and (urlsplit(candidate).hostname or '').endswith('.cian.ru'):url=candidate;break
+   if q.get('p')==[str(page+1)] and urlsplit(candidate).hostname==urlsplit(SEED).hostname and q.get('deal_type')==['sale'] and q.get('offer_type')==['offices'] and q.get('office_type[0]')==['10'] and q.get('region')==['4618']:url=candidate;break
+ if url and url not in seen:raise RuntimeError('ЦИАН: достигнут предел 12 страниц; охват неполный')
