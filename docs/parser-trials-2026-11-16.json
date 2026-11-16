@@ -13,9 +13,10 @@
       "bytes": 195,
       "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7",
       "title": "Site Unavailable",
-      "screening_markers": [
+      "keyword_hits_not_a_block_verdict": [
         "site unavailable"
-      ]
+      ],
+      "result": "source_unavailable"
     },
     {
       "source": "cian",
@@ -27,9 +28,10 @@
       "bytes": 1274321,
       "sha256": "22b27e303f81bed7544bbfca1f01b74a347fae8bd442c43b03f803eb56505299",
       "title": "Купить готовый бизнес в республике Татарстан. Найдено 162 объявления.",
-      "screening_markers": [
+      "keyword_hits_not_a_block_verdict": [
         "captcha"
-      ]
+      ],
+      "result": "real_commercial_catalog"
     },
     {
       "source": "domclick",
@@ -41,9 +43,10 @@
       "bytes": 279,
       "sha256": "d9675d1562a3132e944d2304b4787c562c52bc4b990f92a3e016a509b47dfed5",
       "title": null,
-      "screening_markers": [
+      "keyword_hits_not_a_block_verdict": [
         "qrator"
-      ]
+      ],
+      "result": "protective_response"
     }
   ],
   "cian_full_pass": {
@@ -203,5 +206,19 @@
       "sha": "04e289e8579dfcb09bdae6c481511a54b5ee33f7",
       "qualification": "extractor_checked"
     }
-  ]
+  ],
+  "publication": {
+    "code_commit": "1683dd57186a79e3ebd1283df5628c16593a8c17",
+    "python_tests": 121,
+    "javascript_tests": 16,
+    "import_run_id": 43939175887,
+    "import_run_url": "https://github.com/maxrubtsoff/InvestScan/actions/runs/43939175887",
+    "import_only": true,
+    "catalog_records": 516,
+    "missing_snapshot_urls": [],
+    "source_status": "blocked",
+    "live_count": 0,
+    "imported_count": 37,
+    "broker_review": "accepted saved-data processing; daily collection not established"
+  }
 }
