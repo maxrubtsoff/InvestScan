@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T19:10:58.530036+00:00",
+  "generated_at": "2026-11-16T19:25:38.371811+00:00",
   "listings": [
     {
       "district": null,
@@ -2256,9 +2256,25 @@
         "https://images.cdn-cian.ru/images/gotovyy-biznes-sokury-ulica-derzhavina-2785404921-4.jpg",
         "https://images.cdn-cian.ru/images/gotovyy-biznes-sokury-ulica-derzhavina-2785405189-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:51.052489+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "b56ccf530cb704e23d6d5b19a68604c9f868a489e54f62457e23b3cad70c32eb",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/326218810/",
+          "value": 72000000
+        },
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/318369659/",
+          "value": 110000000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
-      "price_per_sqm": 135849.05660377358,
+      "price_conflict": true,
+      "price_per_sqm": null,
       "id": "0609421cb3c54485dcf5",
       "verification": "review",
       "distance_km": 27.21,
@@ -2269,7 +2285,8 @@
         "payback_years": null,
         "net_yield": null,
         "net_payback_years": null,
-        "scenarios": []
+        "scenarios": [],
+        "calculation_note": "В источнике противоречивые цены. Доходность и окупаемость не рассчитываются до уточнения цены."
       },
       "score": 16,
       "score_breakdown": [
@@ -2337,6 +2354,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:47.981781+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:38.073213+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:47.981781+00:00",
@@ -2346,7 +2365,6 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:48.045294+00:00",
       "source_observations": [
         {
           "sources": [
@@ -2357,13 +2375,14 @@
           ],
           "price": 110000000,
           "monthly_rent": null,
-          "last_seen": null
+          "price_claims": [],
+          "acquisition_mode": "snapshot",
+          "import_fingerprint": "d02f9f79709a9c7b08542d5cd0731c64d9e940c42b68ca4fe82d1f06297689c5",
+          "observed_at": "2026-11-16T16:46:51.052489+00:00"
         }
       ],
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:48.045294+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "last_seen": "2026-11-16T16:46:51.052489+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -8681,8 +8700,19 @@
         "https://images.cdn-cian.ru/images/2910292860-4.jpg",
         "https://images.cdn-cian.ru/images/2910292864-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "430b70545c13da5a5093c66ccb2e9970c6a066d1f49e06c073297d136d82214b",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/331446660/",
+          "value": 8082000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 616946.5648854962,
       "id": "178f382bb859cf403f57",
       "verification": "review",
@@ -8762,6 +8792,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.823475+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.989444+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.823475+00:00",
@@ -8771,11 +8803,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.823475+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.823475+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -9510,9 +9540,25 @@
         "https://images.cdn-cian.ru/images/3011118040-4.jpg",
         "https://images.cdn-cian.ru/images/3011118041-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:47:07.603093+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "a432f1d0a63c11b7e919522331c6048596369ae792fef36e63af4c1a5d8fe91f",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/336032433/",
+          "value": 2900000
+        },
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/335141502/",
+          "value": 2855000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
-      "price_per_sqm": 223076.92307692306,
+      "price_conflict": true,
+      "price_per_sqm": null,
       "id": "1a8f42469b0ccf31174c",
       "verification": "review",
       "distance_km": 6.29,
@@ -9523,7 +9569,8 @@
         "payback_years": null,
         "net_yield": null,
         "net_payback_years": null,
-        "scenarios": []
+        "scenarios": [],
+        "calculation_note": "В источнике противоречивые цены. Доходность и окупаемость не рассчитываются до уточнения цены."
       },
       "score": 16,
       "score_breakdown": [
@@ -9591,6 +9638,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:59.530982+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:38.121903+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:59.530982+00:00",
@@ -9600,7 +9649,6 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:52:23.017924+00:00",
       "source_observations": [
         {
           "sources": [
@@ -9611,13 +9659,14 @@
           ],
           "price": 2855000,
           "monthly_rent": null,
-          "last_seen": null
+          "price_claims": [],
+          "acquisition_mode": "snapshot",
+          "import_fingerprint": "89e7a89f09256dfcee3d14b3ba8b3d428e43955ed1286b5a02023245250f8a3b",
+          "observed_at": "2026-11-16T16:47:39.871261+00:00"
         }
       ],
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:52:23.017924+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "last_seen": "2026-11-16T16:47:07.603093+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -20156,11 +20205,9 @@
         "https://images.cdn-cian.ru/images/2916116163-4.jpg",
         "https://images.cdn-cian.ru/images/2916116158-4.jpg"
       ],
-      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-      "annual_costs": {},
-      "id": "36e6a4dcabf3d9623162",
+      "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
       "acquisition_mode": "snapshot",
-      "import_fingerprint": "fadd815e809c42a8ee7997ac02e3e6173d4046c4de027f5a6964844df64604f7",
+      "import_fingerprint": "7685d34bf5ffade7e3e9aad753c123b784bfe25cb2eb0b5f810483bfbeaafcc4",
       "price_claims": [
         {
           "location": "ЦИАН",
@@ -20169,8 +20216,10 @@
         }
       ],
       "description": "",
+      "annual_costs": {},
       "price_conflict": false,
       "price_per_sqm": 191589.34811423064,
+      "id": "36e6a4dcabf3d9623162",
       "verification": "review",
       "distance_km": 3.41,
       "geo_status": "located",
@@ -20249,7 +20298,7 @@
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
       "primary_price_claims": [],
-      "last_imported_at": "2026-11-16T19:10:33.743907+00:00",
+      "last_imported_at": "2026-11-16T19:25:37.696365+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -20260,7 +20309,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "last_seen": "2026-11-16T16:44:36.446402+00:00",
       "regional_candidate": true
     },
     {
@@ -22003,11 +22052,9 @@
         "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354580-4.jpg",
         "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354577-4.jpg"
       ],
-      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-      "annual_costs": {},
-      "id": "3a9f340fc566ca0ec78a",
+      "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
       "acquisition_mode": "snapshot",
-      "import_fingerprint": "1c26f0051f377874d7a8d77d1071cc7fe935537a0b4ba92343e6e148ff976223",
+      "import_fingerprint": "bde4d554e9c53db3f33026b330ad3a2337c8dbe32e8386b76cfb588eccaaff07",
       "price_claims": [
         {
           "location": "ЦИАН",
@@ -22016,8 +22063,10 @@
         }
       ],
       "description": "",
+      "annual_costs": {},
       "price_conflict": false,
       "price_per_sqm": 183823.5294117647,
+      "id": "3a9f340fc566ca0ec78a",
       "verification": "review",
       "distance_km": 20.47,
       "geo_status": "located",
@@ -22096,7 +22145,7 @@
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
       "primary_price_claims": [],
-      "last_imported_at": "2026-11-16T19:10:33.590225+00:00",
+      "last_imported_at": "2026-11-16T19:25:37.600204+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -22107,7 +22156,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "last_seen": "2026-11-16T16:44:36.446402+00:00",
       "regional_candidate": true
     },
     {
@@ -22327,8 +22376,19 @@
       "photos": [
         "https://images.cdn-cian.ru/images/2971766834-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "79ca3d21537dac135b5f3bfd9309d7ae40e0b7217d9137556f1ef67d8f25633a",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/334227380/",
+          "value": 9073000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 430000.0,
       "id": "3cbde4c03a875d9e1688",
       "verification": "review",
@@ -22408,6 +22468,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.907740+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.821344+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.907740+00:00",
@@ -22417,11 +22479,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.907740+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.907740+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -28686,7 +28746,7 @@
       "district": "Вахитовский",
       "settlement": "Казань",
       "address": "Татарстан Республика, Казань г., Вахитовский, Овражная ул., д.52",
-      "price": 6950000,
+      "price": 6200000,
       "area": 18.1,
       "monthly_rent": null,
       "tenant_name": null,
@@ -28732,9 +28792,20 @@
         "https://images.cdn-cian.ru/images/2947504795-4.jpg",
         "https://images.cdn-cian.ru/images/2947504805-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "151eb26543bc66096b49b58d81209ee317d35f94a470312d0fc9c5d3e1a2c31b",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/333120374/",
+          "value": 6200000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
-      "price_per_sqm": 383977.9005524862,
+      "price_conflict": false,
+      "price_per_sqm": 342541.4364640884,
       "id": "5142774b7c1ee51f821d",
       "verification": "review",
       "distance_km": 2.31,
@@ -28813,6 +28884,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.752197+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.784583+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.752197+00:00",
@@ -28820,13 +28893,20 @@
           "monthly_rent": null,
           "contract_months": null,
           "indexation": null
+        },
+        {
+          "at": "2026-11-16T16:46:34.493732+00:00",
+          "event": "import",
+          "source": "ЦИАН",
+          "price": 6200000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.752197+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.752197+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -31920,8 +32000,19 @@
         "https://images.cdn-cian.ru/images/2834090637-4.jpg",
         "https://images.cdn-cian.ru/images/2834090666-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "9dd621f3d654fd9475f186ea18e2aa5754cf0f212a38903f9db15a64dcd50593",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/328030667/",
+          "value": 4400000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 293333.3333333333,
       "id": "5e5b7c698e6f174d740e",
       "verification": "review",
@@ -32001,6 +32092,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.805380+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.839236+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.805380+00:00",
@@ -32010,11 +32103,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.805380+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.805380+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -33926,8 +34017,19 @@
       "photos": [
         "https://images.cdn-cian.ru/images/2971766773-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "80b0673d6ea31742f50b9b781fe1fd3922505885a76e5731aaa250048de129f9",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/334227375/",
+          "value": 6106000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 430000.0,
       "id": "61f95a4082b0fd20de36",
       "verification": "review",
@@ -34007,6 +34109,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.888926+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.951627+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.888926+00:00",
@@ -34016,11 +34120,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.888926+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.888926+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -36419,11 +36521,9 @@
         "https://images.cdn-cian.ru/images/2969253069-4.jpg",
         "https://images.cdn-cian.ru/images/2969253077-4.jpg"
       ],
-      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-      "annual_costs": {},
-      "id": "6c5ef1fef78090f879fb",
+      "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
       "acquisition_mode": "snapshot",
-      "import_fingerprint": "a848c1a1e98d69809b8fb155a9ecf47e8b3d8579879fb53c93090515d04ef6c8",
+      "import_fingerprint": "ed8e8d3f36d7189e997ad68d39cdd672dbc348bb95142a2132561c5e48c3a19c",
       "price_claims": [
         {
           "location": "ЦИАН",
@@ -36432,8 +36532,10 @@
         }
       ],
       "description": "",
+      "annual_costs": {},
       "price_conflict": false,
       "price_per_sqm": 120000.0,
+      "id": "6c5ef1fef78090f879fb",
       "verification": "review",
       "distance_km": 169.27,
       "geo_status": "located",
@@ -36512,7 +36614,7 @@
       "score_note": "Экспертная эвристика. Сумма факторов 9; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
       "primary_price_claims": [],
-      "last_imported_at": "2026-11-16T19:10:33.516299+00:00",
+      "last_imported_at": "2026-11-16T19:25:37.619124+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -36523,7 +36625,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "last_seen": "2026-11-16T16:44:36.446402+00:00",
       "regional_candidate": true
     },
     {
@@ -38078,8 +38180,19 @@
         "https://images.cdn-cian.ru/images/2803192053-4.jpg",
         "https://images.cdn-cian.ru/images/2803192080-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "a4b5a80d31fa46fa75b973e77c160aa901d7600a258f3152112982791c8d9136",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/326776751/",
+          "value": 64700000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 134932.22106360793,
       "id": "7400f4a3bf01812f088c",
       "verification": "review",
@@ -38159,6 +38272,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 17; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.665871+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.912993+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.665871+00:00",
@@ -38168,11 +38283,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.665871+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.665871+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -40590,8 +40703,19 @@
         "https://images.cdn-cian.ru/images/2967889440-4.jpg",
         "https://images.cdn-cian.ru/images/2967889434-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "c37909875b34203ced29e0d69aee9e44d2e53afcbae0e586a9d872b77ec7c45a",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/334067484/",
+          "value": 13932000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 430000.0,
       "id": "79a5092c461d77212b83",
       "verification": "review",
@@ -40671,6 +40795,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.859041+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:38.036333+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.859041+00:00",
@@ -40680,11 +40806,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.859041+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.859041+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -48810,8 +48934,19 @@
         "https://images.cdn-cian.ru/images/2966025803-4.jpg",
         "https://images.cdn-cian.ru/images/2966025810-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:47:23.594114+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "f1d36e82975dd43aa438236a611ae5a56febdd1eb9343293ace9644e5f3b2db4",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/333976210/",
+          "value": 25000000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 195312.5,
       "id": "8c64c65ff746a2b1b83e",
       "verification": "review",
@@ -48891,6 +49026,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 17; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:52:22.909513+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:38.161101+00:00",
       "history": [
         {
           "at": "2026-11-15T21:52:22.909513+00:00",
@@ -48900,11 +49037,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:52:22.909513+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:52:22.909513+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:47:23.594114+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -52996,11 +53131,9 @@
         "https://images.cdn-cian.ru/images/2967819442-4.jpg",
         "https://images.cdn-cian.ru/images/2967819444-4.jpg"
       ],
-      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-      "annual_costs": {},
-      "id": "99f40173ff00a8c1713e",
+      "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
       "acquisition_mode": "snapshot",
-      "import_fingerprint": "406120edd345d8657ea80b1effb70160542e15cf384a8816402daef50213bd77",
+      "import_fingerprint": "83df57df038ae6b8e348d98ac8a7f315b6b8f901a09341562a6e34f1b98dde3d",
       "price_claims": [
         {
           "location": "ЦИАН",
@@ -53009,8 +53142,10 @@
         }
       ],
       "description": "",
+      "annual_costs": {},
       "price_conflict": false,
       "price_per_sqm": 115789.47368421052,
+      "id": "99f40173ff00a8c1713e",
       "verification": "review",
       "distance_km": 4.26,
       "geo_status": "located",
@@ -53089,7 +53224,7 @@
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
       "primary_price_claims": [],
-      "last_imported_at": "2026-11-16T19:10:33.463282+00:00",
+      "last_imported_at": "2026-11-16T19:25:37.482735+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -53100,7 +53235,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "last_seen": "2026-11-16T16:44:36.446402+00:00",
       "regional_candidate": true
     },
     {
@@ -53322,8 +53457,19 @@
         "https://images.cdn-cian.ru/images/2677341160-4.jpg",
         "https://images.cdn-cian.ru/images/2677341222-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "54b352c5d0f1932195ef5f6cd99b6d109fd4fb057f2131ddae93fd917d0a72d4",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/323225809/",
+          "value": 62000000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 182890.85545722712,
       "id": "9cf2ddeb9588f9e606c0",
       "verification": "review",
@@ -53403,6 +53549,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 17; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.717046+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.883711+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.717046+00:00",
@@ -53412,11 +53560,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.717046+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.717046+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -55158,8 +55304,19 @@
         "https://images.cdn-cian.ru/images/2871842683-4.jpg",
         "https://images.cdn-cian.ru/images/2871842688-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "859179599fdda319c2496407f02604091c1226fbe4db22f66e383bfb0e8541f0",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/329690298/",
+          "value": 59500000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 170977.01149425286,
       "id": "a2e30daeafce8c58dc51",
       "verification": "review",
@@ -55239,6 +55396,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.683108+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.747377+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.683108+00:00",
@@ -55248,11 +55407,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.683108+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.683108+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -55638,8 +55795,19 @@
         }
       ],
       "photos": [],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:47:39.871261+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "98c39d910da21e79ac060cf6c3bea6ad9f225e0ccd65fd642a502f9627cc6705",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/321339911/",
+          "value": 35000000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 9668.508287292818,
       "id": "a4e7cb4109a8f0cb0d8e",
       "verification": "review",
@@ -55719,6 +55887,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 5; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:52:11.331801+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:38.232456+00:00",
       "history": [
         {
           "at": "2026-11-15T21:52:11.331801+00:00",
@@ -55728,11 +55898,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:52:11.331801+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:52:11.331801+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:47:39.871261+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -58488,8 +58656,19 @@
         "https://images.cdn-cian.ru/images/2678438630-4.jpg",
         "https://images.cdn-cian.ru/images/2678438637-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "d73358be276c4728e0a2bf79fe9e03a8b062c792ae95cc0b0072d9b41c33eb61",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/323261015/",
+          "value": 47000000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 123684.21052631579,
       "id": "ae07f07c0c083f5103ce",
       "verification": "review",
@@ -58569,6 +58748,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 17; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.734357+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.971540+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.734357+00:00",
@@ -58578,11 +58759,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.734357+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.734357+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": "Советский",
@@ -58634,11 +58813,9 @@
         "https://images.cdn-cian.ru/images/2991442396-4.jpg",
         "https://images.cdn-cian.ru/images/2993839148-4.jpg"
       ],
-      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-      "annual_costs": {},
-      "id": "ae67433009529243ac6f",
+      "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
       "acquisition_mode": "snapshot",
-      "import_fingerprint": "870e3ea44addbfac61e5b74fe8b2011bfea4fa363fa1f889495b44fa00c0bd14",
+      "import_fingerprint": "8eade93ff858cb4bdb94a979ffffe2e9c9381d90ad5831f2f8ef819fdc4c7364",
       "price_claims": [
         {
           "location": "ЦИАН",
@@ -58647,8 +58824,10 @@
         }
       ],
       "description": "",
+      "annual_costs": {},
       "price_conflict": false,
       "price_per_sqm": 107584.72296933836,
+      "id": "ae67433009529243ac6f",
       "verification": "review",
       "distance_km": 10.88,
       "geo_status": "located",
@@ -58727,7 +58906,7 @@
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
       "primary_price_claims": [],
-      "last_imported_at": "2026-11-16T19:10:33.490581+00:00",
+      "last_imported_at": "2026-11-16T19:25:37.535467+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -58738,7 +58917,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "last_seen": "2026-11-16T16:44:36.446402+00:00",
       "regional_candidate": true
     },
     {
@@ -59638,8 +59817,19 @@
         "https://images.cdn-cian.ru/images/2971766718-4.jpg",
         "https://images.cdn-cian.ru/images/2971766744-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "7ec6cc61546f656574d7dee03c2193971ab3067ab5ee85834a184ed260c65124",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/334227373/",
+          "value": 11008000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 430000.0,
       "id": "b0ffb459b8e1e04e4f9a",
       "verification": "review",
@@ -59719,6 +59909,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.925873+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.932705+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.925873+00:00",
@@ -59728,11 +59920,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.925873+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.925873+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -59953,8 +60143,19 @@
         "https://images.cdn-cian.ru/images/2726436689-4.jpg",
         "https://images.cdn-cian.ru/images/2726436695-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "0ba2c507fe8df50b539bc828c190419f0142eee57850a1c7e647593c329038b5",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/324738096/",
+          "value": 34600000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 92217.48400852879,
       "id": "b329a653ef064975e3e5",
       "verification": "review",
@@ -60063,6 +60264,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 34; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.840988+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.864892+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.840988+00:00",
@@ -60072,11 +60275,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.840988+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.840988+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -60760,7 +60961,7 @@
       "address": "Республика Татарстан, Казань г., Нурсултана Назарбаева ул., 12в",
       "price": 27000000,
       "area": 150.0,
-      "monthly_rent": 150000.0,
+      "monthly_rent": null,
       "tenant_name": null,
       "tenant_type": null,
       "active_tenant": null,
@@ -60804,11 +61005,9 @@
         "https://images.cdn-cian.ru/images/3015861720-4.jpg",
         "https://images.cdn-cian.ru/images/3015861736-4.jpg"
       ],
-      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-      "annual_costs": {},
-      "id": "b5acbac93551a0e79c66",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
       "acquisition_mode": "snapshot",
-      "import_fingerprint": "88df8111409f5e9ee9bf0bb2cfe82269f3d0fc483babf870d9d07a9f31fd50f8",
+      "import_fingerprint": "e5c0e9947d1db34f94a151656a8b83a83808f14ac90a13d5373179d870dbd34e",
       "price_claims": [
         {
           "location": "ЦИАН",
@@ -60817,53 +61016,26 @@
         }
       ],
       "description": "",
+      "annual_costs": {},
       "price_conflict": false,
       "price_per_sqm": 180000.0,
+      "id": "b5acbac93551a0e79c66",
       "verification": "review",
       "distance_km": 3.15,
       "geo_status": "located",
       "finance": {
-        "annual_rent": 1800000.0,
-        "gross_yield": 6.666666666666667,
-        "payback_years": 15.0,
+        "annual_rent": null,
+        "gross_yield": null,
+        "payback_years": null,
         "net_yield": null,
         "net_payback_years": null,
-        "scenarios": [
-          {
-            "name": "Оптимистичный",
-            "income": 1710000.0,
-            "payback": 15.789473684210526,
-            "vacancy_months": 0,
-            "expenses": 90000.0,
-            "assumed": true,
-            "yield": 6.333333333333334
-          },
-          {
-            "name": "Базовый",
-            "income": 1470000.0,
-            "payback": 18.73469387755102,
-            "vacancy_months": 1,
-            "expenses": 180000.0,
-            "assumed": true,
-            "yield": 5.337690631808279
-          },
-          {
-            "name": "Консервативный",
-            "income": 1230000.0,
-            "payback": 22.609756097560975,
-            "vacancy_months": 2,
-            "expenses": 270000.0,
-            "assumed": true,
-            "yield": 4.4228694714131604
-          }
-        ],
-        "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
+        "scenarios": []
       },
-      "score": 24,
+      "score": 16,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
-          "points": 6.7,
+          "points": 0,
           "max": 15,
           "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
         },
@@ -60911,7 +61083,7 @@
         },
         {
           "factor": "Полнота данных",
-          "points": 7,
+          "points": 6,
           "max": 10,
           "reason": "По 1 баллу за каждое из 10 основных полей"
         },
@@ -60923,10 +61095,10 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 24; предел для текущего статуса 39. ",
+      "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
       "primary_price_claims": [],
-      "last_imported_at": "2026-11-16T19:10:33.719962+00:00",
+      "last_imported_at": "2026-11-16T19:25:37.766713+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -60934,10 +61106,19 @@
           "monthly_rent": 150000.0,
           "contract_months": null,
           "indexation": null
+        },
+        {
+          "at": "2026-11-16T16:46:34.493732+00:00",
+          "event": "import",
+          "source": "ЦИАН",
+          "price": 27000000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
       "regional_candidate": true
     },
     {
@@ -61666,11 +61847,9 @@
         "https://images.cdn-cian.ru/images/2888834166-4.jpg",
         "https://images.cdn-cian.ru/images/2888834170-4.jpg"
       ],
-      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-      "annual_costs": {},
-      "id": "b9ec3b2d7d125e5391e3",
+      "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
       "acquisition_mode": "snapshot",
-      "import_fingerprint": "662ae62cfe3acbc4a889aa2596e012eb97363c790e2f9c9fa5e9a83a75d80dfc",
+      "import_fingerprint": "51bbf70a36348de19c7a66453776219d0d0a4e2f076e8fdedb4a4d1286202de2",
       "price_claims": [
         {
           "location": "ЦИАН",
@@ -61679,8 +61858,10 @@
         }
       ],
       "description": "",
+      "annual_costs": {},
       "price_conflict": false,
       "price_per_sqm": 31464.053015537116,
+      "id": "b9ec3b2d7d125e5391e3",
       "verification": "review",
       "distance_km": 200.98,
       "geo_status": "located",
@@ -61759,7 +61940,7 @@
       "score_note": "Экспертная эвристика. Сумма факторов 6; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
       "primary_price_claims": [],
-      "last_imported_at": "2026-11-16T19:10:33.552670+00:00",
+      "last_imported_at": "2026-11-16T19:25:37.581663+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -61770,7 +61951,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "last_seen": "2026-11-16T16:44:36.446402+00:00",
       "regional_candidate": true
     },
     {
@@ -64189,11 +64370,9 @@
         "https://images.cdn-cian.ru/images/3015753971-4.jpg",
         "https://images.cdn-cian.ru/images/3015753977-4.jpg"
       ],
-      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-      "annual_costs": {},
-      "id": "c12976f1878014780c92",
+      "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
       "acquisition_mode": "snapshot",
-      "import_fingerprint": "2e51994011c5e9979d9422db21ce4598b41c6c0f1121392cfc54d3337eacf30a",
+      "import_fingerprint": "869b405f8b21d8df9d1d05c85a05ada5874671eabd20c6ef21c09a4cac42a985",
       "price_claims": [
         {
           "location": "ЦИАН",
@@ -64202,8 +64381,10 @@
         }
       ],
       "description": "",
+      "annual_costs": {},
       "price_conflict": false,
       "price_per_sqm": 3677.4193548387098,
+      "id": "c12976f1878014780c92",
       "verification": "review",
       "distance_km": 224.81,
       "geo_status": "located",
@@ -64282,7 +64463,7 @@
       "score_note": "Экспертная эвристика. Сумма факторов 6; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
       "primary_price_claims": [],
-      "last_imported_at": "2026-11-16T19:10:33.698847+00:00",
+      "last_imported_at": "2026-11-16T19:25:37.677144+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -64293,7 +64474,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "last_seen": "2026-11-16T16:44:36.446402+00:00",
       "regional_candidate": true
     },
     {
@@ -66036,11 +66217,9 @@
         "https://images.cdn-cian.ru/images/2985187179-4.jpg",
         "https://images.cdn-cian.ru/images/2985187191-4.jpg"
       ],
-      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-      "annual_costs": {},
-      "id": "c5a5c0c51638722cbb27",
+      "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
       "acquisition_mode": "snapshot",
-      "import_fingerprint": "5861707e0af690a007f1fd7521c0e71745bbb7f60ca22cea3c16bd7475b9e039",
+      "import_fingerprint": "052928f80ba9d1f93fe0b40ff38abb71d8368dd65fd4de16cfe8d70996facf5e",
       "price_claims": [
         {
           "location": "ЦИАН",
@@ -66049,8 +66228,10 @@
         }
       ],
       "description": "",
+      "annual_costs": {},
       "price_conflict": false,
       "price_per_sqm": 147368.42105263157,
+      "id": "c5a5c0c51638722cbb27",
       "verification": "review",
       "distance_km": 6.29,
       "geo_status": "located",
@@ -66129,7 +66310,7 @@
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
       "primary_price_claims": [],
-      "last_imported_at": "2026-11-16T19:10:33.679227+00:00",
+      "last_imported_at": "2026-11-16T19:25:37.657104+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -66140,7 +66321,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "last_seen": "2026-11-16T16:44:36.446402+00:00",
       "regional_candidate": true
     },
     {
@@ -66700,8 +66881,19 @@
         "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-stadionnaya-ulica-2977127850-4.jpg",
         "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-stadionnaya-ulica-2977120364-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:47:39.871261+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "d5b0875be372edc08f69050be7d419068a681c0870cbd8a7c236ad8c73add104",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/334500768/",
+          "value": 9500000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 93873.51778656126,
       "id": "c66d060c8cb6e2692f89",
       "verification": "review",
@@ -66781,6 +66973,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:52:23.000995+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:38.251426+00:00",
       "history": [
         {
           "at": "2026-11-15T21:52:23.000995+00:00",
@@ -66790,11 +66984,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:52:23.000995+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:52:23.000995+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:47:39.871261+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -68032,8 +68224,19 @@
         "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-ulica-karbysheva-2993546370-4.jpg",
         "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-ulica-karbysheva-2989180517-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:47:23.594114+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "70cd5156aac642488e6f165e298bd0c19c8d93a825c6bc93587fe78405b1d5d4",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/335111183/",
+          "value": 40000000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 235294.11764705883,
       "id": "cacdaf1f65cb2dd81a7e",
       "verification": "review",
@@ -68113,6 +68316,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:52:22.929344+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:38.181408+00:00",
       "history": [
         {
           "at": "2026-11-15T21:52:22.929344+00:00",
@@ -68122,11 +68327,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:52:22.929344+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:52:22.929344+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:47:23.594114+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -71392,8 +71595,19 @@
         "https://images.cdn-cian.ru/images/2935717697-4.jpg",
         "https://images.cdn-cian.ru/images/2935717706-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "15899b3f177815a663288bc39f530c5826e8e2fa2a490fd0841b7bf24a15f3b1",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/332563642/",
+          "value": 3240000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 270000.0,
       "id": "d34b12a4aa6fd9944e01",
       "verification": "review",
@@ -71473,6 +71687,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.769482+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:38.009546+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.769482+00:00",
@@ -71482,11 +71698,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.769482+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.769482+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -71707,8 +71921,19 @@
         "https://images.cdn-cian.ru/images/2993115317-4.jpg",
         "https://images.cdn-cian.ru/images/2989941197-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:47:07.603093+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "c4b7f3695b077d39b959c419be71a54aa685b12f23c51574bb733029e10bb83d",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/335141503/",
+          "value": 2900000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 173652.69461077845,
       "id": "d46e0c1e2e2baabc73fa",
       "verification": "review",
@@ -71788,6 +72013,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:48.029037+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:38.142060+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:48.029037+00:00",
@@ -71797,11 +72024,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:48.029037+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:48.029037+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:47:07.603093+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -72529,11 +72754,9 @@
         "https://images.cdn-cian.ru/images/2697948249-4.jpg",
         "https://images.cdn-cian.ru/images/2697947859-4.jpg"
       ],
-      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-      "annual_costs": {},
-      "id": "d5cb858024fa3f115c6b",
+      "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
       "acquisition_mode": "snapshot",
-      "import_fingerprint": "e55d20841107d53126c4ac1729d9d8e4a20f2880522ad88b103121e53f2114ee",
+      "import_fingerprint": "3f45b38d304b314c2e718297076b6deee565f293df9d5c907a1c098da971b2e9",
       "price_claims": [
         {
           "location": "ЦИАН",
@@ -72542,8 +72765,10 @@
         }
       ],
       "description": "",
+      "annual_costs": {},
       "price_conflict": false,
       "price_per_sqm": 61164.447197274705,
+      "id": "d5cb858024fa3f115c6b",
       "verification": "review",
       "distance_km": 204.77,
       "geo_status": "located",
@@ -72622,7 +72847,7 @@
       "score_note": "Экспертная эвристика. Сумма факторов 5; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
       "primary_price_claims": [],
-      "last_imported_at": "2026-11-16T19:10:33.572110+00:00",
+      "last_imported_at": "2026-11-16T19:25:37.638256+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -72633,7 +72858,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "last_seen": "2026-11-16T16:44:36.446402+00:00",
       "regional_candidate": true
     },
     {
@@ -75204,8 +75429,19 @@
         "https://images.cdn-cian.ru/images/2726703294-4.jpg",
         "https://images.cdn-cian.ru/images/2726703275-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "1a31d15fc0fa95b5c3cf5957b8a2cc588a3f7ca534a95bea7b375b3be1dadf67",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/324748503/",
+          "value": 52000000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 91710.75837742504,
       "id": "dba76ce06fc8a0c3651a",
       "verification": "review",
@@ -75285,6 +75521,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 17; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.648172+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.728522+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.648172+00:00",
@@ -75294,11 +75532,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.648172+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.648172+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:44:36.446402+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -79036,6 +79272,165 @@
       "price_conflict": false
     },
     {
+      "district": "Автозаводский",
+      "settlement": "Набережные Челны",
+      "address": "Татарстан,, Набережные Челны, проспект Вахитова,дом 46/93",
+      "price": 8100000,
+      "area": 42.6,
+      "monthly_rent": null,
+      "tenant_name": null,
+      "tenant_type": null,
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": 1,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": [
+        55.757506,
+        52.407013
+      ],
+      "coordinate_source": "ЦИАН: координаты объекта в публичной странице",
+      "geo_accuracy": "building",
+      "published_at": "2026-11-16T13:48:11.067",
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Готовый бизнес  ·  Аптека  ·  42,6 м²  ·  1 этаж",
+      "sources": [
+        {
+          "name": "ЦИАН",
+          "url": "https://naberezhnye-chelny.cian.ru/sale/commercial/336403143/"
+        }
+      ],
+      "photos": [
+        "https://images.cdn-cian.ru/images/3018446553-4.jpg",
+        "https://images.cdn-cian.ru/images/3018446560-4.jpg",
+        "https://images.cdn-cian.ru/images/3018446574-4.jpg"
+      ],
+      "source_fetched_at": "2026-11-16T16:46:51.052489+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "3bea4b7749c85a74f7c979f3579c323a78e524947c3f7f0398ae53223f14a4ee",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://naberezhnye-chelny.cian.ru/sale/commercial/336403143/",
+          "value": 8100000
+        }
+      ],
+      "description": "",
+      "annual_costs": {},
+      "price_conflict": false,
+      "price_per_sqm": 190140.84507042254,
+      "id": "e93aaa9b1869bef22ba3",
+      "verification": "review",
+      "distance_km": 206.44,
+      "geo_status": "located",
+      "finance": {
+        "annual_rent": null,
+        "gross_yield": null,
+        "payback_years": null,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": []
+      },
+      "score": 6,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 0,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 6,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 6; предел для текущего статуса 39. ",
+      "first_seen": "2026-11-16T16:46:51.052489+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:38.056288+00:00",
+      "history": [
+        {
+          "at": "2026-11-16T16:46:51.052489+00:00",
+          "event": "import",
+          "source": "ЦИАН",
+          "price": 8100000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:51.052489+00:00",
+      "regional_candidate": true
+    },
+    {
       "district": null,
       "settlement": "Сарапул",
       "address": "Ижевск,  Сарапул ул Гоголя, д. 76",
@@ -82127,8 +82522,19 @@
         "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-ulica-frunze-2605372210-4.jpg",
         "https://images.cdn-cian.ru/images/gotovyy-biznes-kazan-ulica-frunze-2605371764-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:47:39.871261+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "75aa3a1dc83bc5fff02400a7b5b63c75dd855c72b39e6329cd8586a4d1f2a352",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/321114179/",
+          "value": 36000000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 94736.84210526316,
       "id": "f1999aa06e9b5ee15bdf",
       "verification": "review",
@@ -82208,6 +82614,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:52:22.982149+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:38.271791+00:00",
       "history": [
         {
           "at": "2026-11-15T21:52:22.982149+00:00",
@@ -82217,11 +82625,9 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:52:22.982149+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:52:22.982149+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:47:39.871261+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -84743,7 +85149,7 @@
       "district": "Вахитовский",
       "settlement": "Казань",
       "address": "Татарстан Республика, Казань г., Вахитовский, Овражная ул., д.52",
-      "price": 10450000,
+      "price": 9500000,
       "area": 30.1,
       "monthly_rent": null,
       "tenant_name": null,
@@ -84789,9 +85195,20 @@
         "https://images.cdn-cian.ru/images/2947504654-4.jpg",
         "https://images.cdn-cian.ru/images/2947504667-4.jpg"
       ],
-      "description": "В объявлении заявлена арендная модель. Платежи и договор независимо не проверены. Доход от операционного бизнеса не используется как аренда.",
+      "source_fetched_at": "2026-11-16T16:46:34.493732+00:00",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "5dd291c59e6f84b0b30cf634d76fe07b736a1577e23172e98735f7d0e3ff92e8",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/333120367/",
+          "value": 9500000
+        }
+      ],
+      "description": "",
       "annual_costs": {},
-      "price_per_sqm": 347176.07973421924,
+      "price_conflict": false,
+      "price_per_sqm": 315614.6179401993,
       "id": "fb2739674dc7af69e326",
       "verification": "review",
       "distance_km": 2.31,
@@ -84870,6 +85287,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T21:51:36.787276+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:25:37.803591+00:00",
       "history": [
         {
           "at": "2026-11-15T21:51:36.787276+00:00",
@@ -84877,13 +85296,20 @@
           "monthly_rent": null,
           "contract_months": null,
           "indexation": null
+        },
+        {
+          "at": "2026-11-16T16:46:34.493732+00:00",
+          "event": "import",
+          "source": "ЦИАН",
+          "price": 9500000,
+          "monthly_rent": null,
+          "contract_months": null,
+          "indexation": null
         }
       ],
-      "last_seen": "2026-11-15T21:51:36.787276+00:00",
-      "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.787276+00:00",
-      "price_claims": [],
-      "price_conflict": false
+      "source_observations": [],
+      "last_seen": "2026-11-16T16:46:34.493732+00:00",
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -86265,11 +86691,9 @@
         "https://images.cdn-cian.ru/images/2985187027-4.jpg",
         "https://images.cdn-cian.ru/images/2985187053-4.jpg"
       ],
-      "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
-      "annual_costs": {},
-      "id": "ffa82bce64884e79f434",
+      "source_fetched_at": "2026-11-16T16:44:36.446402+00:00",
       "acquisition_mode": "snapshot",
-      "import_fingerprint": "42a869f98b799514e6601e90e3069f901eb04fa70f071089b1f05cfba5d7fd80",
+      "import_fingerprint": "36d4df4ccb48fee5f17e8388eddda5bdca2cc49c6bd83674f0eb0d79aa980ccd",
       "price_claims": [
         {
           "location": "ЦИАН",
@@ -86278,8 +86702,10 @@
         }
       ],
       "description": "",
+      "annual_costs": {},
       "price_conflict": false,
       "price_per_sqm": 187828.94736842107,
+      "id": "ffa82bce64884e79f434",
       "verification": "review",
       "distance_km": 6.29,
       "geo_status": "located",
@@ -86358,7 +86784,7 @@
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
       "primary_price_claims": [],
-      "last_imported_at": "2026-11-16T19:10:33.618878+00:00",
+      "last_imported_at": "2026-11-16T19:25:37.561684+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -86369,7 +86795,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-15T17:47:24.296718+00:00",
+      "last_seen": "2026-11-16T16:44:36.446402+00:00",
       "regional_candidate": true
     }
   ],
@@ -86393,10 +86819,12 @@
       "excluded_count": 0,
       "invalid_count": 0,
       "live_count": 0,
-      "imported_count": 11,
+      "imported_count": 37,
       "status": "blocked",
-      "count": 11,
-      "message": "Страница недоступности или защитной проверки; без обхода и повторов"
+      "count": 37,
+      "message": "Страница недоступности или защитной проверки; без обхода и повторов",
+      "checked_this_run": false,
+      "snapshot_imported_at": "2026-11-16T19:25:38.280130+00:00"
     },
     {
       "name": "Домклик",
