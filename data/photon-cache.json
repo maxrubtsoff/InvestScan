@@ -1,0 +1,459 @@
+{
+  "Казань г., Лукина ул., 50": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 371598108,
+        "osm_key": "building",
+        "osm_value": "apartments",
+        "type": "house",
+        "housenumber": "50",
+        "street": "улица Лукина",
+        "district": "Озёрный",
+        "city": "Казань",
+        "county": "городской округ Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420037",
+        "countrycode": "RU",
+        "extent": [
+          49.0962575,
+          55.8688648,
+          49.0980888,
+          55.8682885
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.0965027,
+          55.8685826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "N",
+        "osm_id": 9147693567,
+        "osm_key": "shop",
+        "osm_value": "supermarket",
+        "type": "house",
+        "housenumber": "50",
+        "name": "Пятёрочка",
+        "street": "улица Лукина",
+        "district": "Озёрный",
+        "city": "Казань",
+        "county": "городской округ Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420037",
+        "countrycode": "RU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.096425,
+          55.8684963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "N",
+        "osm_id": 9147720509,
+        "osm_key": "shop",
+        "osm_value": "hairdresser",
+        "type": "house",
+        "housenumber": "50",
+        "name": "У Фаи",
+        "street": "улица Лукина",
+        "district": "Озёрный",
+        "city": "Казань",
+        "county": "городской округ Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420037",
+        "countrycode": "RU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.0965778,
+          55.8684697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 410330447,
+        "osm_key": "building",
+        "osm_value": "apartments",
+        "type": "house",
+        "housenumber": "50А",
+        "street": "улица Лукина",
+        "district": "Озёрный",
+        "city": "Казань",
+        "county": "городской округ Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420037",
+        "countrycode": "RU",
+        "extent": [
+          49.0965446,
+          55.8694988,
+          49.0983467,
+          55.8689263
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.0980228,
+          55.8692154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 410330445,
+        "osm_key": "amenity",
+        "osm_value": "parking",
+        "type": "house",
+        "housenumber": "50В",
+        "street": "улица Лукина",
+        "district": "Озёрный",
+        "city": "Казань",
+        "county": "городской округ Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420037",
+        "countrycode": "RU",
+        "extent": [
+          49.0981466,
+          55.868755,
+          49.0990444,
+          55.868102
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.0985955,
+          55.8684285
+        ]
+      }
+    }
+  ],
+  "Казань г., Мира ул., 45, к 43": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 1329990099,
+        "osm_key": "building",
+        "osm_value": "house",
+        "type": "house",
+        "housenumber": "43",
+        "street": "улица Мира",
+        "district": "Самосырово",
+        "city": "Казань",
+        "county": "городской округ Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420125",
+        "countrycode": "RU",
+        "extent": [
+          49.2595789,
+          55.7988779,
+          49.2598361,
+          55.7986998
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2597075,
+          55.7987888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 175326142,
+        "osm_key": "building",
+        "osm_value": "apartments",
+        "type": "house",
+        "housenumber": "43",
+        "street": "улица Мира",
+        "district": "Дербышки",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420071",
+        "countrycode": "RU",
+        "extent": [
+          49.2182261,
+          55.8618845,
+          49.2197064,
+          55.8613602
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2190433,
+          55.8616415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 61579637,
+        "osm_key": "building",
+        "osm_value": "apartments",
+        "type": "house",
+        "housenumber": "45",
+        "street": "улица Мира",
+        "district": "Дербышки",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420071",
+        "countrycode": "RU",
+        "extent": [
+          49.2179186,
+          55.8614675,
+          49.2189361,
+          55.8605107
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2184132,
+          55.8610053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 483624989,
+        "osm_key": "building",
+        "osm_value": "house",
+        "type": "house",
+        "housenumber": "43А",
+        "street": "улица Мира",
+        "district": "Самосырово",
+        "city": "Казань",
+        "county": "городской округ Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420125",
+        "countrycode": "RU",
+        "extent": [
+          49.2597073,
+          55.7989332,
+          49.2600278,
+          55.7987368
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2598675,
+          55.798835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 369358640,
+        "osm_key": "building",
+        "osm_value": "yes",
+        "type": "house",
+        "housenumber": "45/2",
+        "street": "улица Мира",
+        "district": "Дербышки",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420071",
+        "countrycode": "RU",
+        "extent": [
+          49.2177377,
+          55.8616082,
+          49.2179175,
+          55.8615065
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2178276,
+          55.8615574
+        ]
+      }
+    }
+  ],
+  "Казань г., Космонавтов ул., 44": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 473031997,
+        "osm_key": "building",
+        "osm_value": "apartments",
+        "type": "house",
+        "housenumber": "44",
+        "street": "улица Космонавтов",
+        "district": "Клыковка",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420061",
+        "countrycode": "RU",
+        "extent": [
+          49.1929215,
+          55.7958504,
+          49.1952179,
+          55.7948274
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.1947501,
+          55.7953282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "N",
+        "osm_id": 12541010975,
+        "osm_key": "shop",
+        "osm_value": "outpost",
+        "type": "house",
+        "housenumber": "44",
+        "name": "Авито",
+        "street": "улица Космонавтов",
+        "district": "Клыковка",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420061",
+        "countrycode": "RU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.1931027,
+          55.7950469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "N",
+        "osm_id": 11668920558,
+        "osm_key": "shop",
+        "osm_value": "outpost",
+        "type": "house",
+        "housenumber": "44",
+        "name": "Ozon",
+        "street": "улица Космонавтов",
+        "district": "Клыковка",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420061",
+        "countrycode": "RU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.19299,
+          55.795021
+        ]
+      }
+    }
+  ],
+  "Зеленодольск г., Гоголя ул., 53": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 102619644,
+        "osm_key": "building",
+        "osm_value": "apartments",
+        "type": "house",
+        "housenumber": "53",
+        "street": "улица Гоголя",
+        "district": "Лесничество",
+        "city": "Зеленодольск",
+        "county": "Зеленодольский район",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "422540",
+        "countrycode": "RU",
+        "extent": [
+          48.5188673,
+          55.8519587,
+          48.5203559,
+          55.851686
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.519515,
+          55.8518225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "N",
+        "osm_id": 2141502026,
+        "osm_key": "shop",
+        "osm_value": "supermarket",
+        "type": "house",
+        "housenumber": "53",
+        "name": "Лукошко",
+        "street": "улица Гоголя",
+        "district": "Лесничество",
+        "city": "Зеленодольск",
+        "county": "Зеленодольский район",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "422540",
+        "countrycode": "RU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5190533,
+          55.8519098
+        ]
+      }
+    }
+  ]
+}
