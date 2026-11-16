@@ -1,4 +1,4 @@
-import{matches,compare}from'./filters.js';import{money,num,status,stats}from'./analytics.js';import{drawMap,openMap}from'./map.js';
+import{matches,compare}from'./filters.js?v=20261116-2';import{money,num,status,stats}from'./analytics.js?v=20261116-2';import{drawMap,openMap}from'./map.js?v=20261116-2';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const v=new URL(u);return v.protocol==='https:'?v.href:'#';}catch{return '#';}};
 let catalog={listings:[],sources:[]},mode='all';
@@ -36,4 +36,4 @@ async function refresh(){try{
  }catch(e){$('#updated').textContent=`Не удалось обновить данные: ${e.message}. Предыдущий каталог сохранён на экране.`;}}
 $('#filters').oninput=render;$('#filters').onsubmit=e=>e.preventDefault();$('#filters').onreset=()=>setTimeout(()=>{mode='all';document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.mode===mode));render();},0);$('#sort').onchange=render;$('#refresh').onclick=refresh;$('#close-detail').onclick=()=>$('#detail').close();document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll('[data-mode]').forEach(a=>a.setAttribute('aria-pressed',a===b));render();});refresh();setInterval(refresh,86400000);
 
-$('#open-map').onclick=openMap;$('#catalog-map').onclick=()=>{setTimeout(openMap,0);};
+$('#open-map').onclick=openMap;document.querySelectorAll('a[href="#geography"]').forEach(a=>a.onclick=()=>{setTimeout(openMap,0);});
