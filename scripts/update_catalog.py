@@ -28,10 +28,14 @@ def run():
             reports.append(dict(name=name,status=('ok' if count else 'empty') if name=='АРР' else ('ok' if name=='ЦИАН' and count else ('imported' if count else 'empty')),count=count,message='Публичная общероссийская витрина, вся доступная пагинация (защитный предел 80 страниц). Охват ограничен этим источником. Данные продавцов требуют проверки.' if name=='АРР' else 'Коммерческая выдача Татарстана; только объявления с признаками арендной модели. Аренда извлекается из явного МАП, не из прибыли бизнеса.' if name=='ЦИАН' else 'Обычный публичный доступ и импорт; без обхода ограничений.'))
         except Exception as e:
             print(f'{name}: {type(e).__name__}: {e}',file=sys.stderr);reports.append(dict(name=name,status='blocked' if isinstance(e,SourceUnavailable) else 'error',count=count,message=str(e)))
-    rows=db.all()
+    # Revalidate retained records as extraction rules improve, even on source outages.
+    rows=[normalize(row) for row in db.all()]
     if os.environ.get('INVESTSCAN_GEOCODE','0')=='1':
         rows=geocode(rows,ROOT/'data/geocode-cache.json',limit=10)
+    blocked={s['name'] for s in reports if s['status'] in ('blocked','error')}
     for row in rows:
+        if row.get('sources') and all(s['name'] in blocked for s in row['sources']) and not row.get('source_fetched_at'):
+            row['source_fetched_at']=row.get('last_seen')
         row=apply_geo(row);row['regional_candidate']=candidate(row);row['price_per_sqm']=row['price']/row['area'] if row.get('price') is not None and row.get('area') else None;row['finance']=analyze(row);score(row)
         db.db.execute('UPDATE listings SET payload=? WHERE id=?',(json.dumps(row,ensure_ascii=False),row['id']))
     db.db.commit();db.close();data=dict(schema_version=1,generated_at=now(),listings=rows,sources=reports,coverage=json.loads((ROOT/'data/collection-status.json').read_text()) if (ROOT/'data/collection-status.json').exists() else {})

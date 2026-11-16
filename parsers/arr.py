@@ -33,7 +33,7 @@ def parse(html):
 def collect():
     client=PublicClient();url=URL;rows=[];seen=set()
     # The visible showcase exposes pagination through its public data-path controls.
-    # Finite hourly batch: coverage is partial and explicitly reported.
+    # Finite daily batch: pagination coverage is explicitly reported.
     for _ in range(80):
         if not url or url in seen:break
         seen.add(url);html=client.get(url);batch,url=parse(html)

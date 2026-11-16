@@ -1,1 +1,1 @@
-{"name":"investscan","private":true,"type":"module","scripts":{"test":"node --test tests/frontend.test.js"}}
+{"name":"investscan","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.js"}}
