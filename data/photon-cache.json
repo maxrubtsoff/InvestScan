@@ -455,5 +455,518 @@
         ]
       }
     }
+  ],
+  "Казань г., Юлиуса Фучика ул., 88, к а": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 245185913,
+        "osm_key": "amenity",
+        "osm_value": "parking",
+        "type": "house",
+        "housenumber": "88А",
+        "street": "улица Юлиуса Фучика",
+        "district": "Азино-2",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420141",
+        "countrycode": "RU",
+        "extent": [
+          49.2321311,
+          55.7629768,
+          49.2329584,
+          55.7626344
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2325448,
+          55.7628051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 245185916,
+        "osm_key": "building",
+        "osm_value": "apartments",
+        "type": "house",
+        "housenumber": "88",
+        "street": "улица Юлиуса Фучика",
+        "district": "Азино-2",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420140",
+        "countrycode": "RU",
+        "extent": [
+          49.2321734,
+          55.7624602,
+          49.2326589,
+          55.761679
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2323773,
+          55.7620629
+        ]
+      }
+    }
+  ],
+  "Казань г., Адоратского ул., 1, литера Б": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 322832118,
+        "osm_key": "building",
+        "osm_value": "yes",
+        "type": "house",
+        "housenumber": "53Б/1",
+        "street": "улица Адоратского",
+        "locality": "Молодёжно-жилищный комплекс",
+        "district": "Брикетный",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420132",
+        "countrycode": "RU",
+        "extent": [
+          49.142265,
+          55.8443233,
+          49.1430288,
+          55.8442021
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.1426469,
+          55.8442628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 232366121,
+        "osm_key": "building",
+        "osm_value": "apartments",
+        "type": "house",
+        "housenumber": "1Б",
+        "street": "улица Адоратского",
+        "district": "Дружба",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "421001",
+        "countrycode": "RU",
+        "extent": [
+          49.1450668,
+          55.8215971,
+          49.1457928,
+          55.8207087
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.1451974,
+          55.8211554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 70759685,
+        "osm_key": "office",
+        "osm_value": "property_management",
+        "type": "house",
+        "housenumber": "39Б к1",
+        "name": "ЖЭУ №41",
+        "street": "улица Адоратского",
+        "locality": "Молодёжно-жилищный комплекс",
+        "district": "Брикетный",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420132",
+        "countrycode": "RU",
+        "extent": [
+          49.142827,
+          55.8385505,
+          49.1430219,
+          55.8381186
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.1429244,
+          55.8383346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 62054979,
+        "osm_key": "building",
+        "osm_value": "yes",
+        "type": "house",
+        "housenumber": "14 к1",
+        "street": "улица Адоратского",
+        "district": "Брикетный",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420133",
+        "countrycode": "RU",
+        "extent": [
+          49.1489942,
+          55.8331376,
+          49.1495494,
+          55.8326721
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.1492718,
+          55.8329049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 322832119,
+        "osm_key": "building",
+        "osm_value": "yes",
+        "type": "house",
+        "housenumber": "63А к1",
+        "street": "улица Адоратского",
+        "locality": "Молодёжно-жилищный комплекс",
+        "district": "Брикетный",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420132",
+        "countrycode": "RU",
+        "extent": [
+          49.1434539,
+          55.8449793,
+          49.1439861,
+          55.8448642
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.14372,
+          55.8449218
+        ]
+      }
+    }
+  ],
+  "Казань г., Курашова ул., 34, к 1": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 87010365,
+        "osm_key": "building",
+        "osm_value": "apartments",
+        "type": "house",
+        "housenumber": "34",
+        "street": "улица Курашова",
+        "district": "Старо-Татарская слобода",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420012",
+        "countrycode": "RU",
+        "extent": [
+          49.1423207,
+          55.7926743,
+          49.1427187,
+          55.7920058
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.142512,
+          55.7923193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 496191460,
+        "osm_key": "building",
+        "osm_value": "industrial",
+        "type": "house",
+        "housenumber": "34А",
+        "street": "улица Курашова",
+        "district": "Старо-Татарская слобода",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420012",
+        "countrycode": "RU",
+        "extent": [
+          49.1429335,
+          55.7930759,
+          49.1432988,
+          55.7928099
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.1431162,
+          55.7929429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 100272021,
+        "osm_key": "amenity",
+        "osm_value": "place_of_worship",
+        "type": "house",
+        "housenumber": "34/1",
+        "name": "Римско-католическая церковь",
+        "street": "улица Курашова",
+        "locality": "район Областная",
+        "district": "Центральный округ",
+        "city": "Якутск",
+        "county": "городской округ Якутск",
+        "state": "Республика Саха (Якутия)",
+        "country": "Россия",
+        "postcode": "677000",
+        "countrycode": "RU",
+        "extent": [
+          129.7299671,
+          62.0359081,
+          129.7306321,
+          62.0355811
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.7302351,
+          62.0357613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 238291169,
+        "osm_key": "amenity",
+        "osm_value": "college",
+        "type": "house",
+        "housenumber": "34",
+        "name": "Казанский медицинский колледж",
+        "street": "улица Хусаина Мавлютова",
+        "district": "Горки-1",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420101",
+        "countrycode": "RU",
+        "extent": [
+          49.1863757,
+          55.7507435,
+          49.1892443,
+          55.7492761
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.1877756,
+          55.7499412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 231777118,
+        "osm_key": "building",
+        "osm_value": "detached",
+        "type": "house",
+        "housenumber": "34",
+        "street": "1-я Кленовая улица",
+        "district": "Киндери",
+        "city": "Казань",
+        "county": "городской округ Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420075",
+        "countrycode": "RU",
+        "extent": [
+          49.2354319,
+          55.8715921,
+          49.2356976,
+          55.8714487
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2355647,
+          55.8715204
+        ]
+      }
+    }
+  ],
+  "Казань г., Айдарова ул., 16, литера А": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 1373174679,
+        "osm_key": "building",
+        "osm_value": "yes",
+        "type": "house",
+        "housenumber": "16А",
+        "street": "улица Айдарова",
+        "district": "Соцгород",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420037",
+        "countrycode": "RU",
+        "extent": [
+          49.0824946,
+          55.8692804,
+          49.0830466,
+          55.869043
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.0827792,
+          55.8691805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 174875696,
+        "osm_key": "building",
+        "osm_value": "apartments",
+        "type": "house",
+        "housenumber": "16",
+        "street": "улица Айдарова",
+        "district": "Соцгород",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420037",
+        "countrycode": "RU",
+        "extent": [
+          49.0815032,
+          55.86938,
+          49.0823058,
+          55.8691581
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.0819045,
+          55.8692691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 174876876,
+        "osm_key": "building",
+        "osm_value": "yes",
+        "type": "house",
+        "housenumber": "67/16",
+        "street": "улица Айдарова",
+        "district": "Сухая река",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420037",
+        "countrycode": "RU",
+        "extent": [
+          49.0708426,
+          55.8695882,
+          49.0710122,
+          55.8694886
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.0709274,
+          55.8695384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 174876790,
+        "osm_key": "building",
+        "osm_value": "yes",
+        "type": "house",
+        "housenumber": "61/16",
+        "street": "улица Айдарова",
+        "district": "Сухая река",
+        "city": "Казань",
+        "state": "Татарстан",
+        "country": "Россия",
+        "postcode": "420037",
+        "countrycode": "RU",
+        "extent": [
+          49.0724415,
+          55.8695145,
+          49.0726111,
+          55.8694149
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.0725263,
+          55.8694647
+        ]
+      }
+    }
   ]
 }

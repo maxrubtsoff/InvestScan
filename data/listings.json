@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T14:31:54.589239+00:00",
+  "generated_at": "2026-11-16T14:41:39.089979+00:00",
   "listings": [
     {
       "district": null,
@@ -167,7 +167,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.327035+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -337,7 +339,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.117053+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -504,7 +508,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.120415+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -671,7 +677,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.742572+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -838,7 +846,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.121241+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -1005,7 +1015,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.178999+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -1172,7 +1184,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.424891+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -1339,7 +1353,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.607269+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -1506,7 +1522,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.702780+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -1673,7 +1691,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.464530+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -1840,7 +1860,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.341275+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -2007,7 +2029,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.787087+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -2174,7 +2198,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.549732+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -2335,7 +2361,9 @@
         }
       ],
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:48.045294+00:00"
+      "source_fetched_at": "2026-11-15T21:51:48.045294+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -2502,7 +2530,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.201793+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -2672,7 +2702,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.618302+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -2839,7 +2871,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.363301+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -3006,7 +3040,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.375257+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -3173,7 +3209,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.766219+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -3340,7 +3378,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.475522+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -3507,7 +3547,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.934267+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -3674,7 +3716,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.855193+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -3841,7 +3885,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.898884+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -4008,7 +4054,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.724692+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -4175,7 +4223,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.922426+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -4342,7 +4392,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.267089+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -4509,7 +4561,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.223022+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -4683,7 +4737,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.016356+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -4850,7 +4906,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.438935+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -5017,7 +5075,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.045988+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -5184,7 +5244,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.042091+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -5351,7 +5413,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.844393+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -5518,7 +5582,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:06.278380+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -5685,7 +5751,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.477791+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -5852,7 +5920,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.656746+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -6019,7 +6089,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.053535+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -6189,7 +6261,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.884058+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -6356,7 +6430,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.533966+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -6523,7 +6599,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.906831+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -6690,7 +6768,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.715311+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -6857,7 +6937,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.493738+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -7024,7 +7106,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.445538+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -7191,7 +7275,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.934379+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -7358,7 +7444,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.963155+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -7525,7 +7613,9 @@
         }
       ],
       "last_seen": "2026-11-16T02:06:00.940940+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -7692,7 +7782,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.657717+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -7859,7 +7951,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.515353+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -8026,7 +8120,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.709188+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -8193,7 +8289,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.416898+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -8360,7 +8458,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.653414+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -8527,7 +8627,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.436865+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Вахитовский",
@@ -8671,7 +8773,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.823475+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.823475+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.823475+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -8841,7 +8945,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.999615+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -9008,7 +9114,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.458463+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -9175,7 +9283,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.915527+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -9342,7 +9452,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.980111+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Советский",
@@ -9503,7 +9615,9 @@
         }
       ],
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:52:23.017924+00:00"
+      "source_fetched_at": "2026-11-15T21:52:23.017924+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -9670,7 +9784,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.178910+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -9837,7 +9953,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.185052+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -10004,7 +10122,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.248420+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -10171,7 +10291,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.806875+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -10338,7 +10460,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:06.034071+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -10505,7 +10629,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.773624+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -10672,7 +10798,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.082230+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -10839,7 +10967,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.928471+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -11006,7 +11136,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.249358+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -11173,7 +11305,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.691501+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -11340,7 +11474,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.868917+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -11507,7 +11643,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.853695+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -11674,7 +11812,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.426537+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -11841,7 +11981,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.503225+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -12008,7 +12150,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.758276+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -12175,7 +12319,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.618571+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -12342,7 +12488,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.707851+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -12509,7 +12657,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.756259+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -12676,7 +12826,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.741598+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -12843,7 +12995,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.451346+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -13010,7 +13164,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.247500+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -13177,7 +13333,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.072766+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -13344,7 +13502,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.376140+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -13511,7 +13671,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.399362+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -13681,7 +13843,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.538946+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -13848,7 +14012,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.623827+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -14015,7 +14181,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.588318+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -14182,7 +14350,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.265382+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -14349,7 +14519,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.190951+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -14519,7 +14691,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.323090+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -14686,7 +14860,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.563133+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -14853,7 +15029,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.800746+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -15020,7 +15198,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.298755+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -15187,7 +15367,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.137232+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -15354,7 +15536,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.479310+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -15524,7 +15708,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.600629+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -15691,7 +15877,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.674594+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -15858,7 +16046,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.575723+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -16025,7 +16215,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.589792+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -16192,7 +16384,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.640989+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -16359,7 +16553,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.708683+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -16526,7 +16722,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.382560+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -16693,7 +16891,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.856220+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -16860,7 +17060,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.438566+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -17027,7 +17229,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.233853+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -17194,7 +17398,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.697978+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -17361,7 +17567,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.648166+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -17528,7 +17736,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.075332+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -17695,7 +17905,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.214750+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -17862,7 +18074,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.571375+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -18029,7 +18243,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.565550+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -18196,7 +18412,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.714088+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -18363,7 +18581,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.282447+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -18530,7 +18750,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.569080+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -18697,7 +18919,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.071859+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -18864,7 +19088,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.789027+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -19031,7 +19257,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.278027+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -19198,7 +19426,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.479556+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -19365,7 +19595,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.479496+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -19532,7 +19764,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.939739+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -19699,7 +19933,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.196410+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -19866,7 +20102,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.991850+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Московский",
@@ -20010,7 +20248,9 @@
         }
       ],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -20177,7 +20417,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.911250+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -20344,7 +20586,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.500688+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -20511,7 +20755,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.563030+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -20678,7 +20924,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.893662+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -20845,7 +21093,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.809522+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -21012,7 +21262,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.180900+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -21179,7 +21431,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.957326+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -21346,7 +21600,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.674371+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -21513,7 +21769,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.512692+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -21680,7 +21938,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.989402+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -21824,7 +22084,9 @@
         }
       ],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -21991,7 +22253,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.017613+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Приволжский",
@@ -22133,7 +22397,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.907740+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.907740+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.907740+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -22300,7 +22566,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.295600+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -22467,7 +22735,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.989780+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -22634,7 +22904,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.719567+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -22801,7 +23073,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.619367+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -22968,7 +23242,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.337119+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -23135,7 +23411,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.337622+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -23302,7 +23580,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.670800+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -23472,7 +23752,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.839158+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -23639,7 +23921,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.339450+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -23806,7 +24090,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.989220+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -23973,7 +24259,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.065000+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -24140,7 +24428,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.624627+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -24307,7 +24597,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.757098+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -24474,7 +24766,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.501011+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -24641,7 +24935,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.208306+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -24808,7 +25104,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.928983+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -24975,7 +25273,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.317193+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -25142,7 +25442,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.963469+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -25309,7 +25611,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.242431+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -25479,7 +25783,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.867141+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -25646,7 +25952,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.471869+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -25813,7 +26121,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.944804+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -25980,7 +26290,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.964637+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -26147,7 +26459,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.207118+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -26314,7 +26628,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.722047+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -26481,7 +26797,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.689841+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -26648,7 +26966,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.082465+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -26815,7 +27135,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.855856+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -26982,7 +27304,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.093329+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -27149,7 +27473,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.766420+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -27316,7 +27642,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.702610+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -27483,7 +27811,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.138619+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -27650,7 +27980,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.174436+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -27817,7 +28149,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.855213+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -27984,7 +28318,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.486284+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -28151,7 +28487,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.143245+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -28318,7 +28656,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.034053+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Вахитовский",
@@ -28462,7 +28802,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.752197+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.752197+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.752197+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -28629,145 +28971,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.233191+00:00",
-      "regional_candidate": false
-    },
-    {
-      "district": null,
-      "settlement": "Казань",
-      "address": "Казань г., Журналистов ул., 24",
-      "price": 145000000.0,
-      "area": 967.0,
-      "monthly_rent": null,
-      "tenant_name": null,
-      "tenant_type": null,
-      "active_tenant": null,
-      "payments_confirmed": null,
-      "contract": null,
-      "contract_months": null,
-      "indexation": null,
-      "condition": null,
-      "floor": null,
-      "separate_entrance": null,
-      "wet_point": null,
-      "ventilation": null,
-      "power": null,
-      "repair": null,
-      "communications": null,
-      "legal_clear": null,
-      "traffic": null,
-      "tenant_tenure_months": null,
-      "termination_terms": null,
-      "closure_risk": null,
-      "location_dependency": null,
-      "coordinates": null,
-      "coordinate_source": null,
-      "geo_accuracy": null,
-      "published_at": null,
-      "transaction_costs": null,
-      "vacancy_months": null,
-      "verification_evidence": null,
-      "title": "Журналистов ул., 24, 967.00 м 2",
-      "sources": [
-        {
-          "name": "РБН",
-          "url": "https://kazan.rbnpro.ru/rents/show/46108349"
-        }
-      ],
-      "photos": [
-        "https://kazan.rbnpro.ru/dir_images/870x652/catalogs_file1_333874_l.jpg"
-      ],
-      "description": "Арендная модель заявлена в карточке РБН. Платежи и договор не проверены.",
-      "annual_costs": {},
-      "price_per_sqm": 149948.2936918304,
-      "id": "51fd49762e047f43a016",
-      "verification": "review",
-      "distance_km": null,
-      "geo_status": "unknown",
-      "finance": {
-        "annual_rent": null,
-        "gross_yield": null,
-        "payback_years": null,
-        "net_yield": null,
-        "net_payback_years": null,
-        "scenarios": []
-      },
-      "score": 3,
-      "score_breakdown": [
-        {
-          "factor": "Валовая доходность",
-          "points": 0,
-          "max": 15,
-          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
-        },
-        {
-          "factor": "Простая окупаемость",
-          "points": 0,
-          "max": 15,
-          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
-        },
-        {
-          "factor": "Надёжность аренды",
-          "points": 0,
-          "max": 15,
-          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
-        },
-        {
-          "factor": "Договор",
-          "points": 0,
-          "max": 10,
-          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
-        },
-        {
-          "factor": "Индексация",
-          "points": 0,
-          "max": 5,
-          "reason": "Только подтверждённая ежегодная индексация"
-        },
-        {
-          "factor": "Расположение",
-          "points": 0,
-          "max": 5,
-          "reason": "Подтверждённый трафик / жилой массив"
-        },
-        {
-          "factor": "Расстояние",
-          "points": 0,
-          "max": 10,
-          "reason": "10 до 30 км; 7 до 100; 3 до 200"
-        },
-        {
-          "factor": "Состояние",
-          "points": 0,
-          "max": 5,
-          "reason": "По 1 баллу за пять подтверждённых характеристик"
-        },
-        {
-          "factor": "Полнота данных",
-          "points": 3,
-          "max": 10,
-          "reason": "По 1 баллу за каждое из 10 основных полей"
-        },
-        {
-          "factor": "Цена относительно рынка",
-          "points": 0,
-          "max": 10,
-          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
-        }
-      ],
-      "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 3; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
-      "first_seen": "2026-11-16T14:30:28.492277+00:00",
-      "history": [
-        {
-          "at": "2026-11-16T14:30:28.492277+00:00",
-          "price": 145000000.0,
-          "monthly_rent": null,
-          "contract_months": null,
-          "indexation": null
-        }
-      ],
-      "last_seen": "2026-11-16T14:30:28.492277+00:00",
-      "regional_candidate": true
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -28934,7 +29140,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.548793+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -29101,7 +29309,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.896338+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -29268,7 +29478,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.870969+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -29435,7 +29647,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.739787+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -29602,7 +29816,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.844833+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -29769,7 +29985,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.536496+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -29936,7 +30154,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.498284+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -30103,7 +30323,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.559237+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -30270,7 +30492,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.162057+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -30437,7 +30661,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.828994+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -30604,7 +30830,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.685590+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -30771,7 +30999,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.726024+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -30938,7 +31168,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.783991+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -31105,7 +31337,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.873066+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -31272,7 +31506,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.732635+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -31439,7 +31675,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.582624+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -31606,7 +31844,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.463040+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Приволжский",
@@ -31750,7 +31990,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.805380+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.805380+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.805380+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -31917,7 +32159,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.287055+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -32084,7 +32328,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.289284+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -32251,7 +32497,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.097128+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -32418,7 +32666,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.136899+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -32585,7 +32835,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.645062+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -32752,7 +33004,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.459751+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -32919,7 +33173,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.876742+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -33089,7 +33345,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.911073+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -33256,7 +33514,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.892288+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -33423,7 +33683,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.276959+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -33590,7 +33852,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.519041+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Приволжский",
@@ -33732,7 +33996,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.888926+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.888926+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.888926+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -33899,7 +34165,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.635924+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -34066,7 +34334,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.269565+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -34233,7 +34503,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.482839+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -34400,7 +34672,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.358812+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -34567,7 +34841,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.693652+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -34734,7 +35010,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.904969+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -34901,7 +35179,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.461972+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -35068,7 +35348,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.008251+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -35235,7 +35517,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.636433+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -35402,7 +35686,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.046972+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -35569,7 +35855,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.311846+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -35616,11 +35904,20 @@
           "url": "https://kazan.rbnpro.ru/rents/show/128137279"
         }
       ],
+      "price_claims": [
+        {
+          "location": "Шапка объявления",
+          "value": 2300000.0
+        }
+      ],
+      "catalog_eligible": true,
+      "exclusion_reason": null,
       "photos": [
         "https://kazan.rbnpro.ru/dir_images/870x652/catalogs_file1_327960_l.jpg"
       ],
       "description": "Арендная модель заявлена в карточке РБН. Платежи и договор не проверены.",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 129213.48314606742,
       "id": "6bf625eb1b2f4d82a626",
       "verification": "review",
@@ -35709,7 +36006,7 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-16T14:28:30.701493+00:00",
+      "last_seen": "2026-11-16T14:38:11.774114+00:00",
       "regional_candidate": true
     },
     {
@@ -35877,7 +36174,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.251961+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -36044,7 +36343,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.626127+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -36188,7 +36489,9 @@
         }
       ],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -36355,7 +36658,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.798812+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -36522,7 +36827,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.096392+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -36689,7 +36996,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.234117+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -36856,7 +37165,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.814788+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -36886,9 +37197,12 @@
       "termination_terms": null,
       "closure_risk": null,
       "location_dependency": null,
-      "coordinates": null,
-      "coordinate_source": null,
-      "geo_accuracy": null,
+      "coordinates": [
+        55.8211554,
+        49.1451974
+      ],
+      "coordinate_source": "OpenStreetMap / Photon: совпали город, улица и номер дома",
+      "geo_accuracy": "building",
       "published_at": null,
       "transaction_costs": null,
       "vacancy_months": null,
@@ -36900,16 +37214,25 @@
           "url": "https://kazan.rbnpro.ru/rents/show/137680448"
         }
       ],
+      "price_claims": [
+        {
+          "location": "Шапка объявления",
+          "value": 55860000.0
+        }
+      ],
+      "catalog_eligible": true,
+      "exclusion_reason": null,
       "photos": [
         "https://kazan.rbnpro.ru/dir_images/870x652/catalogs_file1_329083_l.jpg"
       ],
       "description": "Арендная модель заявлена в карточке РБН. Платежи и договор не проверены.",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 200000.0,
       "id": "7054874e74b1243e43b7",
       "verification": "review",
-      "distance_km": null,
-      "geo_status": "unknown",
+      "distance_km": 3.69,
+      "geo_status": "located",
       "finance": {
         "annual_rent": null,
         "gross_yield": null,
@@ -36918,7 +37241,7 @@
         "net_payback_years": null,
         "scenarios": []
       },
-      "score": 3,
+      "score": 14,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
@@ -36958,7 +37281,7 @@
         },
         {
           "factor": "Расстояние",
-          "points": 0,
+          "points": 10,
           "max": 10,
           "reason": "10 до 30 км; 7 до 100; 3 до 200"
         },
@@ -36970,7 +37293,7 @@
         },
         {
           "factor": "Полнота данных",
-          "points": 3,
+          "points": 4,
           "max": 10,
           "reason": "По 1 баллу за каждое из 10 основных полей"
         },
@@ -36982,7 +37305,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 3; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 14; предел для текущего статуса 39. ",
       "first_seen": "2026-11-16T14:28:42.197473+00:00",
       "history": [
         {
@@ -36993,7 +37316,7 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-16T14:28:42.197473+00:00",
+      "last_seen": "2026-11-16T14:38:23.246606+00:00",
       "regional_candidate": true
     },
     {
@@ -37161,7 +37484,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.371043+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -37328,7 +37653,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.784518+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -37495,7 +37822,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.147893+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -37662,7 +37991,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.025672+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Советский",
@@ -37806,7 +38137,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.665871+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.665871+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.665871+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -37973,7 +38306,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.956873+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -38140,7 +38475,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.458340+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -38307,7 +38644,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.332677+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -38474,7 +38813,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.406402+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -38641,7 +38982,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.357784+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -38808,7 +39151,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.069884+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -38975,7 +39320,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.034056+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -39142,7 +39489,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.036227+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -39309,7 +39658,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.116493+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -39476,7 +39827,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.517280+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -39643,7 +39996,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.770885+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -39810,7 +40165,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.729261+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -39977,7 +40334,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.295969+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -40144,7 +40503,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.304793+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Приволжский",
@@ -40288,7 +40649,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.859041+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.859041+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.859041+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -40455,7 +40818,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.406751+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -40622,7 +40987,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.406193+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -40789,7 +41156,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.229385+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -40956,7 +41325,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.618362+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -41123,7 +41494,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:06.384931+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -41290,7 +41663,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.491596+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -41457,7 +41832,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:06.130858+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -41624,7 +42001,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.341877+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -41791,7 +42170,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.776061+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -41958,7 +42339,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.748607+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -42125,7 +42508,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.442388+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -42292,7 +42677,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.349047+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -42459,7 +42846,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.726623+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -42626,7 +43015,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.737473+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -42793,7 +43184,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.822058+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -42960,7 +43353,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.232703+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -43127,7 +43522,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.807867+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -43294,7 +43691,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.799656+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -43461,7 +43860,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.775998+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -43628,7 +44029,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.756787+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -43795,7 +44198,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.600956+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -43962,7 +44367,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.738387+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -44129,7 +44536,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.766133+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -44296,7 +44705,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.930989+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -44463,7 +44874,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.831064+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -44630,7 +45043,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.995981+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -44797,7 +45212,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.319828+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -44964,7 +45381,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.891517+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -45134,7 +45553,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.028560+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -45301,7 +45722,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.519369+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -45468,7 +45891,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.819087+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -45635,7 +46060,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.162021+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -45802,7 +46229,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.667581+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -45969,7 +46398,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.184104+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -46016,11 +46447,20 @@
           "url": "https://kazan.rbnpro.ru/rents/show/147104010"
         }
       ],
+      "price_claims": [
+        {
+          "location": "Шапка объявления",
+          "value": 35000000.0
+        }
+      ],
+      "catalog_eligible": true,
+      "exclusion_reason": null,
       "photos": [
         "https://kazan.rbnpro.ru/dir_images/870x652/catalogs_file1_335399_l.jpg"
       ],
       "description": "Арендная модель заявлена в карточке РБН. Платежи и договор не проверены.",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 113562.62167423751,
       "id": "87c9de466a1a8af1de7f",
       "verification": "review",
@@ -46109,7 +46549,7 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-16T14:27:55.136385+00:00",
+      "last_seen": "2026-11-16T14:37:37.049580+00:00",
       "regional_candidate": true
     },
     {
@@ -46277,7 +46717,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.441296+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -46444,7 +46886,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.994510+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -46611,7 +47055,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.386969+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -46778,7 +47224,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.202168+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -46945,7 +47393,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.967742+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -47112,7 +47562,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.769446+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -47279,7 +47731,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.876363+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -47446,7 +47900,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.881248+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -47613,7 +48069,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.215013+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -47780,7 +48238,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.384614+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -47947,7 +48407,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.982206+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -48114,7 +48576,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.967828+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -48158,11 +48622,20 @@
           "url": "https://kazan.rbnpro.ru/rents/show/126148172"
         }
       ],
+      "price_claims": [
+        {
+          "location": "Шапка объявления",
+          "value": 26000000.0
+        }
+      ],
+      "catalog_eligible": true,
+      "exclusion_reason": null,
       "photos": [
         "https://kazan.rbnpro.ru/dir_images/870x652/catalogs_file1_331107_l.jpg"
       ],
       "description": "Арендная модель заявлена в карточке РБН. Платежи и договор не проверены.",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 177595.62841530054,
       "id": "8c3be04ac1d83323b1dd",
       "verification": "review",
@@ -48251,7 +48724,7 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-16T14:29:29.051504+00:00",
+      "last_seen": "2026-11-16T14:39:09.499501+00:00",
       "regional_candidate": true
     },
     {
@@ -48396,7 +48869,9 @@
       ],
       "last_seen": "2026-11-15T21:52:22.909513+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:52:22.909513+00:00"
+      "source_fetched_at": "2026-11-15T21:52:22.909513+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -48563,7 +49038,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.887709+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -48730,7 +49207,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.166705+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -48897,7 +49376,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.068944+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -49064,7 +49545,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.348022+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -49231,7 +49714,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.014395+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -49398,7 +49883,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.946883+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -49565,7 +50052,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.036321+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -49732,7 +50221,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.666190+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -49899,7 +50390,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.802635+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -50066,7 +50559,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.365806+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -50233,7 +50728,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.679646+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -50400,7 +50897,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.328759+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -50567,7 +51066,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.248997+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -50734,7 +51235,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.913921+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -50901,7 +51404,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.054369+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -51068,7 +51573,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.363969+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -51235,7 +51742,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.532312+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -51402,7 +51911,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.173926+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -51569,7 +52080,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.396904+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -51736,7 +52249,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.661794+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -51903,7 +52418,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.288700+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -52073,7 +52590,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.623994+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -52103,9 +52622,12 @@
       "termination_terms": null,
       "closure_risk": null,
       "location_dependency": null,
-      "coordinates": null,
-      "coordinate_source": null,
-      "geo_accuracy": null,
+      "coordinates": [
+        55.8691805,
+        49.0827792
+      ],
+      "coordinate_source": "OpenStreetMap / Photon: совпали город, улица и номер дома",
+      "geo_accuracy": "building",
       "published_at": null,
       "transaction_costs": null,
       "vacancy_months": null,
@@ -52117,16 +52639,25 @@
           "url": "https://kazan.rbnpro.ru/rents/show/42230046"
         }
       ],
+      "price_claims": [
+        {
+          "location": "Шапка объявления",
+          "value": 117000000.0
+        }
+      ],
+      "catalog_eligible": true,
+      "exclusion_reason": null,
       "photos": [
         "https://kazan.rbnpro.ru/dir_images/870x652/catalogs_file1_331681_l.jpg"
       ],
       "description": "Арендная модель заявлена в карточке РБН. Платежи и договор не проверены.",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 118421.05263157895,
       "id": "99888d5c53dbe42a810e",
       "verification": "review",
-      "distance_km": null,
-      "geo_status": "unknown",
+      "distance_km": 8.26,
+      "geo_status": "located",
       "finance": {
         "annual_rent": null,
         "gross_yield": null,
@@ -52135,7 +52666,7 @@
         "net_payback_years": null,
         "scenarios": []
       },
-      "score": 3,
+      "score": 14,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
@@ -52175,7 +52706,7 @@
         },
         {
           "factor": "Расстояние",
-          "points": 0,
+          "points": 10,
           "max": 10,
           "reason": "10 до 30 км; 7 до 100; 3 до 200"
         },
@@ -52187,7 +52718,7 @@
         },
         {
           "factor": "Полнота данных",
-          "points": 3,
+          "points": 4,
           "max": 10,
           "reason": "По 1 баллу за каждое из 10 основных полей"
         },
@@ -52199,7 +52730,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 3; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 14; предел для текущего статуса 39. ",
       "first_seen": "2026-11-16T14:29:41.094111+00:00",
       "history": [
         {
@@ -52210,7 +52741,7 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-16T14:29:41.094111+00:00",
+      "last_seen": "2026-11-16T14:39:21.244868+00:00",
       "regional_candidate": true
     },
     {
@@ -52378,7 +52909,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:06.152096+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Кировский",
@@ -52522,7 +53055,9 @@
         }
       ],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -52689,7 +53224,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.115244+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Приволжский",
@@ -52833,7 +53370,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.717046+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.717046+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.717046+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -53000,7 +53539,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.792286+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -53167,7 +53708,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.069241+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -53334,7 +53877,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.953101+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -53501,7 +54046,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.105673+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -53668,7 +54215,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.544799+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -53835,7 +54384,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.916463+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -54002,7 +54553,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.200556+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -54169,7 +54722,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.155637+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -54336,7 +54891,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.441123+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -54503,7 +55060,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.365780+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Приволжский",
@@ -54647,7 +55206,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.683108+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.683108+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.683108+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -54814,7 +55375,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.121086+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -54981,7 +55544,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.073503+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -55121,7 +55686,9 @@
       ],
       "last_seen": "2026-11-15T21:52:11.331801+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:52:11.331801+00:00"
+      "source_fetched_at": "2026-11-15T21:52:11.331801+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -55288,7 +55855,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.522270+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -55455,7 +56024,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.710587+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -55622,7 +56193,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.520164+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -55789,7 +56362,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.085973+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -55956,7 +56531,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.388887+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -56123,7 +56700,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.251247+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -56290,7 +56869,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.554455+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -56457,7 +57038,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.016820+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -56624,7 +57207,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.971966+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -56791,7 +57376,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.942885+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -56958,7 +57545,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.924791+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -57125,7 +57714,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.863221+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -57292,7 +57883,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.055669+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -57459,7 +58052,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.027683+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -57626,7 +58221,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.091151+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -57793,7 +58390,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.606220+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Приволжский",
@@ -57937,7 +58536,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.734357+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.734357+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.734357+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Советский",
@@ -58081,7 +58682,9 @@
         }
       ],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -58248,7 +58851,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.863134+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -58415,7 +59020,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:06.261280+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -58585,7 +59192,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.908809+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -58752,7 +59361,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.419409+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -58919,7 +59530,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.601233+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Приволжский",
@@ -59062,7 +59675,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.925873+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.925873+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.925873+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -59229,7 +59844,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.006997+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Авиастроительный",
@@ -59402,7 +60019,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.840988+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.840988+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.840988+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -59569,7 +60188,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.558791+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -59736,7 +60357,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.405826+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -59903,7 +60526,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.453629+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -60070,7 +60695,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.949012+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Вахитовский",
@@ -60243,7 +60870,9 @@
         }
       ],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -60410,7 +61039,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.261272+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -60577,7 +61208,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.606439+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -60744,7 +61377,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.443875+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -60911,7 +61546,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.324872+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Комсомольский",
@@ -61055,7 +61692,9 @@
         }
       ],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -61222,7 +61861,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.988470+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -61389,7 +62030,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.368626+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -61556,7 +62199,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.879340+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -61723,7 +62368,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.692970+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -61890,7 +62537,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.644117+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -62057,7 +62706,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.139191+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -62224,7 +62875,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.643713+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -62391,7 +63044,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:06.506096+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -62558,7 +63213,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.600876+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -62725,7 +63382,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.752611+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -62892,7 +63551,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.271718+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -63059,7 +63720,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.948129+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -63226,7 +63889,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.836835+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -63393,7 +64058,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.158830+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -63537,7 +64204,9 @@
         }
       ],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -63704,7 +64373,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.581417+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -63871,7 +64542,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.490121+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -64038,7 +64711,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.008561+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -64205,7 +64880,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.279704+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -64372,7 +65049,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.696470+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -64539,7 +65218,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.665580+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -64706,7 +65387,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.784466+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -64873,7 +65556,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.692751+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -65040,7 +65725,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.675097+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -65207,7 +65894,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.259882+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Советский",
@@ -65351,7 +66040,9 @@
         }
       ],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -65518,7 +66209,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.070894+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -65685,7 +66378,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.414791+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -65852,7 +66547,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.849089+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Советский",
@@ -65996,7 +66693,9 @@
       ],
       "last_seen": "2026-11-15T21:52:23.000995+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:52:23.000995+00:00"
+      "source_fetched_at": "2026-11-15T21:52:23.000995+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -66163,7 +66862,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.659356+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -66333,7 +67034,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.018255+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -66500,7 +67203,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.251612+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -66667,7 +67372,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.499422+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -66834,7 +67541,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.091873+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -67001,7 +67710,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.322092+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -67168,7 +67879,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.116125+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Советский",
@@ -67312,7 +68025,9 @@
       ],
       "last_seen": "2026-11-15T21:52:22.929344+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:52:22.929344+00:00"
+      "source_fetched_at": "2026-11-15T21:52:22.929344+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -67479,7 +68194,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.678098+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -67646,7 +68363,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.536754+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -67813,7 +68532,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.844635+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -67980,7 +68701,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:06.628692+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -68147,7 +68870,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.194759+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -68314,7 +69039,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.982734+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -68481,7 +69208,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.561553+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -68648,7 +69377,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.343729+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -68815,7 +69546,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.425053+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -68982,7 +69715,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.044135+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -69149,7 +69884,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.893558+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -69316,7 +70053,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.221139+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -69483,7 +70222,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.315676+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -69650,7 +70391,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.685850+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -69817,7 +70560,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.794214+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -69984,7 +70729,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.531429+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -70151,7 +70898,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.130468+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -70321,7 +71070,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.205138+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -70488,7 +71239,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.026873+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Ново-Савиновский",
@@ -70632,7 +71385,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.769482+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.769482+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.769482+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -70799,7 +71554,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.973586+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Советский",
@@ -70943,7 +71700,9 @@
       ],
       "last_seen": "2026-11-15T21:51:48.029037+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:48.029037+00:00"
+      "source_fetched_at": "2026-11-15T21:51:48.029037+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -71110,7 +71869,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.291131+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -71277,7 +72038,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.796296+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -71444,7 +72207,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.684554+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -71611,7 +72376,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.029892+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Центральный",
@@ -71755,7 +72522,9 @@
         }
       ],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -71922,7 +72691,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.177793+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -72089,7 +72860,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.929262+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -72256,7 +73029,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.710434+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -72423,7 +73198,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.672925+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -72590,7 +73367,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.732576+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -72757,7 +73536,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.167677+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -72801,12 +73582,25 @@
           "url": "https://kazan.rbnpro.ru/rents/show/70064731"
         }
       ],
+      "price_claims": [
+        {
+          "location": "Шапка объявления",
+          "value": 50000000.0
+        },
+        {
+          "location": "Описание объявления",
+          "value": 56000000.0
+        }
+      ],
+      "catalog_eligible": true,
+      "exclusion_reason": null,
       "photos": [
         "https://kazan.rbnpro.ru/dir_images/870x652/catalogs_file1_334785_l.jpg"
       ],
       "description": "Арендная модель заявлена в карточке РБН. Платежи и договор не проверены.",
       "annual_costs": {},
-      "price_per_sqm": 71103.52673492605,
+      "price_conflict": true,
+      "price_per_sqm": null,
       "id": "d8a5a21dacf78db97868",
       "verification": "review",
       "distance_km": null,
@@ -72817,7 +73611,8 @@
         "payback_years": null,
         "net_yield": null,
         "net_payback_years": null,
-        "scenarios": []
+        "scenarios": [],
+        "calculation_note": "В источнике противоречивые цены. Доходность и окупаемость не рассчитываются до уточнения цены."
       },
       "score": 3,
       "score_breakdown": [
@@ -72894,7 +73689,7 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-16T14:30:04.920544+00:00",
+      "last_seen": "2026-11-16T14:39:43.827848+00:00",
       "regional_candidate": true
     },
     {
@@ -73062,7 +73857,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.639681+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -73229,7 +74026,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.044274+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -73396,7 +74195,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.608993+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -73563,7 +74364,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.125149+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -73730,7 +74533,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.473192+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -73897,7 +74702,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.827131+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -74064,7 +74871,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.099658+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -74231,7 +75040,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.803106+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Ново-Савиновский",
@@ -74375,7 +75186,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.648172+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.648172+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.648172+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -74542,7 +75355,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.137036+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -74712,7 +75527,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.813098+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -74879,7 +75696,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.838201+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -75046,7 +75865,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.357166+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -75213,7 +76034,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.269886+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -75380,7 +76203,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.906694+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -75547,7 +76372,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.049677+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -75714,7 +76541,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.684841+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -75888,7 +76717,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:53.862101+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -76055,7 +76886,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.658060+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -76222,7 +77055,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.839101+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -76389,7 +77224,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.054465+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -76556,7 +77393,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.095175+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -76723,7 +77562,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:53.999928+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -76890,7 +77731,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.656571+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -77057,7 +77900,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.152813+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -77224,7 +78069,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.428810+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -77391,7 +78238,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.923830+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -77558,7 +78407,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.565992+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -77725,7 +78576,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.225355+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -77892,7 +78745,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.977264+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -78066,7 +78921,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.353154+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -78233,7 +79090,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.016165+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -78400,7 +79259,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.638008+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -78567,7 +79428,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.051955+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -78734,7 +79597,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:54.389485+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -78901,7 +79766,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.581060+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -79068,7 +79935,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.731101+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -79235,7 +80104,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.421687+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -79402,7 +80273,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.242628+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -79569,7 +80442,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.539150+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -79736,7 +80611,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:06.057132+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -79903,7 +80780,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.605091+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -80070,7 +80949,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.103295+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -80237,7 +81118,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:59.751265+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -80404,7 +81287,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:05.928425+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -80571,7 +81456,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.585353+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -80738,7 +81625,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:55.033947+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -80905,7 +81794,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.955867+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -81072,7 +81963,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.151775+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Кировский",
@@ -81216,7 +82109,9 @@
       ],
       "last_seen": "2026-11-15T21:52:22.982149+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:52:22.982149+00:00"
+      "source_fetched_at": "2026-11-15T21:52:22.982149+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -81383,7 +82278,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.976892+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -81550,7 +82447,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.820393+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -81597,11 +82496,20 @@
           "url": "https://kazan.rbnpro.ru/rents/show/32847814"
         }
       ],
+      "price_claims": [
+        {
+          "location": "Шапка объявления",
+          "value": 28000000.0
+        }
+      ],
+      "catalog_eligible": true,
+      "exclusion_reason": null,
       "photos": [
         "https://kazan.rbnpro.ru/dir_images/870x652/catalogs_file1_334794_l.jpg"
       ],
       "description": "Арендная модель заявлена в карточке РБН. Платежи и договор не проверены.",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 82352.94117647059,
       "id": "f4cecdebc072adcf921f",
       "verification": "review",
@@ -81690,7 +82598,7 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-16T14:27:43.197680+00:00",
+      "last_seen": "2026-11-16T14:37:25.398193+00:00",
       "regional_candidate": true
     },
     {
@@ -81858,7 +82766,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.895869+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -82025,7 +82935,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:04.542139+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -82192,7 +83104,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.821968+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -82359,7 +83273,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.874867+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -82526,7 +83442,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.998697+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -82693,7 +83611,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.853451+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -82860,7 +83780,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.587294+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -83027,7 +83949,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.590517+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -83194,7 +84118,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.216029+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -83361,7 +84287,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.395538+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -83528,7 +84456,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:01.323409+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -83695,7 +84625,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.232265+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": "Вахитовский",
@@ -83839,7 +84771,9 @@
       ],
       "last_seen": "2026-11-15T21:51:36.787276+00:00",
       "regional_candidate": true,
-      "source_fetched_at": "2026-11-15T21:51:36.787276+00:00"
+      "source_fetched_at": "2026-11-15T21:51:36.787276+00:00",
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -84006,7 +84940,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:57.202803+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -84173,7 +85109,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:00.479352+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -84340,7 +85278,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.818675+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -84507,7 +85447,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:58.947488+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -84674,7 +85616,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:03.093642+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -84841,7 +85785,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:40:56.901940+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -85008,7 +85954,9 @@
         }
       ],
       "last_seen": "2026-11-16T09:41:02.231507+00:00",
-      "regional_candidate": false
+      "regional_candidate": false,
+      "price_claims": [],
+      "price_conflict": false
     },
     {
       "district": null,
@@ -85052,11 +86000,20 @@
           "url": "https://kazan.rbnpro.ru/rents/show/94080575"
         }
       ],
+      "price_claims": [
+        {
+          "location": "Шапка объявления",
+          "value": 86990000.0
+        }
+      ],
+      "catalog_eligible": true,
+      "exclusion_reason": null,
       "photos": [
         "https://kazan.rbnpro.ru/dir_images/870x652/catalogs_file1_333763_l.jpg"
       ],
       "description": "Арендная модель заявлена в карточке РБН. Платежи и договор не проверены.",
       "annual_costs": {},
+      "price_conflict": false,
       "price_per_sqm": 214261.08374384238,
       "id": "ff8a7df209bde0756957",
       "verification": "review",
@@ -85145,7 +86102,7 @@
           "indexation": null
         }
       ],
-      "last_seen": "2026-11-16T14:29:52.920745+00:00",
+      "last_seen": "2026-11-16T14:39:32.552311+00:00",
       "regional_candidate": true
     },
     {
@@ -85290,7 +86247,9 @@
         }
       ],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "price_claims": [],
+      "price_conflict": false
     }
   ],
   "sources": [
@@ -85324,8 +86283,9 @@
     },
     {
       "name": "РБН",
+      "excluded_count": 8,
       "status": "ok",
-      "count": 9,
+      "count": 8,
       "message": "Публичная витрина РБН по Казани и окрестностям. Только описания с признаками аренды. Заявленная окупаемость не используется для восстановления МАП."
     }
   ],
