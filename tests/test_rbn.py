@@ -18,6 +18,7 @@ def test_rbn_does_not_use_template_rent_or_reverse_calculate_payback():
     url='https://kazan.rbnpro.ru/rents/show/1'
     assert parse_detail(detail('Пустое помещение, дизайнерский ремонт.'),url) is None
     assert parse_detail(detail('Готовый арендный бизнес: можно сразу сдавать.'),url) is None
+    assert parse_detail(detail('Готовый арендный бизнес: при заполнении 1-го этажа окупаемость 10 лет.'),url) is None
     x=parse_detail(detail('Помещение с арендатором. Арендатор — ателье.'),url)
     assert x['price']==2300000 and x['area']==17.8
     assert x['monthly_rent'] is None and x['coordinates'] is None
@@ -53,3 +54,25 @@ def test_targeted_run_preserves_other_source_health(tmp_path,monkeypatch):
     monkeypatch.setenv('INVESTSCAN_SOURCES','rbn');monkeypatch.setenv('INVESTSCAN_PHOTON','0')
     runner.run();report=next(s for s in json.loads(path.read_text())['sources'] if s['name']=='ЦИАН')
     assert report['status']=='blocked' and report['count']==11 and report['checked_this_run'] is False
+
+def test_conflicting_source_prices_are_retained_without_financial_estimates():
+    from analyzer.validation import normalize
+    from analyzer.investment import analyze
+    row=normalize(parse_detail(detail('Помещение с арендатором. МАП 50000 рублей. Стоимость объекта: 2 800 000 руб.'),'https://kazan.rbnpro.ru/rents/show/1'))
+    assert row['price']==2300000 and {c['value'] for c in row['price_claims']}=={2300000,2800000}
+    assert row['price_conflict'] is True and row['price_per_sqm'] is None
+    f=analyze(row)
+    assert f['annual_rent']==600000 and f['gross_yield'] is None and f['payback_years'] is None and not f['scenarios']
+
+def test_newly_rejected_offer_stays_in_database_but_leaves_public_catalog(tmp_path,monkeypatch):
+    import scripts.update_catalog as runner,json
+    from storage.database import Database
+    from analyzer.validation import normalize
+    (tmp_path/'data').mkdir();db=Database(tmp_path/'data/catalog.sqlite')
+    url='https://kazan.rbnpro.ru/rents/show/1';previous=normalize(parse_detail(detail('Помещение с арендатором.'),url));db.upsert(previous);db.close()
+    rejected=parse_detail(detail('Готовый арендный бизнес: при заполнении окупаемость 10 лет.'),url,include_excluded=True)
+    monkeypatch.setattr(runner,'ROOT',tmp_path);monkeypatch.setattr(runner.rbn,'collect',lambda:[rejected]);monkeypatch.setenv('INVESTSCAN_SOURCES','rbn');monkeypatch.setenv('INVESTSCAN_PHOTON','0');monkeypatch.setenv('INVESTSCAN_GEOCODE','0')
+    runner.run();data=json.loads((tmp_path/'data/listings.json').read_text())
+    assert data['listings']==[]
+    assert next(s for s in data['sources'] if s['name']=='РБН')['excluded_count']==1
+    db=Database(tmp_path/'data/catalog.sqlite');assert len(db.all())==1 and db.all()[0]['catalog_eligible'] is False;db.close()

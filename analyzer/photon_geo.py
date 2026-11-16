@@ -39,7 +39,7 @@ def choose_hit(row,features):
 
 def geocode(rows,cache_path,limit=4):
     cache_path=Path(cache_path);cache=json.loads(cache_path.read_text()) if cache_path.exists() else {};count=0;blocked=False
-    candidates=[r for r in rows if not r.get('coordinates') and any(s['name']=='РБН' for s in r.get('sources',[])) and address_parts(r)]
+    candidates=[r for r in rows if r.get('catalog_eligible') is not False and not r.get('coordinates') and any(s['name']=='РБН' for s in r.get('sources',[])) and address_parts(r)]
     for row in sorted(candidates,key=lambda r:(r.get('price') is None or r['price']>12000000,r.get('price') or 0)):
         key=row['address']
         if key not in cache and count<limit and not blocked:

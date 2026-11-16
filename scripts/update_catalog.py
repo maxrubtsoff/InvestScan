@@ -28,13 +28,15 @@ def run():
             # successful count or snapshot date merely because it wasn't queried.
             report=dict(previous_reports.get(name,dict(name=name,status='cached',count=0,message='Источник ещё не проверялся.')))
             report['checked_this_run']=False;reports.append(report);continue
-        count=0
+        count=0;excluded=0
         try:
             for raw in (enrich_coordinates(collector()) if name=='АРР' else collector()):
-                x=normalize(raw);x=apply_geo(x);x['finance']=analyze(x);x=score(x);db.upsert(x);count+=1
-            reports.append(dict(name=name,status=('ok' if count else 'empty') if name in ('АРР','РБН','ЦИАН') else ('imported' if count else 'empty'),count=count,message='Публичная общероссийская витрина, вся доступная пагинация (защитный предел 80 страниц). Охват ограничен этим источником. Данные продавцов требуют проверки.' if name=='АРР' else 'Публичная витрина РБН по Казани и окрестностям. Только описания с признаками аренды. Заявленная окупаемость не используется для восстановления МАП.' if name=='РБН' else 'Коммерческая выдача Татарстана; только объявления с признаками арендной модели. Аренда извлекается из явного МАП, не из прибыли бизнеса.' if name=='ЦИАН' else 'Обычный публичный доступ и импорт; без обхода ограничений.'))
+                x=normalize(raw);x=apply_geo(x);x['finance']=analyze(x);x=score(x);db.upsert(x)
+                if x.get('catalog_eligible') is False:excluded+=1
+                else:count+=1
+            reports.append(dict(name=name,excluded_count=excluded,status=('ok' if count else 'empty') if name in ('АРР','РБН','ЦИАН') else ('imported' if count else 'empty'),count=count,message='Публичная общероссийская витрина, вся доступная пагинация (защитный предел 80 страниц). Охват ограничен этим источником. Данные продавцов требуют проверки.' if name=='АРР' else 'Публичная витрина РБН по Казани и окрестностям. Только описания с признаками аренды. Заявленная окупаемость не используется для восстановления МАП.' if name=='РБН' else 'Коммерческая выдача Татарстана; только объявления с признаками арендной модели. Аренда извлекается из явного МАП, не из прибыли бизнеса.' if name=='ЦИАН' else 'Обычный публичный доступ и импорт; без обхода ограничений.'))
         except Exception as e:
-            print(f'{name}: {type(e).__name__}: {e}',file=sys.stderr);reports.append(dict(name=name,status='blocked' if isinstance(e,SourceUnavailable) else 'error',count=count,message=str(e)))
+            print(f'{name}: {type(e).__name__}: {e}',file=sys.stderr);reports.append(dict(name=name,excluded_count=excluded,status='blocked' if isinstance(e,SourceUnavailable) else 'error',count=count,message=str(e)))
     # Revalidate retained records as extraction rules improve, even on source outages.
     rows=[normalize(row) for row in db.all()]
     if os.environ.get('INVESTSCAN_PHOTON','0')=='1':
@@ -45,9 +47,9 @@ def run():
     for row in rows:
         if row.get('sources') and all(s['name'] in blocked for s in row['sources']) and not row.get('source_fetched_at'):
             row['source_fetched_at']=row.get('last_seen')
-        row=apply_geo(row);row['regional_candidate']=candidate(row);row['price_per_sqm']=row['price']/row['area'] if row.get('price') is not None and row.get('area') else None;row['finance']=analyze(row);score(row)
+        row=apply_geo(row);row['regional_candidate']=candidate(row);row['price_per_sqm']=row['price']/row['area'] if row.get('price') is not None and row.get('area') and not row.get('price_conflict') else None;row['finance']=analyze(row);score(row)
         db.db.execute('UPDATE listings SET payload=? WHERE id=?',(json.dumps(row,ensure_ascii=False),row['id']))
-    db.db.commit();db.close();data=dict(schema_version=1,generated_at=now(),listings=rows,sources=reports,coverage=json.loads((ROOT/'data/collection-status.json').read_text()) if (ROOT/'data/collection-status.json').exists() else {})
+    db.db.commit();db.close();data=dict(schema_version=1,generated_at=now(),listings=[r for r in rows if r.get('catalog_eligible') is not False],sources=reports,coverage=json.loads((ROOT/'data/collection-status.json').read_text()) if (ROOT/'data/collection-status.json').exists() else {})
     destination=ROOT/'data/listings.json'
     # Preserve the published snapshot even if a fresh/missing DB meets an outage.
     if not rows and destination.exists():

@@ -11,3 +11,4 @@ export function normalizeCard(row,sources=[]){
  if(!x.source_fetched_at&&x.sources?.length&&x.sources.every(s=>blocked.has(s.name)))x.source_fetched_at=x.last_seen||null;
  return x;
 }
+export function priceValues(x){return [...new Set([x.price,...(x.price_claims||[]).map(c=>c.value)].filter(v=>typeof v==='number'&&Number.isFinite(v)&&v>=0))].sort((a,b)=>a-b);}

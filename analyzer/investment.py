@@ -2,6 +2,8 @@ COST_KEYS=('tax','utilities','maintenance','insurance','management','commissions
 def analyze(x):
     price=x.get('price');rent=x.get('monthly_rent');annual=rent*12 if rent is not None else None
     result=dict(annual_rent=annual,gross_yield=annual/price*100 if annual is not None and price else None,payback_years=price/annual if price and annual else None,net_yield=None,net_payback_years=None,scenarios=[])
+    if x.get('price_conflict'):
+        result.update(gross_yield=None,payback_years=None,calculation_note='В источнике противоречивые цены. Доходность и окупаемость не рассчитываются до уточнения цены.');return result
     costs=x.get('annual_costs',{});complete=all(costs.get(k) is not None for k in COST_KEYS) and x.get('transaction_costs') is not None and x.get('vacancy_months') is not None
     if annual is None or not price:return result
     known=sum(v for v in costs.values() if v is not None)
