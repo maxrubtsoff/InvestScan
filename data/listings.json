@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T14:41:39.089979+00:00",
+  "generated_at": "2026-11-16T19:10:58.530036+00:00",
   "listings": [
     {
       "district": null,
@@ -20156,11 +20156,21 @@
         "https://images.cdn-cian.ru/images/2916116163-4.jpg",
         "https://images.cdn-cian.ru/images/2916116158-4.jpg"
       ],
-      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
       "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
       "annual_costs": {},
-      "price_per_sqm": 191589.34811423064,
       "id": "36e6a4dcabf3d9623162",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "fadd815e809c42a8ee7997ac02e3e6173d4046c4de027f5a6964844df64604f7",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/331706252/",
+          "value": 159000000
+        }
+      ],
+      "description": "",
+      "price_conflict": false,
+      "price_per_sqm": 191589.34811423064,
       "verification": "review",
       "distance_km": 3.41,
       "geo_status": "located",
@@ -20238,6 +20248,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:10:33.743907+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -20247,10 +20259,9 @@
           "indexation": null
         }
       ],
+      "source_observations": [],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true,
-      "price_claims": [],
-      "price_conflict": false
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -21992,11 +22003,21 @@
         "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354580-4.jpg",
         "https://images.cdn-cian.ru/images/gotovyy-biznes-bolshie-kabany-kooperativnaya-ulica-2962354577-4.jpg"
       ],
-      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
       "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
       "annual_costs": {},
-      "price_per_sqm": 183823.5294117647,
       "id": "3a9f340fc566ca0ec78a",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "1c26f0051f377874d7a8d77d1071cc7fe935537a0b4ba92343e6e148ff976223",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/333801993/",
+          "value": 75000000
+        }
+      ],
+      "description": "",
+      "price_conflict": false,
+      "price_per_sqm": 183823.5294117647,
       "verification": "review",
       "distance_km": 20.47,
       "geo_status": "located",
@@ -22074,6 +22095,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:10:33.590225+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -22083,10 +22106,9 @@
           "indexation": null
         }
       ],
+      "source_observations": [],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true,
-      "price_claims": [],
-      "price_conflict": false
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -36397,11 +36419,21 @@
         "https://images.cdn-cian.ru/images/2969253069-4.jpg",
         "https://images.cdn-cian.ru/images/2969253077-4.jpg"
       ],
-      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
       "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
       "annual_costs": {},
-      "price_per_sqm": 120000.0,
       "id": "6c5ef1fef78090f879fb",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "a848c1a1e98d69809b8fb155a9ecf47e8b3d8579879fb53c93090515d04ef6c8",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/334117140/",
+          "value": 120000000
+        }
+      ],
+      "description": "",
+      "price_conflict": false,
+      "price_per_sqm": 120000.0,
       "verification": "review",
       "distance_km": 169.27,
       "geo_status": "located",
@@ -36479,6 +36511,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 9; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:10:33.516299+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -36488,10 +36522,9 @@
           "indexation": null
         }
       ],
+      "source_observations": [],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true,
-      "price_claims": [],
-      "price_conflict": false
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -52963,11 +52996,21 @@
         "https://images.cdn-cian.ru/images/2967819442-4.jpg",
         "https://images.cdn-cian.ru/images/2967819444-4.jpg"
       ],
-      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
       "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
       "annual_costs": {},
-      "price_per_sqm": 115789.47368421052,
       "id": "99f40173ff00a8c1713e",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "406120edd345d8657ea80b1effb70160542e15cf384a8816402daef50213bd77",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/334063128/",
+          "value": 55000000
+        }
+      ],
+      "description": "",
+      "price_conflict": false,
+      "price_per_sqm": 115789.47368421052,
       "verification": "review",
       "distance_km": 4.26,
       "geo_status": "located",
@@ -53045,6 +53088,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:10:33.463282+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -53054,10 +53099,9 @@
           "indexation": null
         }
       ],
+      "source_observations": [],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true,
-      "price_claims": [],
-      "price_conflict": false
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -58590,11 +58634,21 @@
         "https://images.cdn-cian.ru/images/2991442396-4.jpg",
         "https://images.cdn-cian.ru/images/2993839148-4.jpg"
       ],
-      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
       "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
       "annual_costs": {},
-      "price_per_sqm": 107584.72296933836,
       "id": "ae67433009529243ac6f",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "870e3ea44addbfac61e5b74fe8b2011bfea4fa363fa1f889495b44fa00c0bd14",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/334021756/",
+          "value": 80000000
+        }
+      ],
+      "description": "",
+      "price_conflict": false,
+      "price_per_sqm": 107584.72296933836,
       "verification": "review",
       "distance_km": 10.88,
       "geo_status": "located",
@@ -58672,6 +58726,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:10:33.490581+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -58681,10 +58737,9 @@
           "indexation": null
         }
       ],
+      "source_observations": [],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true,
-      "price_claims": [],
-      "price_conflict": false
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -60749,11 +60804,21 @@
         "https://images.cdn-cian.ru/images/3015861720-4.jpg",
         "https://images.cdn-cian.ru/images/3015861736-4.jpg"
       ],
-      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
       "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
       "annual_costs": {},
-      "price_per_sqm": 180000.0,
       "id": "b5acbac93551a0e79c66",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "88df8111409f5e9ee9bf0bb2cfe82269f3d0fc483babf870d9d07a9f31fd50f8",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/336276170/",
+          "value": 27000000
+        }
+      ],
+      "description": "",
+      "price_conflict": false,
+      "price_per_sqm": 180000.0,
       "verification": "review",
       "distance_km": 3.15,
       "geo_status": "located",
@@ -60860,6 +60925,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 24; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:10:33.719962+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -60869,10 +60936,9 @@
           "indexation": null
         }
       ],
+      "source_observations": [],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true,
-      "price_claims": [],
-      "price_conflict": false
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -61600,11 +61666,21 @@
         "https://images.cdn-cian.ru/images/2888834166-4.jpg",
         "https://images.cdn-cian.ru/images/2888834170-4.jpg"
       ],
-      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
       "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
       "annual_costs": {},
-      "price_per_sqm": 31464.053015537116,
       "id": "b9ec3b2d7d125e5391e3",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "662ae62cfe3acbc4a889aa2596e012eb97363c790e2f9c9fa5e9a83a75d80dfc",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://naberezhnye-chelny.cian.ru/sale/commercial/323394401/",
+          "value": 56500000
+        }
+      ],
+      "description": "",
+      "price_conflict": false,
+      "price_per_sqm": 31464.053015537116,
       "verification": "review",
       "distance_km": 200.98,
       "geo_status": "located",
@@ -61682,6 +61758,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 6; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:10:33.552670+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -61691,10 +61769,9 @@
           "indexation": null
         }
       ],
+      "source_observations": [],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true,
-      "price_claims": [],
-      "price_conflict": false
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -64112,11 +64189,21 @@
         "https://images.cdn-cian.ru/images/3015753971-4.jpg",
         "https://images.cdn-cian.ru/images/3015753977-4.jpg"
       ],
-      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
       "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
       "annual_costs": {},
-      "price_per_sqm": 3677.4193548387098,
       "id": "c12976f1878014780c92",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "2e51994011c5e9979d9422db21ce4598b41c6c0f1121392cfc54d3337eacf30a",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/336270509/",
+          "value": 114000000
+        }
+      ],
+      "description": "",
+      "price_conflict": false,
+      "price_per_sqm": 3677.4193548387098,
       "verification": "review",
       "distance_km": 224.81,
       "geo_status": "located",
@@ -64194,6 +64281,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 6; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:10:33.698847+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -64203,10 +64292,9 @@
           "indexation": null
         }
       ],
+      "source_observations": [],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true,
-      "price_claims": [],
-      "price_conflict": false
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -65948,11 +66036,21 @@
         "https://images.cdn-cian.ru/images/2985187179-4.jpg",
         "https://images.cdn-cian.ru/images/2985187191-4.jpg"
       ],
-      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
       "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
       "annual_costs": {},
-      "price_per_sqm": 147368.42105263157,
       "id": "c5a5c0c51638722cbb27",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "5861707e0af690a007f1fd7521c0e71745bbb7f60ca22cea3c16bd7475b9e039",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/334909476/",
+          "value": 2800000
+        }
+      ],
+      "description": "",
+      "price_conflict": false,
+      "price_per_sqm": 147368.42105263157,
       "verification": "review",
       "distance_km": 6.29,
       "geo_status": "located",
@@ -66030,6 +66128,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:10:33.679227+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -66039,10 +66139,9 @@
           "indexation": null
         }
       ],
+      "source_observations": [],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true,
-      "price_claims": [],
-      "price_conflict": false
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -72430,11 +72529,21 @@
         "https://images.cdn-cian.ru/images/2697948249-4.jpg",
         "https://images.cdn-cian.ru/images/2697947859-4.jpg"
       ],
-      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
       "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
       "annual_costs": {},
-      "price_per_sqm": 61164.447197274705,
       "id": "d5cb858024fa3f115c6b",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "e55d20841107d53126c4ac1729d9d8e4a20f2880522ad88b103121e53f2114ee",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://naberezhnye-chelny.cian.ru/sale/commercial/323394994/",
+          "value": 79000000
+        }
+      ],
+      "description": "",
+      "price_conflict": false,
+      "price_per_sqm": 61164.447197274705,
       "verification": "review",
       "distance_km": 204.77,
       "geo_status": "located",
@@ -72512,6 +72621,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 5; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:10:33.572110+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -72521,10 +72632,9 @@
           "indexation": null
         }
       ],
+      "source_observations": [],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true,
-      "price_claims": [],
-      "price_conflict": false
+      "regional_candidate": true
     },
     {
       "district": null,
@@ -86155,11 +86265,21 @@
         "https://images.cdn-cian.ru/images/2985187027-4.jpg",
         "https://images.cdn-cian.ru/images/2985187053-4.jpg"
       ],
-      "description": "Датированный снимок публичной страницы ЦИАН. Автоматическое обновление ограничено защитной проверкой. Платежи и договор не проверены.",
       "source_fetched_at": "2026-11-15T17:47:24.296718+00:00",
       "annual_costs": {},
-      "price_per_sqm": 187828.94736842107,
       "id": "ffa82bce64884e79f434",
+      "acquisition_mode": "snapshot",
+      "import_fingerprint": "42a869f98b799514e6601e90e3069f901eb04fa70f071089b1f05cfba5d7fd80",
+      "price_claims": [
+        {
+          "location": "ЦИАН",
+          "source_url": "https://kazan.cian.ru/sale/commercial/334909473/",
+          "value": 2855000
+        }
+      ],
+      "description": "",
+      "price_conflict": false,
+      "price_per_sqm": 187828.94736842107,
       "verification": "review",
       "distance_km": 6.29,
       "geo_status": "located",
@@ -86237,6 +86357,8 @@
       "score_version": 1,
       "score_note": "Экспертная эвристика. Сумма факторов 16; предел для текущего статуса 39. ",
       "first_seen": "2026-11-15T17:47:24.296718+00:00",
+      "primary_price_claims": [],
+      "last_imported_at": "2026-11-16T19:10:33.618878+00:00",
       "history": [
         {
           "at": "2026-11-15T17:47:24.296718+00:00",
@@ -86246,10 +86368,9 @@
           "indexation": null
         }
       ],
+      "source_observations": [],
       "last_seen": "2026-11-15T17:47:24.296718+00:00",
-      "regional_candidate": true,
-      "price_claims": [],
-      "price_conflict": false
+      "regional_candidate": true
     }
   ],
   "sources": [
@@ -86269,10 +86390,13 @@
     },
     {
       "name": "ЦИАН",
+      "excluded_count": 0,
+      "invalid_count": 0,
+      "live_count": 0,
+      "imported_count": 11,
       "status": "blocked",
       "count": 11,
-      "message": "Страница недоступности или защитной проверки; без обхода и повторов",
-      "checked_this_run": false
+      "message": "Страница недоступности или защитной проверки; без обхода и повторов"
     },
     {
       "name": "Домклик",
@@ -86286,7 +86410,8 @@
       "excluded_count": 8,
       "status": "ok",
       "count": 8,
-      "message": "Публичная витрина РБН по Казани и окрестностям. Только описания с признаками аренды. Заявленная окупаемость не используется для восстановления МАП."
+      "message": "Публичная витрина РБН по Казани и окрестностям. Только описания с признаками аренды. Заявленная окупаемость не используется для восстановления МАП.",
+      "checked_this_run": false
     }
   ],
   "coverage": {
