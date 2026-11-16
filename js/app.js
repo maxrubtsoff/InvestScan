@@ -1,5 +1,5 @@
-import{normalizeCard}from'./catalog-normalize.js?v=20261116-3';
-import{matches,compare}from'./filters.js?v=20261116-3';import{money,num,status,stats}from'./analytics.js?v=20261116-3';import{drawMap,openMap}from'./map.js?v=20261116-3';
+import{normalizeCard}from'./catalog-normalize.js?v=20261116-4';
+import{matches,compare}from'./filters.js?v=20261116-4';import{money,num,status,stats}from'./analytics.js?v=20261116-4';import{drawMap,openMap}from'./map.js?v=20261116-4';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const v=new URL(u);return v.protocol==='https:'?v.href:'#';}catch{return '#';}};
 let catalog={listings:[],sources:[]},mode='all';
