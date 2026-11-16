@@ -7,7 +7,7 @@ def rental_candidate(text):
  t=text.casefold().replace('ё','е')
  if NEGATIVE.search(t):return False
  if re.search(r'прода[её]тся\s+(?:право аренды|переуступка)|субарендн\w*\s+бизнес|\bппа\b|продаж\w*\s+субаренд',t):return False
- return bool(re.search(r'готов\w* арендн\w* бизнес|\bгаб\b|с (?:действующ\w* |сетев\w* |федеральн\w* )?арендатор\w*|сдан\w* в аренду',t))
+ return bool(re.search(r'готов\w* арендн\w* бизнес|\bгаб\b|с (?:действующ\w* |сетев\w* |федеральн\w* |долгосрочн\w* |стабильн\w* )?арендатор\w*|(?:есть|работает|действующий)\s+арендатор\b|сдан\w* в аренду',t))
 def rent_claim(text):
  if NEGATIVE.search(text):return None
  for m in RENT.finditer(text):
@@ -35,4 +35,7 @@ def tenant_claim(text):
    if re.search(r'\bне\b|возможн|потенциальн|бывш',clause):continue
    if re.search(r'(?:арендатор(?:ом)?(?:\s+(?:является|выступает))?|сдан\w*(?:\s+в аренду)?)\s*(?:[:—–-]\s*)?(?:(?:федеральн\w*|сетев\w*|магазин|сеть|компании)\s+)*[«\"\']?\s*$',clause):return name,kind
  if re.search(r'арендатор\s*(?:[:—–-]\s*)?аптек\w*|сдан\w* в аренду\s+аптек\w*',text,re.I):return None,'Аптека'
+ # Explicitly named local business models; never infer an occupant from nearby amenities.
+ m=re.search(r'\bарендатор\s*[:—–-]\s*(ателье|салон красоты|проведение квестов|кофейня)(?=$|[\s.,;!])',text,re.I)
+ if m:return m[1],('Кофейня' if m[1].casefold()=='кофейня' else 'Сервис')
  return None,None

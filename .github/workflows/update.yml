@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: '17 3 * * *'
   workflow_dispatch:
+    inputs:
+      sources:
+        description: 'Источник для проверки (all — полный сбор)'
+        type: choice
+        default: all
+        options: [all, arr, rbn, avito, cian, domclick]
   push:
     branches: [main]
     paths-ignore: ['data/**']
@@ -36,7 +42,8 @@ jobs:
       - name: Collect independently and preserve catalog on source errors
         if: github.event_name != 'push'
         env:
-          INVESTSCAN_SOURCES: all
+          INVESTSCAN_SOURCES: ${{ inputs.sources || 'all' }}
+          INVESTSCAN_PHOTON: '1'
         run: python scripts/update_catalog.py
       - name: Save data and database
         if: github.event_name != 'push'

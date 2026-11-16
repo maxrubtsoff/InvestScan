@@ -51,7 +51,7 @@ def test_failed_collection_preserves_snapshot(tmp_path,monkeypatch):
  import scripts.update_catalog as runner,json
  (tmp_path/'data').mkdir();old={'listings':[{'id':'preserved-fixture'}]};(tmp_path/'data/listings.json').write_text(json.dumps(old))
  def fail():raise RuntimeError('fixture outage')
- monkeypatch.setattr(runner,'ROOT',tmp_path);monkeypatch.setattr(runner,'collect',fail);monkeypatch.setattr(runner.avito,'collect',lambda:[]);monkeypatch.setattr(runner.cian,'collect',lambda:[]);monkeypatch.setattr(runner.domclick,'collect',lambda:[]);monkeypatch.setenv('INVESTSCAN_GEOCODE','0');runner.run()
+ monkeypatch.setattr(runner,'ROOT',tmp_path);monkeypatch.setattr(runner,'collect',fail);monkeypatch.setattr(runner.avito,'collect',lambda:[]);monkeypatch.setattr(runner.cian,'collect',lambda:[]);monkeypatch.setattr(runner.domclick,'collect',lambda:[]);monkeypatch.setattr(runner.rbn,'collect',lambda:[]);monkeypatch.setenv('INVESTSCAN_GEOCODE','0');runner.run()
  result=json.loads((tmp_path/'data/listings.json').read_text());assert result['listings']==old['listings'];assert result['sources'][0]['status']=='error'
 
 def test_geocode_city_not_property(tmp_path,monkeypatch):
@@ -102,7 +102,7 @@ def test_retained_records_are_revalidated_after_source_outage(tmp_path,monkeypat
  db=Database(tmp_path/'data/catalog.sqlite');x=sample();x['tenant_name']='МАП: 16800';x['sources']=[{'name':'АРР','url':'https://example.org/fixture'}];db.upsert(x);previous=db.all()[0]['last_seen'];db.close()
  def fail():raise RuntimeError('fixture source outage')
  monkeypatch.setattr(runner,'ROOT',tmp_path);monkeypatch.setattr(runner,'collect',fail)
- for source in [runner.avito,runner.cian,runner.domclick]:monkeypatch.setattr(source,'collect',lambda:[])
+ for source in [runner.avito,runner.cian,runner.domclick,runner.rbn]:monkeypatch.setattr(source,'collect',lambda:[])
  monkeypatch.setenv('INVESTSCAN_GEOCODE','0');runner.run()
  row=json.loads((tmp_path/'data/listings.json').read_text())['listings'][0]
  assert row['tenant_name'] is None

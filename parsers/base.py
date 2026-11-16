@@ -4,11 +4,11 @@ from urllib.robotparser import RobotFileParser
 import httpx
 USER_AGENT='InvestScan/1.0 (+https://github.com/maxrubtsoff/InvestScan)'
 class PublicClient:
-    def __init__(self):self.client=httpx.Client(timeout=30,headers={'User-Agent':USER_AGENT},follow_redirects=False);self.robots={};self.last={};self.patterns={}
+    def __init__(self,allowed_hosts=None):self.client=httpx.Client(timeout=30,headers={'User-Agent':USER_AGENT},follow_redirects=False);self.robots={};self.last={};self.patterns={};self.allowed_hosts=set(allowed_hosts or ['broker.arrpro.ru','arrpro.ru'])
     def get(self,url,redirects=0):
         if redirects>5:raise RuntimeError("Too many redirects")
         p=urlparse(url);origin=f'{p.scheme}://{p.netloc}'
-        if p.scheme!='https' or p.hostname not in ['broker.arrpro.ru','arrpro.ru']:raise ValueError('Host not allowed')
+        if p.scheme!='https' or p.hostname not in self.allowed_hosts:raise ValueError('Host not allowed')
         if origin not in self.robots:
             r=self.client.get(origin+'/robots.txt');r.raise_for_status();rp=RobotFileParser();rp.parse(r.text.splitlines());self.robots[origin]=rp
             patterns=[];active=False
