@@ -1,4 +1,5 @@
 import hashlib, math, re
+from datetime import datetime,timezone,timedelta
 from urllib.parse import urlparse
 FIELDS=['district','settlement','address','price','area','monthly_rent','tenant_name','tenant_type','active_tenant','payments_confirmed','contract','contract_months','indexation','condition','floor','separate_entrance','wet_point','ventilation','power','repair','communications','legal_clear','traffic','tenant_tenure_months','termination_terms','closure_risk','location_dependency','coordinates','coordinate_source','geo_accuracy','published_at','transaction_costs','vacancy_months','verification_evidence']
 def clean_tenant_name(value):
@@ -11,6 +12,12 @@ def clean_tenant_name(value):
     return value
 def normalize(raw):
     x={k:None for k in FIELDS};x.update(raw)
+    if x.get('source_fetched_at') is not None:
+        try:
+            stamp=datetime.fromisoformat(x['source_fetched_at'].replace('Z','+00:00'))
+            if stamp.tzinfo is None:raise ValueError('Timezone required')
+            if stamp>datetime.now(timezone.utc)+timedelta(minutes=10):raise ValueError('Future observation')
+        except (ValueError,TypeError,AttributeError):raise ValueError('source_fetched_at must be an ISO timestamp with timezone') from None
     x['tenant_name']=clean_tenant_name(x.get('tenant_name'))
     claims=x.get('price_claims') or []
     if not isinstance(claims,list) or any(not isinstance(c,dict) or isinstance(c.get('value'),bool) or not isinstance(c.get('value'),(int,float)) or not math.isfinite(c['value']) or c['value']<=0 for c in claims):raise ValueError('Invalid price claims')

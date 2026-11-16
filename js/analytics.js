@@ -1,4 +1,4 @@
-import{priceValues}from'./catalog-normalize.js?v=20261116-5';
+import{priceValues}from'./catalog-normalize.js?v=20261116-6';
 export const money=v=>v==null?'Нет данных':new Intl.NumberFormat('ru-RU',{maximumFractionDigits:0}).format(v)+' ₽';
 export function priceLabel(x){const v=priceValues(x);return v.length>1?`${money(v[0])} – ${money(v.at(-1))}`:money(x.price);}
 export const num=(v,s='')=>v==null?'—':Number(v).toLocaleString('ru-RU',{maximumFractionDigits:1})+s;

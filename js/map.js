@@ -1,5 +1,5 @@
-import{priceValues}from'./catalog-normalize.js?v=20261116-5';
-import{CENTER,project,unproject,fitView,clusterMarkers}from'./map-math.js?v=20261116-5';
+import{priceValues}from'./catalog-normalize.js?v=20261116-6';
+import{CENTER,project,unproject,fitView,clusterMarkers}from'./map-math.js?v=20261116-6';
 let target=null,view=null,current=[],unknown=0,signature='';
 const money=v=>v==null?'Не указана':new Intl.NumberFormat('ru-RU',{maximumFractionDigits:0}).format(v)+' ₽';
 const price=v=>v==null?'Цена не указана':new Intl.NumberFormat('ru-RU',{maximumFractionDigits:2}).format(v/1000000)+' млн ₽';

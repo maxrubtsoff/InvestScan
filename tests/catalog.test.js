@@ -1,6 +1,7 @@
 import test from'node:test';
 import assert from'node:assert/strict';
 import{cleanTenantName,normalizeCard}from'../js/catalog-normalize.js';
+import{dataNote,observedDate}from'../js/catalog-normalize.js';
 test('financial fields cannot identify a tenant',()=>{
  for(const v of ['МАП: 16800','Арендная плата 50000','16800 ₽','Не указан'])assert.equal(cleanTenantName(v),null);
  for(const v of ['Магнит','1000 мелочей','ООО «МАП»'])assert.equal(cleanTenantName(v),v);
@@ -12,4 +13,8 @@ test('old records from blocked sources display their actual last observation',()
  assert.equal(normalizeCard(row,[{name:'ЦИАН',status:'ok'}]).source_fetched_at,undefined);
  assert.equal(normalizeCard({...row,sources:[{name:'ЦИАН'},{name:'АРР'}]},[{name:'ЦИАН',status:'blocked'},{name:'АРР',status:'ok'}]).source_fetched_at,undefined);
  assert.equal(normalizeCard({...row,source_fetched_at:'2026-11-14'},[{name:'ЦИАН',status:'blocked'}]).source_fetched_at,'2026-11-14');
+});
+test('undated import does not render the Unix epoch as observation time',()=>{
+ const row={acquisition_mode:'import',last_seen:null};assert.match(dataNote(row),/дата данных источника не указана/);assert.equal(observedDate(row),'Дата наблюдения источника не указана');
+ assert(!observedDate(row).includes('1970'));
 });
