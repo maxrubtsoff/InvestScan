@@ -149,3 +149,22 @@ def test_import_only_never_requests_sources_or_geocoding_and_preserves_health(tm
     assert len(data['listings'])==1 and data['listings'][0]['last_seen'] is None
     assert report['status']=='blocked' and report['live_count']==0 and report['imported_count']==1 and report['checked_this_run'] is False
     assert report['message']=='Previously observed challenge'
+
+def test_live_and_imported_copy_of_same_url_are_not_counted_twice(tmp_path,monkeypatch):
+    import scripts.update_catalog as runner
+    item=avito.convert(avito_item());items=[imported(item),item,item]
+    monkeypatch.setattr(runner,'ROOT',tmp_path);monkeypatch.setenv('INVESTSCAN_SOURCES','avito');monkeypatch.setenv('INVESTSCAN_IMPORTS_ONLY','0');monkeypatch.setenv('INVESTSCAN_PHOTON','0');monkeypatch.setattr(runner.avito,'collect',lambda:items)
+    runner.run();data=json.loads((tmp_path/'data/listings.json').read_text());report=next(s for s in data['sources'] if s['name']=='Авито')
+    assert len(data['listings'])==1 and report['count']==1 and report['live_count']==1 and report['imported_count']==0
+
+def test_partial_live_run_counts_only_imports_not_refreshed_by_live_rows(tmp_path,monkeypatch):
+    import scripts.update_catalog as runner
+    from parsers.public_source import SourceUnavailable
+    a=avito.convert(avito_item());b={**a,'sources':[{'name':'Авито','url':'https://www.avito.ru/kazan/fixture_2'}]}
+    def collect():
+        yield imported(a);yield imported(b);yield a
+        raise SourceUnavailable('Fixture challenge')
+    monkeypatch.setattr(runner,'ROOT',tmp_path);monkeypatch.setenv('INVESTSCAN_SOURCES','avito');monkeypatch.setenv('INVESTSCAN_IMPORTS_ONLY','0');monkeypatch.setenv('INVESTSCAN_PHOTON','0');monkeypatch.setattr(runner.avito,'collect',collect)
+    runner.run();data=json.loads((tmp_path/'data/listings.json').read_text());report=next(s for s in data['sources'] if s['name']=='Авито')
+    assert len(data['listings'])==2 and report['status']=='blocked' and report['count']==2
+    assert report['live_count']==1 and report['imported_count']==1

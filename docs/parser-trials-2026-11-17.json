@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-17",
+  "http_probes": [
+    {
+      "source": "avito",
+      "url": "https://www.avito.ru/respublika_tatarstan/kommercheskaya_nedvizhimost",
+      "fetched_at": "2026-11-17T06:52:01.836961+00:00",
+      "http_status": 200,
+      "title": "Site Unavailable",
+      "bytes": 195,
+      "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7",
+      "parse_error": "ValueError: Avito: public catalog state not found; prior data retained"
+    },
+    {
+      "source": "cian",
+      "url": "https://kazan.cian.ru/kupit-gotoviy-biznes-tatarstan/",
+      "fetched_at": "2026-11-17T06:52:01.837810+00:00",
+      "http_status": 200,
+      "title": "Купить готовый бизнес в республике Татарстан. Найдено 162 объявления.",
+      "bytes": 1273839,
+      "sha256": "ee5c2c01b2407566c6e7f91466e80a0b2c564865c0e1c30e029339f334a93af6",
+      "offers": 28,
+      "candidates": 11
+    },
+    {
+      "source": "domclick",
+      "url": "https://kazan.domclick.ru/pokupka/kommercheskaya-nedvizhimost",
+      "fetched_at": "2026-11-17T06:52:01.838653+00:00",
+      "http_status": 401,
+      "title": null,
+      "bytes": 279,
+      "sha256": "d9675d1562a3132e944d2304b4787c562c52bc4b990f92a3e016a509b47dfed5",
+      "parse_error": "No successful public catalog response; source stopped"
+    }
+  ],
+  "repository_test": {
+    "repository": "FixikiPixiki/HomieScrap",
+    "sha": "204bd3ba74a757fff2c9501b7fc2d449eb4bd038",
+    "scope": "Unmodified selector functions only; extension, background tabs, scrolling and network are not executed",
+    "tests": [
+      {
+        "source": "avito",
+        "functions": [
+          "findListBoundaryHeading",
+          "findListCards"
+        ],
+        "cards": 0,
+        "body_sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+      },
+      {
+        "source": "cian",
+        "functions": [
+          "findAllCards"
+        ],
+        "cards": 0,
+        "body_sha256": "ee5c2c01b2407566c6e7f91466e80a0b2c564865c0e1c30e029339f334a93af6"
+      },
+      {
+        "source": "domclick",
+        "functions": [
+          "isAdBlock",
+          "getCardsBeforeEnd"
+        ],
+        "cards": 0,
+        "body_sha256": "d9675d1562a3132e944d2304b4787c562c52bc4b990f92a3e016a509b47dfed5"
+      }
+    ]
+  },
+  "scheduled_workflow_state": "active",
+  "scheduled_run_seen_today_at_check": false,
+  "manual_full_run_id": 44034657570,
+  "goal_complete": false,
+  "full_run_result": {
+    "run_id": 44034657570,
+    "url": "https://github.com/maxrubtsoff/InvestScan/actions/runs/44034657570",
+    "catalog_records": 516,
+    "sources": [
+      {
+        "name": "АРР",
+        "status": "ok",
+        "live_count": 470,
+        "imported_count": 0,
+        "count": 470
+      },
+      {
+        "name": "Авито",
+        "status": "error",
+        "live_count": 0,
+        "imported_count": 0,
+        "count": 0
+      },
+      {
+        "name": "ЦИАН",
+        "status": "ok",
+        "live_count": 37,
+        "imported_count": 37,
+        "count": 74
+      },
+      {
+        "name": "Домклик",
+        "status": "blocked",
+        "live_count": 0,
+        "imported_count": 0,
+        "count": 0
+      },
+      {
+        "name": "РБН",
+        "status": "ok",
+        "live_count": 8,
+        "imported_count": 0,
+        "count": 8
+      }
+    ],
+    "counter_note": "The preceding collector counted overlapping snapshot/live rows twice. The new collector uses unique source URLs; tests cover overlap and partial failures."
+  },
+  "tests": {
+    "python": 133,
+    "javascript": 16
+  },
+  "full_attempt_marker": {
+    "mode": "full",
+    "attempted_at": "2026-11-17T06:54:52.2928507Z",
+    "completed_at": "2026-11-17T07:05:07.7393449Z",
+    "run_id": "44034657570",
+    "live_sources": [
+      "АРР",
+      "ЦИАН",
+      "РБН"
+    ],
+    "unavailable_sources": [
+      "Авито",
+      "Домклик"
+    ]
+  }
+}
