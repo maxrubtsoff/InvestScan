@@ -131,5 +131,23 @@
       "Авито",
       "Домклик"
     ]
+  },
+  "verification": {
+    "code_commit": "35f30ccaae130c2717c5f9154687a289e451b318",
+    "ci_run_id": 44037545039,
+    "ci_conclusion": "success",
+    "python_passed": 133,
+    "javascript_passed": 16,
+    "guard_run_id": 44038067999,
+    "guard_conclusion": "success",
+    "guard_log": "Full collection already attempted today; no source requests",
+    "catalog_generated_at": "2026-11-17T07:05:07.666085+00:00",
+    "site_source_statuses": {
+      "АРР": "Данные получены",
+      "Авито": "Ошибка сбора",
+      "ЦИАН": "Данные получены",
+      "Домклик": "Доступ ограничен",
+      "РБН": "Данные получены"
+    }
   }
 }
