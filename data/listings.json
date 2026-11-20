@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T11:50:35.844685+00:00",
+  "generated_at": "2026-11-20T11:50:07.723856+00:00",
   "listings": [
     {
       "district": null,
@@ -176,7 +176,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.433256+00:00",
+      "last_seen": "2026-11-20T11:46:26.647113+00:00",
       "regional_candidate": false
     },
     {
@@ -356,7 +356,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.282860+00:00",
+      "last_seen": "2026-11-20T11:46:26.463089+00:00",
       "regional_candidate": true
     },
     {
@@ -533,7 +533,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.379999+00:00",
+      "last_seen": "2026-11-20T11:46:27.700427+00:00",
       "regional_candidate": false
     },
     {
@@ -710,7 +710,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.830672+00:00",
+      "last_seen": "2026-11-20T11:46:28.208050+00:00",
       "regional_candidate": false
     },
     {
@@ -887,7 +887,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.161605+00:00",
+      "last_seen": "2026-11-20T11:46:31.950334+00:00",
       "regional_candidate": false
     },
     {
@@ -1064,7 +1064,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.423426+00:00",
+      "last_seen": "2026-11-20T11:46:27.741261+00:00",
       "regional_candidate": false
     },
     {
@@ -1241,7 +1241,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.677717+00:00",
+      "last_seen": "2026-11-20T11:46:25.772287+00:00",
       "regional_candidate": false
     },
     {
@@ -1418,7 +1418,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.180356+00:00",
+      "last_seen": "2026-11-20T11:46:28.558067+00:00",
       "regional_candidate": false
     },
     {
@@ -1595,7 +1595,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.252208+00:00",
+      "last_seen": "2026-11-20T11:46:28.640424+00:00",
       "regional_candidate": false
     },
     {
@@ -1772,7 +1772,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.869481+00:00",
+      "last_seen": "2026-11-20T11:46:29.347965+00:00",
       "regional_candidate": false
     },
     {
@@ -1949,7 +1949,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.408032+00:00",
+      "last_seen": "2026-11-20T11:46:31.110270+00:00",
       "regional_candidate": false
     },
     {
@@ -2126,7 +2126,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.791975+00:00",
+      "last_seen": "2026-11-20T11:46:34.958234+00:00",
       "regional_candidate": false
     },
     {
@@ -2303,7 +2303,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.530842+00:00",
+      "last_seen": "2026-11-20T11:46:32.367441+00:00",
       "regional_candidate": false
     },
     {
@@ -2483,7 +2483,8 @@
         }
       ],
       "last_seen": "2026-11-19T11:47:11.441820+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:47:11.441820+00:00"
     },
     {
       "district": null,
@@ -2661,7 +2662,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.372440+00:00",
+      "last_seen": "2026-11-20T11:46:25.411113+00:00",
       "regional_candidate": false
     },
     {
@@ -2838,7 +2839,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.815903+00:00",
+      "last_seen": "2026-11-20T11:46:33.845325+00:00",
       "regional_candidate": false
     },
     {
@@ -3018,7 +3019,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.581968+00:00",
+      "last_seen": "2026-11-20T11:46:32.443982+00:00",
       "regional_candidate": true
     },
     {
@@ -3195,7 +3196,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.878003+00:00",
+      "last_seen": "2026-11-20T11:46:27.135470+00:00",
       "regional_candidate": false
     },
     {
@@ -3372,7 +3373,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.558993+00:00",
+      "last_seen": "2026-11-20T11:46:30.125990+00:00",
       "regional_candidate": false
     },
     {
@@ -3549,7 +3550,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.847584+00:00",
+      "last_seen": "2026-11-20T11:46:28.227500+00:00",
       "regional_candidate": false
     },
     {
@@ -3726,7 +3727,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.452929+00:00",
+      "last_seen": "2026-11-20T11:46:32.284294+00:00",
       "regional_candidate": false
     },
     {
@@ -3903,7 +3904,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.990475+00:00",
+      "last_seen": "2026-11-20T11:46:31.745779+00:00",
       "regional_candidate": false
     },
     {
@@ -4080,7 +4081,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.337056+00:00",
+      "last_seen": "2026-11-20T11:46:25.371040+00:00",
       "regional_candidate": false
     },
     {
@@ -4257,7 +4258,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.795777+00:00",
+      "last_seen": "2026-11-20T11:46:32.696181+00:00",
       "regional_candidate": true
     },
     {
@@ -4434,7 +4435,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.269546+00:00",
+      "last_seen": "2026-11-20T11:46:28.661200+00:00",
       "regional_candidate": false
     },
     {
@@ -4611,7 +4612,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.083643+00:00",
+      "last_seen": "2026-11-20T11:46:30.720634+00:00",
       "regional_candidate": false
     },
     {
@@ -4788,7 +4789,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.737398+00:00",
+      "last_seen": "2026-11-20T11:46:29.198527+00:00",
       "regional_candidate": false
     },
     {
@@ -4965,7 +4966,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.832763+00:00",
+      "last_seen": "2026-11-20T11:46:33.872930+00:00",
       "regional_candidate": false
     },
     {
@@ -5149,7 +5150,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.894520+00:00",
+      "last_seen": "2026-11-20T11:46:26.003968+00:00",
       "regional_candidate": false
     },
     {
@@ -5326,7 +5327,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.417797+00:00",
+      "last_seen": "2026-11-20T11:46:32.243958+00:00",
       "regional_candidate": false
     },
     {
@@ -5503,7 +5504,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.739596+00:00",
+      "last_seen": "2026-11-20T11:46:25.831914+00:00",
       "regional_candidate": false
     },
     {
@@ -5680,7 +5681,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.517687+00:00",
+      "last_seen": "2026-11-20T11:46:34.637164+00:00",
       "regional_candidate": false
     },
     {
@@ -5857,7 +5858,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.381242+00:00",
+      "last_seen": "2026-11-20T11:46:34.486240+00:00",
       "regional_candidate": false
     },
     {
@@ -6034,7 +6035,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.944201+00:00",
+      "last_seen": "2026-11-20T11:46:35.136283+00:00",
       "regional_candidate": false
     },
     {
@@ -6211,7 +6212,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.812226+00:00",
+      "last_seen": "2026-11-20T11:46:25.923231+00:00",
       "regional_candidate": false
     },
     {
@@ -6388,7 +6389,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.810984+00:00",
+      "last_seen": "2026-11-20T11:46:30.417309+00:00",
       "regional_candidate": false
     },
     {
@@ -6565,7 +6566,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.107668+00:00",
+      "last_seen": "2026-11-20T11:46:31.879446+00:00",
       "regional_candidate": false
     },
     {
@@ -6745,7 +6746,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.271658+00:00",
+      "last_seen": "2026-11-20T11:46:29.795799+00:00",
       "regional_candidate": true
     },
     {
@@ -6922,7 +6923,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.326261+00:00",
+      "last_seen": "2026-11-20T11:46:33.298984+00:00",
       "regional_candidate": true
     },
     {
@@ -7099,7 +7100,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.835453+00:00",
+      "last_seen": "2026-11-20T11:46:34.998323+00:00",
       "regional_candidate": false
     },
     {
@@ -7276,7 +7277,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.777440+00:00",
+      "last_seen": "2026-11-20T11:46:31.508509+00:00",
       "regional_candidate": false
     },
     {
@@ -7453,7 +7454,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.469995+00:00",
+      "last_seen": "2026-11-20T11:46:32.303459+00:00",
       "regional_candidate": false
     },
     {
@@ -7630,7 +7631,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.006848+00:00",
+      "last_seen": "2026-11-20T11:46:34.071741+00:00",
       "regional_candidate": false
     },
     {
@@ -7807,7 +7808,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.462738+00:00",
+      "last_seen": "2026-11-20T11:46:34.564987+00:00",
       "regional_candidate": false
     },
     {
@@ -7984,7 +7985,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.145490+00:00",
+      "last_seen": "2026-11-20T11:46:26.307053+00:00",
       "regional_candidate": false
     },
     {
@@ -8330,7 +8331,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.039110+00:00",
+      "last_seen": "2026-11-20T11:46:29.548185+00:00",
       "regional_candidate": false
     },
     {
@@ -8507,7 +8508,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.308887+00:00",
+      "last_seen": "2026-11-20T11:46:33.272286+00:00",
       "regional_candidate": false
     },
     {
@@ -8684,7 +8685,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.100053+00:00",
+      "last_seen": "2026-11-20T11:46:29.620424+00:00",
       "regional_candidate": false
     },
     {
@@ -8861,7 +8862,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.614366+00:00",
+      "last_seen": "2026-11-20T11:46:27.969043+00:00",
       "regional_candidate": false
     },
     {
@@ -9038,7 +9039,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.625084+00:00",
+      "last_seen": "2026-11-20T11:46:32.490533+00:00",
       "regional_candidate": true
     },
     {
@@ -9215,7 +9216,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.631309+00:00",
+      "last_seen": "2026-11-20T11:46:27.989307+00:00",
       "regional_candidate": false
     },
     {
@@ -9370,7 +9371,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:26.541160+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:26.541160+00:00"
     },
     {
       "district": null,
@@ -9549,7 +9551,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.664286+00:00",
+      "last_seen": "2026-11-20T11:46:26.890066+00:00",
       "regional_candidate": true
     },
     {
@@ -9726,7 +9728,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.638937+00:00",
+      "last_seen": "2026-11-20T11:46:30.221901+00:00",
       "regional_candidate": false
     },
     {
@@ -9903,7 +9905,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.444576+00:00",
+      "last_seen": "2026-11-20T11:46:34.546265+00:00",
       "regional_candidate": false
     },
     {
@@ -10080,7 +10082,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.000326+00:00",
+      "last_seen": "2026-11-20T11:46:28.377878+00:00",
       "regional_candidate": false
     },
     {
@@ -10260,7 +10262,8 @@
         }
       ],
       "last_seen": "2026-11-19T11:46:37.600258+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:37.600258+00:00"
     },
     {
       "district": null,
@@ -10436,7 +10439,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.798972+00:00",
+      "last_seen": "2026-11-20T11:46:27.042485+00:00",
       "regional_candidate": false
     },
     {
@@ -10613,7 +10616,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.198102+00:00",
+      "last_seen": "2026-11-20T11:46:31.996148+00:00",
       "regional_candidate": false
     },
     {
@@ -10790,7 +10793,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.381910+00:00",
+      "last_seen": "2026-11-20T11:46:26.578958+00:00",
       "regional_candidate": false
     },
     {
@@ -10967,7 +10970,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.809571+00:00",
+      "last_seen": "2026-11-20T11:46:34.978193+00:00",
       "regional_candidate": false
     },
     {
@@ -11144,7 +11147,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.872258+00:00",
+      "last_seen": "2026-11-20T11:46:35.048025+00:00",
       "regional_candidate": false
     },
     {
@@ -11321,7 +11324,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.829737+00:00",
+      "last_seen": "2026-11-20T11:46:31.570154+00:00",
       "regional_candidate": false
     },
     {
@@ -11498,7 +11501,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.795060+00:00",
+      "last_seen": "2026-11-20T11:46:25.904267+00:00",
       "regional_candidate": false
     },
     {
@@ -11675,7 +11678,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.485613+00:00",
+      "last_seen": "2026-11-20T11:46:28.903501+00:00",
       "regional_candidate": false
     },
     {
@@ -11852,7 +11855,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.720711+00:00",
+      "last_seen": "2026-11-20T11:46:29.179383+00:00",
       "regional_candidate": false
     },
     {
@@ -12029,7 +12032,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.853236+00:00",
+      "last_seen": "2026-11-20T11:46:30.463920+00:00",
       "regional_candidate": false
     },
     {
@@ -12206,7 +12209,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.579279+00:00",
+      "last_seen": "2026-11-20T11:46:33.583819+00:00",
       "regional_candidate": false
     },
     {
@@ -12383,7 +12386,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.168689+00:00",
+      "last_seen": "2026-11-20T11:46:27.475016+00:00",
       "regional_candidate": false
     },
     {
@@ -12560,7 +12563,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.989674+00:00",
+      "last_seen": "2026-11-20T11:46:34.051386+00:00",
       "regional_candidate": false
     },
     {
@@ -12737,7 +12740,186 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.070251+00:00",
+      "last_seen": "2026-11-20T11:46:34.131060+00:00",
+      "regional_candidate": false
+    },
+    {
+      "district": null,
+      "settlement": "просека 5-я",
+      "address": "Самара, просека 5-я, д. 97Б",
+      "price": 37000000.0,
+      "area": 372.1,
+      "monthly_rent": 300000.0,
+      "tenant_name": null,
+      "tenant_type": "Другой",
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": null,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": null,
+      "coordinate_source": null,
+      "geo_accuracy": null,
+      "published_at": null,
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Готовый арендный бизнес, 372,1 м², автосервис",
+      "sources": [
+        {
+          "name": "АРР",
+          "url": "https://arrpro.ru/objects/getbyid.php?external_id=60432b44-5268-4757-88fd-3655e087cbf6"
+        }
+      ],
+      "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
+      "photos": [
+        "https://cdn-1.arrpro.ru/resize_cache/3858175/2c107a00918f3abd1df8e303f56adfc3/iblock/b8c/b8cf06d7a44e2776735fde7e72919fb9/0380cc5a64ba23cd168f6b0dcfe205fb.jpg"
+      ],
+      "price_claims": [
+        {
+          "location": "АРР",
+          "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=60432b44-5268-4757-88fd-3655e087cbf6",
+          "value": 37000000.0
+        }
+      ],
+      "annual_costs": {},
+      "price_conflict": false,
+      "price_per_sqm": 99435.63558183283,
+      "id": "20d365c878c83b1e0a25",
+      "verification": "review",
+      "distance_km": null,
+      "geo_status": "unknown",
+      "finance": {
+        "annual_rent": 3600000.0,
+        "gross_yield": 9.72972972972973,
+        "payback_years": 10.277777777777779,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": [
+          {
+            "name": "Оптимистичный",
+            "income": 3420000.0,
+            "payback": 10.818713450292398,
+            "vacancy_months": 0,
+            "expenses": 180000.0,
+            "assumed": true,
+            "yield": 9.243243243243244
+          },
+          {
+            "name": "Базовый",
+            "income": 2940000.0,
+            "payback": 12.83673469387755,
+            "vacancy_months": 1,
+            "expenses": 360000.0,
+            "assumed": true,
+            "yield": 7.790143084260731
+          },
+          {
+            "name": "Консервативный",
+            "income": 2460000.0,
+            "payback": 15.491869918699187,
+            "vacancy_months": 2,
+            "expenses": 540000.0,
+            "assumed": true,
+            "yield": 6.454998688008397
+          }
+        ],
+        "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
+      },
+      "score": 20,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 9.7,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 6,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 4,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 20; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "first_seen": "2026-11-20T11:46:24.924701+00:00",
+      "primary_price_claims": [],
+      "history": [
+        {
+          "at": "2026-11-20T11:46:24.924701+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 37000000.0,
+          "monthly_rent": 300000.0,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "source_observations": [],
+      "last_seen": "2026-11-20T11:46:24.924701+00:00",
       "regional_candidate": false
     },
     {
@@ -12914,7 +13096,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.313903+00:00",
+      "last_seen": "2026-11-20T11:46:28.709706+00:00",
       "regional_candidate": false
     },
     {
@@ -13091,7 +13273,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.675477+00:00",
+      "last_seen": "2026-11-20T11:46:24.764369+00:00",
       "regional_candidate": false
     },
     {
@@ -13268,7 +13450,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.813459+00:00",
+      "last_seen": "2026-11-20T11:46:28.188895+00:00",
       "regional_candidate": false
     },
     {
@@ -13445,7 +13627,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.812520+00:00",
+      "last_seen": "2026-11-20T11:46:31.550312+00:00",
       "regional_candidate": false
     },
     {
@@ -13622,7 +13804,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.295916+00:00",
+      "last_seen": "2026-11-20T11:46:28.681305+00:00",
       "regional_candidate": false
     },
     {
@@ -13799,7 +13981,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.895207+00:00",
+      "last_seen": "2026-11-20T11:46:27.155434+00:00",
       "regional_candidate": false
     },
     {
@@ -13976,7 +14158,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.098683+00:00",
+      "last_seen": "2026-11-20T11:46:28.488611+00:00",
       "regional_candidate": false
     },
     {
@@ -14153,7 +14335,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.934585+00:00",
+      "last_seen": "2026-11-20T11:46:32.852788+00:00",
       "regional_candidate": false
     },
     {
@@ -14330,7 +14512,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.442806+00:00",
+      "last_seen": "2026-11-20T11:46:31.151220+00:00",
       "regional_candidate": false
     },
     {
@@ -14507,7 +14689,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.468577+00:00",
+      "last_seen": "2026-11-20T11:46:31.170288+00:00",
       "regional_candidate": false
     },
     {
@@ -14687,7 +14869,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.949202+00:00",
+      "last_seen": "2026-11-20T11:46:29.435542+00:00",
       "regional_candidate": true
     },
     {
@@ -14864,7 +15046,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.047468+00:00",
+      "last_seen": "2026-11-20T11:46:26.197156+00:00",
       "regional_candidate": false
     },
     {
@@ -15041,7 +15223,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.444214+00:00",
+      "last_seen": "2026-11-20T11:46:25.504665+00:00",
       "regional_candidate": false
     },
     {
@@ -15218,7 +15400,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.399250+00:00",
+      "last_seen": "2026-11-20T11:46:26.598513+00:00",
       "regional_candidate": false
     },
     {
@@ -15395,7 +15577,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.256449+00:00",
+      "last_seen": "2026-11-20T11:46:30.928893+00:00",
       "regional_candidate": false
     },
     {
@@ -15575,7 +15757,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.542140+00:00",
+      "last_seen": "2026-11-20T11:46:27.877069+00:00",
       "regional_candidate": true
     },
     {
@@ -15752,7 +15934,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.737803+00:00",
+      "last_seen": "2026-11-20T11:46:34.887440+00:00",
       "regional_candidate": false
     },
     {
@@ -15929,7 +16111,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.345268+00:00",
+      "last_seen": "2026-11-20T11:46:34.436162+00:00",
       "regional_candidate": false
     },
     {
@@ -16106,7 +16288,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.523941+00:00",
+      "last_seen": "2026-11-20T11:46:30.085941+00:00",
       "regional_candidate": false
     },
     {
@@ -16283,7 +16465,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.989690+00:00",
+      "last_seen": "2026-11-20T11:46:32.918931+00:00",
       "regional_candidate": false
     },
     {
@@ -16460,7 +16642,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.658297+00:00",
+      "last_seen": "2026-11-20T11:46:28.009832+00:00",
       "regional_candidate": false
     },
     {
@@ -16640,7 +16822,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.565174+00:00",
+      "last_seen": "2026-11-20T11:46:32.421655+00:00",
       "regional_candidate": true
     },
     {
@@ -16817,7 +16999,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.064813+00:00",
+      "last_seen": "2026-11-20T11:46:29.577343+00:00",
       "regional_candidate": false
     },
     {
@@ -16994,7 +17176,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.548308+00:00",
+      "last_seen": "2026-11-20T11:46:32.397979+00:00",
       "regional_candidate": false
     },
     {
@@ -17171,7 +17353,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.361594+00:00",
+      "last_seen": "2026-11-20T11:46:33.339432+00:00",
       "regional_candidate": false
     },
     {
@@ -17348,7 +17530,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.022109+00:00",
+      "last_seen": "2026-11-20T11:46:29.527109+00:00",
       "regional_candidate": false
     },
     {
@@ -17525,7 +17707,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.870348+00:00",
+      "last_seen": "2026-11-20T11:46:30.484299+00:00",
       "regional_candidate": false
     },
     {
@@ -17702,7 +17884,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.816270+00:00",
+      "last_seen": "2026-11-20T11:46:29.287306+00:00",
       "regional_candidate": false
     },
     {
@@ -17879,7 +18061,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.405690+00:00",
+      "last_seen": "2026-11-20T11:46:28.811829+00:00",
       "regional_candidate": false
     },
     {
@@ -18056,7 +18238,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.504106+00:00",
+      "last_seen": "2026-11-20T11:46:31.219175+00:00",
       "regional_candidate": false
     },
     {
@@ -18233,7 +18415,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.642242+00:00",
+      "last_seen": "2026-11-20T11:46:25.722694+00:00",
       "regional_candidate": false
     },
     {
@@ -18410,7 +18592,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.496065+00:00",
+      "last_seen": "2026-11-20T11:46:26.716919+00:00",
       "regional_candidate": false
     },
     {
@@ -18587,7 +18769,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.748430+00:00",
+      "last_seen": "2026-11-20T11:46:28.123184+00:00",
       "regional_candidate": false
     },
     {
@@ -18634,7 +18816,7 @@
       ],
       "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
       "photos": [
-        "https://cdn-1.arrpro.ru/resize_cache/3783369/2c107a00918f3abd1df8e303f56adfc3/iblock/c0e/c0ef1376f20d3cbe62d33b1d7872e51c/b981bb97e54cb75e4284272c7c4ea82e.jpg"
+        "https://cdn-1.arrpro.ru/resize_cache/3858824/2c107a00918f3abd1df8e303f56adfc3/iblock/913/913235bfa772a56aa037a897d1ff972a/004bc40c82b41fb445eb1305d59fff62.jpg"
       ],
       "price_claims": [
         {
@@ -18764,7 +18946,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.116476+00:00",
+      "last_seen": "2026-11-20T11:46:24.828455+00:00",
       "regional_candidate": false
     },
     {
@@ -18941,7 +19123,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.685145+00:00",
+      "last_seen": "2026-11-20T11:46:29.139685+00:00",
       "regional_candidate": false
     },
     {
@@ -19118,7 +19300,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.011790+00:00",
+      "last_seen": "2026-11-20T11:46:26.147308+00:00",
       "regional_candidate": false
     },
     {
@@ -19295,7 +19477,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.712222+00:00",
+      "last_seen": "2026-11-20T11:46:28.071763+00:00",
       "regional_candidate": false
     },
     {
@@ -19472,7 +19654,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.084358+00:00",
+      "last_seen": "2026-11-20T11:46:27.390870+00:00",
       "regional_candidate": false
     },
     {
@@ -19649,7 +19831,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.416590+00:00",
+      "last_seen": "2026-11-20T11:46:26.626953+00:00",
       "regional_candidate": false
     },
     {
@@ -19826,7 +20008,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.344090+00:00",
+      "last_seen": "2026-11-20T11:46:33.319657+00:00",
       "regional_candidate": true
     },
     {
@@ -20003,7 +20185,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.245878+00:00",
+      "last_seen": "2026-11-20T11:46:26.422640+00:00",
       "regional_candidate": false
     },
     {
@@ -20180,7 +20362,186 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.941881+00:00",
+      "last_seen": "2026-11-20T11:46:30.565487+00:00",
+      "regional_candidate": false
+    },
+    {
+      "district": null,
+      "settlement": "просека 5-я",
+      "address": "Самара, просека 5-я, д. 97Б",
+      "price": 55000000.0,
+      "area": 816.4,
+      "monthly_rent": 430000.0,
+      "tenant_name": null,
+      "tenant_type": "Другой",
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": null,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": null,
+      "coordinate_source": null,
+      "geo_accuracy": null,
+      "published_at": null,
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Автомойка, шиномонтаж, детейлинг, 816,4 м², с арендатором",
+      "sources": [
+        {
+          "name": "АРР",
+          "url": "https://arrpro.ru/objects/getbyid.php?external_id=5ef44900-9a31-46ff-b96a-d9b85dd05341"
+        }
+      ],
+      "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
+      "photos": [
+        "https://cdn-1.arrpro.ru/resize_cache/3857173/2c107a00918f3abd1df8e303f56adfc3/iblock/424/4247e8324b610a79ba7c9575da63b5b8/c8c1b58cc07dc4f2758c93d5103551be.jpg"
+      ],
+      "price_claims": [
+        {
+          "location": "АРР",
+          "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=5ef44900-9a31-46ff-b96a-d9b85dd05341",
+          "value": 55000000.0
+        }
+      ],
+      "annual_costs": {},
+      "price_conflict": false,
+      "price_per_sqm": 67368.9367956884,
+      "id": "3442e74cb8777bf65096",
+      "verification": "review",
+      "distance_km": null,
+      "geo_status": "unknown",
+      "finance": {
+        "annual_rent": 5160000.0,
+        "gross_yield": 9.381818181818181,
+        "payback_years": 10.65891472868217,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": [
+          {
+            "name": "Оптимистичный",
+            "income": 4902000.0,
+            "payback": 11.219910240718074,
+            "vacancy_months": 0,
+            "expenses": 258000.0,
+            "assumed": true,
+            "yield": 8.912727272727272
+          },
+          {
+            "name": "Базовый",
+            "income": 4214000.0,
+            "payback": 13.312766967252017,
+            "vacancy_months": 1,
+            "expenses": 516000.0,
+            "assumed": true,
+            "yield": 7.5115864527629235
+          },
+          {
+            "name": "Консервативный",
+            "income": 3526000.0,
+            "payback": 16.066364152013612,
+            "vacancy_months": 2,
+            "expenses": 774000.0,
+            "assumed": true,
+            "yield": 6.224183583406885
+          }
+        ],
+        "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
+      },
+      "score": 19,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 9.4,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 6,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 4,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 19; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "first_seen": "2026-11-20T11:46:24.946474+00:00",
+      "primary_price_claims": [],
+      "history": [
+        {
+          "at": "2026-11-20T11:46:24.946474+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 55000000.0,
+          "monthly_rent": 430000.0,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "source_observations": [],
+      "last_seen": "2026-11-20T11:46:24.946474+00:00",
       "regional_candidate": false
     },
     {
@@ -20357,7 +20718,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.125663+00:00",
+      "last_seen": "2026-11-20T11:46:33.078185+00:00",
       "regional_candidate": false
     },
     {
@@ -20534,7 +20895,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.134291+00:00",
+      "last_seen": "2026-11-20T11:46:28.530279+00:00",
       "regional_candidate": false
     },
     {
@@ -20711,7 +21072,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.539011+00:00",
+      "last_seen": "2026-11-20T11:46:31.260763+00:00",
       "regional_candidate": false
     },
     {
@@ -20888,7 +21249,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.101064+00:00",
+      "last_seen": "2026-11-20T11:46:30.739855+00:00",
       "regional_candidate": false
     },
     {
@@ -21065,7 +21426,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.425479+00:00",
+      "last_seen": "2026-11-20T11:46:29.970828+00:00",
       "regional_candidate": false
     },
     {
@@ -21242,7 +21603,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.290253+00:00",
+      "last_seen": "2026-11-20T11:46:27.588690+00:00",
       "regional_candidate": false
     },
     {
@@ -21397,7 +21758,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:15.442620+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:15.442620+00:00"
     },
     {
       "district": null,
@@ -21573,7 +21935,186 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.468538+00:00",
+      "last_seen": "2026-11-20T11:46:28.884457+00:00",
+      "regional_candidate": false
+    },
+    {
+      "district": null,
+      "settlement": "Самара",
+      "address": "Самара, ул Советской Армии, д. 238Д",
+      "price": 7800000.0,
+      "area": 72.0,
+      "monthly_rent": 60000.0,
+      "tenant_name": "Студия детейлинга",
+      "tenant_type": "Другой",
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": null,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": null,
+      "coordinate_source": null,
+      "geo_accuracy": null,
+      "published_at": null,
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Уникальное предложение под ГАП",
+      "sources": [
+        {
+          "name": "АРР",
+          "url": "https://arrpro.ru/objects/getbyid.php?external_id=73dca392-d582-4a86-b0eb-3015bfa55e43"
+        }
+      ],
+      "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
+      "photos": [
+        "https://cdn-1.arrpro.ru/resize_cache/3859471/2c107a00918f3abd1df8e303f56adfc3/iblock/eb8/eb855d5d355bd4d9bd1bf75459e72990/2c914648b7053c82738ee815f18e9341.jpg"
+      ],
+      "price_claims": [
+        {
+          "location": "АРР",
+          "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=73dca392-d582-4a86-b0eb-3015bfa55e43",
+          "value": 7800000.0
+        }
+      ],
+      "annual_costs": {},
+      "price_conflict": false,
+      "price_per_sqm": 108333.33333333333,
+      "id": "3715ea9f2f5be9201152",
+      "verification": "review",
+      "distance_km": null,
+      "geo_status": "unknown",
+      "finance": {
+        "annual_rent": 720000.0,
+        "gross_yield": 9.230769230769232,
+        "payback_years": 10.833333333333334,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": [
+          {
+            "name": "Оптимистичный",
+            "income": 684000.0,
+            "payback": 11.403508771929825,
+            "vacancy_months": 0,
+            "expenses": 36000.0,
+            "assumed": true,
+            "yield": 8.76923076923077
+          },
+          {
+            "name": "Базовый",
+            "income": 588000.0,
+            "payback": 13.53061224489796,
+            "vacancy_months": 1,
+            "expenses": 72000.0,
+            "assumed": true,
+            "yield": 7.390648567119156
+          },
+          {
+            "name": "Консервативный",
+            "income": 492000.0,
+            "payback": 16.329268292682926,
+            "vacancy_months": 2,
+            "expenses": 108000.0,
+            "assumed": true,
+            "yield": 6.123973114264376
+          }
+        ],
+        "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
+      },
+      "score": 20,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 9.2,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 6,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 5,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 20; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "first_seen": "2026-11-20T11:46:24.743873+00:00",
+      "primary_price_claims": [],
+      "history": [
+        {
+          "at": "2026-11-20T11:46:24.743873+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 7800000.0,
+          "monthly_rent": 60000.0,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "source_observations": [],
+      "last_seen": "2026-11-20T11:46:24.743873+00:00",
       "regional_candidate": false
     },
     {
@@ -21750,7 +22291,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.905059+00:00",
+      "last_seen": "2026-11-20T11:46:29.388259+00:00",
       "regional_candidate": false
     },
     {
@@ -21927,7 +22468,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.948394+00:00",
+      "last_seen": "2026-11-20T11:46:27.232151+00:00",
       "regional_candidate": false
     },
     {
@@ -22104,7 +22645,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.083413+00:00",
+      "last_seen": "2026-11-20T11:46:26.243876+00:00",
       "regional_candidate": false
     },
     {
@@ -22281,7 +22822,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.873747+00:00",
+      "last_seen": "2026-11-20T11:46:31.612746+00:00",
       "regional_candidate": false
     },
     {
@@ -22458,7 +22999,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.033706+00:00",
+      "last_seen": "2026-11-20T11:46:32.958354+00:00",
       "regional_candidate": true
     },
     {
@@ -22635,7 +23176,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.118252+00:00",
+      "last_seen": "2026-11-20T11:46:30.768092+00:00",
       "regional_candidate": false
     },
     {
@@ -22812,7 +23353,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.836280+00:00",
+      "last_seen": "2026-11-20T11:46:30.436399+00:00",
       "regional_candidate": false
     },
     {
@@ -22989,14 +23530,14 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.496291+00:00",
+      "last_seen": "2026-11-20T11:46:32.323579+00:00",
       "regional_candidate": false
     },
     {
       "district": null,
       "settlement": "Москва",
       "address": "Москва, ул Трехсвятская, д. 18",
-      "price": 20000000.0,
+      "price": 25000000.0,
       "area": 110.0,
       "monthly_rent": 235000.0,
       "tenant_name": "Wildberries",
@@ -23042,58 +23583,58 @@
         {
           "location": "АРР",
           "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=d66cacc0-be2f-42ea-8de1-3a892576b174",
-          "value": 20000000.0
+          "value": 25000000.0
         }
       ],
       "annual_costs": {},
       "price_conflict": false,
-      "price_per_sqm": 181818.18181818182,
+      "price_per_sqm": 227272.72727272726,
       "id": "3a7be24a1bfe7d9cb883",
       "verification": "review",
       "distance_km": null,
       "geo_status": "unknown",
       "finance": {
         "annual_rent": 2820000.0,
-        "gross_yield": 14.099999999999998,
-        "payback_years": 7.092198581560283,
+        "gross_yield": 11.28,
+        "payback_years": 8.865248226950355,
         "net_yield": null,
         "net_payback_years": null,
         "scenarios": [
           {
             "name": "Оптимистичный",
             "income": 2679000.0,
-            "payback": 7.465472191116088,
+            "payback": 9.33184023889511,
             "vacancy_months": 0,
             "expenses": 141000.0,
             "assumed": true,
-            "yield": 13.395000000000001
+            "yield": 10.716000000000001
           },
           {
             "name": "Базовый",
             "income": 2303000.0,
-            "payback": 8.858011289622231,
+            "payback": 11.07251411202779,
             "vacancy_months": 1,
             "expenses": 282000.0,
             "assumed": true,
-            "yield": 11.28921568627451
+            "yield": 9.031372549019608
           },
           {
             "name": "Консервативный",
             "income": 1927000.0,
-            "payback": 10.690192008303061,
+            "payback": 13.362740010378827,
             "vacancy_months": 2,
             "expenses": 423000.0,
             "assumed": true,
-            "yield": 9.354368932038835
+            "yield": 7.483495145631068
           }
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 34,
+      "score": 31,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
-          "points": 14.1,
+          "points": 11.3,
           "max": 15,
           "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
         },
@@ -23153,7 +23694,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 34; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 31; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
       "first_seen": "2026-11-15T17:41:08.818524+00:00",
       "primary_price_claims": [],
       "history": [
@@ -23172,10 +23713,19 @@
           "monthly_rent": 235000.0,
           "contract_months": null,
           "indexation": null
+        },
+        {
+          "at": "2026-11-20T11:46:24.881736+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 25000000.0,
+          "monthly_rent": 235000.0,
+          "contract_months": null,
+          "indexation": null
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.033222+00:00",
+      "last_seen": "2026-11-20T11:46:24.881736+00:00",
       "regional_candidate": false
     },
     {
@@ -23330,7 +23880,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:15.424365+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:15.424365+00:00"
     },
     {
       "district": null,
@@ -23506,7 +24057,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.698582+00:00",
+      "last_seen": "2026-11-20T11:46:33.712553+00:00",
       "regional_candidate": false
     },
     {
@@ -23659,7 +24210,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:37.581395+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:37.581395+00:00"
     },
     {
       "district": null,
@@ -24012,7 +24564,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.162945+00:00",
+      "last_seen": "2026-11-20T11:46:26.337928+00:00",
       "regional_candidate": false
     },
     {
@@ -24189,7 +24741,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.264386+00:00",
+      "last_seen": "2026-11-20T11:46:34.355441+00:00",
       "regional_candidate": false
     },
     {
@@ -24366,7 +24918,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.775588+00:00",
+      "last_seen": "2026-11-20T11:46:30.376745+00:00",
       "regional_candidate": false
     },
     {
@@ -24720,7 +25272,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.170692+00:00",
+      "last_seen": "2026-11-20T11:46:33.118469+00:00",
       "regional_candidate": false
     },
     {
@@ -24897,7 +25449,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.642579+00:00",
+      "last_seen": "2026-11-20T11:46:32.510486+00:00",
       "regional_candidate": false
     },
     {
@@ -25077,7 +25629,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.930474+00:00",
+      "last_seen": "2026-11-20T11:46:28.299298+00:00",
       "regional_candidate": true
     },
     {
@@ -25254,7 +25806,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.337921+00:00",
+      "last_seen": "2026-11-20T11:46:32.155279+00:00",
       "regional_candidate": false
     },
     {
@@ -25431,7 +25983,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.044186+00:00",
+      "last_seen": "2026-11-20T11:46:31.816035+00:00",
       "regional_candidate": false
     },
     {
@@ -25608,7 +26160,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.604348+00:00",
+      "last_seen": "2026-11-20T11:46:29.046975+00:00",
       "regional_candidate": false
     },
     {
@@ -25785,7 +26337,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.198068+00:00",
+      "last_seen": "2026-11-20T11:46:28.578105+00:00",
       "regional_candidate": false
     },
     {
@@ -25962,7 +26514,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.549708+00:00",
+      "last_seen": "2026-11-20T11:46:26.788953+00:00",
       "regional_candidate": false
     },
     {
@@ -26139,7 +26691,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.588251+00:00",
+      "last_seen": "2026-11-20T11:46:25.661751+00:00",
       "regional_candidate": false
     },
     {
@@ -26316,7 +26868,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.274060+00:00",
+      "last_seen": "2026-11-20T11:46:30.948992+00:00",
       "regional_candidate": false
     },
     {
@@ -26493,7 +27045,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.316210+00:00",
+      "last_seen": "2026-11-20T11:46:29.838165+00:00",
       "regional_candidate": false
     },
     {
@@ -26849,7 +27401,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.079871+00:00",
+      "last_seen": "2026-11-20T11:46:25.154429+00:00",
       "regional_candidate": false
     },
     {
@@ -27026,7 +27578,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.983432+00:00",
+      "last_seen": "2026-11-20T11:46:28.358281+00:00",
       "regional_candidate": false
     },
     {
@@ -27203,7 +27755,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.834021+00:00",
+      "last_seen": "2026-11-20T11:46:27.093186+00:00",
       "regional_candidate": false
     },
     {
@@ -27383,7 +27935,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.254624+00:00",
+      "last_seen": "2026-11-20T11:46:29.776289+00:00",
       "regional_candidate": true
     },
     {
@@ -27560,7 +28112,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.912858+00:00",
+      "last_seen": "2026-11-20T11:46:27.176185+00:00",
       "regional_candidate": false
     },
     {
@@ -27737,7 +28289,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.965746+00:00",
+      "last_seen": "2026-11-20T11:46:28.338535+00:00",
       "regional_candidate": false
     },
     {
@@ -27914,7 +28466,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.521832+00:00",
+      "last_seen": "2026-11-20T11:46:28.944929+00:00",
       "regional_candidate": false
     },
     {
@@ -28091,7 +28643,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.816722+00:00",
+      "last_seen": "2026-11-20T11:46:27.070961+00:00",
       "regional_candidate": false
     },
     {
@@ -28268,7 +28820,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.514143+00:00",
+      "last_seen": "2026-11-20T11:46:26.739847+00:00",
       "regional_candidate": false
     },
     {
@@ -28454,7 +29006,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.218922+00:00",
+      "last_seen": "2026-11-20T11:46:25.260356+00:00",
       "regional_candidate": false
     },
     {
@@ -28631,7 +29183,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.745758+00:00",
+      "last_seen": "2026-11-20T11:46:26.981046+00:00",
       "regional_candidate": false
     },
     {
@@ -28808,7 +29360,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.586107+00:00",
+      "last_seen": "2026-11-20T11:46:26.830647+00:00",
       "regional_candidate": false
     },
     {
@@ -28985,7 +29537,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.363088+00:00",
+      "last_seen": "2026-11-20T11:46:27.680502+00:00",
       "regional_candidate": false
     },
     {
@@ -29162,7 +29714,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.498629+00:00",
+      "last_seen": "2026-11-20T11:46:33.491850+00:00",
       "regional_candidate": false
     },
     {
@@ -29339,7 +29891,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.246880+00:00",
+      "last_seen": "2026-11-20T11:46:34.335585+00:00",
       "regional_candidate": false
     },
     {
@@ -29516,7 +30068,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.782004+00:00",
+      "last_seen": "2026-11-20T11:46:27.022821+00:00",
       "regional_candidate": false
     },
     {
@@ -29693,7 +30245,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.081459+00:00",
+      "last_seen": "2026-11-20T11:46:28.468435+00:00",
       "regional_candidate": false
     },
     {
@@ -29870,7 +30422,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.778522+00:00",
+      "last_seen": "2026-11-20T11:46:32.668998+00:00",
       "regional_candidate": true
     },
     {
@@ -30047,7 +30599,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.052237+00:00",
+      "last_seen": "2026-11-20T11:46:34.111679+00:00",
       "regional_candidate": false
     },
     {
@@ -30224,7 +30776,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.605808+00:00",
+      "last_seen": "2026-11-20T11:46:25.682293+00:00",
       "regional_candidate": false
     },
     {
@@ -30401,7 +30953,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.063958+00:00",
+      "last_seen": "2026-11-20T11:46:28.448665+00:00",
       "regional_candidate": false
     },
     {
@@ -30565,7 +31117,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:15.488950+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:15.488950+00:00"
     },
     {
       "district": null,
@@ -30741,7 +31294,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.291583+00:00",
+      "last_seen": "2026-11-20T11:46:30.971939+00:00",
       "regional_candidate": false
     },
     {
@@ -30918,7 +31471,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.694823+00:00",
+      "last_seen": "2026-11-20T11:46:28.051923+00:00",
       "regional_candidate": false
     },
     {
@@ -31095,7 +31648,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.948223+00:00",
+      "last_seen": "2026-11-20T11:46:28.319156+00:00",
       "regional_candidate": false
     },
     {
@@ -31272,7 +31825,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.928562+00:00",
+      "last_seen": "2026-11-20T11:46:31.683768+00:00",
       "regional_candidate": false
     },
     {
@@ -31449,7 +32002,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.532007+00:00",
+      "last_seen": "2026-11-20T11:46:26.760832+00:00",
       "regional_candidate": false
     },
     {
@@ -31626,7 +32179,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.004153+00:00",
+      "last_seen": "2026-11-20T11:46:30.638533+00:00",
       "regional_candidate": false
     },
     {
@@ -31803,7 +32356,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.975792+00:00",
+      "last_seen": "2026-11-20T11:46:26.100629+00:00",
       "regional_candidate": false
     },
     {
@@ -31980,7 +32533,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.556164+00:00",
+      "last_seen": "2026-11-20T11:46:31.280611+00:00",
       "regional_candidate": false
     },
     {
@@ -32157,7 +32710,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.126037+00:00",
+      "last_seen": "2026-11-20T11:46:34.201827+00:00",
       "regional_candidate": false
     },
     {
@@ -32334,7 +32887,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.015976+00:00",
+      "last_seen": "2026-11-20T11:46:32.938945+00:00",
       "regional_candidate": false
     },
     {
@@ -32511,7 +33064,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.891908+00:00",
+      "last_seen": "2026-11-20T11:46:31.633008+00:00",
       "regional_candidate": false
     },
     {
@@ -32688,7 +33241,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.229095+00:00",
+      "last_seen": "2026-11-20T11:46:34.313967+00:00",
       "regional_candidate": false
     },
     {
@@ -32865,7 +33418,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.470794+00:00",
+      "last_seen": "2026-11-20T11:46:25.525713+00:00",
       "regional_candidate": false
     },
     {
@@ -33042,7 +33595,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.327948+00:00",
+      "last_seen": "2026-11-20T11:46:34.416804+00:00",
       "regional_candidate": false
     },
     {
@@ -33219,7 +33772,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.603441+00:00",
+      "last_seen": "2026-11-20T11:46:26.851258+00:00",
       "regional_candidate": false
     },
     {
@@ -33396,7 +33949,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.888223+00:00",
+      "last_seen": "2026-11-20T11:46:30.503935+00:00",
       "regional_candidate": false
     },
     {
@@ -33750,7 +34303,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.024892+00:00",
+      "last_seen": "2026-11-20T11:46:34.091878+00:00",
       "regional_candidate": false
     },
     {
@@ -33905,7 +34458,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:26.503082+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:26.503082+00:00"
     },
     {
       "district": null,
@@ -34081,7 +34635,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.354159+00:00",
+      "last_seen": "2026-11-20T11:46:31.036877+00:00",
       "regional_candidate": false
     },
     {
@@ -34258,7 +34812,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.301932+00:00",
+      "last_seen": "2026-11-20T11:46:32.112970+00:00",
       "regional_candidate": false
     },
     {
@@ -34435,7 +34989,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.752733+00:00",
+      "last_seen": "2026-11-20T11:46:33.782653+00:00",
       "regional_candidate": false
     },
     {
@@ -34612,7 +35166,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.300635+00:00",
+      "last_seen": "2026-11-20T11:46:26.493057+00:00",
       "regional_candidate": false
     },
     {
@@ -34789,7 +35343,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.425219+00:00",
+      "last_seen": "2026-11-20T11:46:33.400435+00:00",
       "regional_candidate": false
     },
     {
@@ -34966,7 +35520,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.521806+00:00",
+      "last_seen": "2026-11-20T11:46:31.240477+00:00",
       "regional_candidate": false
     },
     {
@@ -35143,7 +35697,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.172669+00:00",
+      "last_seen": "2026-11-20T11:46:25.219699+00:00",
       "regional_candidate": false
     },
     {
@@ -35323,7 +35877,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.109875+00:00",
+      "last_seen": "2026-11-20T11:46:26.264405+00:00",
       "regional_candidate": true
     },
     {
@@ -35500,7 +36054,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.417185+00:00",
+      "last_seen": "2026-11-20T11:46:34.527694+00:00",
       "regional_candidate": false
     },
     {
@@ -35677,7 +36231,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.497393+00:00",
+      "last_seen": "2026-11-20T11:46:27.835006+00:00",
       "regional_candidate": false
     },
     {
@@ -35854,7 +36408,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.948433+00:00",
+      "last_seen": "2026-11-20T11:46:26.076266+00:00",
       "regional_candidate": false
     },
     {
@@ -36007,7 +36561,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:37.513329+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:37.513329+00:00"
     },
     {
       "district": null,
@@ -36183,7 +36738,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.010439+00:00",
+      "last_seen": "2026-11-20T11:46:27.296108+00:00",
       "regional_candidate": false
     },
     {
@@ -36360,7 +36915,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.336318+00:00",
+      "last_seen": "2026-11-20T11:46:31.016330+00:00",
       "regional_candidate": false
     },
     {
@@ -36537,7 +37092,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.887998+00:00",
+      "last_seen": "2026-11-20T11:46:29.368555+00:00",
       "regional_candidate": false
     },
     {
@@ -36714,7 +37269,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.425491+00:00",
+      "last_seen": "2026-11-20T11:46:31.130725+00:00",
       "regional_candidate": false
     },
     {
@@ -36891,7 +37446,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.774763+00:00",
+      "last_seen": "2026-11-20T11:46:34.938646+00:00",
       "regional_candidate": false
     },
     {
@@ -37068,7 +37623,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.057981+00:00",
+      "last_seen": "2026-11-20T11:46:30.700544+00:00",
       "regional_candidate": false
     },
     {
@@ -37245,7 +37800,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.255640+00:00",
+      "last_seen": "2026-11-20T11:46:25.309977+00:00",
       "regional_candidate": false
     },
     {
@@ -37433,7 +37988,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:02.902838+00:00",
+      "last_seen": "2026-11-20T11:46:25.019500+00:00",
       "regional_candidate": false
     },
     {
@@ -37610,7 +38165,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:02.942009+00:00",
+      "last_seen": "2026-11-20T11:46:25.039822+00:00",
       "regional_candidate": false
     },
     {
@@ -37787,7 +38342,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.599579+00:00",
+      "last_seen": "2026-11-20T11:46:32.467596+00:00",
       "regional_candidate": false
     },
     {
@@ -37973,7 +38528,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.273931+00:00",
+      "last_seen": "2026-11-20T11:46:25.330637+00:00",
       "regional_candidate": false
     },
     {
@@ -38150,7 +38705,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.655325+00:00",
+      "last_seen": "2026-11-20T11:46:34.803813+00:00",
       "regional_candidate": false
     },
     {
@@ -38313,7 +38868,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:48:21.858652+00:00",
+      "last_seen": "2026-11-20T11:47:50.242502+00:00",
       "regional_candidate": true
     },
     {
@@ -38490,7 +39045,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.309337+00:00",
+      "last_seen": "2026-11-20T11:46:30.994654+00:00",
       "regional_candidate": false
     },
     {
@@ -38667,7 +39222,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.407273+00:00",
+      "last_seen": "2026-11-20T11:46:33.379903+00:00",
       "regional_candidate": false
     },
     {
@@ -38822,7 +39377,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:15.309554+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:15.309554+00:00"
     },
     {
       "district": null,
@@ -38998,7 +39554,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.733372+00:00",
+      "last_seen": "2026-11-20T11:46:32.627467+00:00",
       "regional_candidate": false
     },
     {
@@ -39175,7 +39731,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:02.960301+00:00",
+      "last_seen": "2026-11-20T11:46:25.060089+00:00",
       "regional_candidate": false
     },
     {
@@ -39352,7 +39908,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.470004+00:00",
+      "last_seen": "2026-11-20T11:46:30.021506+00:00",
       "regional_candidate": false
     },
     {
@@ -39529,7 +40085,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.369263+00:00",
+      "last_seen": "2026-11-20T11:46:28.771269+00:00",
       "regional_candidate": false
     },
     {
@@ -39692,7 +40248,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:48:33.796994+00:00",
+      "last_seen": "2026-11-20T11:48:02.740750+00:00",
       "regional_candidate": true
     },
     {
@@ -39869,7 +40425,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.877434+00:00",
+      "last_seen": "2026-11-20T11:46:25.984937+00:00",
       "regional_candidate": false
     },
     {
@@ -40046,7 +40602,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.516715+00:00",
+      "last_seen": "2026-11-20T11:46:33.511943+00:00",
       "regional_candidate": false
     },
     {
@@ -40223,7 +40779,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.051849+00:00",
+      "last_seen": "2026-11-20T11:46:24.859625+00:00",
       "regional_candidate": false
     },
     {
@@ -40400,7 +40956,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.308489+00:00",
+      "last_seen": "2026-11-20T11:46:27.609621+00:00",
       "regional_candidate": false
     },
     {
@@ -40555,7 +41111,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:26.441926+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:26.441926+00:00"
     },
     {
       "district": null,
@@ -40731,7 +41288,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.628919+00:00",
+      "last_seen": "2026-11-20T11:46:26.871712+00:00",
       "regional_candidate": false
     },
     {
@@ -40908,7 +41465,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.435963+00:00",
+      "last_seen": "2026-11-20T11:46:32.265110+00:00",
       "regional_candidate": false
     },
     {
@@ -41085,7 +41642,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.673618+00:00",
+      "last_seen": "2026-11-20T11:46:34.824671+00:00",
       "regional_candidate": false
     },
     {
@@ -41262,7 +41819,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.930690+00:00",
+      "last_seen": "2026-11-20T11:46:26.053976+00:00",
       "regional_candidate": false
     },
     {
@@ -41439,7 +41996,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.355651+00:00",
+      "last_seen": "2026-11-20T11:46:32.175342+00:00",
       "regional_candidate": false
     },
     {
@@ -41616,7 +42173,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.735312+00:00",
+      "last_seen": "2026-11-20T11:46:33.763296+00:00",
       "regional_candidate": false
     },
     {
@@ -41793,7 +42350,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.912982+00:00",
+      "last_seen": "2026-11-20T11:46:26.033502+00:00",
       "regional_candidate": false
     },
     {
@@ -41970,7 +42527,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.898263+00:00",
+      "last_seen": "2026-11-20T11:46:32.802430+00:00",
       "regional_candidate": false
     },
     {
@@ -42147,7 +42704,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.200163+00:00",
+      "last_seen": "2026-11-20T11:46:25.239952+00:00",
       "regional_candidate": false
     },
     {
@@ -42324,7 +42881,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.574025+00:00",
+      "last_seen": "2026-11-20T11:46:31.301258+00:00",
       "regional_candidate": false
     },
     {
@@ -42501,7 +43058,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.924465+00:00",
+      "last_seen": "2026-11-20T11:46:30.545799+00:00",
       "regional_candidate": false
     },
     {
@@ -42678,7 +43235,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.481159+00:00",
+      "last_seen": "2026-11-20T11:46:33.471783+00:00",
       "regional_candidate": false
     },
     {
@@ -42855,7 +43412,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.524517+00:00",
+      "last_seen": "2026-11-20T11:46:27.856442+00:00",
       "regional_candidate": false
     },
     {
@@ -43032,7 +43589,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.371934+00:00",
+      "last_seen": "2026-11-20T11:46:31.066796+00:00",
       "regional_candidate": false
     },
     {
@@ -43187,7 +43744,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:26.654378+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:26.654378+00:00"
     },
     {
       "district": null,
@@ -43363,7 +43921,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.972455+00:00",
+      "last_seen": "2026-11-20T11:46:34.031072+00:00",
       "regional_candidate": false
     },
     {
@@ -43540,7 +44098,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.834437+00:00",
+      "last_seen": "2026-11-20T11:46:29.308514+00:00",
       "regional_candidate": false
     },
     {
@@ -43717,7 +44275,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.364392+00:00",
+      "last_seen": "2026-11-20T11:46:26.556631+00:00",
       "regional_candidate": false
     },
     {
@@ -43894,7 +44452,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.984933+00:00",
+      "last_seen": "2026-11-20T11:46:27.276191+00:00",
       "regional_candidate": false
     },
     {
@@ -44071,7 +44629,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.972170+00:00",
+      "last_seen": "2026-11-20T11:46:35.158885+00:00",
       "regional_candidate": false
     },
     {
@@ -44248,7 +44806,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.291307+00:00",
+      "last_seen": "2026-11-20T11:46:33.253006+00:00",
       "regional_candidate": false
     },
     {
@@ -44425,7 +44983,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.909161+00:00",
+      "last_seen": "2026-11-20T11:46:35.093413+00:00",
       "regional_candidate": false
     },
     {
@@ -44602,7 +45160,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.560437+00:00",
+      "last_seen": "2026-11-20T11:46:27.898719+00:00",
       "regional_candidate": false
     },
     {
@@ -44779,7 +45337,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.715620+00:00",
+      "last_seen": "2026-11-20T11:46:32.606683+00:00",
       "regional_candidate": true
     },
     {
@@ -45133,7 +45691,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.830254+00:00",
+      "last_seen": "2026-11-20T11:46:25.943497+00:00",
       "regional_candidate": false
     },
     {
@@ -45310,7 +45868,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.917247+00:00",
+      "last_seen": "2026-11-20T11:46:33.957999+00:00",
       "regional_candidate": false
     },
     {
@@ -45487,7 +46045,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.118047+00:00",
+      "last_seen": "2026-11-20T11:46:29.641549+00:00",
       "regional_candidate": false
     },
     {
@@ -45664,7 +46222,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.282478+00:00",
+      "last_seen": "2026-11-20T11:46:34.375555+00:00",
       "regional_candidate": false
     },
     {
@@ -45841,7 +46399,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.543156+00:00",
+      "last_seen": "2026-11-20T11:46:33.534301+00:00",
       "regional_candidate": false
     },
     {
@@ -46018,7 +46576,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.703369+00:00",
+      "last_seen": "2026-11-20T11:46:29.159887+00:00",
       "regional_candidate": false
     },
     {
@@ -46195,7 +46753,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.967792+00:00",
+      "last_seen": "2026-11-20T11:46:30.586858+00:00",
       "regional_candidate": false
     },
     {
@@ -46372,7 +46930,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.131513+00:00",
+      "last_seen": "2026-11-20T11:46:27.433942+00:00",
       "regional_candidate": false
     },
     {
@@ -46549,7 +47107,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.332311+00:00",
+      "last_seen": "2026-11-20T11:46:28.730291+00:00",
       "regional_candidate": false
     },
     {
@@ -46728,7 +47286,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.506366+00:00",
+      "last_seen": "2026-11-20T11:46:25.565833+00:00",
       "regional_candidate": false
     },
     {
@@ -46905,7 +47463,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.697273+00:00",
+      "last_seen": "2026-11-20T11:46:32.582829+00:00",
       "regional_candidate": false
     },
     {
@@ -47082,7 +47640,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.758152+00:00",
+      "last_seen": "2026-11-20T11:46:30.357381+00:00",
       "regional_candidate": false
     },
     {
@@ -47259,7 +47817,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.795284+00:00",
+      "last_seen": "2026-11-20T11:46:31.530504+00:00",
       "regional_candidate": false
     },
     {
@@ -47436,7 +47994,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.310214+00:00",
+      "last_seen": "2026-11-20T11:46:34.396442+00:00",
       "regional_candidate": false
     },
     {
@@ -47613,7 +48171,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.814271+00:00",
+      "last_seen": "2026-11-20T11:46:32.718761+00:00",
       "regional_candidate": false
     },
     {
@@ -47790,7 +48348,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.218895+00:00",
+      "last_seen": "2026-11-20T11:46:24.656362+00:00",
       "regional_candidate": false
     },
     {
@@ -47967,7 +48525,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.695862+00:00",
+      "last_seen": "2026-11-20T11:46:25.791972+00:00",
       "regional_candidate": false
     },
     {
@@ -48144,7 +48702,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.152480+00:00",
+      "last_seen": "2026-11-20T11:46:33.098176+00:00",
       "regional_candidate": true
     },
     {
@@ -48321,7 +48879,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.488640+00:00",
+      "last_seen": "2026-11-20T11:46:25.545875+00:00",
       "regional_candidate": false
     },
     {
@@ -48501,7 +49059,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.722412+00:00",
+      "last_seen": "2026-11-20T11:46:25.811817+00:00",
       "regional_candidate": true
     },
     {
@@ -48678,7 +49236,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.703309+00:00",
+      "last_seen": "2026-11-20T11:46:30.286134+00:00",
       "regional_candidate": false
     },
     {
@@ -48855,7 +49413,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.759870+00:00",
+      "last_seen": "2026-11-20T11:46:32.648468+00:00",
       "regional_candidate": false
     },
     {
@@ -49032,7 +49590,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.542651+00:00",
+      "last_seen": "2026-11-20T11:46:25.618791+00:00",
       "regional_candidate": false
     },
     {
@@ -49209,7 +49767,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.211184+00:00",
+      "last_seen": "2026-11-20T11:46:34.285393+00:00",
       "regional_candidate": false
     },
     {
@@ -49386,7 +49944,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.318973+00:00",
+      "last_seen": "2026-11-20T11:46:26.514979+00:00",
       "regional_candidate": false
     },
     {
@@ -49549,7 +50107,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:47:45.499409+00:00",
+      "last_seen": "2026-11-20T11:47:12.121604+00:00",
       "regional_candidate": true
     },
     {
@@ -49726,7 +50284,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.701386+00:00",
+      "last_seen": "2026-11-20T11:46:34.845862+00:00",
       "regional_candidate": false
     },
     {
@@ -49903,7 +50461,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.850860+00:00",
+      "last_seen": "2026-11-20T11:46:32.760272+00:00",
       "regional_candidate": false
     },
     {
@@ -50080,7 +50638,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.954384+00:00",
+      "last_seen": "2026-11-20T11:46:34.000128+00:00",
       "regional_candidate": false
     },
     {
@@ -50257,7 +50815,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.337040+00:00",
+      "last_seen": "2026-11-20T11:46:26.535727+00:00",
       "regional_candidate": false
     },
     {
@@ -50434,7 +50992,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.832963+00:00",
+      "last_seen": "2026-11-20T11:46:32.739958+00:00",
       "regional_candidate": false
     },
     {
@@ -50611,7 +51169,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.155443+00:00",
+      "last_seen": "2026-11-20T11:46:29.683632+00:00",
       "regional_candidate": false
     },
     {
@@ -50788,7 +51346,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.065926+00:00",
+      "last_seen": "2026-11-20T11:46:26.220235+00:00",
       "regional_candidate": false
     },
     {
@@ -50965,7 +51523,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.040276+00:00",
+      "last_seen": "2026-11-20T11:46:30.680313+00:00",
       "regional_candidate": false
     },
     {
@@ -51142,7 +51700,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.618314+00:00",
+      "last_seen": "2026-11-20T11:46:34.759841+00:00",
       "regional_candidate": false
     },
     {
@@ -51319,7 +51877,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.188977+00:00",
+      "last_seen": "2026-11-20T11:46:33.147903+00:00",
       "regional_candidate": true
     },
     {
@@ -51496,7 +52054,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.647356+00:00",
+      "last_seen": "2026-11-20T11:46:24.784676+00:00",
       "regional_candidate": false
     },
     {
@@ -51673,7 +52231,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.352850+00:00",
+      "last_seen": "2026-11-20T11:46:29.889367+00:00",
       "regional_candidate": false
     },
     {
@@ -51833,7 +52391,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:49:23.128409+00:00",
+      "last_seen": "2026-11-20T11:48:54.417729+00:00",
       "regional_candidate": true
     },
     {
@@ -51988,7 +52546,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:48.779877+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:48.779877+00:00"
     },
     {
       "district": null,
@@ -52164,7 +52723,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.597438+00:00",
+      "last_seen": "2026-11-20T11:46:33.606542+00:00",
       "regional_candidate": false
     },
     {
@@ -52341,7 +52900,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.581147+00:00",
+      "last_seen": "2026-11-20T11:46:34.705549+00:00",
       "regional_candidate": false
     },
     {
@@ -52518,7 +53077,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.345646+00:00",
+      "last_seen": "2026-11-20T11:46:27.651162+00:00",
       "regional_candidate": false
     },
     {
@@ -52695,7 +53254,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.773107+00:00",
+      "last_seen": "2026-11-20T11:46:29.239286+00:00",
       "regional_candidate": false
     },
     {
@@ -52872,7 +53431,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.181342+00:00",
+      "last_seen": "2026-11-20T11:46:26.360387+00:00",
       "regional_candidate": false
     },
     {
@@ -53049,7 +53608,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.128175+00:00",
+      "last_seen": "2026-11-20T11:46:26.285543+00:00",
       "regional_candidate": false
     },
     {
@@ -53226,7 +53785,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.701395+00:00",
+      "last_seen": "2026-11-20T11:46:26.940158+00:00",
       "regional_candidate": false
     },
     {
@@ -53403,7 +53962,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.776587+00:00",
+      "last_seen": "2026-11-20T11:46:28.143858+00:00",
       "regional_candidate": false
     },
     {
@@ -53757,7 +54316,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.790957+00:00",
+      "last_seen": "2026-11-20T11:46:29.259762+00:00",
       "regional_candidate": false
     },
     {
@@ -53934,7 +54493,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.470154+00:00",
+      "last_seen": "2026-11-20T11:46:26.693355+00:00",
       "regional_candidate": false
     },
     {
@@ -54111,7 +54670,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.755076+00:00",
+      "last_seen": "2026-11-20T11:46:29.218715+00:00",
       "regional_candidate": false
     },
     {
@@ -54288,7 +54847,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.851112+00:00",
+      "last_seen": "2026-11-20T11:46:33.894849+00:00",
       "regional_candidate": false
     },
     {
@@ -54465,7 +55024,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.965214+00:00",
+      "last_seen": "2026-11-20T11:46:31.726791+00:00",
       "regional_candidate": false
     },
     {
@@ -54642,7 +55201,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.719136+00:00",
+      "last_seen": "2026-11-20T11:46:26.961335+00:00",
       "regional_candidate": false
     },
     {
@@ -54819,7 +55378,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.116612+00:00",
+      "last_seen": "2026-11-20T11:46:28.509391+00:00",
       "regional_candidate": false
     },
     {
@@ -54996,7 +55555,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.514198+00:00",
+      "last_seen": "2026-11-20T11:46:32.345124+00:00",
       "regional_candidate": false
     },
     {
@@ -55173,7 +55732,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.239192+00:00",
+      "last_seen": "2026-11-20T11:46:30.908276+00:00",
       "regional_candidate": false
     },
     {
@@ -55350,7 +55909,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.381965+00:00",
+      "last_seen": "2026-11-20T11:46:32.195377+00:00",
       "regional_candidate": false
     },
     {
@@ -55527,7 +56086,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.216688+00:00",
+      "last_seen": "2026-11-20T11:46:28.599344+00:00",
       "regional_candidate": false
     },
     {
@@ -55704,7 +56263,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:02.978397+00:00",
+      "last_seen": "2026-11-20T11:46:25.082309+00:00",
       "regional_candidate": false
     },
     {
@@ -55884,7 +56443,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.004851+00:00",
+      "last_seen": "2026-11-20T11:46:29.504780+00:00",
       "regional_candidate": true
     },
     {
@@ -56047,7 +56606,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:49:35.311696+00:00",
+      "last_seen": "2026-11-20T11:49:06.791840+00:00",
       "regional_candidate": true
     },
     {
@@ -56224,7 +56783,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.927277+00:00",
+      "last_seen": "2026-11-20T11:46:35.115823+00:00",
       "regional_candidate": false
     },
     {
@@ -56556,7 +57115,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.972369+00:00",
+      "last_seen": "2026-11-20T11:46:32.897081+00:00",
       "regional_candidate": false
     },
     {
@@ -56711,7 +57270,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:26.401317+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:26.401317+00:00"
     },
     {
       "district": null,
@@ -56887,7 +57447,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.856395+00:00",
+      "last_seen": "2026-11-20T11:46:31.591405+00:00",
       "regional_candidate": false
     },
     {
@@ -57064,7 +57624,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.536336+00:00",
+      "last_seen": "2026-11-20T11:46:34.658681+00:00",
       "regional_candidate": false
     },
     {
@@ -57241,7 +57801,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.008707+00:00",
+      "last_seen": "2026-11-20T11:46:31.765843+00:00",
       "regional_candidate": false
     },
     {
@@ -57418,7 +57978,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.640526+00:00",
+      "last_seen": "2026-11-20T11:46:29.089362+00:00",
       "regional_candidate": false
     },
     {
@@ -57595,7 +58155,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.720084+00:00",
+      "last_seen": "2026-11-20T11:46:34.868577+00:00",
       "regional_candidate": false
     },
     {
@@ -57772,7 +58332,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:02.996574+00:00",
+      "last_seen": "2026-11-20T11:46:25.105310+00:00",
       "regional_candidate": false
     },
     {
@@ -57949,7 +58509,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.052432+00:00",
+      "last_seen": "2026-11-20T11:46:32.988737+00:00",
       "regional_candidate": true
     },
     {
@@ -58126,7 +58686,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.221213+00:00",
+      "last_seen": "2026-11-20T11:46:30.878952+00:00",
       "regional_candidate": false
     },
     {
@@ -58303,7 +58863,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.621868+00:00",
+      "last_seen": "2026-11-20T11:46:30.201301+00:00",
       "regional_candidate": false
     },
     {
@@ -58480,7 +59040,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.579064+00:00",
+      "last_seen": "2026-11-20T11:46:27.920241+00:00",
       "regional_candidate": false
     },
     {
@@ -58635,7 +59195,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:15.461269+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:15.461269+00:00"
     },
     {
       "district": null,
@@ -58813,7 +59374,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.015932+00:00",
+      "last_seen": "2026-11-20T11:46:25.126114+00:00",
       "regional_candidate": false
     },
     {
@@ -58990,7 +59551,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.764449+00:00",
+      "last_seen": "2026-11-20T11:46:27.001679+00:00",
       "regional_candidate": false
     },
     {
@@ -59167,7 +59728,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.125729+00:00",
+      "last_seen": "2026-11-20T11:46:31.900416+00:00",
       "regional_candidate": false
     },
     {
@@ -59318,7 +59879,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:47:00.021815+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:47:00.021815+00:00"
     },
     {
       "district": null,
@@ -59494,7 +60056,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.088842+00:00",
+      "last_seen": "2026-11-20T11:46:34.151476+00:00",
       "regional_candidate": false
     },
     {
@@ -59671,7 +60233,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.660797+00:00",
+      "last_seen": "2026-11-20T11:46:32.539712+00:00",
       "regional_candidate": false
     },
     {
@@ -59848,7 +60410,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.932290+00:00",
+      "last_seen": "2026-11-20T11:46:29.408140+00:00",
       "regional_candidate": false
     },
     {
@@ -60025,7 +60587,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.622583+00:00",
+      "last_seen": "2026-11-20T11:46:29.068360+00:00",
       "regional_candidate": false
     },
     {
@@ -60202,7 +60764,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.597461+00:00",
+      "last_seen": "2026-11-20T11:46:27.941380+00:00",
       "regional_candidate": false
     },
     {
@@ -60379,7 +60941,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.479915+00:00",
+      "last_seen": "2026-11-20T11:46:27.805670+00:00",
       "regional_candidate": false
     },
     {
@@ -60556,7 +61118,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.994302+00:00",
+      "last_seen": "2026-11-20T11:46:26.127762+00:00",
       "regional_candidate": false
     },
     {
@@ -60733,7 +61295,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.046237+00:00",
+      "last_seen": "2026-11-20T11:46:28.428616+00:00",
       "regional_candidate": false
     },
     {
@@ -60910,7 +61472,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.026877+00:00",
+      "last_seen": "2026-11-20T11:46:31.795340+00:00",
       "regional_candidate": false
     },
     {
@@ -61087,7 +61649,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.662225+00:00",
+      "last_seen": "2026-11-20T11:46:33.671112+00:00",
       "regional_candidate": false
     },
     {
@@ -61264,7 +61826,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.634689+00:00",
+      "last_seen": "2026-11-20T11:46:33.649766+00:00",
       "regional_candidate": false
     },
     {
@@ -61441,7 +62003,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.399441+00:00",
+      "last_seen": "2026-11-20T11:46:34.507445+00:00",
       "regional_candidate": false
     },
     {
@@ -61627,7 +62189,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:15.386776+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:15.386776+00:00"
     },
     {
       "district": null,
@@ -61803,7 +62366,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.917553+00:00",
+      "last_seen": "2026-11-20T11:46:32.823867+00:00",
       "regional_candidate": false
     },
     {
@@ -61980,7 +62543,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.371217+00:00",
+      "last_seen": "2026-11-20T11:46:29.909534+00:00",
       "regional_candidate": false
     },
     {
@@ -62157,7 +62720,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.554533+00:00",
+      "last_seen": "2026-11-20T11:46:34.681731+00:00",
       "regional_candidate": false
     },
     {
@@ -62334,7 +62897,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.030384+00:00",
+      "last_seen": "2026-11-20T11:46:26.177054+00:00",
       "regional_candidate": false
     },
     {
@@ -62489,7 +63052,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:26.560795+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:26.560795+00:00"
     },
     {
       "district": "Советский",
@@ -62643,7 +63207,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:15.329908+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:15.329908+00:00"
     },
     {
       "district": null,
@@ -62819,7 +63384,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.022294+00:00",
+      "last_seen": "2026-11-20T11:46:30.659745+00:00",
       "regional_candidate": false
     },
     {
@@ -63176,7 +63741,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.289892+00:00",
+      "last_seen": "2026-11-20T11:46:29.817655+00:00",
       "regional_candidate": true
     },
     {
@@ -63353,7 +63918,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.486985+00:00",
+      "last_seen": "2026-11-20T11:46:31.191072+00:00",
       "regional_candidate": false
     },
     {
@@ -63530,7 +64095,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.658363+00:00",
+      "last_seen": "2026-11-20T11:46:31.395357+00:00",
       "regional_candidate": false
     },
     {
@@ -63684,7 +64249,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:37.562262+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:37.562262+00:00"
     },
     {
       "district": null,
@@ -63860,7 +64426,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.568061+00:00",
+      "last_seen": "2026-11-20T11:46:29.004517+00:00",
       "regional_candidate": false
     },
     {
@@ -64044,7 +64610,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:26.579860+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:26.579860+00:00"
     },
     {
       "district": null,
@@ -64220,7 +64787,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.740556+00:00",
+      "last_seen": "2026-11-20T11:46:30.336816+00:00",
       "regional_candidate": false
     },
     {
@@ -64399,7 +64966,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:02.884350+00:00",
+      "last_seen": "2026-11-20T11:46:24.997548+00:00",
       "regional_candidate": false
     },
     {
@@ -64576,7 +65143,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.207310+00:00",
+      "last_seen": "2026-11-20T11:46:33.169075+00:00",
       "regional_candidate": true
     },
     {
@@ -64753,7 +65320,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.244312+00:00",
+      "last_seen": "2026-11-20T11:46:33.210806+00:00",
       "regional_candidate": true
     },
     {
@@ -64930,7 +65497,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.244405+00:00",
+      "last_seen": "2026-11-20T11:46:27.547613+00:00",
       "regional_candidate": false
     },
     {
@@ -65094,7 +65661,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:26.614793+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:26.614793+00:00"
     },
     {
       "district": null,
@@ -65270,7 +65838,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.108749+00:00",
+      "last_seen": "2026-11-20T11:46:33.054970+00:00",
       "regional_candidate": true
     },
     {
@@ -65447,7 +66015,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.164214+00:00",
+      "last_seen": "2026-11-20T11:46:34.244090+00:00",
       "regional_candidate": false
     },
     {
@@ -65624,7 +66192,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.852843+00:00",
+      "last_seen": "2026-11-20T11:46:29.329370+00:00",
       "regional_candidate": false
     },
     {
@@ -65948,7 +66516,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:15.248527+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:15.248527+00:00"
     },
     {
       "district": null,
@@ -66124,7 +66693,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.549422+00:00",
+      "last_seen": "2026-11-20T11:46:28.974903+00:00",
       "regional_candidate": false
     },
     {
@@ -66301,7 +66870,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.936332+00:00",
+      "last_seen": "2026-11-20T11:46:33.979311+00:00",
       "regional_candidate": false
     },
     {
@@ -66478,7 +67047,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.187253+00:00",
+      "last_seen": "2026-11-20T11:46:27.495315+00:00",
       "regional_candidate": false
     },
     {
@@ -66655,7 +67224,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.760172+00:00",
+      "last_seen": "2026-11-20T11:46:31.480091+00:00",
       "regional_candidate": false
     },
     {
@@ -66832,7 +67401,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.192674+00:00",
+      "last_seen": "2026-11-20T11:46:34.265909+00:00",
       "regional_candidate": false
     },
     {
@@ -67009,7 +67578,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.355860+00:00",
+      "last_seen": "2026-11-20T11:46:25.392144+00:00",
       "regional_candidate": false
     },
     {
@@ -67195,7 +67764,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.524768+00:00",
+      "last_seen": "2026-11-20T11:46:25.596577+00:00",
       "regional_candidate": false
     },
     {
@@ -67372,7 +67941,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.992884+00:00",
+      "last_seen": "2026-11-20T11:46:35.182128+00:00",
       "regional_candidate": false
     },
     {
@@ -67549,7 +68118,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.427320+00:00",
+      "last_seen": "2026-11-20T11:46:25.485022+00:00",
       "regional_candidate": false
     },
     {
@@ -67726,7 +68295,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.906664+00:00",
+      "last_seen": "2026-11-20T11:46:30.525805+00:00",
       "regional_candidate": false
     },
     {
@@ -67903,7 +68472,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.283934+00:00",
+      "last_seen": "2026-11-20T11:46:32.092312+00:00",
       "regional_candidate": false
     },
     {
@@ -68080,7 +68649,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.334962+00:00",
+      "last_seen": "2026-11-20T11:46:29.860176+00:00",
       "regional_candidate": false
     },
     {
@@ -68266,7 +68835,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.390591+00:00",
+      "last_seen": "2026-11-20T11:46:25.440347+00:00",
       "regional_candidate": false
     },
     {
@@ -68443,7 +69012,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.389843+00:00",
+      "last_seen": "2026-11-20T11:46:29.929831+00:00",
       "regional_candidate": false
     },
     {
@@ -68598,7 +69167,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:26.522943+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:26.522943+00:00"
     },
     {
       "district": null,
@@ -68774,7 +69344,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.966918+00:00",
+      "last_seen": "2026-11-20T11:46:27.254416+00:00",
       "regional_candidate": false
     },
     {
@@ -68951,7 +69521,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.931242+00:00",
+      "last_seen": "2026-11-20T11:46:27.202992+00:00",
       "regional_candidate": false
     },
     {
@@ -69128,7 +69698,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.062706+00:00",
+      "last_seen": "2026-11-20T11:46:31.837107+00:00",
       "regional_candidate": false
     },
     {
@@ -69305,7 +69875,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.506925+00:00",
+      "last_seen": "2026-11-20T11:46:30.064792+00:00",
       "regional_candidate": false
     },
     {
@@ -69482,7 +70052,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.066910+00:00",
+      "last_seen": "2026-11-20T11:46:27.360995+00:00",
       "regional_candidate": false
     },
     {
@@ -69830,7 +70400,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.409168+00:00",
+      "last_seen": "2026-11-20T11:46:25.463727+00:00",
       "regional_candidate": false
     },
     {
@@ -69877,7 +70447,7 @@
       ],
       "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
       "photos": [
-        "https://cdn-1.arrpro.ru/resize_cache/3820264/2c107a00918f3abd1df8e303f56adfc3/iblock/34b/34bd347504d971bc45712e2592c615ac/04cb092474e67ee0957054f07fe14771.jpg"
+        "https://cdn-1.arrpro.ru/resize_cache/3857886/2c107a00918f3abd1df8e303f56adfc3/iblock/5f9/5f9dc5c0e9fa6694e703d836b2b6bf98/5491e4e65b19550b0f3f533f6c52d505.jpg"
       ],
       "price_claims": [
         {
@@ -70007,7 +70577,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.865890+00:00",
+      "last_seen": "2026-11-20T11:46:24.967874+00:00",
       "regional_candidate": false
     },
     {
@@ -70184,7 +70754,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.083047+00:00",
+      "last_seen": "2026-11-20T11:46:29.600442+00:00",
       "regional_candidate": false
     },
     {
@@ -70361,7 +70931,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.741799+00:00",
+      "last_seen": "2026-11-20T11:46:31.458841+00:00",
       "regional_candidate": false
     },
     {
@@ -70538,7 +71108,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.488788+00:00",
+      "last_seen": "2026-11-20T11:46:30.043295+00:00",
       "regional_candidate": false
     },
     {
@@ -70693,7 +71263,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:15.406443+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:15.406443+00:00"
     },
     {
       "district": null,
@@ -71046,7 +71617,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.400786+00:00",
+      "last_seen": "2026-11-20T11:46:32.216435+00:00",
       "regional_candidate": false
     },
     {
@@ -71223,7 +71794,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.237343+00:00",
+      "last_seen": "2026-11-20T11:46:29.756171+00:00",
       "regional_candidate": false
     },
     {
@@ -71378,7 +71949,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:47:11.464211+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:47:11.464211+00:00"
     },
     {
       "district": null,
@@ -71554,7 +72126,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.029372+00:00",
+      "last_seen": "2026-11-20T11:46:27.316757+00:00",
       "regional_candidate": false
     },
     {
@@ -71734,7 +72306,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.682748+00:00",
+      "last_seen": "2026-11-20T11:46:26.910318+00:00",
       "regional_candidate": true
     },
     {
@@ -71911,7 +72483,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.264799+00:00",
+      "last_seen": "2026-11-20T11:46:32.060857+00:00",
       "regional_candidate": false
     },
     {
@@ -72088,7 +72660,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.676705+00:00",
+      "last_seen": "2026-11-20T11:46:30.265600+00:00",
       "regional_candidate": false
     },
     {
@@ -72265,7 +72837,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.144339+00:00",
+      "last_seen": "2026-11-20T11:46:31.921746+00:00",
       "regional_candidate": false
     },
     {
@@ -72442,7 +73014,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.320403+00:00",
+      "last_seen": "2026-11-20T11:46:32.134866+00:00",
       "regional_candidate": false
     },
     {
@@ -72619,7 +73191,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.175479+00:00",
+      "last_seen": "2026-11-20T11:46:30.834906+00:00",
       "regional_candidate": false
     },
     {
@@ -72951,7 +73523,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.048106+00:00",
+      "last_seen": "2026-11-20T11:46:27.339386+00:00",
       "regional_candidate": false
     },
     {
@@ -73128,7 +73700,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.601555+00:00",
+      "last_seen": "2026-11-20T11:46:31.322693+00:00",
       "regional_candidate": false
     },
     {
@@ -73305,7 +73877,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.562199+00:00",
+      "last_seen": "2026-11-20T11:46:33.555643+00:00",
       "regional_candidate": false
     },
     {
@@ -73482,7 +74054,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:12.012309+00:00",
+      "last_seen": "2026-11-20T11:46:35.213085+00:00",
       "regional_candidate": false
     },
     {
@@ -73659,7 +74231,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.599608+00:00",
+      "last_seen": "2026-11-20T11:46:34.728396+00:00",
       "regional_candidate": false
     },
     {
@@ -73836,7 +74408,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.681394+00:00",
+      "last_seen": "2026-11-20T11:46:33.692785+00:00",
       "regional_candidate": false
     },
     {
@@ -74013,7 +74585,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.620465+00:00",
+      "last_seen": "2026-11-20T11:46:31.351645+00:00",
       "regional_candidate": false
     },
     {
@@ -74190,7 +74762,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.852591+00:00",
+      "last_seen": "2026-11-20T11:46:27.115289+00:00",
       "regional_candidate": false
     },
     {
@@ -74376,7 +74948,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.311995+00:00",
+      "last_seen": "2026-11-20T11:46:25.352007+00:00",
       "regional_candidate": false
     },
     {
@@ -74553,7 +75125,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.327681+00:00",
+      "last_seen": "2026-11-20T11:46:27.631034+00:00",
       "regional_candidate": false
     },
     {
@@ -74730,7 +75302,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.451257+00:00",
+      "last_seen": "2026-11-20T11:46:28.865176+00:00",
       "regional_candidate": false
     },
     {
@@ -74907,7 +75479,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.071117+00:00",
+      "last_seen": "2026-11-20T11:46:33.012010+00:00",
       "regional_candidate": true
     },
     {
@@ -75084,7 +75656,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.888563+00:00",
+      "last_seen": "2026-11-20T11:46:33.937434+00:00",
       "regional_candidate": false
     },
     {
@@ -75263,7 +75835,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.660944+00:00",
+      "last_seen": "2026-11-20T11:46:25.752070+00:00",
       "regional_candidate": false
     },
     {
@@ -75440,7 +76012,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.235219+00:00",
+      "last_seen": "2026-11-20T11:46:28.621308+00:00",
       "regional_candidate": false
     },
     {
@@ -75617,7 +76189,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.173969+00:00",
+      "last_seen": "2026-11-20T11:46:29.705225+00:00",
       "regional_candidate": false
     },
     {
@@ -75794,7 +76366,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.677092+00:00",
+      "last_seen": "2026-11-20T11:46:28.031292+00:00",
       "regional_candidate": false
     },
     {
@@ -75971,7 +76543,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.771525+00:00",
+      "last_seen": "2026-11-20T11:46:33.803541+00:00",
       "regional_candidate": false
     },
     {
@@ -76151,7 +76723,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.217069+00:00",
+      "last_seen": "2026-11-20T11:46:32.017360+00:00",
       "regional_candidate": true
     },
     {
@@ -76328,7 +76900,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.586895+00:00",
+      "last_seen": "2026-11-20T11:46:29.026483+00:00",
       "regional_candidate": false
     },
     {
@@ -76483,7 +77055,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:26.634722+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:26.634722+00:00"
     },
     {
       "district": null,
@@ -76659,7 +77232,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.272666+00:00",
+      "last_seen": "2026-11-20T11:46:27.568517+00:00",
       "regional_candidate": false
     },
     {
@@ -76814,7 +77387,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:37.621840+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:37.621840+00:00"
     },
     {
       "district": null,
@@ -76990,7 +77564,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.637681+00:00",
+      "last_seen": "2026-11-20T11:46:34.782156+00:00",
       "regional_candidate": false
     },
     {
@@ -77167,7 +77741,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.351301+00:00",
+      "last_seen": "2026-11-20T11:46:28.750995+00:00",
       "regional_candidate": false
     },
     {
@@ -77344,7 +77918,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.795809+00:00",
+      "last_seen": "2026-11-20T11:46:28.169078+00:00",
       "regional_candidate": false
     },
     {
@@ -77521,7 +78095,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.081263+00:00",
+      "last_seen": "2026-11-20T11:46:31.860153+00:00",
       "regional_candidate": false
     },
     {
@@ -77676,7 +78250,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:15.269930+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:15.269930+00:00"
     },
     {
       "district": null,
@@ -77852,7 +78427,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.408240+00:00",
+      "last_seen": "2026-11-20T11:46:29.951254+00:00",
       "regional_candidate": false
     },
     {
@@ -78029,7 +78604,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.293025+00:00",
+      "last_seen": "2026-11-20T11:46:24.722139+00:00",
       "regional_candidate": false
     },
     {
@@ -78206,7 +78781,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.463272+00:00",
+      "last_seen": "2026-11-20T11:46:33.451568+00:00",
       "regional_candidate": false
     },
     {
@@ -78383,7 +78958,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.756908+00:00",
+      "last_seen": "2026-11-20T11:46:34.917435+00:00",
       "regional_candidate": false
     },
     {
@@ -78560,7 +79135,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.103323+00:00",
+      "last_seen": "2026-11-20T11:46:27.413614+00:00",
       "regional_candidate": false
     },
     {
@@ -78737,7 +79312,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.180867+00:00",
+      "last_seen": "2026-11-20T11:46:31.976107+00:00",
       "regional_candidate": false
     },
     {
@@ -78907,7 +79482,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:49:59.347848+00:00",
+      "last_seen": "2026-11-20T11:49:30.865585+00:00",
       "regional_candidate": true
     },
     {
@@ -79084,7 +79659,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.794281+00:00",
+      "last_seen": "2026-11-20T11:46:30.398171+00:00",
       "regional_candidate": false
     },
     {
@@ -79261,7 +79836,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.717383+00:00",
+      "last_seen": "2026-11-20T11:46:33.742374+00:00",
       "regional_candidate": false
     },
     {
@@ -79418,7 +79993,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:15.364607+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:15.364607+00:00"
     },
     {
       "district": null,
@@ -79594,7 +80170,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.380476+00:00",
+      "last_seen": "2026-11-20T11:46:33.360155+00:00",
       "regional_candidate": false
     },
     {
@@ -79771,7 +80347,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.659602+00:00",
+      "last_seen": "2026-11-20T11:46:29.111497+00:00",
       "regional_candidate": false
     },
     {
@@ -79948,7 +80524,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.272613+00:00",
+      "last_seen": "2026-11-20T11:46:33.231871+00:00",
       "regional_candidate": false
     },
     {
@@ -80125,7 +80701,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.986739+00:00",
+      "last_seen": "2026-11-20T11:46:30.617709+00:00",
       "regional_candidate": false
     },
     {
@@ -80302,7 +80878,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.265696+00:00",
+      "last_seen": "2026-11-20T11:46:26.444430+00:00",
       "regional_candidate": false
     },
     {
@@ -80479,7 +81055,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.885041+00:00",
+      "last_seen": "2026-11-20T11:46:28.249195+00:00",
       "regional_candidate": false
     },
     {
@@ -80634,7 +81210,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:26.422673+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:26.422673+00:00"
     },
     {
       "district": null,
@@ -80810,7 +81387,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.194365+00:00",
+      "last_seen": "2026-11-20T11:46:30.858336+00:00",
       "regional_candidate": false
     },
     {
@@ -80990,7 +81567,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.200808+00:00",
+      "last_seen": "2026-11-20T11:46:29.734866+00:00",
       "regional_candidate": true
     },
     {
@@ -81167,7 +81744,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.568324+00:00",
+      "last_seen": "2026-11-20T11:46:26.810871+00:00",
       "regional_candidate": false
     },
     {
@@ -81344,7 +81921,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.542425+00:00",
+      "last_seen": "2026-11-20T11:46:30.107041+00:00",
       "regional_candidate": false
     },
     {
@@ -81521,7 +82098,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.869817+00:00",
+      "last_seen": "2026-11-20T11:46:33.916431+00:00",
       "regional_candidate": false
     },
     {
@@ -81698,7 +82275,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.616598+00:00",
+      "last_seen": "2026-11-20T11:46:33.628436+00:00",
       "regional_candidate": false
     },
     {
@@ -81745,7 +82322,7 @@
       ],
       "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
       "photos": [
-        "https://cdn-1.arrpro.ru/resize_cache/3783339/2c107a00918f3abd1df8e303f56adfc3/iblock/022/022cb332c4726e9adb153e802b72fd57/000e61d540781de368f951ac58da2b34.jpg"
+        "https://cdn-1.arrpro.ru/resize_cache/3858837/2c107a00918f3abd1df8e303f56adfc3/iblock/be1/be1850f4a05a06e457534e8c9375f5c3/ccd95f522286d7ad262e90113c893111.jpg"
       ],
       "price_claims": [
         {
@@ -81875,7 +82452,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.099181+00:00",
+      "last_seen": "2026-11-20T11:46:24.806060+00:00",
       "regional_candidate": false
     },
     {
@@ -82052,7 +82629,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.444184+00:00",
+      "last_seen": "2026-11-20T11:46:33.429920+00:00",
       "regional_candidate": false
     },
     {
@@ -82236,7 +82813,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.561325+00:00",
+      "last_seen": "2026-11-20T11:46:25.641474+00:00",
       "regional_candidate": false
     },
     {
@@ -82413,7 +82990,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.451856+00:00",
+      "last_seen": "2026-11-20T11:46:26.669069+00:00",
       "regional_candidate": false
     },
     {
@@ -82590,7 +83167,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.388577+00:00",
+      "last_seen": "2026-11-20T11:46:28.793031+00:00",
       "regional_candidate": false
     },
     {
@@ -82767,7 +83344,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.219490+00:00",
+      "last_seen": "2026-11-20T11:46:26.402492+00:00",
       "regional_candidate": false
     },
     {
@@ -82944,7 +83521,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.157038+00:00",
+      "last_seen": "2026-11-20T11:46:30.813105+00:00",
       "regional_candidate": false
     },
     {
@@ -83121,7 +83698,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.154901+00:00",
+      "last_seen": "2026-11-20T11:46:25.199928+00:00",
       "regional_candidate": false
     },
     {
@@ -83298,7 +83875,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.723022+00:00",
+      "last_seen": "2026-11-20T11:46:31.437515+00:00",
       "regional_candidate": false
     },
     {
@@ -83475,7 +84052,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.406888+00:00",
+      "last_seen": "2026-11-20T11:46:27.722338+00:00",
       "regional_candidate": false
     },
     {
@@ -83652,7 +84229,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.226192+00:00",
+      "last_seen": "2026-11-20T11:46:33.190261+00:00",
       "regional_candidate": true
     },
     {
@@ -83829,7 +84406,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.225650+00:00",
+      "last_seen": "2026-11-20T11:46:24.902954+00:00",
       "regional_candidate": false
     },
     {
@@ -84006,7 +84583,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.968083+00:00",
+      "last_seen": "2026-11-20T11:46:29.458003+00:00",
       "regional_candidate": false
     },
     {
@@ -84183,7 +84760,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.237749+00:00",
+      "last_seen": "2026-11-20T11:46:25.281086+00:00",
       "regional_candidate": false
     },
     {
@@ -84360,7 +84937,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.137763+00:00",
+      "last_seen": "2026-11-20T11:46:30.790958+00:00",
       "regional_candidate": false
     },
     {
@@ -84544,7 +85121,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.758575+00:00",
+      "last_seen": "2026-11-20T11:46:25.853537+00:00",
       "regional_candidate": false
     },
     {
@@ -84878,7 +85455,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.879434+00:00",
+      "last_seen": "2026-11-20T11:46:32.781693+00:00",
       "regional_candidate": false
     },
     {
@@ -85055,7 +85632,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.694468+00:00",
+      "last_seen": "2026-11-20T11:46:31.416445+00:00",
       "regional_candidate": false
     },
     {
@@ -85232,7 +85809,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.777647+00:00",
+      "last_seen": "2026-11-20T11:46:25.884231+00:00",
       "regional_candidate": false
     },
     {
@@ -85409,7 +85986,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.858714+00:00",
+      "last_seen": "2026-11-20T11:46:25.965241+00:00",
       "regional_candidate": false
     },
     {
@@ -85586,7 +86163,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.639659+00:00",
+      "last_seen": "2026-11-20T11:46:31.373822+00:00",
       "regional_candidate": false
     },
     {
@@ -85763,7 +86340,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.679458+00:00",
+      "last_seen": "2026-11-20T11:46:32.561652+00:00",
       "regional_candidate": true
     },
     {
@@ -85940,7 +86517,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.603950+00:00",
+      "last_seen": "2026-11-20T11:46:30.177326+00:00",
       "regional_candidate": false
     },
     {
@@ -86117,7 +86694,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.090287+00:00",
+      "last_seen": "2026-11-20T11:46:33.033001+00:00",
       "regional_candidate": true
     },
     {
@@ -86294,7 +86871,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.722317+00:00",
+      "last_seen": "2026-11-20T11:46:30.307329+00:00",
       "regional_candidate": false
     },
     {
@@ -86471,7 +87048,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.891162+00:00",
+      "last_seen": "2026-11-20T11:46:35.071422+00:00",
       "regional_candidate": false
     },
     {
@@ -86648,7 +87225,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.987045+00:00",
+      "last_seen": "2026-11-20T11:46:29.480827+00:00",
       "regional_candidate": false
     },
     {
@@ -86834,7 +87411,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.624882+00:00",
+      "last_seen": "2026-11-20T11:46:25.703639+00:00",
       "regional_candidate": false
     },
     {
@@ -87011,7 +87588,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.137162+00:00",
+      "last_seen": "2026-11-20T11:46:29.663498+00:00",
       "regional_candidate": false
     },
     {
@@ -87188,7 +87765,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.854601+00:00",
+      "last_seen": "2026-11-20T11:46:35.020551+00:00",
       "regional_candidate": false
     },
     {
@@ -87365,7 +87942,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.145377+00:00",
+      "last_seen": "2026-11-20T11:46:34.222468+00:00",
       "regional_candidate": false
     },
     {
@@ -87542,7 +88119,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:04.200624+00:00",
+      "last_seen": "2026-11-20T11:46:26.381945+00:00",
       "regional_candidate": false
     },
     {
@@ -87719,7 +88296,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.481957+00:00",
+      "last_seen": "2026-11-20T11:46:34.586739+00:00",
       "regional_candidate": false
     },
     {
@@ -87896,7 +88473,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:10.798936+00:00",
+      "last_seen": "2026-11-20T11:46:33.826118+00:00",
       "regional_candidate": false
     },
     {
@@ -88051,7 +88628,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:59.959009+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:59.959009+00:00"
     },
     {
       "district": null,
@@ -88229,7 +88807,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:03.135773+00:00",
+      "last_seen": "2026-11-20T11:46:25.177150+00:00",
       "regional_candidate": false
     },
     {
@@ -88406,7 +88984,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.500732+00:00",
+      "last_seen": "2026-11-20T11:46:34.618165+00:00",
       "regional_candidate": false
     },
     {
@@ -88583,7 +89161,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.364655+00:00",
+      "last_seen": "2026-11-20T11:46:34.466614+00:00",
       "regional_candidate": false
     },
     {
@@ -88746,7 +89324,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:47:33.483972+00:00",
+      "last_seen": "2026-11-20T11:46:59.370872+00:00",
       "regional_candidate": true
     },
     {
@@ -88923,7 +89501,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.947470+00:00",
+      "last_seen": "2026-11-20T11:46:31.705526+00:00",
       "regional_candidate": false
     },
     {
@@ -89100,7 +89678,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:11.108214+00:00",
+      "last_seen": "2026-11-20T11:46:34.181840+00:00",
       "regional_candidate": false
     },
     {
@@ -89277,7 +89855,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.912749+00:00",
+      "last_seen": "2026-11-20T11:46:28.279343+00:00",
       "regional_candidate": false
     },
     {
@@ -89454,7 +90032,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.432557+00:00",
+      "last_seen": "2026-11-20T11:46:28.843157+00:00",
       "regional_candidate": false
     },
     {
@@ -89631,7 +90209,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.019237+00:00",
+      "last_seen": "2026-11-20T11:46:28.406688+00:00",
       "regional_candidate": false
     },
     {
@@ -89808,7 +90386,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.910945+00:00",
+      "last_seen": "2026-11-20T11:46:31.663703+00:00",
       "regional_candidate": false
     },
     {
@@ -89985,7 +90563,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.731044+00:00",
+      "last_seen": "2026-11-20T11:46:28.094777+00:00",
       "regional_candidate": false
     },
     {
@@ -90162,7 +90740,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.163135+00:00",
+      "last_seen": "2026-11-20T11:46:24.635493+00:00",
       "regional_candidate": false
     },
     {
@@ -90339,7 +90917,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.452082+00:00",
+      "last_seen": "2026-11-20T11:46:29.992048+00:00",
       "regional_candidate": false
     },
     {
@@ -90516,7 +91094,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.585217+00:00",
+      "last_seen": "2026-11-20T11:46:30.148011+00:00",
       "regional_candidate": false
     },
     {
@@ -90693,7 +91271,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:08.391194+00:00",
+      "last_seen": "2026-11-20T11:46:31.090050+00:00",
       "regional_candidate": false
     },
     {
@@ -90870,7 +91448,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.461507+00:00",
+      "last_seen": "2026-11-20T11:46:27.784812+00:00",
       "regional_candidate": false
     },
     {
@@ -91034,7 +91612,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:26.482199+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:26.482199+00:00"
     },
     {
       "district": null,
@@ -91210,7 +91789,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.442267+00:00",
+      "last_seen": "2026-11-20T11:46:27.762908+00:00",
       "regional_candidate": false
     },
     {
@@ -91387,7 +91966,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:07.658405+00:00",
+      "last_seen": "2026-11-20T11:46:30.244301+00:00",
       "regional_candidate": false
     },
     {
@@ -91564,7 +92143,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.151290+00:00",
+      "last_seen": "2026-11-20T11:46:27.455487+00:00",
       "regional_candidate": false
     },
     {
@@ -91741,7 +92320,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:06.504420+00:00",
+      "last_seen": "2026-11-20T11:46:28.925090+00:00",
       "regional_candidate": false
     },
     {
@@ -91918,7 +92497,186 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.954282+00:00",
+      "last_seen": "2026-11-20T11:46:32.874970+00:00",
+      "regional_candidate": false
+    },
+    {
+      "district": null,
+      "settlement": "Саратов",
+      "address": "Саратов, ул Огородная",
+      "price": 120000000.0,
+      "area": 3310.0,
+      "monthly_rent": 1400000.0,
+      "tenant_name": "Красное/белое, замок любви, Самокат, восточный экспресс, клуб единоборств, различные ИП",
+      "tenant_type": "Продуктовый магазин",
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": null,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": null,
+      "coordinate_source": null,
+      "geo_accuracy": null,
+      "published_at": null,
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Торговый центр, 3 310 м²",
+      "sources": [
+        {
+          "name": "АРР",
+          "url": "https://arrpro.ru/objects/getbyid.php?external_id=4cf54302-9028-4be5-8125-f943228c651b"
+        }
+      ],
+      "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
+      "photos": [
+        "https://cdn-1.arrpro.ru/resize_cache/3859634/2c107a00918f3abd1df8e303f56adfc3/iblock/7ab/7ab9f3d522bcc36706425ae855c21b40/cb87a42c342506ae44f87a8c31f2b94f.jpg"
+      ],
+      "price_claims": [
+        {
+          "location": "АРР",
+          "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=4cf54302-9028-4be5-8125-f943228c651b",
+          "value": 120000000.0
+        }
+      ],
+      "annual_costs": {},
+      "price_conflict": false,
+      "price_per_sqm": 36253.776435045314,
+      "id": "fe05c836c58352f1ade1",
+      "verification": "review",
+      "distance_km": null,
+      "geo_status": "unknown",
+      "finance": {
+        "annual_rent": 16800000.0,
+        "gross_yield": 14.000000000000002,
+        "payback_years": 7.142857142857143,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": [
+          {
+            "name": "Оптимистичный",
+            "income": 15960000.0,
+            "payback": 7.518796992481203,
+            "vacancy_months": 0,
+            "expenses": 840000.0,
+            "assumed": true,
+            "yield": 13.3
+          },
+          {
+            "name": "Базовый",
+            "income": 13720000.0,
+            "payback": 8.921282798833818,
+            "vacancy_months": 1,
+            "expenses": 1680000.0,
+            "assumed": true,
+            "yield": 11.209150326797387
+          },
+          {
+            "name": "Консервативный",
+            "income": 11480000.0,
+            "payback": 10.766550522648084,
+            "vacancy_months": 2,
+            "expenses": 2520000.0,
+            "assumed": true,
+            "yield": 9.288025889967638
+          }
+        ],
+        "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
+      },
+      "score": 34,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 14.0,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 15,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 5,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 34; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "first_seen": "2026-11-20T11:46:24.699967+00:00",
+      "primary_price_claims": [],
+      "history": [
+        {
+          "at": "2026-11-20T11:46:24.699967+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 120000000.0,
+          "monthly_rent": 1400000.0,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "source_observations": [],
+      "last_seen": "2026-11-20T11:46:24.699967+00:00",
       "regional_candidate": false
     },
     {
@@ -92095,7 +92853,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:05.206794+00:00",
+      "last_seen": "2026-11-20T11:46:27.525528+00:00",
       "regional_candidate": false
     },
     {
@@ -92272,7 +93030,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:46:09.245574+00:00",
+      "last_seen": "2026-11-20T11:46:32.039180+00:00",
       "regional_candidate": false
     },
     {
@@ -92432,7 +93190,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-19T11:49:47.431249+00:00",
+      "last_seen": "2026-11-20T11:49:18.862174+00:00",
       "regional_candidate": true
     },
     {
@@ -92587,7 +93345,8 @@
       ],
       "source_observations": [],
       "last_seen": "2026-11-19T11:46:15.290567+00:00",
-      "regional_candidate": true
+      "regional_candidate": true,
+      "source_fetched_at": "2026-11-19T11:46:15.290567+00:00"
     }
   ],
   "sources": [
@@ -92595,15 +93354,15 @@
       "name": "АРР",
       "excluded_count": 0,
       "invalid_count": 0,
-      "live_count": 471,
+      "live_count": 475,
       "imported_count": 0,
       "status": "ok",
-      "count": 471,
+      "count": 475,
       "message": "Публичная общероссийская витрина, вся доступная пагинация (защитный предел 80 страниц). Охват ограничен этим источником. Данные продавцов требуют проверки.",
       "processed_this_run": true,
       "checked_this_run": true,
-      "checked_at": "2026-11-19T11:40:21.119655+00:00",
-      "last_success_at": "2026-11-19T11:40:21.119655+00:00"
+      "checked_at": "2026-11-20T11:40:33.551362+00:00",
+      "last_success_at": "2026-11-20T11:40:33.551362+00:00"
     },
     {
       "name": "Авито",
@@ -92616,21 +93375,21 @@
       "message": "Client error '404 Not Found' for url 'https://www.avito.ru/respublika_tatarstan/kommercheskaya_nedvizhimost'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
       "processed_this_run": true,
       "checked_this_run": true,
-      "checked_at": "2026-11-19T11:46:12.013626+00:00",
+      "checked_at": "2026-11-20T11:46:35.214671+00:00",
       "last_success_at": null
     },
     {
       "name": "ЦИАН",
       "excluded_count": 0,
       "invalid_count": 0,
-      "live_count": 36,
-      "imported_count": 3,
-      "status": "ok",
-      "count": 39,
-      "message": "Коммерческая выдача Татарстана; только объявления с признаками арендной модели. Аренда извлекается из явного МАП, не из прибыли бизнеса.",
+      "live_count": 0,
+      "imported_count": 37,
+      "status": "error",
+      "count": 37,
+      "message": "ЦИАН: не найдена структура коммерческой выдачи; прежние записи сохранены",
       "processed_this_run": true,
       "checked_this_run": true,
-      "checked_at": "2026-11-19T11:46:12.557883+00:00",
+      "checked_at": "2026-11-20T11:46:35.694485+00:00",
       "last_success_at": "2026-11-19T11:46:12.557883+00:00"
     },
     {
@@ -92644,7 +93403,7 @@
       "message": "HTTP 401: доступ ограничен; запросы источника остановлены",
       "processed_this_run": true,
       "checked_this_run": true,
-      "checked_at": "2026-11-19T11:47:11.571275+00:00",
+      "checked_at": "2026-11-20T11:46:37.767182+00:00",
       "last_success_at": null
     },
     {
@@ -92658,13 +93417,13 @@
       "message": "Публичная витрина РБН по Казани и окрестностям. Только описания с признаками аренды. Заявленная окупаемость не используется для восстановления МАП.",
       "processed_this_run": true,
       "checked_this_run": true,
-      "checked_at": "2026-11-19T11:47:11.723018+00:00",
-      "last_success_at": "2026-11-19T11:47:11.723018+00:00"
+      "checked_at": "2026-11-20T11:46:38.170086+00:00",
+      "last_success_at": "2026-11-20T11:46:38.170086+00:00"
     }
   ],
   "coverage": {
     "pages": 32,
-    "records": 471,
+    "records": 475,
     "complete": true,
     "next_url": null
   }
