@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T21:30:36.109558+00:00",
+  "generated_at": "2026-11-25T13:06:29.011624+00:00",
   "listings": [
     {
       "district": null,
@@ -176,7 +176,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.064046+00:00",
+      "last_seen": "2026-11-25T13:02:22.082453+00:00",
       "regional_candidate": false
     },
     {
@@ -356,7 +356,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.889733+00:00",
+      "last_seen": "2026-11-25T13:02:21.895170+00:00",
       "regional_candidate": true
     },
     {
@@ -533,7 +533,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.186408+00:00",
+      "last_seen": "2026-11-25T13:02:18.975170+00:00",
       "regional_candidate": false
     },
     {
@@ -710,7 +710,186 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.775441+00:00",
+      "last_seen": "2026-11-25T13:02:23.811511+00:00",
+      "regional_candidate": false
+    },
+    {
+      "district": null,
+      "settlement": "Ижевск",
+      "address": "Ижевск, ул Суворова, д. 15",
+      "price": 2450000.0,
+      "area": 83.3,
+      "monthly_rent": 29300.0,
+      "tenant_name": "ПВЗ Вайлдберриз, Озон",
+      "tenant_type": "ПВЗ",
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": null,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": null,
+      "coordinate_source": null,
+      "geo_accuracy": null,
+      "published_at": null,
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "ГАБ с ПВЗ, окупаемость 7 лет",
+      "sources": [
+        {
+          "name": "АРР",
+          "url": "https://arrpro.ru/objects/getbyid.php?external_id=3248c071-1f8e-48e2-b466-b03fbd788a5f"
+        }
+      ],
+      "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
+      "photos": [
+        "https://cdn-1.arrpro.ru/resize_cache/3872978/2c107a00918f3abd1df8e303f56adfc3/iblock/266/2668c39c79c806aeb6f91b4f3998d12d/9eb86ec6881cf03bf0142dd0f150c226.jpg"
+      ],
+      "price_claims": [
+        {
+          "location": "АРР",
+          "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=3248c071-1f8e-48e2-b466-b03fbd788a5f",
+          "value": 2450000.0
+        }
+      ],
+      "annual_costs": {},
+      "price_conflict": false,
+      "price_per_sqm": 29411.764705882353,
+      "id": "02a1de449e3c95042388",
+      "verification": "review",
+      "distance_km": null,
+      "geo_status": "unknown",
+      "finance": {
+        "annual_rent": 351600.0,
+        "gross_yield": 14.351020408163265,
+        "payback_years": 6.968145620022753,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": [
+          {
+            "name": "Оптимистичный",
+            "income": 334020.0,
+            "payback": 7.33489012633974,
+            "vacancy_months": 0,
+            "expenses": 17580.0,
+            "assumed": true,
+            "yield": 13.6334693877551
+          },
+          {
+            "name": "Базовый",
+            "income": 287140.0,
+            "payback": 8.703071672354948,
+            "vacancy_months": 1,
+            "expenses": 35160.0,
+            "assumed": true,
+            "yield": 11.490196078431373
+          },
+          {
+            "name": "Консервативный",
+            "income": 240260.0,
+            "payback": 10.50320486140015,
+            "vacancy_months": 2,
+            "expenses": 52740.0,
+            "assumed": true,
+            "yield": 9.520903507033882
+          }
+        ],
+        "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
+      },
+      "score": 34,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 14.4,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 15,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 5,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 34; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "first_seen": "2026-11-25T13:02:18.487759+00:00",
+      "primary_price_claims": [],
+      "history": [
+        {
+          "at": "2026-11-25T13:02:18.487759+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 2450000.0,
+          "monthly_rent": 29300.0,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "source_observations": [],
+      "last_seen": "2026-11-25T13:02:18.487759+00:00",
       "regional_candidate": false
     },
     {
@@ -887,14 +1066,14 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.541630+00:00",
+      "last_seen": "2026-11-25T13:02:27.517217+00:00",
       "regional_candidate": false
     },
     {
       "district": null,
       "settlement": "Новороссийск",
       "address": "Новороссийск, ул Советов, д. 7",
-      "price": 8500000.0,
+      "price": 8100000.0,
       "area": 35.6,
       "monthly_rent": 70000.0,
       "tenant_name": "Магазин",
@@ -940,64 +1119,64 @@
         {
           "location": "АРР",
           "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=926a3893-25ee-4800-9c52-b5c19be572c2",
-          "value": 8500000.0
+          "value": 8100000.0
         }
       ],
       "annual_costs": {},
       "price_conflict": false,
-      "price_per_sqm": 238764.04494382022,
+      "price_per_sqm": 227528.08988764044,
       "id": "02d44b0ef3eb1522958a",
       "verification": "review",
       "distance_km": null,
       "geo_status": "unknown",
       "finance": {
         "annual_rent": 840000.0,
-        "gross_yield": 9.88235294117647,
-        "payback_years": 10.119047619047619,
+        "gross_yield": 10.37037037037037,
+        "payback_years": 9.642857142857142,
         "net_yield": null,
         "net_payback_years": null,
         "scenarios": [
           {
             "name": "Оптимистичный",
             "income": 798000.0,
-            "payback": 10.651629072681704,
+            "payback": 10.150375939849624,
             "vacancy_months": 0,
             "expenses": 42000.0,
             "assumed": true,
-            "yield": 9.388235294117647
+            "yield": 9.851851851851851
           },
           {
             "name": "Базовый",
             "income": 686000.0,
-            "payback": 12.638483965014577,
+            "payback": 12.043731778425656,
             "vacancy_months": 1,
             "expenses": 84000.0,
             "assumed": true,
-            "yield": 7.912341407151096
+            "yield": 8.303074316146212
           },
           {
             "name": "Консервативный",
             "income": 574000.0,
-            "payback": 15.252613240418118,
+            "payback": 14.534843205574912,
             "vacancy_months": 2,
             "expenses": 126000.0,
             "assumed": true,
-            "yield": 6.55625356938892
+            "yield": 6.880019177753806
           }
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 21,
+      "score": 27,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
-          "points": 9.9,
+          "points": 10.4,
           "max": 15,
           "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
         },
         {
           "factor": "Простая окупаемость",
-          "points": 6,
+          "points": 12,
           "max": 15,
           "reason": "15 до 9 лет; 12 до 10; 6 до 12"
         },
@@ -1051,7 +1230,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 21; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 27; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
       "first_seen": "2026-11-15T17:13:11.343533+00:00",
       "primary_price_claims": [],
       "history": [
@@ -1061,10 +1240,19 @@
           "monthly_rent": 70000.0,
           "contract_months": null,
           "indexation": null
+        },
+        {
+          "at": "2026-11-25T13:02:18.789617+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 8100000.0,
+          "monthly_rent": 70000.0,
+          "contract_months": null,
+          "indexation": null
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.237256+00:00",
+      "last_seen": "2026-11-25T13:02:18.789617+00:00",
       "regional_candidate": false
     },
     {
@@ -1241,7 +1429,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.183004+00:00",
+      "last_seen": "2026-11-25T13:02:21.036204+00:00",
       "regional_candidate": false
     },
     {
@@ -1418,7 +1606,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.066379+00:00",
+      "last_seen": "2026-11-25T13:02:24.129814+00:00",
       "regional_candidate": false
     },
     {
@@ -1595,7 +1783,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.171877+00:00",
+      "last_seen": "2026-11-25T13:02:24.210390+00:00",
       "regional_candidate": false
     },
     {
@@ -1772,7 +1960,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.810364+00:00",
+      "last_seen": "2026-11-25T13:02:18.717584+00:00",
       "regional_candidate": false
     },
     {
@@ -1949,7 +2137,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.506871+00:00",
+      "last_seen": "2026-11-25T13:02:26.514028+00:00",
       "regional_candidate": false
     },
     {
@@ -2126,7 +2314,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.867298+00:00",
+      "last_seen": "2026-11-25T13:02:30.896708+00:00",
       "regional_candidate": false
     },
     {
@@ -2303,7 +2491,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.093239+00:00",
+      "last_seen": "2026-11-25T13:02:19.988265+00:00",
       "regional_candidate": false
     },
     {
@@ -2662,7 +2850,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.844289+00:00",
+      "last_seen": "2026-11-25T13:02:20.697092+00:00",
       "regional_candidate": false
     },
     {
@@ -2839,7 +3027,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.660508+00:00",
+      "last_seen": "2026-11-25T13:02:29.601694+00:00",
       "regional_candidate": false
     },
     {
@@ -3019,7 +3207,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.111507+00:00",
+      "last_seen": "2026-11-25T13:02:28.063175+00:00",
       "regional_candidate": true
     },
     {
@@ -3196,7 +3384,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.603397+00:00",
+      "last_seen": "2026-11-25T13:02:22.651425+00:00",
       "regional_candidate": false
     },
     {
@@ -3373,7 +3561,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.436760+00:00",
+      "last_seen": "2026-11-25T13:02:25.406172+00:00",
       "regional_candidate": false
     },
     {
@@ -3550,7 +3738,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.794275+00:00",
+      "last_seen": "2026-11-25T13:02:23.835091+00:00",
       "regional_candidate": false
     },
     {
@@ -3727,7 +3915,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.952429+00:00",
+      "last_seen": "2026-11-25T13:02:27.910426+00:00",
       "regional_candidate": false
     },
     {
@@ -3904,7 +4092,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.289668+00:00",
+      "last_seen": "2026-11-25T13:02:27.282037+00:00",
       "regional_candidate": false
     },
     {
@@ -4081,7 +4269,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.789973+00:00",
+      "last_seen": "2026-11-25T13:02:20.646669+00:00",
       "regional_candidate": false
     },
     {
@@ -4258,7 +4446,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.364378+00:00",
+      "last_seen": "2026-11-25T13:02:28.266988+00:00",
       "regional_candidate": true
     },
     {
@@ -4435,7 +4623,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.193694+00:00",
+      "last_seen": "2026-11-25T13:02:24.245738+00:00",
       "regional_candidate": false
     },
     {
@@ -4612,7 +4800,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.122519+00:00",
+      "last_seen": "2026-11-25T13:02:26.120060+00:00",
       "regional_candidate": false
     },
     {
@@ -4789,7 +4977,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.659037+00:00",
+      "last_seen": "2026-11-25T13:02:24.755526+00:00",
       "regional_candidate": false
     },
     {
@@ -4966,7 +5154,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.677829+00:00",
+      "last_seen": "2026-11-25T13:02:29.625280+00:00",
       "regional_candidate": false
     },
     {
@@ -5150,7 +5338,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.430906+00:00",
+      "last_seen": "2026-11-25T13:02:21.338793+00:00",
       "regional_candidate": false
     },
     {
@@ -5327,7 +5515,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.899348+00:00",
+      "last_seen": "2026-11-25T13:02:27.862053+00:00",
       "regional_candidate": false
     },
     {
@@ -5504,7 +5692,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.237481+00:00",
+      "last_seen": "2026-11-25T13:02:21.111701+00:00",
       "regional_candidate": false
     },
     {
@@ -5681,7 +5869,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.560090+00:00",
+      "last_seen": "2026-11-25T13:02:30.524237+00:00",
       "regional_candidate": false
     },
     {
@@ -5858,7 +6046,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.400169+00:00",
+      "last_seen": "2026-11-25T13:02:30.361622+00:00",
       "regional_candidate": false
     },
     {
@@ -6035,7 +6223,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:01.062982+00:00",
+      "last_seen": "2026-11-25T13:02:31.111858+00:00",
       "regional_candidate": false
     },
     {
@@ -6212,7 +6400,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.332901+00:00",
+      "last_seen": "2026-11-25T13:02:21.227722+00:00",
       "regional_candidate": false
     },
     {
@@ -6389,7 +6577,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.772764+00:00",
+      "last_seen": "2026-11-25T13:02:25.752891+00:00",
       "regional_candidate": false
     },
     {
@@ -6566,7 +6754,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.447213+00:00",
+      "last_seen": "2026-11-25T13:02:27.442672+00:00",
       "regional_candidate": false
     },
     {
@@ -6746,7 +6934,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.034314+00:00",
+      "last_seen": "2026-11-25T13:02:25.001286+00:00",
       "regional_candidate": true
     },
     {
@@ -6923,7 +7111,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.057212+00:00",
+      "last_seen": "2026-11-25T13:02:28.962733+00:00",
       "regional_candidate": true
     },
     {
@@ -7100,7 +7288,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.908914+00:00",
+      "last_seen": "2026-11-25T13:02:30.952136+00:00",
       "regional_candidate": false
     },
     {
@@ -7277,7 +7465,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.991089+00:00",
+      "last_seen": "2026-11-25T13:02:26.992898+00:00",
       "regional_candidate": false
     },
     {
@@ -7454,7 +7642,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.973372+00:00",
+      "last_seen": "2026-11-25T13:02:27.941316+00:00",
       "regional_candidate": false
     },
     {
@@ -7631,7 +7819,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.921548+00:00",
+      "last_seen": "2026-11-25T13:02:29.866446+00:00",
       "regional_candidate": false
     },
     {
@@ -7808,7 +7996,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.482079+00:00",
+      "last_seen": "2026-11-25T13:02:30.444552+00:00",
       "regional_candidate": false
     },
     {
@@ -7985,7 +8173,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.722005+00:00",
+      "last_seen": "2026-11-25T13:02:21.691420+00:00",
       "regional_candidate": false
     },
     {
@@ -8161,7 +8349,7 @@
       "district": null,
       "settlement": "Анапа",
       "address": "Анапа, ул Мирная, д. 29",
-      "price": 111274000.0,
+      "price": 90000000.0,
       "area": 483.8,
       "monthly_rent": 760000.0,
       "tenant_name": "Магнит",
@@ -8201,70 +8389,70 @@
       ],
       "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
       "photos": [
-        "https://cdn-1.arrpro.ru/resize_cache/3783600/2c107a00918f3abd1df8e303f56adfc3/iblock/8aa/8aac1ccd8ce93f0fba048aa14db20af9/643e4e116c262d6a9a8f4ec782b7d4aa.jpg"
+        "https://cdn-1.arrpro.ru/resize_cache/3872646/2c107a00918f3abd1df8e303f56adfc3/iblock/25a/25af4f7a21db274929d9800ea8ae5e75/cb67e4438999453d47b54c37b1e8d706.jpg"
       ],
       "price_claims": [
         {
           "location": "АРР",
           "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=bebba503-041b-424b-b44a-e65cd9a46193",
-          "value": 111274000.0
+          "value": 90000000.0
         }
       ],
       "annual_costs": {},
       "price_conflict": false,
-      "price_per_sqm": 230000.0,
+      "price_per_sqm": 186027.28400165358,
       "id": "1558e62538f17a7e33d6",
       "verification": "review",
       "distance_km": null,
       "geo_status": "unknown",
       "finance": {
         "annual_rent": 9120000.0,
-        "gross_yield": 8.195984686449664,
-        "payback_years": 12.20109649122807,
+        "gross_yield": 10.133333333333333,
+        "payback_years": 9.868421052631579,
         "net_yield": null,
         "net_payback_years": null,
         "scenarios": [
           {
             "name": "Оптимистичный",
             "income": 8664000.0,
-            "payback": 12.8432594644506,
+            "payback": 10.387811634349031,
             "vacancy_months": 0,
             "expenses": 456000.0,
             "assumed": true,
-            "yield": 7.786185452127182
+            "yield": 9.626666666666667
           },
           {
             "name": "Базовый",
             "income": 7448000.0,
-            "payback": 15.238920515574652,
+            "payback": 12.32545649838883,
             "vacancy_months": 1,
             "expenses": 912000.0,
             "assumed": true,
-            "yield": 6.562144601895974
+            "yield": 8.113289760348584
           },
           {
             "name": "Консервативный",
             "income": 6232000.0,
-            "payback": 18.39092105263158,
+            "payback": 14.874839537869063,
             "vacancy_months": 2,
             "expenses": 1368000.0,
             "assumed": true,
-            "yield": 5.4374655686801985
+            "yield": 6.722761596548005
           }
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 13,
+      "score": 27,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
-          "points": 8.2,
+          "points": 10.1,
           "max": 15,
           "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
         },
         {
           "factor": "Простая окупаемость",
-          "points": 0,
+          "points": 12,
           "max": 15,
           "reason": "15 до 9 лет; 12 до 10; 6 до 12"
         },
@@ -8318,7 +8506,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 13; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 27; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
       "first_seen": "2026-11-15T17:41:08.640657+00:00",
       "primary_price_claims": [],
       "history": [
@@ -8328,10 +8516,19 @@
           "monthly_rent": 760000.0,
           "contract_months": null,
           "indexation": null
+        },
+        {
+          "at": "2026-11-25T13:02:18.584221+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 90000000.0,
+          "monthly_rent": 760000.0,
+          "contract_months": null,
+          "indexation": null
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.949258+00:00",
+      "last_seen": "2026-11-25T13:02:18.584221+00:00",
       "regional_candidate": false
     },
     {
@@ -8508,7 +8705,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.037995+00:00",
+      "last_seen": "2026-11-25T13:02:28.939152+00:00",
       "regional_candidate": false
     },
     {
@@ -8685,7 +8882,186 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.957770+00:00",
+      "last_seen": "2026-11-25T13:02:24.893577+00:00",
+      "regional_candidate": false
+    },
+    {
+      "district": null,
+      "settlement": "Краснодар",
+      "address": "Краснодар, ул Черноморская, д. 33",
+      "price": 15000000.0,
+      "area": 93.0,
+      "monthly_rent": 108000.0,
+      "tenant_name": null,
+      "tenant_type": "Другой",
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": null,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": null,
+      "coordinate_source": null,
+      "geo_accuracy": null,
+      "published_at": null,
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Продаю ГАБ 1 этаж 93 м² \"Хадыжи\"",
+      "sources": [
+        {
+          "name": "АРР",
+          "url": "https://arrpro.ru/objects/getbyid.php?external_id=00822b6a-31c4-4025-9feb-bfad55821dd9"
+        }
+      ],
+      "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
+      "photos": [
+        "https://cdn-1.arrpro.ru/resize_cache/3869641/2c107a00918f3abd1df8e303f56adfc3/iblock/6c8/6c8e599e45a9e61a34d75c95607c9665/bfb7a2fa0ba3477fa4fc4d3aeeda9846.jpg"
+      ],
+      "price_claims": [
+        {
+          "location": "АРР",
+          "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=00822b6a-31c4-4025-9feb-bfad55821dd9",
+          "value": 15000000.0
+        }
+      ],
+      "annual_costs": {},
+      "price_conflict": false,
+      "price_per_sqm": 161290.32258064515,
+      "id": "163c670cd4a1b9dc42fe",
+      "verification": "review",
+      "distance_km": null,
+      "geo_status": "unknown",
+      "finance": {
+        "annual_rent": 1296000.0,
+        "gross_yield": 8.64,
+        "payback_years": 11.574074074074074,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": [
+          {
+            "name": "Оптимистичный",
+            "income": 1231200.0,
+            "payback": 12.183235867446394,
+            "vacancy_months": 0,
+            "expenses": 64800.0,
+            "assumed": true,
+            "yield": 8.208
+          },
+          {
+            "name": "Базовый",
+            "income": 1058400.0,
+            "payback": 14.45578231292517,
+            "vacancy_months": 1,
+            "expenses": 129600.0,
+            "assumed": true,
+            "yield": 6.91764705882353
+          },
+          {
+            "name": "Консервативный",
+            "income": 885600.0,
+            "payback": 17.44579945799458,
+            "vacancy_months": 2,
+            "expenses": 194400.0,
+            "assumed": true,
+            "yield": 5.732038834951457
+          }
+        ],
+        "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
+      },
+      "score": 19,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 8.6,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 6,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 4,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 19; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "first_seen": "2026-11-25T13:02:18.865452+00:00",
+      "primary_price_claims": [],
+      "history": [
+        {
+          "at": "2026-11-25T13:02:18.865452+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 15000000.0,
+          "monthly_rent": 108000.0,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "source_observations": [],
+      "last_seen": "2026-11-25T13:02:18.865452+00:00",
       "regional_candidate": false
     },
     {
@@ -8862,7 +9238,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.484782+00:00",
+      "last_seen": "2026-11-25T13:02:23.532221+00:00",
       "regional_candidate": false
     },
     {
@@ -9039,7 +9415,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.163611+00:00",
+      "last_seen": "2026-11-25T13:02:28.118498+00:00",
       "regional_candidate": true
     },
     {
@@ -9216,7 +9592,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.516142+00:00",
+      "last_seen": "2026-11-25T13:02:23.556191+00:00",
       "regional_candidate": false
     },
     {
@@ -9551,7 +9927,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.335613+00:00",
+      "last_seen": "2026-11-25T13:02:22.377457+00:00",
       "regional_candidate": true
     },
     {
@@ -9728,7 +10104,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.546679+00:00",
+      "last_seen": "2026-11-25T13:02:25.515917+00:00",
       "regional_candidate": false
     },
     {
@@ -9905,7 +10281,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.463003+00:00",
+      "last_seen": "2026-11-25T13:02:19.126379+00:00",
       "regional_candidate": false
     },
     {
@@ -10082,7 +10458,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.948011+00:00",
+      "last_seen": "2026-11-25T13:02:23.991443+00:00",
       "regional_candidate": false
     },
     {
@@ -10439,7 +10815,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.524573+00:00",
+      "last_seen": "2026-11-25T13:02:22.566261+00:00",
       "regional_candidate": false
     },
     {
@@ -10616,7 +10992,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.581170+00:00",
+      "last_seen": "2026-11-25T13:02:27.566946+00:00",
       "regional_candidate": false
     },
     {
@@ -10793,7 +11169,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.987399+00:00",
+      "last_seen": "2026-11-25T13:02:22.001477+00:00",
       "regional_candidate": false
     },
     {
@@ -10970,7 +11346,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.890268+00:00",
+      "last_seen": "2026-11-25T13:02:30.927254+00:00",
       "regional_candidate": false
     },
     {
@@ -11147,7 +11523,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.949943+00:00",
+      "last_seen": "2026-11-25T13:02:31.003105+00:00",
       "regional_candidate": false
     },
     {
@@ -11324,7 +11700,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.063189+00:00",
+      "last_seen": "2026-11-25T13:02:27.072411+00:00",
       "regional_candidate": false
     },
     {
@@ -11501,7 +11877,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.306980+00:00",
+      "last_seen": "2026-11-25T13:02:21.203337+00:00",
       "regional_candidate": false
     },
     {
@@ -11678,7 +12054,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.425793+00:00",
+      "last_seen": "2026-11-25T13:02:24.542679+00:00",
       "regional_candidate": false
     },
     {
@@ -11855,7 +12231,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.636125+00:00",
+      "last_seen": "2026-11-25T13:02:24.731584+00:00",
       "regional_candidate": false
     },
     {
@@ -12032,7 +12408,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.814409+00:00",
+      "last_seen": "2026-11-25T13:02:25.800702+00:00",
       "regional_candidate": false
     },
     {
@@ -12209,7 +12585,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.367729+00:00",
+      "last_seen": "2026-11-25T13:02:29.278743+00:00",
       "regional_candidate": false
     },
     {
@@ -12386,7 +12762,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.970364+00:00",
+      "last_seen": "2026-11-25T13:02:23.070095+00:00",
       "regional_candidate": false
     },
     {
@@ -12563,7 +12939,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.900395+00:00",
+      "last_seen": "2026-11-25T13:02:29.835040+00:00",
       "regional_candidate": false
     },
     {
@@ -12740,7 +13116,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.002813+00:00",
+      "last_seen": "2026-11-25T13:02:29.940538+00:00",
       "regional_candidate": false
     },
     {
@@ -12787,7 +13163,7 @@
       ],
       "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
       "photos": [
-        "https://cdn-1.arrpro.ru/resize_cache/3858175/2c107a00918f3abd1df8e303f56adfc3/iblock/b8c/b8cf06d7a44e2776735fde7e72919fb9/0380cc5a64ba23cd168f6b0dcfe205fb.jpg"
+        "https://cdn-1.arrpro.ru/resize_cache/3869547/2c107a00918f3abd1df8e303f56adfc3/iblock/aae/aae64237e6be62f3689f890885d2d5b2/b18ffbaee8f582b87530d38f826bdc10.jpg"
       ],
       "price_claims": [
         {
@@ -12919,7 +13295,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.405598+00:00",
+      "last_seen": "2026-11-25T13:02:19.023325+00:00",
       "regional_candidate": false
     },
     {
@@ -13096,7 +13472,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.231749+00:00",
+      "last_seen": "2026-11-25T13:02:24.296687+00:00",
       "regional_candidate": false
     },
     {
@@ -13273,7 +13649,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.311384+00:00",
+      "last_seen": "2026-11-25T13:02:20.195159+00:00",
       "regional_candidate": false
     },
     {
@@ -13450,7 +13826,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.754483+00:00",
+      "last_seen": "2026-11-25T13:02:23.786492+00:00",
       "regional_candidate": false
     },
     {
@@ -13627,7 +14003,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.035844+00:00",
+      "last_seen": "2026-11-25T13:02:27.041991+00:00",
       "regional_candidate": false
     },
     {
@@ -13804,7 +14180,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.214915+00:00",
+      "last_seen": "2026-11-25T13:02:24.271866+00:00",
       "regional_candidate": false
     },
     {
@@ -13981,7 +14357,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.626968+00:00",
+      "last_seen": "2026-11-25T13:02:22.676290+00:00",
       "regional_candidate": false
     },
     {
@@ -14158,7 +14534,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.821761+00:00",
+      "last_seen": "2026-11-25T13:02:19.755307+00:00",
       "regional_candidate": false
     },
     {
@@ -14335,7 +14711,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.562262+00:00",
+      "last_seen": "2026-11-25T13:02:28.458253+00:00",
       "regional_candidate": false
     },
     {
@@ -14512,7 +14888,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.557562+00:00",
+      "last_seen": "2026-11-25T13:02:26.570638+00:00",
       "regional_candidate": false
     },
     {
@@ -14689,7 +15065,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.596968+00:00",
+      "last_seen": "2026-11-25T13:02:26.594892+00:00",
       "regional_candidate": false
     },
     {
@@ -14869,7 +15245,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.386086+00:00",
+      "last_seen": "2026-11-25T13:02:19.415393+00:00",
       "regional_candidate": true
     },
     {
@@ -15046,7 +15422,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.611078+00:00",
+      "last_seen": "2026-11-25T13:02:21.553014+00:00",
       "regional_candidate": false
     },
     {
@@ -15223,7 +15599,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.920252+00:00",
+      "last_seen": "2026-11-25T13:02:20.804593+00:00",
       "regional_candidate": false
     },
     {
@@ -15400,7 +15776,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.019752+00:00",
+      "last_seen": "2026-11-25T13:02:22.025487+00:00",
       "regional_candidate": false
     },
     {
@@ -15577,7 +15953,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.308625+00:00",
+      "last_seen": "2026-11-25T13:02:26.332037+00:00",
       "regional_candidate": false
     },
     {
@@ -15757,7 +16133,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.384581+00:00",
+      "last_seen": "2026-11-25T13:02:23.425542+00:00",
       "regional_candidate": true
     },
     {
@@ -15934,7 +16310,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.788565+00:00",
+      "last_seen": "2026-11-25T13:02:30.822140+00:00",
       "regional_candidate": false
     },
     {
@@ -16111,7 +16487,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.344112+00:00",
+      "last_seen": "2026-11-25T13:02:30.311134+00:00",
       "regional_candidate": false
     },
     {
@@ -16288,7 +16664,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.360235+00:00",
+      "last_seen": "2026-11-25T13:02:25.356790+00:00",
       "regional_candidate": false
     },
     {
@@ -16465,7 +16841,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.646452+00:00",
+      "last_seen": "2026-11-25T13:02:28.535459+00:00",
       "regional_candidate": false
     },
     {
@@ -16642,7 +17018,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.538518+00:00",
+      "last_seen": "2026-11-25T13:02:23.580054+00:00",
       "regional_candidate": false
     },
     {
@@ -16822,7 +17198,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.085199+00:00",
+      "last_seen": "2026-11-25T13:02:28.040044+00:00",
       "regional_candidate": true
     },
     {
@@ -16999,7 +17375,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.731784+00:00",
+      "last_seen": "2026-11-25T13:02:19.700160+00:00",
       "regional_candidate": false
     },
     {
@@ -17176,7 +17552,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.058886+00:00",
+      "last_seen": "2026-11-25T13:02:28.015879+00:00",
       "regional_candidate": false
     },
     {
@@ -17353,7 +17729,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.109931+00:00",
+      "last_seen": "2026-11-25T13:02:29.021212+00:00",
       "regional_candidate": false
     },
     {
@@ -17530,7 +17906,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.875141+00:00",
+      "last_seen": "2026-11-25T13:02:19.803439+00:00",
       "regional_candidate": false
     },
     {
@@ -17707,7 +18083,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.830869+00:00",
+      "last_seen": "2026-11-25T13:02:25.832430+00:00",
       "regional_candidate": false
     },
     {
@@ -17884,7 +18260,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.752261+00:00",
+      "last_seen": "2026-11-25T13:02:18.661865+00:00",
       "regional_candidate": false
     },
     {
@@ -18061,7 +18437,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.348271+00:00",
+      "last_seen": "2026-11-25T13:02:24.438961+00:00",
       "regional_candidate": false
     },
     {
@@ -18238,7 +18614,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.642771+00:00",
+      "last_seen": "2026-11-25T13:02:26.644268+00:00",
       "regional_candidate": false
     },
     {
@@ -18415,7 +18791,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.160287+00:00",
+      "last_seen": "2026-11-25T13:02:21.012751+00:00",
       "regional_candidate": false
     },
     {
@@ -18592,7 +18968,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.141269+00:00",
+      "last_seen": "2026-11-25T13:02:22.160918+00:00",
       "regional_candidate": false
     },
     {
@@ -18769,7 +19145,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.667365+00:00",
+      "last_seen": "2026-11-25T13:02:23.711490+00:00",
       "regional_candidate": false
     },
     {
@@ -18946,7 +19322,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.273172+00:00",
+      "last_seen": "2026-11-25T13:02:20.145708+00:00",
       "regional_candidate": false
     },
     {
@@ -19123,7 +19499,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.582748+00:00",
+      "last_seen": "2026-11-25T13:02:24.679322+00:00",
       "regional_candidate": false
     },
     {
@@ -19300,7 +19676,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.569205+00:00",
+      "last_seen": "2026-11-25T13:02:21.491882+00:00",
       "regional_candidate": false
     },
     {
@@ -19477,7 +19853,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.616860+00:00",
+      "last_seen": "2026-11-25T13:02:23.655267+00:00",
       "regional_candidate": false
     },
     {
@@ -19654,7 +20030,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.897207+00:00",
+      "last_seen": "2026-11-25T13:02:22.955642+00:00",
       "regional_candidate": false
     },
     {
@@ -19831,7 +20207,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.041250+00:00",
+      "last_seen": "2026-11-25T13:02:22.049556+00:00",
       "regional_candidate": false
     },
     {
@@ -20008,7 +20384,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.090182+00:00",
+      "last_seen": "2026-11-25T13:02:28.995945+00:00",
       "regional_candidate": true
     },
     {
@@ -20185,7 +20561,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.838387+00:00",
+      "last_seen": "2026-11-25T13:02:21.830018+00:00",
       "regional_candidate": false
     },
     {
@@ -20362,7 +20738,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.938934+00:00",
+      "last_seen": "2026-11-25T13:02:25.934546+00:00",
       "regional_candidate": false
     },
     {
@@ -20400,7 +20776,7 @@
       "transaction_costs": null,
       "vacancy_months": null,
       "verification_evidence": null,
-      "title": "Автомойка, шиномонтаж, детейлинг, 816,4 м², с арендатором",
+      "title": "Автомойка, шиномонтаж, детейлинг, 816,4 м², с арендаторами",
       "sources": [
         {
           "name": "АРР",
@@ -20409,7 +20785,7 @@
       ],
       "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
       "photos": [
-        "https://cdn-1.arrpro.ru/resize_cache/3857173/2c107a00918f3abd1df8e303f56adfc3/iblock/424/4247e8324b610a79ba7c9575da63b5b8/c8c1b58cc07dc4f2758c93d5103551be.jpg"
+        "https://cdn-1.arrpro.ru/resize_cache/3869526/2c107a00918f3abd1df8e303f56adfc3/iblock/80e/80e3546c138193faa32f4e23b0c8b5e5/718ae1929dd65ecd4c9428faa9cbc6e1.jpg"
       ],
       "price_claims": [
         {
@@ -20541,7 +20917,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.421525+00:00",
+      "last_seen": "2026-11-25T13:02:19.047061+00:00",
       "regional_candidate": false
     },
     {
@@ -20718,16 +21094,16 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.816746+00:00",
+      "last_seen": "2026-11-25T13:02:18.766260+00:00",
       "regional_candidate": false
     },
     {
       "district": null,
       "settlement": "Краснодар",
       "address": "Краснодар, ул им. Байбакова Н.К., д. 3/1",
-      "price": 158000000.0,
+      "price": 231000000.0,
       "area": 728.0,
-      "monthly_rent": 1100000.0,
+      "monthly_rent": 1917000.0,
       "tenant_name": "Апрель, пекарня, Афипское пиво , Оптика, Компьютерный клуб,  и др",
       "tenant_type": "Другой",
       "active_tenant": null,
@@ -20771,58 +21147,58 @@
         {
           "location": "АРР",
           "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=f9354d66-232a-41d8-9a38-8dcef5c567b2",
-          "value": 158000000.0
+          "value": 231000000.0
         }
       ],
       "annual_costs": {},
       "price_conflict": false,
-      "price_per_sqm": 217032.96703296702,
+      "price_per_sqm": 317307.6923076923,
       "id": "34ffa8e91a746bfda251",
       "verification": "review",
       "distance_km": null,
       "geo_status": "unknown",
       "finance": {
-        "annual_rent": 13200000.0,
-        "gross_yield": 8.354430379746836,
-        "payback_years": 11.969696969696969,
+        "annual_rent": 23004000.0,
+        "gross_yield": 9.958441558441558,
+        "payback_years": 10.041731872717788,
         "net_yield": null,
         "net_payback_years": null,
         "scenarios": [
           {
             "name": "Оптимистичный",
-            "income": 12540000.0,
-            "payback": 12.599681020733652,
+            "income": 21853800.0,
+            "payback": 10.57024407654504,
             "vacancy_months": 0,
-            "expenses": 660000.0,
+            "expenses": 1150200.0,
             "assumed": true,
-            "yield": 7.936708860759493
+            "yield": 9.46051948051948
           },
           {
             "name": "Базовый",
-            "income": 10780000.0,
-            "payback": 14.949907235621522,
+            "income": 18786600.0,
+            "payback": 12.541918175720992,
             "vacancy_months": 1,
-            "expenses": 1320000.0,
+            "expenses": 2300400.0,
             "assumed": true,
-            "yield": 6.689004715810374
+            "yield": 7.973262032085561
           },
           {
             "name": "Консервативный",
-            "income": 9020000.0,
-            "payback": 18.042128603104214,
+            "income": 15719400.0,
+            "payback": 15.136073895950227,
             "vacancy_months": 2,
-            "expenses": 1980000.0,
+            "expenses": 3450600.0,
             "assumed": true,
-            "yield": 5.5425832616443405
+            "yield": 6.60673307275249
           }
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 19,
+      "score": 21,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
-          "points": 8.4,
+          "points": 10.0,
           "max": 15,
           "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
         },
@@ -20882,7 +21258,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 19; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 21; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
       "first_seen": "2026-11-15T17:41:08.147077+00:00",
       "primary_price_claims": [],
       "history": [
@@ -20892,10 +21268,19 @@
           "monthly_rent": 1100000.0,
           "contract_months": null,
           "indexation": null
+        },
+        {
+          "at": "2026-11-25T13:02:19.200524+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 231000000.0,
+          "monthly_rent": 1917000.0,
+          "contract_months": null,
+          "indexation": null
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.048433+00:00",
+      "last_seen": "2026-11-25T13:02:19.200524+00:00",
       "regional_candidate": false
     },
     {
@@ -21072,7 +21457,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.691028+00:00",
+      "last_seen": "2026-11-25T13:02:26.692901+00:00",
       "regional_candidate": false
     },
     {
@@ -21249,7 +21634,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.152310+00:00",
+      "last_seen": "2026-11-25T13:02:26.144431+00:00",
       "regional_candidate": false
     },
     {
@@ -21426,7 +21811,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.250186+00:00",
+      "last_seen": "2026-11-25T13:02:25.219485+00:00",
       "regional_candidate": false
     },
     {
@@ -21603,7 +21988,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.055995+00:00",
+      "last_seen": "2026-11-25T13:02:23.181185+00:00",
       "regional_candidate": false
     },
     {
@@ -21935,7 +22320,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.409028+00:00",
+      "last_seen": "2026-11-25T13:02:24.518356+00:00",
       "regional_candidate": false
     },
     {
@@ -22114,7 +22499,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.606405+00:00",
+      "last_seen": "2026-11-25T13:02:19.599892+00:00",
       "regional_candidate": false
     },
     {
@@ -22291,7 +22676,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.852214+00:00",
+      "last_seen": "2026-11-25T13:02:19.102872+00:00",
       "regional_candidate": false
     },
     {
@@ -22468,7 +22853,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.715374+00:00",
+      "last_seen": "2026-11-25T13:02:22.751749+00:00",
       "regional_candidate": false
     },
     {
@@ -22645,7 +23030,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.643053+00:00",
+      "last_seen": "2026-11-25T13:02:21.603476+00:00",
       "regional_candidate": false
     },
     {
@@ -22822,7 +23207,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.122230+00:00",
+      "last_seen": "2026-11-25T13:02:27.122488+00:00",
       "regional_candidate": false
     },
     {
@@ -22999,7 +23384,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.689406+00:00",
+      "last_seen": "2026-11-25T13:02:28.584062+00:00",
       "regional_candidate": true
     },
     {
@@ -23176,7 +23561,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.170403+00:00",
+      "last_seen": "2026-11-25T13:02:26.168466+00:00",
       "regional_candidate": false
     },
     {
@@ -23353,7 +23738,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.792281+00:00",
+      "last_seen": "2026-11-25T13:02:25.776973+00:00",
       "regional_candidate": false
     },
     {
@@ -23530,7 +23915,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.999973+00:00",
+      "last_seen": "2026-11-25T13:02:27.965973+00:00",
       "regional_candidate": false
     },
     {
@@ -23734,7 +24119,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.708123+00:00",
+      "last_seen": "2026-11-25T13:02:19.676084+00:00",
       "regional_candidate": false
     },
     {
@@ -24066,7 +24451,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.507425+00:00",
+      "last_seen": "2026-11-25T13:02:29.440243+00:00",
       "regional_candidate": false
     },
     {
@@ -24573,7 +24958,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.745118+00:00",
+      "last_seen": "2026-11-25T13:02:21.718295+00:00",
       "regional_candidate": false
     },
     {
@@ -24750,7 +25135,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.262884+00:00",
+      "last_seen": "2026-11-25T13:02:30.202956+00:00",
       "regional_candidate": false
     },
     {
@@ -24927,7 +25312,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.712839+00:00",
+      "last_seen": "2026-11-25T13:02:25.702479+00:00",
       "regional_candidate": false
     },
     {
@@ -25281,7 +25666,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.865150+00:00",
+      "last_seen": "2026-11-25T13:02:28.745240+00:00",
       "regional_candidate": false
     },
     {
@@ -25458,7 +25843,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.200747+00:00",
+      "last_seen": "2026-11-25T13:02:28.142875+00:00",
       "regional_candidate": false
     },
     {
@@ -25638,7 +26023,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.885780+00:00",
+      "last_seen": "2026-11-25T13:02:23.918399+00:00",
       "regional_candidate": true
     },
     {
@@ -25815,7 +26200,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.774176+00:00",
+      "last_seen": "2026-11-25T13:02:27.752784+00:00",
       "regional_candidate": false
     },
     {
@@ -25992,7 +26377,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.370753+00:00",
+      "last_seen": "2026-11-25T13:02:27.360599+00:00",
       "regional_candidate": false
     },
     {
@@ -26169,7 +26554,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.444146+00:00",
+      "last_seen": "2026-11-25T13:02:19.467267+00:00",
       "regional_candidate": false
     },
     {
@@ -26346,7 +26731,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.086377+00:00",
+      "last_seen": "2026-11-25T13:02:24.155932+00:00",
       "regional_candidate": false
     },
     {
@@ -26523,7 +26908,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.217766+00:00",
+      "last_seen": "2026-11-25T13:02:22.244040+00:00",
       "regional_candidate": false
     },
     {
@@ -26877,7 +27262,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.328111+00:00",
+      "last_seen": "2026-11-25T13:02:26.364057+00:00",
       "regional_candidate": false
     },
     {
@@ -27054,7 +27439,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.089887+00:00",
+      "last_seen": "2026-11-25T13:02:25.052512+00:00",
       "regional_candidate": false
     },
     {
@@ -27419,7 +27804,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.924365+00:00",
+      "last_seen": "2026-11-25T13:02:19.853655+00:00",
       "regional_candidate": false
     },
     {
@@ -27596,7 +27981,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.159450+00:00",
+      "last_seen": "2026-11-25T13:02:20.038760+00:00",
       "regional_candidate": false
     },
     {
@@ -27773,7 +28158,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.554241+00:00",
+      "last_seen": "2026-11-25T13:02:22.590712+00:00",
       "regional_candidate": false
     },
     {
@@ -27953,7 +28338,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.015039+00:00",
+      "last_seen": "2026-11-25T13:02:24.977946+00:00",
       "regional_candidate": true
     },
     {
@@ -28130,7 +28515,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.654518+00:00",
+      "last_seen": "2026-11-25T13:02:22.700999+00:00",
       "regional_candidate": false
     },
     {
@@ -28307,7 +28692,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.930736+00:00",
+      "last_seen": "2026-11-25T13:02:23.967746+00:00",
       "regional_candidate": false
     },
     {
@@ -28484,7 +28869,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.456802+00:00",
+      "last_seen": "2026-11-25T13:02:24.567554+00:00",
       "regional_candidate": false
     },
     {
@@ -28661,7 +29046,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.854099+00:00",
+      "last_seen": "2026-11-25T13:02:19.779612+00:00",
       "regional_candidate": false
     },
     {
@@ -28838,7 +29223,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.165417+00:00",
+      "last_seen": "2026-11-25T13:02:22.185850+00:00",
       "regional_candidate": false
     },
     {
@@ -29024,7 +29409,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.693671+00:00",
+      "last_seen": "2026-11-25T13:02:20.515195+00:00",
       "regional_candidate": false
     },
     {
@@ -29201,7 +29586,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.445215+00:00",
+      "last_seen": "2026-11-25T13:02:22.491358+00:00",
       "regional_candidate": false
     },
     {
@@ -29378,7 +29763,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.272139+00:00",
+      "last_seen": "2026-11-25T13:02:22.299777+00:00",
       "regional_candidate": false
     },
     {
@@ -29555,7 +29940,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.148481+00:00",
+      "last_seen": "2026-11-25T13:02:23.231428+00:00",
       "regional_candidate": false
     },
     {
@@ -29732,7 +30117,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.271078+00:00",
+      "last_seen": "2026-11-25T13:02:29.205309+00:00",
       "regional_candidate": false
     },
     {
@@ -29909,7 +30294,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.243420+00:00",
+      "last_seen": "2026-11-25T13:02:30.178537+00:00",
       "regional_candidate": false
     },
     {
@@ -30086,7 +30471,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.492683+00:00",
+      "last_seen": "2026-11-25T13:02:22.542280+00:00",
       "regional_candidate": false
     },
     {
@@ -30263,7 +30648,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.012209+00:00",
+      "last_seen": "2026-11-25T13:02:24.079723+00:00",
       "regional_candidate": false
     },
     {
@@ -30440,7 +30825,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.343690+00:00",
+      "last_seen": "2026-11-25T13:02:28.243321+00:00",
       "regional_candidate": true
     },
     {
@@ -30617,7 +31002,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.980246+00:00",
+      "last_seen": "2026-11-25T13:02:29.916549+00:00",
       "regional_candidate": false
     },
     {
@@ -30794,7 +31179,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.112962+00:00",
+      "last_seen": "2026-11-25T13:02:20.954441+00:00",
       "regional_candidate": false
     },
     {
@@ -30971,7 +31356,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.985985+00:00",
+      "last_seen": "2026-11-25T13:02:24.054254+00:00",
       "regional_candidate": false
     },
     {
@@ -31312,7 +31697,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.353328+00:00",
+      "last_seen": "2026-11-25T13:02:26.388715+00:00",
       "regional_candidate": false
     },
     {
@@ -31489,7 +31874,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.587334+00:00",
+      "last_seen": "2026-11-25T13:02:23.631439+00:00",
       "regional_candidate": false
     },
     {
@@ -31666,7 +32051,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.908073+00:00",
+      "last_seen": "2026-11-25T13:02:23.942888+00:00",
       "regional_candidate": false
     },
     {
@@ -31843,7 +32228,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.204655+00:00",
+      "last_seen": "2026-11-25T13:02:27.197795+00:00",
       "regional_candidate": false
     },
     {
@@ -32020,7 +32405,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.196994+00:00",
+      "last_seen": "2026-11-25T13:02:22.210504+00:00",
       "regional_candidate": false
     },
     {
@@ -32197,7 +32582,186 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.020295+00:00",
+      "last_seen": "2026-11-25T13:02:26.020098+00:00",
+      "regional_candidate": false
+    },
+    {
+      "district": null,
+      "settlement": "Краснодар",
+      "address": "Краснодар, ул Старокубанская, д. 2/23, корп. 1",
+      "price": 54288000.0,
+      "area": 226.2,
+      "monthly_rent": 230000.0,
+      "tenant_name": "Фитнес, тренажерный зал",
+      "tenant_type": "Другой",
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": null,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": null,
+      "coordinate_source": null,
+      "geo_accuracy": null,
+      "published_at": null,
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Продаю готовый арендный бизнес, 226,2 м²",
+      "sources": [
+        {
+          "name": "АРР",
+          "url": "https://arrpro.ru/objects/getbyid.php?external_id=415ddba1-4fb4-47b1-af67-1a25c6b0974d"
+        }
+      ],
+      "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
+      "photos": [
+        "https://cdn-1.arrpro.ru/resize_cache/3870756/2c107a00918f3abd1df8e303f56adfc3/iblock/0d1/0d115cfc459fdd0110f317b90716b306/e35e9fe367bbafa33350339ab62adcd3.jpg"
+      ],
+      "price_claims": [
+        {
+          "location": "АРР",
+          "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=415ddba1-4fb4-47b1-af67-1a25c6b0974d",
+          "value": 54288000.0
+        }
+      ],
+      "annual_costs": {},
+      "price_conflict": false,
+      "price_per_sqm": 240000.0,
+      "id": "54a93f9bc8be8980fd61",
+      "verification": "review",
+      "distance_km": null,
+      "geo_status": "unknown",
+      "finance": {
+        "annual_rent": 2760000.0,
+        "gross_yield": 5.083996463306808,
+        "payback_years": 19.669565217391305,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": [
+          {
+            "name": "Оптимистичный",
+            "income": 2622000.0,
+            "payback": 20.704805491990847,
+            "vacancy_months": 0,
+            "expenses": 138000.0,
+            "assumed": true,
+            "yield": 4.829796640141468
+          },
+          {
+            "name": "Базовый",
+            "income": 2254000.0,
+            "payback": 24.566885536823424,
+            "vacancy_months": 1,
+            "expenses": 276000.0,
+            "assumed": true,
+            "yield": 4.070520044150876
+          },
+          {
+            "name": "Консервативный",
+            "income": 1886000.0,
+            "payback": 29.648271474019086,
+            "vacancy_months": 2,
+            "expenses": 414000.0,
+            "assumed": true,
+            "yield": 3.3728779125498245
+          }
+        ],
+        "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
+      },
+      "score": 10,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 5.1,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 0,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 5,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 10; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "first_seen": "2026-11-25T13:02:18.898617+00:00",
+      "primary_price_claims": [],
+      "history": [
+        {
+          "at": "2026-11-25T13:02:18.898617+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 54288000.0,
+          "monthly_rent": 230000.0,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "source_observations": [],
+      "last_seen": "2026-11-25T13:02:18.898617+00:00",
       "regional_candidate": false
     },
     {
@@ -32374,7 +32938,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.513026+00:00",
+      "last_seen": "2026-11-25T13:02:21.441207+00:00",
       "regional_candidate": false
     },
     {
@@ -32551,7 +33115,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.711018+00:00",
+      "last_seen": "2026-11-25T13:02:26.726721+00:00",
       "regional_candidate": false
     },
     {
@@ -32728,7 +33292,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.083883+00:00",
+      "last_seen": "2026-11-25T13:02:30.017323+00:00",
       "regional_candidate": false
     },
     {
@@ -32905,7 +33469,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.668560+00:00",
+      "last_seen": "2026-11-25T13:02:28.560017+00:00",
       "regional_candidate": false
     },
     {
@@ -33082,7 +33646,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.150206+00:00",
+      "last_seen": "2026-11-25T13:02:27.146991+00:00",
       "regional_candidate": false
     },
     {
@@ -33259,7 +33823,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.214731+00:00",
+      "last_seen": "2026-11-25T13:02:30.153742+00:00",
       "regional_candidate": false
     },
     {
@@ -33436,7 +34000,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.937445+00:00",
+      "last_seen": "2026-11-25T13:02:20.829716+00:00",
       "regional_candidate": false
     },
     {
@@ -33613,7 +34177,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.320041+00:00",
+      "last_seen": "2026-11-25T13:02:30.285305+00:00",
       "regional_candidate": false
     },
     {
@@ -33790,7 +34354,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.293758+00:00",
+      "last_seen": "2026-11-25T13:02:22.326525+00:00",
       "regional_candidate": false
     },
     {
@@ -33967,7 +34531,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.853445+00:00",
+      "last_seen": "2026-11-25T13:02:25.857647+00:00",
       "regional_candidate": false
     },
     {
@@ -34321,7 +34885,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.946526+00:00",
+      "last_seen": "2026-11-25T13:02:29.891758+00:00",
       "regional_candidate": false
     },
     {
@@ -34653,7 +35217,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.430389+00:00",
+      "last_seen": "2026-11-25T13:02:26.438208+00:00",
       "regional_candidate": false
     },
     {
@@ -34830,7 +35394,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.720345+00:00",
+      "last_seen": "2026-11-25T13:02:27.702751+00:00",
       "regional_candidate": false
     },
     {
@@ -35007,7 +35571,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.587463+00:00",
+      "last_seen": "2026-11-25T13:02:29.524885+00:00",
       "regional_candidate": false
     },
     {
@@ -35184,7 +35748,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.913657+00:00",
+      "last_seen": "2026-11-25T13:02:18.839230+00:00",
       "regional_candidate": false
     },
     {
@@ -35361,7 +35925,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.170442+00:00",
+      "last_seen": "2026-11-25T13:02:29.096499+00:00",
       "regional_candidate": false
     },
     {
@@ -35538,7 +36102,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.668161+00:00",
+      "last_seen": "2026-11-25T13:02:26.668795+00:00",
       "regional_candidate": false
     },
     {
@@ -35715,7 +36279,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.640464+00:00",
+      "last_seen": "2026-11-25T13:02:20.464960+00:00",
       "regional_candidate": false
     },
     {
@@ -35895,7 +36459,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.663683+00:00",
+      "last_seen": "2026-11-25T13:02:21.628814+00:00",
       "regional_candidate": true
     },
     {
@@ -36072,7 +36636,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.439121+00:00",
+      "last_seen": "2026-11-25T13:02:30.419431+00:00",
       "regional_candidate": false
     },
     {
@@ -36249,7 +36813,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.333139+00:00",
+      "last_seen": "2026-11-25T13:02:23.376556+00:00",
       "regional_candidate": false
     },
     {
@@ -36426,7 +36990,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.495033+00:00",
+      "last_seen": "2026-11-25T13:02:21.415973+00:00",
       "regional_candidate": false
     },
     {
@@ -36756,7 +37320,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.792655+00:00",
+      "last_seen": "2026-11-25T13:02:22.841714+00:00",
       "regional_candidate": false
     },
     {
@@ -36933,7 +37497,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.401597+00:00",
+      "last_seen": "2026-11-25T13:02:26.413491+00:00",
       "regional_candidate": false
     },
     {
@@ -37110,7 +37674,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.833268+00:00",
+      "last_seen": "2026-11-25T13:02:24.815914+00:00",
       "regional_candidate": false
     },
     {
@@ -37287,7 +37851,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.533070+00:00",
+      "last_seen": "2026-11-25T13:02:26.546586+00:00",
       "regional_candidate": false
     },
     {
@@ -37464,7 +38028,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.847161+00:00",
+      "last_seen": "2026-11-25T13:02:30.873322+00:00",
       "regional_candidate": false
     },
     {
@@ -37641,7 +38205,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.101372+00:00",
+      "last_seen": "2026-11-25T13:02:26.096603+00:00",
       "regional_candidate": false
     },
     {
@@ -37818,7 +38382,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.730708+00:00",
+      "last_seen": "2026-11-25T13:02:20.565309+00:00",
       "regional_candidate": false
     },
     {
@@ -38006,7 +38570,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.488589+00:00",
+      "last_seen": "2026-11-25T13:02:20.329896+00:00",
       "regional_candidate": false
     },
     {
@@ -38360,7 +38924,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.140617+00:00",
+      "last_seen": "2026-11-25T13:02:28.088281+00:00",
       "regional_candidate": false
     },
     {
@@ -38546,7 +39110,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.749808+00:00",
+      "last_seen": "2026-11-25T13:02:20.590123+00:00",
       "regional_candidate": false
     },
     {
@@ -38723,7 +39287,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.704512+00:00",
+      "last_seen": "2026-11-25T13:02:30.713682+00:00",
       "regional_candidate": false
     },
     {
@@ -38886,7 +39450,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:28:19.571473+00:00",
+      "last_seen": "2026-11-25T13:04:13.310329+00:00",
       "regional_candidate": true
     },
     {
@@ -39063,7 +39627,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.369969+00:00",
+      "last_seen": "2026-11-25T13:02:19.150783+00:00",
       "regional_candidate": false
     },
     {
@@ -39240,7 +39804,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.151736+00:00",
+      "last_seen": "2026-11-25T13:02:29.071812+00:00",
       "regional_candidate": false
     },
     {
@@ -39572,16 +40136,16 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.321687+00:00",
+      "last_seen": "2026-11-25T13:02:28.218827+00:00",
       "regional_candidate": false
     },
     {
       "district": null,
       "settlement": "Ростов-на-Дону",
       "address": "Ростов-на-Дону, ул Еременко, д. 85",
-      "price": 66000000.0,
+      "price": 65000000.0,
       "area": 324.7,
-      "monthly_rent": 590000.0,
+      "monthly_rent": 625000.0,
       "tenant_name": "клиника \"Инвитро\", кондитерская \"Мадам Безе\", кулинария \"Вкусная среда\", ПВЗ \"WB\"",
       "tenant_type": "Другой",
       "active_tenant": null,
@@ -39610,7 +40174,7 @@
       "transaction_costs": null,
       "vacancy_months": null,
       "verification_evidence": null,
-      "title": "Продажа ГАБ, сверхнадежные арендаторы, 9,5 лет",
+      "title": "Продажа ГАБ, сверхнадежные арендаторы, 8,5 лет",
       "sources": [
         {
           "name": "АРР",
@@ -39625,64 +40189,64 @@
         {
           "location": "АРР",
           "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=c5361312-cd2a-454f-be55-e19e63b8680d",
-          "value": 66000000.0
+          "value": 65000000.0
         }
       ],
       "annual_costs": {},
       "price_conflict": false,
-      "price_per_sqm": 203264.55189405606,
+      "price_per_sqm": 200184.78595626733,
       "id": "6de0b057cb3b935fcf94",
       "verification": "review",
       "distance_km": null,
       "geo_status": "unknown",
       "finance": {
-        "annual_rent": 7080000.0,
-        "gross_yield": 10.727272727272727,
-        "payback_years": 9.322033898305085,
+        "annual_rent": 7500000.0,
+        "gross_yield": 11.538461538461538,
+        "payback_years": 8.666666666666666,
         "net_yield": null,
         "net_payback_years": null,
         "scenarios": [
           {
             "name": "Оптимистичный",
-            "income": 6726000.0,
-            "payback": 9.812667261373774,
+            "income": 7125000.0,
+            "payback": 9.12280701754386,
             "vacancy_months": 0,
-            "expenses": 354000.0,
+            "expenses": 375000.0,
             "assumed": true,
-            "yield": 10.190909090909091
+            "yield": 10.961538461538462
           },
           {
             "name": "Базовый",
-            "income": 5782000.0,
-            "payback": 11.643030093393289,
+            "income": 6125000.0,
+            "payback": 10.824489795918367,
             "vacancy_months": 1,
-            "expenses": 708000.0,
+            "expenses": 750000.0,
             "assumed": true,
-            "yield": 8.588829471182411
+            "yield": 9.238310708898945
           },
           {
             "name": "Консервативный",
-            "income": 4838000.0,
-            "payback": 14.051260851591566,
+            "income": 5125000.0,
+            "payback": 13.06341463414634,
             "vacancy_months": 2,
-            "expenses": 1062000.0,
+            "expenses": 1125000.0,
             "assumed": true,
-            "yield": 7.116799058546632
+            "yield": 7.65496639283047
           }
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 28,
+      "score": 32,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
-          "points": 10.7,
+          "points": 11.5,
           "max": 15,
           "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
         },
         {
           "factor": "Простая окупаемость",
-          "points": 12,
+          "points": 15,
           "max": 15,
           "reason": "15 до 9 лет; 12 до 10; 6 до 12"
         },
@@ -39736,7 +40300,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 28; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 32; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
       "first_seen": "2026-11-15T17:41:08.874275+00:00",
       "primary_price_claims": [],
       "history": [
@@ -39746,10 +40310,19 @@
           "monthly_rent": 590000.0,
           "contract_months": null,
           "indexation": null
+        },
+        {
+          "at": "2026-11-25T13:02:18.999608+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 65000000.0,
+          "monthly_rent": 625000.0,
+          "contract_months": null,
+          "indexation": null
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.519827+00:00",
+      "last_seen": "2026-11-25T13:02:18.999608+00:00",
       "regional_candidate": false
     },
     {
@@ -39926,7 +40499,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.295231+00:00",
+      "last_seen": "2026-11-25T13:02:25.271605+00:00",
       "regional_candidate": false
     },
     {
@@ -40103,7 +40676,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.305491+00:00",
+      "last_seen": "2026-11-25T13:02:24.375828+00:00",
       "regional_candidate": false
     },
     {
@@ -40266,7 +40839,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:28:32.102211+00:00",
+      "last_seen": "2026-11-25T13:04:25.428071+00:00",
       "regional_candidate": true
     },
     {
@@ -40443,7 +41016,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.402056+00:00",
+      "last_seen": "2026-11-25T13:02:21.305916+00:00",
       "regional_candidate": false
     },
     {
@@ -40620,7 +41193,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.295751+00:00",
+      "last_seen": "2026-11-25T13:02:29.229991+00:00",
       "regional_candidate": false
     },
     {
@@ -40797,7 +41370,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.216785+00:00",
+      "last_seen": "2026-11-25T13:02:20.063676+00:00",
       "regional_candidate": false
     },
     {
@@ -40974,7 +41547,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.080592+00:00",
+      "last_seen": "2026-11-25T13:02:23.206601+00:00",
       "regional_candidate": false
     },
     {
@@ -41306,7 +41879,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.315623+00:00",
+      "last_seen": "2026-11-25T13:02:22.353037+00:00",
       "regional_candidate": false
     },
     {
@@ -41483,7 +42056,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.928874+00:00",
+      "last_seen": "2026-11-25T13:02:27.887109+00:00",
       "regional_candidate": false
     },
     {
@@ -41660,7 +42233,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.721408+00:00",
+      "last_seen": "2026-11-25T13:02:30.738768+00:00",
       "regional_candidate": false
     },
     {
@@ -41837,7 +42410,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.474171+00:00",
+      "last_seen": "2026-11-25T13:02:21.390594+00:00",
       "regional_candidate": false
     },
     {
@@ -42014,7 +42587,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.804638+00:00",
+      "last_seen": "2026-11-25T13:02:27.785810+00:00",
       "regional_candidate": false
     },
     {
@@ -42191,7 +42764,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.565913+00:00",
+      "last_seen": "2026-11-25T13:02:29.493174+00:00",
       "regional_candidate": false
     },
     {
@@ -42368,7 +42941,186 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.452091+00:00",
+      "last_seen": "2026-11-25T13:02:21.364571+00:00",
+      "regional_candidate": false
+    },
+    {
+      "district": null,
+      "settlement": "гор. Волгоград",
+      "address": "Волгоград, гор. Волгоград, ул им. Грибанова, д. 12",
+      "price": 73000000.0,
+      "area": 660.9,
+      "monthly_rent": 735000.0,
+      "tenant_name": "Магнит, магнит Косметик",
+      "tenant_type": "Продуктовый магазин",
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": null,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": null,
+      "coordinate_source": null,
+      "geo_accuracy": null,
+      "published_at": null,
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "ГАБ Магнит+Магнит Косметик 660,9 м²",
+      "sources": [
+        {
+          "name": "АРР",
+          "url": "https://arrpro.ru/objects/getbyid.php?external_id=c0c77b12-c311-4409-8139-498a056e3c79"
+        }
+      ],
+      "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
+      "photos": [
+        "https://cdn-1.arrpro.ru/resize_cache/3866675/2c107a00918f3abd1df8e303f56adfc3/iblock/940/940c726d2a7178ca8f9df08049c76ca7/8e6e9baea814b732cf60cbefac3bedd2.jpg"
+      ],
+      "price_claims": [
+        {
+          "location": "АРР",
+          "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=c0c77b12-c311-4409-8139-498a056e3c79",
+          "value": 73000000.0
+        }
+      ],
+      "annual_costs": {},
+      "price_conflict": false,
+      "price_per_sqm": 110455.4395521259,
+      "id": "75f964ccd17c0221d364",
+      "verification": "review",
+      "distance_km": null,
+      "geo_status": "unknown",
+      "finance": {
+        "annual_rent": 8820000.0,
+        "gross_yield": 12.082191780821917,
+        "payback_years": 8.276643990929704,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": [
+          {
+            "name": "Оптимистичный",
+            "income": 8379000.0,
+            "payback": 8.712256832557584,
+            "vacancy_months": 0,
+            "expenses": 441000.0,
+            "assumed": true,
+            "yield": 11.478082191780823
+          },
+          {
+            "name": "Базовый",
+            "income": 7203000.0,
+            "payback": 10.337359433569347,
+            "vacancy_months": 1,
+            "expenses": 882000.0,
+            "assumed": true,
+            "yield": 9.67365028203062
+          },
+          {
+            "name": "Консервативный",
+            "income": 6027000.0,
+            "payback": 12.475526796084287,
+            "vacancy_months": 2,
+            "expenses": 1323000.0,
+            "assumed": true,
+            "yield": 8.01569357627344
+          }
+        ],
+        "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
+      },
+      "score": 32,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 12.1,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 15,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 5,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 32; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "first_seen": "2026-11-25T13:02:19.442561+00:00",
+      "primary_price_claims": [],
+      "history": [
+        {
+          "at": "2026-11-25T13:02:19.442561+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 73000000.0,
+          "monthly_rent": 735000.0,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "source_observations": [],
+      "last_seen": "2026-11-25T13:02:19.442561+00:00",
       "regional_candidate": false
     },
     {
@@ -42545,7 +43297,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.509975+00:00",
+      "last_seen": "2026-11-25T13:02:28.401217+00:00",
       "regional_candidate": false
     },
     {
@@ -42722,7 +43474,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.673093+00:00",
+      "last_seen": "2026-11-25T13:02:20.490775+00:00",
       "regional_candidate": false
     },
     {
@@ -42899,7 +43651,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.748746+00:00",
+      "last_seen": "2026-11-25T13:02:26.752368+00:00",
       "regional_candidate": false
     },
     {
@@ -43076,7 +43828,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.910984+00:00",
+      "last_seen": "2026-11-25T13:02:25.909849+00:00",
       "regional_candidate": false
     },
     {
@@ -43253,7 +44005,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.250011+00:00",
+      "last_seen": "2026-11-25T13:02:29.180592+00:00",
       "regional_candidate": false
     },
     {
@@ -43430,7 +44182,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.362374+00:00",
+      "last_seen": "2026-11-25T13:02:23.401355+00:00",
       "regional_candidate": false
     },
     {
@@ -43607,7 +44359,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.453278+00:00",
+      "last_seen": "2026-11-25T13:02:26.463293+00:00",
       "regional_candidate": false
     },
     {
@@ -43939,7 +44691,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.870171+00:00",
+      "last_seen": "2026-11-25T13:02:29.811169+00:00",
       "regional_candidate": false
     },
     {
@@ -44116,7 +44868,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.772195+00:00",
+      "last_seen": "2026-11-25T13:02:18.686584+00:00",
       "regional_candidate": false
     },
     {
@@ -44293,7 +45045,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.972579+00:00",
+      "last_seen": "2026-11-25T13:02:21.976362+00:00",
       "regional_candidate": false
     },
     {
@@ -44470,7 +45222,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.766846+00:00",
+      "last_seen": "2026-11-25T13:02:22.813526+00:00",
       "regional_candidate": false
     },
     {
@@ -44647,7 +45399,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:01.091632+00:00",
+      "last_seen": "2026-11-25T13:02:31.137756+00:00",
       "regional_candidate": false
     },
     {
@@ -44824,7 +45576,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.017273+00:00",
+      "last_seen": "2026-11-25T13:02:28.915000+00:00",
       "regional_candidate": false
     },
     {
@@ -45001,7 +45753,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:01.003697+00:00",
+      "last_seen": "2026-11-25T13:02:31.054715+00:00",
       "regional_candidate": false
     },
     {
@@ -45178,7 +45930,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.411979+00:00",
+      "last_seen": "2026-11-25T13:02:23.450834+00:00",
       "regional_candidate": false
     },
     {
@@ -45358,7 +46110,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.579524+00:00",
+      "last_seen": "2026-11-25T13:02:19.570234+00:00",
       "regional_candidate": true
     },
     {
@@ -45712,7 +46464,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.355721+00:00",
+      "last_seen": "2026-11-25T13:02:21.252652+00:00",
       "regional_candidate": false
     },
     {
@@ -45889,7 +46641,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.776204+00:00",
+      "last_seen": "2026-11-25T13:02:29.734927+00:00",
       "regional_candidate": false
     },
     {
@@ -46243,7 +46995,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.279993+00:00",
+      "last_seen": "2026-11-25T13:02:30.234609+00:00",
       "regional_candidate": false
     },
     {
@@ -46420,7 +47172,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.323261+00:00",
+      "last_seen": "2026-11-25T13:02:29.255228+00:00",
       "regional_candidate": false
     },
     {
@@ -46597,7 +47349,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.613939+00:00",
+      "last_seen": "2026-11-25T13:02:24.707210+00:00",
       "regional_candidate": false
     },
     {
@@ -46774,7 +47526,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.965461+00:00",
+      "last_seen": "2026-11-25T13:02:25.959776+00:00",
       "regional_candidate": false
     },
     {
@@ -46951,7 +47703,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.937230+00:00",
+      "last_seen": "2026-11-25T13:02:23.019511+00:00",
       "regional_candidate": false
     },
     {
@@ -47128,7 +47880,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.255327+00:00",
+      "last_seen": "2026-11-25T13:02:24.322645+00:00",
       "regional_candidate": false
     },
     {
@@ -47175,7 +47927,7 @@
       ],
       "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
       "photos": [
-        "https://cdn-1.arrpro.ru/resize_cache/3865109/2c107a00918f3abd1df8e303f56adfc3/iblock/b52/b52cb53bc3f701e851c6fd54284de0ca/50f9a454c6a2cc82c890e8ce61cc4383.jpg"
+        "https://cdn-1.arrpro.ru/resize_cache/3867825/2c107a00918f3abd1df8e303f56adfc3/iblock/f57/f57ef9fc4f7f917a33bbab1fe16c78e4/79ddc5e656c9422f2e6727d6dd808f7e.jpg"
       ],
       "price_claims": [
         {
@@ -47307,7 +48059,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.359663+00:00",
+      "last_seen": "2026-11-25T13:02:19.283432+00:00",
       "regional_candidate": false
     },
     {
@@ -47486,7 +48238,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.992511+00:00",
+      "last_seen": "2026-11-25T13:02:20.879591+00:00",
       "regional_candidate": false
     },
     {
@@ -47663,7 +48415,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.296404+00:00",
+      "last_seen": "2026-11-25T13:02:18.742538+00:00",
       "regional_candidate": false
     },
     {
@@ -47840,7 +48592,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.693998+00:00",
+      "last_seen": "2026-11-25T13:02:25.677857+00:00",
       "regional_candidate": false
     },
     {
@@ -48017,7 +48769,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.013276+00:00",
+      "last_seen": "2026-11-25T13:02:27.018023+00:00",
       "regional_candidate": false
     },
     {
@@ -48194,7 +48946,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.299475+00:00",
+      "last_seen": "2026-11-25T13:02:30.260387+00:00",
       "regional_candidate": false
     },
     {
@@ -48371,7 +49123,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.399382+00:00",
+      "last_seen": "2026-11-25T13:02:28.299083+00:00",
       "regional_candidate": false
     },
     {
@@ -48548,7 +49300,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.027978+00:00",
+      "last_seen": "2026-11-25T13:02:19.939408+00:00",
       "regional_candidate": false
     },
     {
@@ -48725,7 +49477,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.202734+00:00",
+      "last_seen": "2026-11-25T13:02:21.061821+00:00",
       "regional_candidate": false
     },
     {
@@ -48902,7 +49654,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.841303+00:00",
+      "last_seen": "2026-11-25T13:02:28.720965+00:00",
       "regional_candidate": true
     },
     {
@@ -49079,7 +49831,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.967208+00:00",
+      "last_seen": "2026-11-25T13:02:20.854820+00:00",
       "regional_candidate": false
     },
     {
@@ -49259,7 +50011,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.219244+00:00",
+      "last_seen": "2026-11-25T13:02:21.087657+00:00",
       "regional_candidate": true
     },
     {
@@ -49436,7 +50188,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.635729+00:00",
+      "last_seen": "2026-11-25T13:02:25.594029+00:00",
       "regional_candidate": false
     },
     {
@@ -49790,7 +50542,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.036679+00:00",
+      "last_seen": "2026-11-25T13:02:20.930330+00:00",
       "regional_candidate": false
     },
     {
@@ -49967,7 +50719,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.187294+00:00",
+      "last_seen": "2026-11-25T13:02:30.129063+00:00",
       "regional_candidate": false
     },
     {
@@ -50144,7 +50896,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.938596+00:00",
+      "last_seen": "2026-11-25T13:02:21.923424+00:00",
       "regional_candidate": false
     },
     {
@@ -50307,7 +51059,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:42.606796+00:00",
+      "last_seen": "2026-11-25T13:03:35.926037+00:00",
       "regional_candidate": true
     },
     {
@@ -50484,7 +51236,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.742138+00:00",
+      "last_seen": "2026-11-25T13:02:30.772577+00:00",
       "regional_candidate": false
     },
     {
@@ -50661,7 +51413,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.455313+00:00",
+      "last_seen": "2026-11-25T13:02:28.350063+00:00",
       "regional_candidate": false
     },
     {
@@ -50838,7 +51590,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.824024+00:00",
+      "last_seen": "2026-11-25T13:02:29.786161+00:00",
       "regional_candidate": false
     },
     {
@@ -51015,7 +51767,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.956601+00:00",
+      "last_seen": "2026-11-25T13:02:21.950185+00:00",
       "regional_candidate": false
     },
     {
@@ -51192,7 +51944,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.432872+00:00",
+      "last_seen": "2026-11-25T13:02:28.325176+00:00",
       "regional_candidate": false
     },
     {
@@ -51369,7 +52121,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.062927+00:00",
+      "last_seen": "2026-11-25T13:02:19.964873+00:00",
       "regional_candidate": false
     },
     {
@@ -51546,7 +52298,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.627462+00:00",
+      "last_seen": "2026-11-25T13:02:21.579090+00:00",
       "regional_candidate": false
     },
     {
@@ -51723,7 +52475,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.067728+00:00",
+      "last_seen": "2026-11-25T13:02:26.071374+00:00",
       "regional_candidate": false
     },
     {
@@ -51900,7 +52652,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.659613+00:00",
+      "last_seen": "2026-11-25T13:02:30.662618+00:00",
       "regional_candidate": false
     },
     {
@@ -52077,7 +52829,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.891402+00:00",
+      "last_seen": "2026-11-25T13:02:28.770330+00:00",
       "regional_candidate": true
     },
     {
@@ -52254,7 +53006,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.357464+00:00",
+      "last_seen": "2026-11-25T13:02:20.220147+00:00",
       "regional_candidate": false
     },
     {
@@ -52431,7 +53183,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.141601+00:00",
+      "last_seen": "2026-11-25T13:02:25.105316+00:00",
       "regional_candidate": false
     },
     {
@@ -52591,7 +53343,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:29:22.172909+00:00",
+      "last_seen": "2026-11-25T13:05:14.187602+00:00",
       "regional_candidate": true
     },
     {
@@ -52923,7 +53675,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.394263+00:00",
+      "last_seen": "2026-11-25T13:02:29.304487+00:00",
       "regional_candidate": false
     },
     {
@@ -53100,7 +53852,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.623286+00:00",
+      "last_seen": "2026-11-25T13:02:30.610792+00:00",
       "regional_candidate": false
     },
     {
@@ -53277,7 +54029,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.129292+00:00",
+      "last_seen": "2026-11-25T13:02:18.814514+00:00",
       "regional_candidate": false
     },
     {
@@ -53454,7 +54206,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.696849+00:00",
+      "last_seen": "2026-11-25T13:02:24.790380+00:00",
       "regional_candidate": false
     },
     {
@@ -53631,7 +54383,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.770681+00:00",
+      "last_seen": "2026-11-25T13:02:21.745460+00:00",
       "regional_candidate": false
     },
     {
@@ -53808,7 +54560,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.690579+00:00",
+      "last_seen": "2026-11-25T13:02:21.656134+00:00",
       "regional_candidate": false
     },
     {
@@ -53985,7 +54737,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.396026+00:00",
+      "last_seen": "2026-11-25T13:02:22.440985+00:00",
       "regional_candidate": false
     },
     {
@@ -54162,7 +54914,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.699801+00:00",
+      "last_seen": "2026-11-25T13:02:23.736756+00:00",
       "regional_candidate": false
     },
     {
@@ -54516,7 +55268,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.723273+00:00",
+      "last_seen": "2026-11-25T13:02:18.513748+00:00",
       "regional_candidate": false
     },
     {
@@ -54693,7 +55445,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.117703+00:00",
+      "last_seen": "2026-11-25T13:02:22.135866+00:00",
       "regional_candidate": false
     },
     {
@@ -54870,7 +55622,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.680001+00:00",
+      "last_seen": "2026-11-25T13:02:19.334390+00:00",
       "regional_candidate": false
     },
     {
@@ -55047,7 +55799,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.712312+00:00",
+      "last_seen": "2026-11-25T13:02:29.651060+00:00",
       "regional_candidate": false
     },
     {
@@ -55224,7 +55976,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.257997+00:00",
+      "last_seen": "2026-11-25T13:02:27.257732+00:00",
       "regional_candidate": false
     },
     {
@@ -55401,7 +56153,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.419858+00:00",
+      "last_seen": "2026-11-25T13:02:22.466915+00:00",
       "regional_candidate": false
     },
     {
@@ -55578,7 +56330,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.031680+00:00",
+      "last_seen": "2026-11-25T13:02:24.105514+00:00",
       "regional_candidate": false
     },
     {
@@ -55755,7 +56507,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.032145+00:00",
+      "last_seen": "2026-11-25T13:02:27.991889+00:00",
       "regional_candidate": false
     },
     {
@@ -55932,7 +56684,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.674642+00:00",
+      "last_seen": "2026-11-25T13:02:19.652127+00:00",
       "regional_candidate": false
     },
     {
@@ -56109,7 +56861,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.844438+00:00",
+      "last_seen": "2026-11-25T13:02:27.812724+00:00",
       "regional_candidate": false
     },
     {
@@ -56286,7 +57038,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.114404+00:00",
+      "last_seen": "2026-11-25T13:02:24.183867+00:00",
       "regional_candidate": false
     },
     {
@@ -56463,7 +57215,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.543698+00:00",
+      "last_seen": "2026-11-25T13:02:20.355481+00:00",
       "regional_candidate": false
     },
     {
@@ -56643,7 +57395,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.779055+00:00",
+      "last_seen": "2026-11-25T13:02:19.725010+00:00",
       "regional_candidate": true
     },
     {
@@ -56806,7 +57558,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:29:34.351539+00:00",
+      "last_seen": "2026-11-25T13:05:26.870139+00:00",
       "regional_candidate": true
     },
     {
@@ -56983,7 +57735,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:01.036879+00:00",
+      "last_seen": "2026-11-25T13:02:31.080139+00:00",
       "regional_candidate": false
     },
     {
@@ -57315,7 +58067,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.624505+00:00",
+      "last_seen": "2026-11-25T13:02:28.511331+00:00",
       "regional_candidate": false
     },
     {
@@ -57647,7 +58399,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.094831+00:00",
+      "last_seen": "2026-11-25T13:02:27.097624+00:00",
       "regional_candidate": false
     },
     {
@@ -57824,7 +58576,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.581287+00:00",
+      "last_seen": "2026-11-25T13:02:30.550036+00:00",
       "regional_candidate": false
     },
     {
@@ -58001,7 +58753,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.319658+00:00",
+      "last_seen": "2026-11-25T13:02:27.308185+00:00",
       "regional_candidate": false
     },
     {
@@ -58178,7 +58930,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.562847+00:00",
+      "last_seen": "2026-11-25T13:02:24.654507+00:00",
       "regional_candidate": false
     },
     {
@@ -58355,7 +59107,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.767533+00:00",
+      "last_seen": "2026-11-25T13:02:30.798265+00:00",
       "regional_candidate": false
     },
     {
@@ -58532,7 +59284,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.477525+00:00",
+      "last_seen": "2026-11-25T13:02:19.385462+00:00",
       "regional_candidate": false
     },
     {
@@ -58709,7 +59461,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.710116+00:00",
+      "last_seen": "2026-11-25T13:02:28.610216+00:00",
       "regional_candidate": true
     },
     {
@@ -58886,7 +59638,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.290635+00:00",
+      "last_seen": "2026-11-25T13:02:26.307872+00:00",
       "regional_candidate": false
     },
     {
@@ -59063,7 +59815,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.523254+00:00",
+      "last_seen": "2026-11-25T13:02:25.491809+00:00",
       "regional_candidate": false
     },
     {
@@ -59240,7 +59992,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.439767+00:00",
+      "last_seen": "2026-11-25T13:02:23.476279+00:00",
       "regional_candidate": false
     },
     {
@@ -59574,7 +60326,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.570763+00:00",
+      "last_seen": "2026-11-25T13:02:20.381501+00:00",
       "regional_candidate": false
     },
     {
@@ -59751,7 +60503,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.468967+00:00",
+      "last_seen": "2026-11-25T13:02:22.517561+00:00",
       "regional_candidate": false
     },
     {
@@ -59928,7 +60680,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.487168+00:00",
+      "last_seen": "2026-11-25T13:02:27.467909+00:00",
       "regional_candidate": false
     },
     {
@@ -60256,7 +61008,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.027548+00:00",
+      "last_seen": "2026-11-25T13:02:29.965625+00:00",
       "regional_candidate": false
     },
     {
@@ -60433,7 +61185,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.232072+00:00",
+      "last_seen": "2026-11-25T13:02:28.168023+00:00",
       "regional_candidate": false
     },
     {
@@ -60610,7 +61362,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.875235+00:00",
+      "last_seen": "2026-11-25T13:02:19.258281+00:00",
       "regional_candidate": false
     },
     {
@@ -60787,7 +61539,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.540250+00:00",
+      "last_seen": "2026-11-25T13:02:24.629061+00:00",
       "regional_candidate": false
     },
     {
@@ -60964,7 +61716,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.461940+00:00",
+      "last_seen": "2026-11-25T13:02:23.501551+00:00",
       "regional_candidate": false
     },
     {
@@ -61141,7 +61893,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.314671+00:00",
+      "last_seen": "2026-11-25T13:02:23.351800+00:00",
       "regional_candidate": false
     },
     {
@@ -61318,7 +62070,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.532106+00:00",
+      "last_seen": "2026-11-25T13:02:21.467018+00:00",
       "regional_candidate": false
     },
     {
@@ -61495,7 +62247,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.968798+00:00",
+      "last_seen": "2026-11-25T13:02:24.018481+00:00",
       "regional_candidate": false
     },
     {
@@ -61672,7 +62424,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.347054+00:00",
+      "last_seen": "2026-11-25T13:02:27.333631+00:00",
       "regional_candidate": false
     },
     {
@@ -61849,7 +62601,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.465136+00:00",
+      "last_seen": "2026-11-25T13:02:29.389651+00:00",
       "regional_candidate": false
     },
     {
@@ -62026,7 +62778,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.445450+00:00",
+      "last_seen": "2026-11-25T13:02:29.364103+00:00",
       "regional_candidate": false
     },
     {
@@ -62203,7 +62955,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.420585+00:00",
+      "last_seen": "2026-11-25T13:02:30.393952+00:00",
       "regional_candidate": false
     },
     {
@@ -62566,7 +63318,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.537436+00:00",
+      "last_seen": "2026-11-25T13:02:28.426889+00:00",
       "regional_candidate": false
     },
     {
@@ -62743,7 +63495,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.161973+00:00",
+      "last_seen": "2026-11-25T13:02:25.141205+00:00",
       "regional_candidate": false
     },
     {
@@ -62920,7 +63672,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.603389+00:00",
+      "last_seen": "2026-11-25T13:02:30.585162+00:00",
       "regional_candidate": false
     },
     {
@@ -63097,7 +63849,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.593757+00:00",
+      "last_seen": "2026-11-25T13:02:21.527765+00:00",
       "regional_candidate": false
     },
     {
@@ -63584,7 +64336,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.043099+00:00",
+      "last_seen": "2026-11-25T13:02:26.046103+00:00",
       "regional_candidate": false
     },
     {
@@ -63941,7 +64693,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.068551+00:00",
+      "last_seen": "2026-11-25T13:02:25.027426+00:00",
       "regional_candidate": true
     },
     {
@@ -64118,7 +64870,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.619710+00:00",
+      "last_seen": "2026-11-25T13:02:26.620336+00:00",
       "regional_candidate": false
     },
     {
@@ -64295,7 +65047,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.849915+00:00",
+      "last_seen": "2026-11-25T13:02:26.856090+00:00",
       "regional_candidate": false
     },
     {
@@ -64496,7 +65248,7 @@
       ],
       "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
       "photos": [
-        "https://cdn-1.arrpro.ru/resize_cache/3795404/2c107a00918f3abd1df8e303f56adfc3/iblock/b55/b55415596f1c7db4ee73f7fcd5050ae5/345bfd80934abd996f7bec6f4f5f2764.jpg"
+        "https://cdn-1.arrpro.ru/resize_cache/3872742/2c107a00918f3abd1df8e303f56adfc3/iblock/8b3/8b31452a1d0c3a3a7181b18854820b72/a42cadf67abc7c037257208fb823418c.jpg"
       ],
       "price_claims": [
         {
@@ -64626,7 +65378,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.497288+00:00",
+      "last_seen": "2026-11-25T13:02:18.560264+00:00",
       "regional_candidate": false
     },
     {
@@ -64987,7 +65739,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.672503+00:00",
+      "last_seen": "2026-11-25T13:02:25.645270+00:00",
       "regional_candidate": false
     },
     {
@@ -65166,7 +65918,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.462631+00:00",
+      "last_seen": "2026-11-25T13:02:20.304994+00:00",
       "regional_candidate": false
     },
     {
@@ -65343,7 +66095,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.929791+00:00",
+      "last_seen": "2026-11-25T13:02:28.804567+00:00",
       "regional_candidate": true
     },
     {
@@ -65520,7 +66272,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.973272+00:00",
+      "last_seen": "2026-11-25T13:02:28.862538+00:00",
       "regional_candidate": true
     },
     {
@@ -65697,7 +66449,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.019323+00:00",
+      "last_seen": "2026-11-25T13:02:23.122238+00:00",
       "regional_candidate": false
     },
     {
@@ -66038,7 +66790,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.794313+00:00",
+      "last_seen": "2026-11-25T13:02:28.695271+00:00",
       "regional_candidate": true
     },
     {
@@ -66215,7 +66967,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.126245+00:00",
+      "last_seen": "2026-11-25T13:02:30.077655+00:00",
       "regional_candidate": false
     },
     {
@@ -66392,7 +67144,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.791971+00:00",
+      "last_seen": "2026-11-25T13:02:18.924651+00:00",
       "regional_candidate": false
     },
     {
@@ -66893,7 +67645,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.478938+00:00",
+      "last_seen": "2026-11-25T13:02:24.603157+00:00",
       "regional_candidate": false
     },
     {
@@ -67070,7 +67822,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.796888+00:00",
+      "last_seen": "2026-11-25T13:02:29.760814+00:00",
       "regional_candidate": false
     },
     {
@@ -67256,7 +68008,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.551530+00:00",
+      "last_seen": "2026-11-25T13:02:19.545668+00:00",
       "regional_candidate": false
     },
     {
@@ -67433,7 +68185,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.968532+00:00",
+      "last_seen": "2026-11-25T13:02:26.967806+00:00",
       "regional_candidate": false
     },
     {
@@ -67610,7 +68362,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.162089+00:00",
+      "last_seen": "2026-11-25T13:02:30.104111+00:00",
       "regional_candidate": false
     },
     {
@@ -67787,7 +68539,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.822713+00:00",
+      "last_seen": "2026-11-25T13:02:20.673743+00:00",
       "regional_candidate": false
     },
     {
@@ -67973,7 +68725,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.018155+00:00",
+      "last_seen": "2026-11-25T13:02:20.905482+00:00",
       "regional_candidate": false
     },
     {
@@ -68150,7 +68902,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:01.118774+00:00",
+      "last_seen": "2026-11-25T13:02:31.163677+00:00",
       "regional_candidate": false
     },
     {
@@ -68327,7 +69079,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.903541+00:00",
+      "last_seen": "2026-11-25T13:02:20.773769+00:00",
       "regional_candidate": false
     },
     {
@@ -68504,7 +69256,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.879833+00:00",
+      "last_seen": "2026-11-25T13:02:25.883952+00:00",
       "regional_candidate": false
     },
     {
@@ -68681,7 +69433,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.694630+00:00",
+      "last_seen": "2026-11-25T13:02:27.678395+00:00",
       "regional_candidate": false
     },
     {
@@ -68858,7 +69610,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.115451+00:00",
+      "last_seen": "2026-11-25T13:02:25.079200+00:00",
       "regional_candidate": false
     },
     {
@@ -69044,7 +69796,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.864224+00:00",
+      "last_seen": "2026-11-25T13:02:20.722610+00:00",
       "regional_candidate": false
     },
     {
@@ -69221,7 +69973,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.184723+00:00",
+      "last_seen": "2026-11-25T13:02:25.167601+00:00",
       "regional_candidate": false
     },
     {
@@ -69553,7 +70305,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.739404+00:00",
+      "last_seen": "2026-11-25T13:02:22.787224+00:00",
       "regional_candidate": false
     },
     {
@@ -69730,7 +70482,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.681990+00:00",
+      "last_seen": "2026-11-25T13:02:22.727319+00:00",
       "regional_candidate": false
     },
     {
@@ -69907,7 +70659,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.396400+00:00",
+      "last_seen": "2026-11-25T13:02:27.385965+00:00",
       "regional_candidate": false
     },
     {
@@ -70084,7 +70836,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.342376+00:00",
+      "last_seen": "2026-11-25T13:02:25.332712+00:00",
       "regional_candidate": false
     },
     {
@@ -70261,7 +71013,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.863730+00:00",
+      "last_seen": "2026-11-25T13:02:22.929666+00:00",
       "regional_candidate": false
     },
     {
@@ -70609,7 +71361,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.886242+00:00",
+      "last_seen": "2026-11-25T13:02:20.748411+00:00",
       "regional_candidate": false
     },
     {
@@ -70786,7 +71538,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.440472+00:00",
+      "last_seen": "2026-11-25T13:02:20.278604+00:00",
       "regional_candidate": false
     },
     {
@@ -70963,7 +71715,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.006884+00:00",
+      "last_seen": "2026-11-25T13:02:19.906335+00:00",
       "regional_candidate": false
     },
     {
@@ -71140,7 +71892,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.945208+00:00",
+      "last_seen": "2026-11-25T13:02:26.942028+00:00",
       "regional_candidate": false
     },
     {
@@ -71317,7 +72069,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.319268+00:00",
+      "last_seen": "2026-11-25T13:02:25.306816+00:00",
       "regional_candidate": false
     },
     {
@@ -71826,7 +72578,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.871288+00:00",
+      "last_seen": "2026-11-25T13:02:27.838500+00:00",
       "regional_candidate": false
     },
     {
@@ -72003,7 +72755,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.995422+00:00",
+      "last_seen": "2026-11-25T13:02:24.953210+00:00",
       "regional_candidate": false
     },
     {
@@ -72335,7 +73087,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.813636+00:00",
+      "last_seen": "2026-11-25T13:02:22.872098+00:00",
       "regional_candidate": false
     },
     {
@@ -72515,7 +73267,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.372107+00:00",
+      "last_seen": "2026-11-25T13:02:22.404312+00:00",
       "regional_candidate": true
     },
     {
@@ -72692,7 +73444,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.667922+00:00",
+      "last_seen": "2026-11-25T13:02:27.652417+00:00",
       "regional_candidate": false
     },
     {
@@ -72869,7 +73621,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.615373+00:00",
+      "last_seen": "2026-11-25T13:02:25.568692+00:00",
       "regional_candidate": false
     },
     {
@@ -73046,7 +73798,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.517696+00:00",
+      "last_seen": "2026-11-25T13:02:27.493803+00:00",
       "regional_candidate": false
     },
     {
@@ -73223,7 +73975,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.746583+00:00",
+      "last_seen": "2026-11-25T13:02:27.728859+00:00",
       "regional_candidate": false
     },
     {
@@ -73400,7 +74152,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.247950+00:00",
+      "last_seen": "2026-11-25T13:02:26.256092+00:00",
       "regional_candidate": false
     },
     {
@@ -73732,7 +74484,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.842176+00:00",
+      "last_seen": "2026-11-25T13:02:22.900572+00:00",
       "regional_candidate": false
     },
     {
@@ -73909,15 +74661,15 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.772911+00:00",
+      "last_seen": "2026-11-25T13:02:26.778110+00:00",
       "regional_candidate": false
     },
     {
       "district": null,
       "settlement": "Саратов",
       "address": "Саратов, ул им Азина В.М., д. 36/6",
-      "price": 7600000.0,
-      "area": 51.0,
+      "price": 9000000.0,
+      "area": 55.0,
       "monthly_rent": 75000.0,
       "tenant_name": "Аптека Апрель",
       "tenant_type": "Аптека",
@@ -73947,7 +74699,7 @@
       "transaction_costs": null,
       "vacancy_months": null,
       "verification_evidence": null,
-      "title": "Готовый арендный бизнес 51м2",
+      "title": "Готовый арендный бизнес 55 м2",
       "sources": [
         {
           "name": "АРР",
@@ -73962,64 +74714,64 @@
         {
           "location": "АРР",
           "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=ba1469b0-0d81-413e-b173-6455e5238bc3",
-          "value": 7600000.0
+          "value": 9000000.0
         }
       ],
       "annual_costs": {},
       "price_conflict": false,
-      "price_per_sqm": 149019.60784313726,
+      "price_per_sqm": 163636.36363636365,
       "id": "cbfb85e001e9743e5fb2",
       "verification": "review",
       "distance_km": null,
       "geo_status": "unknown",
       "finance": {
         "annual_rent": 900000.0,
-        "gross_yield": 11.842105263157894,
-        "payback_years": 8.444444444444445,
+        "gross_yield": 10.0,
+        "payback_years": 10.0,
         "net_yield": null,
         "net_payback_years": null,
         "scenarios": [
           {
             "name": "Оптимистичный",
             "income": 855000.0,
-            "payback": 8.88888888888889,
+            "payback": 10.526315789473685,
             "vacancy_months": 0,
             "expenses": 45000.0,
             "assumed": true,
-            "yield": 11.25
+            "yield": 9.5
           },
           {
             "name": "Базовый",
             "income": 735000.0,
-            "payback": 10.546938775510204,
+            "payback": 12.489795918367347,
             "vacancy_months": 1,
             "expenses": 90000.0,
             "assumed": true,
-            "yield": 9.481424148606811
+            "yield": 8.006535947712418
           },
           {
             "name": "Консервативный",
             "income": 615000.0,
-            "payback": 12.728455284552846,
+            "payback": 15.073170731707316,
             "vacancy_months": 2,
             "expenses": 135000.0,
             "assumed": true,
-            "yield": 7.856412876852326
+            "yield": 6.634304207119741
           }
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 32,
+      "score": 27,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
-          "points": 11.8,
+          "points": 10.0,
           "max": 15,
           "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
         },
         {
           "factor": "Простая окупаемость",
-          "points": 15,
+          "points": 12,
           "max": 15,
           "reason": "15 до 9 лет; 12 до 10; 6 до 12"
         },
@@ -74073,7 +74825,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 32; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 27; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
       "first_seen": "2026-11-15T17:41:11.896476+00:00",
       "primary_price_claims": [],
       "history": [
@@ -74083,10 +74835,19 @@
           "monthly_rent": 75000.0,
           "contract_months": null,
           "indexation": null
+        },
+        {
+          "at": "2026-11-25T13:02:18.637624+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 9000000.0,
+          "monthly_rent": 75000.0,
+          "contract_months": null,
+          "indexation": null
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.346784+00:00",
+      "last_seen": "2026-11-25T13:02:18.637624+00:00",
       "regional_candidate": false
     },
     {
@@ -74263,7 +75024,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:01.142067+00:00",
+      "last_seen": "2026-11-25T13:02:31.189747+00:00",
       "regional_candidate": false
     },
     {
@@ -74440,7 +75201,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.641845+00:00",
+      "last_seen": "2026-11-25T13:02:30.637197+00:00",
       "regional_candidate": false
     },
     {
@@ -74617,7 +75378,186 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.487504+00:00",
+      "last_seen": "2026-11-25T13:02:29.415826+00:00",
+      "regional_candidate": false
+    },
+    {
+      "district": null,
+      "settlement": "Краснодар",
+      "address": "Краснодар, ул 3-я Трудовая, д. 1",
+      "price": 8500000.0,
+      "area": 79.0,
+      "monthly_rent": 69000.0,
+      "tenant_name": "Пивной магазин",
+      "tenant_type": "Другой",
+      "active_tenant": null,
+      "payments_confirmed": null,
+      "contract": null,
+      "contract_months": null,
+      "indexation": null,
+      "condition": null,
+      "floor": null,
+      "separate_entrance": null,
+      "wet_point": null,
+      "ventilation": null,
+      "power": null,
+      "repair": null,
+      "communications": null,
+      "legal_clear": null,
+      "traffic": null,
+      "tenant_tenure_months": null,
+      "termination_terms": null,
+      "closure_risk": null,
+      "location_dependency": null,
+      "coordinates": null,
+      "coordinate_source": null,
+      "geo_accuracy": null,
+      "published_at": null,
+      "transaction_costs": null,
+      "vacancy_months": null,
+      "verification_evidence": null,
+      "title": "Продаю  помещение свободного назначения 79 м²",
+      "sources": [
+        {
+          "name": "АРР",
+          "url": "https://arrpro.ru/objects/getbyid.php?external_id=ddc2c58f-2db8-47cf-9b55-f02e48ffa931"
+        }
+      ],
+      "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
+      "photos": [
+        "https://cdn-1.arrpro.ru/resize_cache/3755259/2c107a00918f3abd1df8e303f56adfc3/iblock/bd7/bd7e93ebde566ef8ca894fafe5a31f6e/385dc82753d9244690e9f49ac24815b0.jpg"
+      ],
+      "price_claims": [
+        {
+          "location": "АРР",
+          "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=ddc2c58f-2db8-47cf-9b55-f02e48ffa931",
+          "value": 8500000.0
+        }
+      ],
+      "annual_costs": {},
+      "price_conflict": false,
+      "price_per_sqm": 107594.93670886075,
+      "id": "cef6d770eafaa02db888",
+      "verification": "review",
+      "distance_km": null,
+      "geo_status": "unknown",
+      "finance": {
+        "annual_rent": 828000.0,
+        "gross_yield": 9.741176470588234,
+        "payback_years": 10.265700483091788,
+        "net_yield": null,
+        "net_payback_years": null,
+        "scenarios": [
+          {
+            "name": "Оптимистичный",
+            "income": 786600.0,
+            "payback": 10.806000508517672,
+            "vacancy_months": 0,
+            "expenses": 41400.0,
+            "assumed": true,
+            "yield": 9.254117647058823
+          },
+          {
+            "name": "Базовый",
+            "income": 676200.0,
+            "payback": 12.821650399290151,
+            "vacancy_months": 1,
+            "expenses": 82800.0,
+            "assumed": true,
+            "yield": 7.799307958477508
+          },
+          {
+            "name": "Консервативный",
+            "income": 565800.0,
+            "payback": 15.47366560622128,
+            "vacancy_months": 2,
+            "expenses": 124200.0,
+            "assumed": true,
+            "yield": 6.462592804111936
+          }
+        ],
+        "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
+      },
+      "score": 21,
+      "score_breakdown": [
+        {
+          "factor": "Валовая доходность",
+          "points": 9.7,
+          "max": 15,
+          "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
+        },
+        {
+          "factor": "Простая окупаемость",
+          "points": 6,
+          "max": 15,
+          "reason": "15 до 9 лет; 12 до 10; 6 до 12"
+        },
+        {
+          "factor": "Надёжность аренды",
+          "points": 0,
+          "max": 15,
+          "reason": "Нужны подтверждённые платежи и действующий арендатор; бренд ПВЗ не гарантирует надёжность оператора"
+        },
+        {
+          "factor": "Договор",
+          "points": 0,
+          "max": 10,
+          "reason": "10 за подтверждённый срок от 36 месяцев; иначе 5 за договор"
+        },
+        {
+          "factor": "Индексация",
+          "points": 0,
+          "max": 5,
+          "reason": "Только подтверждённая ежегодная индексация"
+        },
+        {
+          "factor": "Расположение",
+          "points": 0,
+          "max": 5,
+          "reason": "Подтверждённый трафик / жилой массив"
+        },
+        {
+          "factor": "Расстояние",
+          "points": 0,
+          "max": 10,
+          "reason": "10 до 30 км; 7 до 100; 3 до 200"
+        },
+        {
+          "factor": "Состояние",
+          "points": 0,
+          "max": 5,
+          "reason": "По 1 баллу за пять подтверждённых характеристик"
+        },
+        {
+          "factor": "Полнота данных",
+          "points": 5,
+          "max": 10,
+          "reason": "По 1 баллу за каждое из 10 основных полей"
+        },
+        {
+          "factor": "Цена относительно рынка",
+          "points": 0,
+          "max": 10,
+          "reason": "Нет проверенной сопоставимой выборки — баллы не начисляются"
+        }
+      ],
+      "score_version": 1,
+      "score_note": "Экспертная эвристика. Сумма факторов 21; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "first_seen": "2026-11-25T13:02:18.611161+00:00",
+      "primary_price_claims": [],
+      "history": [
+        {
+          "at": "2026-11-25T13:02:18.611161+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 8500000.0,
+          "monthly_rent": 69000.0,
+          "contract_months": null,
+          "indexation": null
+        }
+      ],
+      "source_observations": [],
+      "last_seen": "2026-11-25T13:02:18.611161+00:00",
       "regional_candidate": false
     },
     {
@@ -74794,7 +75734,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.798171+00:00",
+      "last_seen": "2026-11-25T13:02:26.804262+00:00",
       "regional_candidate": false
     },
     {
@@ -74971,7 +75911,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.581620+00:00",
+      "last_seen": "2026-11-25T13:02:22.626772+00:00",
       "regional_candidate": false
     },
     {
@@ -75157,7 +76097,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.768773+00:00",
+      "last_seen": "2026-11-25T13:02:20.615901+00:00",
       "regional_candidate": false
     },
     {
@@ -75334,7 +76274,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.102941+00:00",
+      "last_seen": "2026-11-25T13:02:19.176631+00:00",
       "regional_candidate": false
     },
     {
@@ -75511,7 +76451,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.391501+00:00",
+      "last_seen": "2026-11-25T13:02:24.493095+00:00",
       "regional_candidate": false
     },
     {
@@ -75688,7 +76628,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.741667+00:00",
+      "last_seen": "2026-11-25T13:02:28.642472+00:00",
       "regional_candidate": true
     },
     {
@@ -75865,7 +76805,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.756860+00:00",
+      "last_seen": "2026-11-25T13:02:29.709555+00:00",
       "regional_candidate": false
     },
     {
@@ -76044,14 +76984,14 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.906229+00:00",
+      "last_seen": "2026-11-25T13:02:19.829423+00:00",
       "regional_candidate": false
     },
     {
       "district": null,
       "settlement": "Краснодар",
       "address": "Краснодар, ул 3-я Трудовая, д. 1",
-      "price": 8150000.0,
+      "price": 7200000.0,
       "area": 80.0,
       "monthly_rent": 60000.0,
       "tenant_name": "Алкомаркет Красное Белое",
@@ -76097,64 +77037,64 @@
         {
           "location": "АРР",
           "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=fdcd15d8-0077-43be-bf22-7f2eade334d1",
-          "value": 8150000.0
+          "value": 7200000.0
         }
       ],
       "annual_costs": {},
       "price_conflict": false,
-      "price_per_sqm": 101875.0,
+      "price_per_sqm": 90000.0,
       "id": "d101b6a85e6d86ab22f3",
       "verification": "review",
       "distance_km": null,
       "geo_status": "unknown",
       "finance": {
         "annual_rent": 720000.0,
-        "gross_yield": 8.83435582822086,
-        "payback_years": 11.319444444444445,
+        "gross_yield": 10.0,
+        "payback_years": 10.0,
         "net_yield": null,
         "net_payback_years": null,
         "scenarios": [
           {
             "name": "Оптимистичный",
             "income": 684000.0,
-            "payback": 11.915204678362572,
+            "payback": 10.526315789473685,
             "vacancy_months": 0,
             "expenses": 36000.0,
             "assumed": true,
-            "yield": 8.392638036809815
+            "yield": 9.5
           },
           {
             "name": "Базовый",
             "income": 588000.0,
-            "payback": 14.137755102040817,
+            "payback": 12.489795918367347,
             "vacancy_months": 1,
             "expenses": 72000.0,
             "assumed": true,
-            "yield": 7.073258751353302
+            "yield": 8.006535947712418
           },
           {
             "name": "Консервативный",
             "income": 492000.0,
-            "payback": 17.0619918699187,
+            "payback": 15.073170731707316,
             "vacancy_months": 2,
             "expenses": 108000.0,
             "assumed": true,
-            "yield": 5.860980403835845
+            "yield": 6.634304207119741
           }
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 20,
+      "score": 27,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
-          "points": 8.8,
+          "points": 10.0,
           "max": 15,
           "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
         },
         {
           "factor": "Простая окупаемость",
-          "points": 6,
+          "points": 12,
           "max": 15,
           "reason": "15 до 9 лет; 12 до 10; 6 до 12"
         },
@@ -76208,7 +77148,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 20; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 27; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
       "first_seen": "2026-11-15T17:41:08.193464+00:00",
       "primary_price_claims": [],
       "history": [
@@ -76218,10 +77158,19 @@
           "monthly_rent": 60000.0,
           "contract_months": null,
           "indexation": null
+        },
+        {
+          "at": "2026-11-25T13:02:19.232780+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 7200000.0,
+          "monthly_rent": 60000.0,
+          "contract_months": null,
+          "indexation": null
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.142122+00:00",
+      "last_seen": "2026-11-25T13:02:19.232780+00:00",
       "regional_candidate": false
     },
     {
@@ -76398,7 +77347,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.977034+00:00",
+      "last_seen": "2026-11-25T13:02:24.919370+00:00",
       "regional_candidate": false
     },
     {
@@ -76575,7 +77524,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.560498+00:00",
+      "last_seen": "2026-11-25T13:02:23.607140+00:00",
       "regional_candidate": false
     },
     {
@@ -76752,7 +77701,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.615725+00:00",
+      "last_seen": "2026-11-25T13:02:29.551361+00:00",
       "regional_candidate": false
     },
     {
@@ -76932,7 +77881,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.607638+00:00",
+      "last_seen": "2026-11-25T13:02:27.598687+00:00",
       "regional_candidate": true
     },
     {
@@ -76979,7 +77928,7 @@
       ],
       "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
       "photos": [
-        "https://cdn-1.arrpro.ru/resize_cache/3805658/2c107a00918f3abd1df8e303f56adfc3/iblock/226/226a6b1e095da70bb7bb1bee5ea9011a/0d48962181da5d45b5d217eada7edfd5.jpg"
+        "https://cdn-1.arrpro.ru/resize_cache/3868488/2c107a00918f3abd1df8e303f56adfc3/iblock/bde/bde526e5a19f5ce01abd17c10679c96d/c16412f9b0bd9fac6adb56c21f723fa4.jpg"
       ],
       "price_claims": [
         {
@@ -77109,7 +78058,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.519632+00:00",
+      "last_seen": "2026-11-25T13:02:19.309536+00:00",
       "regional_candidate": false
     },
     {
@@ -77441,7 +78390,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.040509+00:00",
+      "last_seen": "2026-11-25T13:02:23.149362+00:00",
       "regional_candidate": false
     },
     {
@@ -77773,7 +78722,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.687512+00:00",
+      "last_seen": "2026-11-25T13:02:30.688769+00:00",
       "regional_candidate": false
     },
     {
@@ -77950,7 +78899,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.272883+00:00",
+      "last_seen": "2026-11-25T13:02:24.350513+00:00",
       "regional_candidate": false
     },
     {
@@ -78127,7 +79076,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.726426+00:00",
+      "last_seen": "2026-11-25T13:02:23.762575+00:00",
       "regional_candidate": false
     },
     {
@@ -78304,7 +79253,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.419869+00:00",
+      "last_seen": "2026-11-25T13:02:27.418939+00:00",
       "regional_candidate": false
     },
     {
@@ -78636,7 +79585,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.227972+00:00",
+      "last_seen": "2026-11-25T13:02:25.194582+00:00",
       "regional_candidate": false
     },
     {
@@ -78813,7 +79762,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.291315+00:00",
+      "last_seen": "2026-11-25T13:02:20.171655+00:00",
       "regional_candidate": false
     },
     {
@@ -78990,7 +79939,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.227469+00:00",
+      "last_seen": "2026-11-25T13:02:29.149063+00:00",
       "regional_candidate": false
     },
     {
@@ -79167,7 +80116,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.809196+00:00",
+      "last_seen": "2026-11-25T13:02:30.848617+00:00",
       "regional_candidate": false
     },
     {
@@ -79344,7 +80293,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.918895+00:00",
+      "last_seen": "2026-11-25T13:02:22.993563+00:00",
       "regional_candidate": false
     },
     {
@@ -79521,7 +80470,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.562535+00:00",
+      "last_seen": "2026-11-25T13:02:27.543267+00:00",
       "regional_candidate": false
     },
     {
@@ -79691,7 +80640,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:29:58.815581+00:00",
+      "last_seen": "2026-11-25T13:05:51.341201+00:00",
       "regional_candidate": true
     },
     {
@@ -79868,7 +80817,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.742725+00:00",
+      "last_seen": "2026-11-25T13:02:25.728948+00:00",
       "regional_candidate": false
     },
     {
@@ -80045,7 +80994,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.533730+00:00",
+      "last_seen": "2026-11-25T13:02:29.468234+00:00",
       "regional_candidate": false
     },
     {
@@ -80379,7 +81328,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.132073+00:00",
+      "last_seen": "2026-11-25T13:02:29.047355+00:00",
       "regional_candidate": false
     },
     {
@@ -80565,7 +81514,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.185410+00:00",
+      "last_seen": "2026-11-25T13:02:18.951249+00:00",
       "regional_candidate": false
     },
     {
@@ -80742,7 +81691,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.995741+00:00",
+      "last_seen": "2026-11-25T13:02:28.889632+00:00",
       "regional_candidate": false
     },
     {
@@ -80919,7 +81868,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.996033+00:00",
+      "last_seen": "2026-11-25T13:02:25.986346+00:00",
       "regional_candidate": false
     },
     {
@@ -81096,7 +82045,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.857841+00:00",
+      "last_seen": "2026-11-25T13:02:21.859363+00:00",
       "regional_candidate": false
     },
     {
@@ -81273,7 +82222,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.821645+00:00",
+      "last_seen": "2026-11-25T13:02:23.867348+00:00",
       "regional_candidate": false
     },
     {
@@ -81605,7 +82554,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.273623+00:00",
+      "last_seen": "2026-11-25T13:02:26.282499+00:00",
       "regional_candidate": false
     },
     {
@@ -81785,7 +82734,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.236732+00:00",
+      "last_seen": "2026-11-25T13:02:20.089491+00:00",
       "regional_candidate": true
     },
     {
@@ -81962,7 +82911,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.249078+00:00",
+      "last_seen": "2026-11-25T13:02:22.272965+00:00",
       "regional_candidate": false
     },
     {
@@ -82139,7 +83088,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.410549+00:00",
+      "last_seen": "2026-11-25T13:02:25.383003+00:00",
       "regional_candidate": false
     },
     {
@@ -82316,7 +83265,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.736551+00:00",
+      "last_seen": "2026-11-25T13:02:29.677281+00:00",
       "regional_candidate": false
     },
     {
@@ -82493,7 +83442,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.421786+00:00",
+      "last_seen": "2026-11-25T13:02:29.338320+00:00",
       "regional_candidate": false
     },
     {
@@ -82670,7 +83619,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.256484+00:00",
+      "last_seen": "2026-11-25T13:02:20.121687+00:00",
       "regional_candidate": false
     },
     {
@@ -82847,7 +83796,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.191541+00:00",
+      "last_seen": "2026-11-25T13:02:29.122476+00:00",
       "regional_candidate": false
     },
     {
@@ -82894,7 +83843,7 @@
       ],
       "description": "Объект из публичной витрины арендного бизнеса АРР. Цена, площадь и аренда — заявления источника. Платежи и договор независимо не проверены.",
       "photos": [
-        "https://cdn-1.arrpro.ru/resize_cache/3765712/2c107a00918f3abd1df8e303f56adfc3/iblock/3cb/3cbf220576d81dc5c7be9a0ba01f39bf/f3cabed07f21546b7fa7cc02593d11c5.jpg"
+        "https://cdn-1.arrpro.ru/resize_cache/3869472/2c107a00918f3abd1df8e303f56adfc3/iblock/9ee/9ee6d0c87b08e10ca83e2ea296a904a6/f817173bc37f87a4c0ab6126ebc6ad6b.jpg"
       ],
       "price_claims": [
         {
@@ -83031,7 +83980,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.057912+00:00",
+      "last_seen": "2026-11-25T13:02:19.078725+00:00",
       "regional_candidate": false
     },
     {
@@ -83208,7 +84157,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.089076+00:00",
+      "last_seen": "2026-11-25T13:02:22.109553+00:00",
       "regional_candidate": false
     },
     {
@@ -83385,7 +84334,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.327848+00:00",
+      "last_seen": "2026-11-25T13:02:24.411736+00:00",
       "regional_candidate": false
     },
     {
@@ -83562,7 +84511,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.818817+00:00",
+      "last_seen": "2026-11-25T13:02:21.804286+00:00",
       "regional_candidate": false
     },
     {
@@ -83739,7 +84688,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.217420+00:00",
+      "last_seen": "2026-11-25T13:02:26.230304+00:00",
       "regional_candidate": false
     },
     {
@@ -83916,7 +84865,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.615875+00:00",
+      "last_seen": "2026-11-25T13:02:20.433938+00:00",
       "regional_candidate": false
     },
     {
@@ -84093,7 +85042,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.902024+00:00",
+      "last_seen": "2026-11-25T13:02:26.915958+00:00",
       "regional_candidate": false
     },
     {
@@ -84270,7 +85219,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.211469+00:00",
+      "last_seen": "2026-11-25T13:02:23.260584+00:00",
       "regional_candidate": false
     },
     {
@@ -84447,7 +85396,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.952538+00:00",
+      "last_seen": "2026-11-25T13:02:28.833319+00:00",
       "regional_candidate": true
     },
     {
@@ -84624,7 +85573,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.381211+00:00",
+      "last_seen": "2026-11-25T13:02:20.246118+00:00",
       "regional_candidate": false
     },
     {
@@ -84801,7 +85750,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.915070+00:00",
+      "last_seen": "2026-11-25T13:02:24.843216+00:00",
       "regional_candidate": false
     },
     {
@@ -84978,7 +85927,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.711807+00:00",
+      "last_seen": "2026-11-25T13:02:20.540922+00:00",
       "regional_candidate": false
     },
     {
@@ -85155,7 +86104,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.192657+00:00",
+      "last_seen": "2026-11-25T13:02:26.203369+00:00",
       "regional_candidate": false
     },
     {
@@ -85339,7 +86288,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.265649+00:00",
+      "last_seen": "2026-11-25T13:02:21.137959+00:00",
       "regional_candidate": false
     },
     {
@@ -85673,7 +86622,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.484956+00:00",
+      "last_seen": "2026-11-25T13:02:28.376385+00:00",
       "regional_candidate": false
     },
     {
@@ -85850,7 +86799,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.874634+00:00",
+      "last_seen": "2026-11-25T13:02:26.889651+00:00",
       "regional_candidate": false
     },
     {
@@ -86027,7 +86976,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.287909+00:00",
+      "last_seen": "2026-11-25T13:02:21.176684+00:00",
       "regional_candidate": false
     },
     {
@@ -86204,7 +87153,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.382460+00:00",
+      "last_seen": "2026-11-25T13:02:21.279580+00:00",
       "regional_candidate": false
     },
     {
@@ -86381,7 +87330,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.829191+00:00",
+      "last_seen": "2026-11-25T13:02:26.830596+00:00",
       "regional_candidate": false
     },
     {
@@ -86558,7 +87507,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.263239+00:00",
+      "last_seen": "2026-11-25T13:02:28.194429+00:00",
       "regional_candidate": true
     },
     {
@@ -86735,7 +87684,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.494724+00:00",
+      "last_seen": "2026-11-25T13:02:25.460039+00:00",
       "regional_candidate": false
     },
     {
@@ -86912,7 +87861,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.766256+00:00",
+      "last_seen": "2026-11-25T13:02:28.668748+00:00",
       "regional_candidate": true
     },
     {
@@ -87089,7 +88038,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.655627+00:00",
+      "last_seen": "2026-11-25T13:02:25.620078+00:00",
       "regional_candidate": false
     },
     {
@@ -87266,7 +88215,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.982771+00:00",
+      "last_seen": "2026-11-25T13:02:31.029624+00:00",
       "regional_candidate": false
     },
     {
@@ -87443,7 +88392,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.937843+00:00",
+      "last_seen": "2026-11-25T13:02:24.869457+00:00",
       "regional_candidate": false
     },
     {
@@ -87629,7 +88578,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.139007+00:00",
+      "last_seen": "2026-11-25T13:02:20.987465+00:00",
       "regional_candidate": false
     },
     {
@@ -87806,7 +88755,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.974008+00:00",
+      "last_seen": "2026-11-25T13:02:19.879956+00:00",
       "regional_candidate": false
     },
     {
@@ -87985,7 +88934,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.501628+00:00",
+      "last_seen": "2026-11-25T13:02:19.493268+00:00",
       "regional_candidate": false
     },
     {
@@ -88162,7 +89111,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.929680+00:00",
+      "last_seen": "2026-11-25T13:02:30.979232+00:00",
       "regional_candidate": false
     },
     {
@@ -88339,7 +89288,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.103889+00:00",
+      "last_seen": "2026-11-25T13:02:30.051339+00:00",
       "regional_candidate": false
     },
     {
@@ -88516,7 +89465,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:51.795050+00:00",
+      "last_seen": "2026-11-25T13:02:21.775576+00:00",
       "regional_candidate": false
     },
     {
@@ -88693,7 +89642,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.501638+00:00",
+      "last_seen": "2026-11-25T13:02:30.472065+00:00",
       "regional_candidate": false
     },
     {
@@ -88870,7 +89819,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:59.641958+00:00",
+      "last_seen": "2026-11-25T13:02:29.578498+00:00",
       "regional_candidate": false
     },
     {
@@ -89204,7 +90153,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.594482+00:00",
+      "last_seen": "2026-11-25T13:02:20.407839+00:00",
       "regional_candidate": false
     },
     {
@@ -89381,7 +90330,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.535902+00:00",
+      "last_seen": "2026-11-25T13:02:30.499526+00:00",
       "regional_candidate": false
     },
     {
@@ -89558,7 +90507,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.365609+00:00",
+      "last_seen": "2026-11-25T13:02:30.338250+00:00",
       "regional_candidate": false
     },
     {
@@ -89730,7 +90679,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:30.356894+00:00",
+      "last_seen": "2026-11-25T13:03:23.297617+00:00",
       "regional_candidate": true
     },
     {
@@ -89907,7 +90856,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.231737+00:00",
+      "last_seen": "2026-11-25T13:02:27.223920+00:00",
       "regional_candidate": false
     },
     {
@@ -90084,7 +91033,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:27:00.049244+00:00",
+      "last_seen": "2026-11-25T13:02:29.992624+00:00",
       "regional_candidate": false
     },
     {
@@ -90261,7 +91210,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.864927+00:00",
+      "last_seen": "2026-11-25T13:02:23.894179+00:00",
       "regional_candidate": false
     },
     {
@@ -90438,7 +91387,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:54.370732+00:00",
+      "last_seen": "2026-11-25T13:02:24.466465+00:00",
       "regional_candidate": false
     },
     {
@@ -90624,7 +91573,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:50.128656+00:00",
+      "last_seen": "2026-11-25T13:02:20.014666+00:00",
       "regional_candidate": false
     },
     {
@@ -90801,7 +91750,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.179356+00:00",
+      "last_seen": "2026-11-25T13:02:27.173297+00:00",
       "regional_candidate": false
     },
     {
@@ -90978,14 +91927,14 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.643037+00:00",
+      "last_seen": "2026-11-25T13:02:23.681574+00:00",
       "regional_candidate": false
     },
     {
       "district": null,
       "settlement": "Ижевск",
       "address": "Ижевск, ул Постольская, д. 90в",
-      "price": 50000000.0,
+      "price": 48000000.0,
       "area": 371.0,
       "monthly_rent": 468750.0,
       "tenant_name": null,
@@ -91031,58 +91980,58 @@
         {
           "location": "АРР",
           "source_url": "https://arrpro.ru/objects/getbyid.php?external_id=d79f3144-6d12-4498-9780-f9d917dfe3ee",
-          "value": 50000000.0
+          "value": 48000000.0
         }
       ],
       "annual_costs": {},
       "price_conflict": false,
-      "price_per_sqm": 134770.88948787062,
+      "price_per_sqm": 129380.0539083558,
       "id": "f914b1ccac64e2e54b6a",
       "verification": "review",
       "distance_km": null,
       "geo_status": "unknown",
       "finance": {
         "annual_rent": 5625000.0,
-        "gross_yield": 11.25,
-        "payback_years": 8.88888888888889,
+        "gross_yield": 11.71875,
+        "payback_years": 8.533333333333333,
         "net_yield": null,
         "net_payback_years": null,
         "scenarios": [
           {
             "name": "Оптимистичный",
             "income": 5343750.0,
-            "payback": 9.35672514619883,
+            "payback": 8.982456140350877,
             "vacancy_months": 0,
             "expenses": 281250.0,
             "assumed": true,
-            "yield": 10.6875
+            "yield": 11.1328125
           },
           {
             "name": "Базовый",
             "income": 4593750.0,
-            "payback": 11.10204081632653,
+            "payback": 10.65795918367347,
             "vacancy_months": 1,
             "expenses": 562500.0,
             "assumed": true,
-            "yield": 9.007352941176471
+            "yield": 9.38265931372549
           },
           {
             "name": "Консервативный",
             "income": 3843750.0,
-            "payback": 13.398373983739837,
+            "payback": 12.862439024390245,
             "vacancy_months": 2,
             "expenses": 843750.0,
             "assumed": true,
-            "yield": 7.463592233009708
+            "yield": 7.774575242718447
           }
         ],
         "scenario_note": "Условные оценки: простой 0/1/2 мес.; неизвестные годовые расходы заменены общим резервом 5/10/15% валовой аренды; расходы на сделку 0/2/3% цены, если неизвестны. Известные значения всегда сохраняются. Индексация и рост цены не предполагаются."
       },
-      "score": 30,
+      "score": 31,
       "score_breakdown": [
         {
           "factor": "Валовая доходность",
-          "points": 11.2,
+          "points": 11.7,
           "max": 15,
           "reason": "До 15 баллов: 1 балл за 1% годовых, валовый показатель"
         },
@@ -91142,7 +92091,7 @@
         }
       ],
       "score_version": 1,
-      "score_note": "Экспертная эвристика. Сумма факторов 30; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
+      "score_note": "Экспертная эвристика. Сумма факторов 31; предел для текущего статуса 39. Без координат исключён из географического рейтинга.",
       "first_seen": "2026-11-15T17:41:08.154657+00:00",
       "primary_price_claims": [],
       "history": [
@@ -91161,10 +92110,19 @@
           "monthly_rent": 468750.0,
           "contract_months": null,
           "indexation": null
+        },
+        {
+          "at": "2026-11-25T13:02:19.360418+00:00",
+          "event": "observed",
+          "source": "АРР",
+          "price": 48000000.0,
+          "monthly_rent": 468750.0,
+          "contract_months": null,
+          "indexation": null
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.759608+00:00",
+      "last_seen": "2026-11-25T13:02:19.360418+00:00",
       "regional_candidate": false
     },
     {
@@ -91341,7 +92299,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.269554+00:00",
+      "last_seen": "2026-11-25T13:02:25.246473+00:00",
       "regional_candidate": false
     },
     {
@@ -91518,7 +92476,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.466640+00:00",
+      "last_seen": "2026-11-25T13:02:25.432220+00:00",
       "regional_candidate": false
     },
     {
@@ -91695,7 +92653,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:56.477347+00:00",
+      "last_seen": "2026-11-25T13:02:26.490416+00:00",
       "regional_candidate": false
     },
     {
@@ -91872,7 +92830,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.292208+00:00",
+      "last_seen": "2026-11-25T13:02:23.317549+00:00",
       "regional_candidate": false
     },
     {
@@ -92213,7 +93171,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:53.265321+00:00",
+      "last_seen": "2026-11-25T13:02:23.290055+00:00",
       "regional_candidate": false
     },
     {
@@ -92390,7 +93348,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:55.570567+00:00",
+      "last_seen": "2026-11-25T13:02:25.542995+00:00",
       "regional_candidate": false
     },
     {
@@ -92567,7 +93525,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.954755+00:00",
+      "last_seen": "2026-11-25T13:02:23.046362+00:00",
       "regional_candidate": false
     },
     {
@@ -92744,7 +93702,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.644610+00:00",
+      "last_seen": "2026-11-25T13:02:19.626626+00:00",
       "regional_candidate": false
     },
     {
@@ -92921,7 +93879,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:58.600730+00:00",
+      "last_seen": "2026-11-25T13:02:28.485946+00:00",
       "regional_candidate": false
     },
     {
@@ -93109,7 +94067,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:49.526823+00:00",
+      "last_seen": "2026-11-25T13:02:19.519759+00:00",
       "regional_candidate": false
     },
     {
@@ -93286,7 +94244,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:52.987634+00:00",
+      "last_seen": "2026-11-25T13:02:23.096461+00:00",
       "regional_candidate": false
     },
     {
@@ -93463,7 +94421,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:26:57.641191+00:00",
+      "last_seen": "2026-11-25T13:02:27.625954+00:00",
       "regional_candidate": false
     },
     {
@@ -93623,7 +94581,7 @@
         }
       ],
       "source_observations": [],
-      "last_seen": "2026-11-23T21:29:46.562839+00:00",
+      "last_seen": "2026-11-25T13:05:39.092342+00:00",
       "regional_candidate": true
     },
     {
@@ -93787,15 +94745,15 @@
       "name": "АРР",
       "excluded_count": 0,
       "invalid_count": 0,
-      "live_count": 474,
+      "live_count": 478,
       "imported_count": 0,
       "status": "ok",
-      "count": 474,
+      "count": 478,
       "message": "Публичная общероссийская витрина, вся доступная пагинация (защитный предел 80 страниц). Охват ограничен этим источником. Данные продавцов требуют проверки.",
       "processed_this_run": true,
       "checked_this_run": true,
-      "checked_at": "2026-11-23T21:20:58.493764+00:00",
-      "last_success_at": "2026-11-23T21:20:58.493764+00:00"
+      "checked_at": "2026-11-25T12:56:07.721547+00:00",
+      "last_success_at": "2026-11-25T12:56:07.721547+00:00"
     },
     {
       "name": "Авито",
@@ -93808,7 +94766,7 @@
       "message": "Client error '404 Not Found' for url 'https://www.avito.ru/respublika_tatarstan/kommercheskaya_nedvizhimost'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
       "processed_this_run": true,
       "checked_this_run": true,
-      "checked_at": "2026-11-23T21:27:01.144093+00:00",
+      "checked_at": "2026-11-25T13:02:31.191175+00:00",
       "last_success_at": null
     },
     {
@@ -93822,7 +94780,7 @@
       "message": "ЦИАН: не найдена структура коммерческой выдачи; прежние записи сохранены",
       "processed_this_run": true,
       "checked_this_run": true,
-      "checked_at": "2026-11-23T21:27:01.523369+00:00",
+      "checked_at": "2026-11-25T13:02:32.245954+00:00",
       "last_success_at": "2026-11-19T11:46:12.557883+00:00"
     },
     {
@@ -93836,12 +94794,12 @@
       "message": "HTTP 401: доступ ограничен; запросы источника остановлены",
       "processed_this_run": true,
       "checked_this_run": true,
-      "checked_at": "2026-11-23T21:27:03.670967+00:00",
+      "checked_at": "2026-11-25T13:02:34.728558+00:00",
       "last_success_at": null
     },
     {
       "name": "РБН",
-      "excluded_count": 9,
+      "excluded_count": 10,
       "invalid_count": 0,
       "live_count": 8,
       "imported_count": 0,
@@ -93850,13 +94808,13 @@
       "message": "Публичная витрина РБН по Казани и окрестностям. Только описания с признаками аренды. Заявленная окупаемость не используется для восстановления МАП.",
       "processed_this_run": true,
       "checked_this_run": true,
-      "checked_at": "2026-11-23T21:27:04.106732+00:00",
-      "last_success_at": "2026-11-23T21:27:04.106732+00:00"
+      "checked_at": "2026-11-25T13:02:35.074134+00:00",
+      "last_success_at": "2026-11-25T13:02:35.074134+00:00"
     }
   ],
   "coverage": {
     "pages": 32,
-    "records": 474,
+    "records": 478,
     "complete": true,
     "next_url": null
   }
